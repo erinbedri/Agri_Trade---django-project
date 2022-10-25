@@ -75,7 +75,8 @@
                         </thead>
                         <tbody>
                         {% for product in products %}
-                            <tr onclick="window.location='{% url "marketplace:product details" product.id %}';">
+                            <tr onclick="window.location='{% url "marketplace:product details" product.id %}';"
+                                    {% if product.owner == request.user %} class="table-primary" {% endif %}>
                                 <td>{{ product.name }}</td>
                                 <td>{{ product.category }}</td>
                                 <td>{{ product.variety }}</td>

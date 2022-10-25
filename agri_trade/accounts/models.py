@@ -53,6 +53,12 @@ class Company(models.Model):
         auto_now_add=True,
     )
 
+    class Meta:
+        verbose_name_plural = 'companies'
+
+    def __str__(self):
+        return self.name
+
 
 @receiver(post_save, sender=UserModel)
 def create_company(sender, instance, created, **kwargs):

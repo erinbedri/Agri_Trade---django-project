@@ -11,6 +11,7 @@ def marketplace(request):
 
     products = Product.objects \
         .filter(
+            Q(name__icontains=q) |
             Q(category__icontains=q) |
             Q(cultivation_type__icontains=q) |
             Q(origin__icontains=q) |
