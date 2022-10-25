@@ -1,0 +1,99 @@
+{% extends 'web/base.html' %}
+
+{% block content %}
+    <div class="container" style="margin-top: 30px; margin-bottom: 50px">
+        <div class="row justify-content-md-center">
+            <div class="col-md-6">
+                <h3>Edit Your Account Details</h3>
+                <form method="post" action="{% url 'accounts:edit account' %}">
+                    {% csrf_token %}
+
+                    {% if account_form.errors or company_form.errors %}
+                        {% for _, value in account_form.errors.items %}
+                            {{ value }}
+                        {% endfor %}
+                        {% for _, value in company_form.errors.items %}
+                            {{ value }}
+                        {% endfor %}
+                    {% endif %}
+
+                    <div style="margin-top: 30px">
+                        <h5>User Details</h5>
+
+                        <div class="row" style="margin-top: 30px">
+                            <div class="col">
+                                <label class="mb-1">First Name*</label>
+                                {{ account_form.first_name }}
+                            </div>
+                            <div class="col">
+                                <label class="mb-1">Last Name*</label>
+                                {{ account_form.last_name }}
+                            </div>
+                        </div>
+
+                        <div class="row" style="margin-top: 30px">
+                            <div class="col">
+                                <label class="mb-1">Username*</label>
+                                {{ account_form.username }}
+                            </div>
+                            <div class="col">
+                                <label class="mb-1">Email*</label>
+                                {{ account_form.email }}
+                            </div>
+                        </div>
+                    </div>
+
+                    <div style="margin-top: 30px">
+                        <h5>Company Details</h5>
+
+                        <div class="row" style="margin-top: 30px">
+                            <div class="col">
+                                <label class="mb-1">Name</label>
+                                {{ company_form.name }}
+                            </div>
+                            <div class="col">
+                                <label class="mb-1">VAT Number</label>
+                                {{ company_form.vat }}
+                            </div>
+                        </div>
+
+                        <div class="row" style="margin-top: 30px">
+                            <div class="col">
+                                <label class="mb-1">Address</label>
+                                {{ company_form.address }}
+                            </div>
+                            <div class="col">
+                                <label class="mb-1">Postcode</label>
+                                {{ company_form.postcode }}
+                            </div>
+                        </div>
+
+                        <div class="row" style="margin-top: 30px">
+                            <div class="col">
+                                <label class="mb-1">Location</label>
+                                {{ company_form.location }}
+                            </div>
+                            <div class="col">
+                                <label class="mb-1">Country</label>
+                                {{ company_form.country }}
+                            </div>
+                        </div>
+
+                        <div class="row" style="margin-top: 30px">
+                            <div class="col">
+                                <label class="mb-1">Description</label>
+                                {{ company_form.description|linebreaks }}
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <button type="submit" style="margin-top: 30px" class="btn btn-primary">Edit</button>
+                    <a class="btn btn-secondary" style="margin-top: 30px" href="{% url 'accounts:account' %}"
+                       role="button">Cancel</a>
+                </form>
+
+            </div>
+        </div>
+    </div>
+{% endblock %}

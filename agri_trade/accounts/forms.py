@@ -81,3 +81,53 @@ class CustomRegistrationForm(UserCreationForm):
         return self.cleaned_data
 
 
+class EditAccountForm(forms.ModelForm):
+    first_name = forms.CharField(required=True,
+                                 max_length=30,
+                                 widget=forms.TextInput(attrs={'class': 'form-control',
+                                                               }))
+    last_name = forms.CharField(required=True,
+                                max_length=30,
+                                widget=forms.TextInput(attrs={'class': 'form-control',
+                                                              }))
+    email = forms.EmailField(required=True,
+                             widget=forms.TextInput(attrs={'class': 'form-control',
+                                                           }))
+    username = forms.CharField(required=True,
+                               max_length=30,
+                               widget=forms.TextInput(attrs={'class': 'form-control',
+                                                             }))
+
+    class Meta:
+        model = UserModel
+        fields = ('first_name', 'last_name', 'username', 'email')
+
+
+class EditCompanyForm(forms.ModelForm):
+    name = forms.CharField(max_length=100,
+                           widget=forms.TextInput(attrs={'class': 'form-control',
+                                                         }))
+    vat = forms.CharField(max_length=25,
+                          widget=forms.TextInput(attrs={'class': 'form-control',
+                                                        }))
+    address = forms.CharField(max_length=200,
+                              widget=forms.TextInput(attrs={'class': 'form-control',
+                                                            }))
+    postcode = forms.CharField(max_length=15,
+                               widget=forms.TextInput(attrs={'class': 'form-control',
+                                                             }))
+    location = forms.CharField(max_length=25,
+                               widget=forms.TextInput(attrs={'class': 'form-control',
+                                                             }))
+    country = forms.CharField(max_length=15,
+                              widget=forms.TextInput(attrs={'class': 'form-control',
+                                                            }))
+    description = forms.CharField(max_length=500,
+                                  widget=forms.Textarea(attrs={'class': 'form-control',
+                                                               'rows': 5,
+                                                               }))
+
+    class Meta:
+        model = Company
+        fields = ('name', 'vat', 'address', 'postcode', 'location', 'country', 'description')
+

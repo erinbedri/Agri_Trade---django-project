@@ -7,4 +7,5 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('', include(('agri_trade.web.urls', 'agri_trade.web'), namespace='web')),
     path('accounts/', include(('agri_trade.accounts.urls', 'agri_trade.accounts'), namespace='accounts')),
+    path('marketplace/', include(('agri_trade.marketplace.urls', 'agri_trade.marketplace'), namespace='marketplace')),
 ] + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)

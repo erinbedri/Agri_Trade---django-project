@@ -1,6 +1,7 @@
 from pathlib import Path
 
 import os
+
 from django.contrib.messages import constants as messages
 
 
@@ -28,8 +29,11 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
 
+    'django.contrib.humanize',
+
     'agri_trade.web',
     'agri_trade.accounts',
+    'agri_trade.marketplace',
 ]
 
 MIDDLEWARE = [

@@ -79,7 +79,7 @@
                                             </div>
                                             <div class="row">
                                                 <div class="col">
-                                                    <p><b>Description: </b>{{ company.description }}</p>
+                                                    <p><b>Description: </b>{{ company.description|linebreaks }}</p>
                                                 </div>
                                             </div>
                                         </div>
@@ -88,6 +88,9 @@
                             </div>
                         </div>
                     </div>
+
+                    <a class="btn btn-primary" style="margin-top: 30px" href="{% url 'accounts:edit account' %}"
+                       role="button">Edit Account</a>
 
                 </div>
             </div>

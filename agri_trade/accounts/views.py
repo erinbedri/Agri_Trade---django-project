@@ -3,7 +3,7 @@ from django.contrib.auth import get_user_model, authenticate, login, logout
 from django.contrib.auth.decorators import login_required
 from django.shortcuts import render, redirect, get_object_or_404
 
-from agri_trade.accounts.forms import CustomAuthenticationForm, CustomRegistrationForm
+from agri_trade.accounts.forms import CustomAuthenticationForm, CustomRegistrationForm, EditAccountForm, EditCompanyForm
 from agri_trade.accounts.models import Company
 
 UserModel = get_user_model()
@@ -73,4 +73,30 @@ def account(request):
     }
 
     return render(request, 'accounts/account.html', context)
+
+
+@login_required
+def edit_account(request):
+    company = get_object_or_404(Company, pk=request.user.id)
+
+    if request.method == 'POST':
+        account_form = EditAccountForm(request.POST, instance=request.user)
+        company_form = EditCompanyForm(request.POST, instance=company)
+        if account_form.is_valid() and company_form.is_valid():
+            account_form.save()
+            company_form.save()
+            messages.success(request, 'Your account was updated successfully!')
+            return redirect('accounts:account')
+        else:
+            messages.error(request, 'Edit was unsuccessful! Fix the issues below.')
+    else:
+        account_form = EditAccountForm(instance=request.user)
+        company_form = EditCompanyForm(instance=company)
+
+    context = {
+        'account_form': account_form,
+        'company_form': company_form,
+    }
+
+    return render(request, 'accounts/edit_account.html', context)
 

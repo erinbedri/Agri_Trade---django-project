@@ -1,0 +1,39 @@
+{% extends 'web/base.html' %}
+{% load humanize %}
+
+{% block content %}
+
+    <div class="container" style="margin-top: 30px">
+        <div class="row justify-content-md-center">
+            <div class="col-md-8">
+                <h3>{{ product.name }} Details</h3>
+
+                <div class="row" style="margin-top: 10px">
+                    <div class="col">
+                        <div class="card" style="width: 20rem; margin-top: 30px">
+                            <img src="{{ product.image.url }}" class="card-img-top" alt="...">
+                        </div>
+                    </div>
+
+                    <div class="col">
+                        <div style="margin-top: 30px">
+                            <p><b>Product Name: </b>{{ product.name }}</p>
+                            <p><b>Category: </b>{{ product.category }}</p>
+                            <p><b>Variety: </b>{{ product.variety }}</p>
+                            <p><b>Type: </b>{{ product.type }}</p>
+                            <p><b>Form: </b>{{ product.form }}</p>
+                            <p><b>Size: </b>{{ product.size }}</p>
+                            <p><b>Cultivation Type: </b>{{ product.cultivation_type }}</p>
+                            <p><b>Available Volume: </b>{{ product.available_volume|intcomma }} KG</p>
+                            <p><b>Price: </b>EUR {{ product.price|floatformat:2 }} / KG</p>
+                            <p><b>Origin: </b>{{ product.origin }}</p>
+                            <p><b>Location: </b>{{ product.location }}</p>
+                            <p><b>Available Since: </b>{{ product.created_on|date }}</p>
+                            <p><b>Description: </b>{{ product.description|linebreaks }}</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+{% endblock %}
