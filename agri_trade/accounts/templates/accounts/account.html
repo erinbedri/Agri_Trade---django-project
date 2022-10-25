@@ -1,0 +1,95 @@
+{% extends 'web/base.html' %}
+
+{% block content %}
+    <div class="container" style="margin-top: 30px; margin-bottom: 50px">
+        <div class="row justify-content-md-center">
+            <div class="col-md-12">
+                <h3>Account</h3>
+
+                <div style="margin-top: 30px">
+                    <div class="accordion" id="accordionExample">
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingOne">
+                                <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                    User Details
+                                </button>
+                            </h2>
+
+                            <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
+                                 data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    <div class="row justify-content-md-center">
+                                        <div class="row">
+                                            <div class="col">
+                                                <p><b>First Name: </b>{{ request.user.first_name }}</p>
+                                            </div>
+                                            <div class="col">
+                                                <p><b>Last Name: </b>{{ request.user.last_name }}</p>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col">
+                                                <p><b>Username: </b>{{ request.user.username }}</p>
+                                            </div>
+                                            <div class="col">
+                                                <p><b>Email: </b>{{ request.user.email }}</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="headingTwo">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                            data-bs-target="#collapseTwo" aria-expanded="false"
+                                            aria-controls="collapseTwo">
+                                        Company Details
+                                    </button>
+                                </h2>
+
+                                <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+                                     data-bs-parent="#accordionExample">
+                                    <div class="accordion-body">
+                                        <div class="row justify-content-md-center">
+                                            <div class="row">
+                                                <div class="col">
+                                                    <p><b>Company Name: </b>{{ company.name }}</p>
+                                                </div>
+                                                <div class="col">
+                                                    <p><b>VAT Number: </b>{{ company.vat }}</p>
+                                                </div>
+                                            </div>
+                                            <div class="row">
+                                                <div class="col">
+                                                    <p><b>Address: </b>{{ company.address }}</p>
+                                                </div>
+                                                <div class="col">
+                                                    <p><b>Postcode: </b>{{ company.postcode }}</p>
+                                                </div>
+                                            </div>
+                                            <div class="row">
+                                                <div class="col">
+                                                    <p><b>Location: </b>{{ company.location }}</p>
+                                                </div>
+                                                <div class="col">
+                                                    <p><b>Country: </b>{{ company.country }}</p>
+                                                </div>
+                                            </div>
+                                            <div class="row">
+                                                <div class="col">
+                                                    <p><b>Description: </b>{{ company.description }}</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+{% endblock %}

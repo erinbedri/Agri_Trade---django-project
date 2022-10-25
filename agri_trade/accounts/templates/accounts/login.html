@@ -8,6 +8,12 @@
                 <form method="post" action="{% url 'accounts:login' %}">
                     {% csrf_token %}
 
+                    {% if form.errors %}
+                        {% for _, value in form.errors.items %}
+                            {{ value }}
+                        {% endfor %}
+                    {% endif %}
+
                     <div class="col" style="margin-top: 30px">
                         <label class="mb-1">Username</label>
                         {{ form.username }}

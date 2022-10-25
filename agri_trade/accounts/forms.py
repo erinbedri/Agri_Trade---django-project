@@ -3,6 +3,8 @@ from django.contrib.auth.forms import AuthenticationForm, UserCreationForm
 from django import forms
 from django.core.exceptions import ValidationError
 
+from agri_trade.accounts.models import Company
+
 UserModel = get_user_model()
 
 
@@ -77,3 +79,5 @@ class CustomRegistrationForm(UserCreationForm):
             raise ValidationError('Username already exists!')
 
         return self.cleaned_data
+
+

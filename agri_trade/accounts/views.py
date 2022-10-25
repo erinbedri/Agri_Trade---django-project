@@ -1,8 +1,10 @@
+from django.contrib import messages
 from django.contrib.auth import get_user_model, authenticate, login, logout
 from django.contrib.auth.decorators import login_required
-from django.shortcuts import render, redirect
+from django.shortcuts import render, redirect, get_object_or_404
 
 from agri_trade.accounts.forms import CustomAuthenticationForm, CustomRegistrationForm
+from agri_trade.accounts.models import Company
 
 UserModel = get_user_model()
 
@@ -19,7 +21,10 @@ def login_user(request):
             user = authenticate(username=username, password=password)
             if user is not None:
                 login(request, user)
+                messages.success(request, f'You are now successfully logged in as {request.user.username}!')
                 return redirect('web:homepage')
+        else:
+            messages.error(request, 'Login was unsuccessful! Fix the issues below.')
     else:
         form = CustomAuthenticationForm()
 
@@ -33,6 +38,7 @@ def login_user(request):
 @login_required
 def logout_user(request):
     logout(request)
+    messages.success(request, 'You are now successfully logged out from your account!')
     return redirect('web:homepage')
 
 
@@ -46,6 +52,8 @@ def register_user(request):
             user = form.save()
             login(request, user)
             return redirect('web:homepage')
+        else:
+            messages.error(request, 'Registration was unsuccessful! Fix the issues below.')
     else:
         form = CustomRegistrationForm()
 
@@ -54,4 +62,15 @@ def register_user(request):
     }
 
     return render(request, 'accounts/register.html', context)
+
+
+@login_required
+def account(request):
+    company = get_object_or_404(Company, pk=request.user.id)
+
+    context = {
+        'company': company,
+    }
+
+    return render(request, 'accounts/account.html', context)
 

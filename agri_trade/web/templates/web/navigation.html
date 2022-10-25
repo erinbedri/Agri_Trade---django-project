@@ -13,6 +13,9 @@
                         <b><a class="nav-link disabled" href="#">Welcome, {{ request.user.username }}!</a></b>
                     </li>
                     <li class="nav-item">
+                        <a class="nav-link" href="{% url 'accounts:account' %}">Account</a>
+                    </li>
+                    <li class="nav-item">
                         <a class="nav-link" href="{% url 'accounts:logout' %}">Logout</a>
                     </li>
                 {% else %}
