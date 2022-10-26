@@ -1,4 +1,5 @@
 {% extends 'web/base.html' %}
+{% load static %}
 {% load humanize %}
 
 {% block content %}
@@ -11,7 +12,11 @@
                 <div class="row" style="margin-top: 10px">
                     <div class="col">
                         <div class="card" style="width: 20rem; margin-top: 30px">
-                            <img src="{{ product.image.url }}" class="card-img-top" alt="...">
+                            {% if product.image %}
+                                <img src="{{ product.image.url }}" class="card-img-top" alt="{{ product.name }}">
+                            {% else %}
+                                <img src="{% static 'no_photo.jpg' %}" class="card-img-top" alt="{{ product.name }}">
+                            {% endif %}
                         </div>
                     </div>
 
@@ -19,17 +24,20 @@
                         <div style="margin-top: 30px">
                             <p><b>Product Name: </b>{{ product.name }}</p>
                             <p><b>Category: </b>{{ product.category }}</p>
-                            <p><b>Variety: </b>{{ product.variety }}</p>
-                            <p><b>Type: </b>{{ product.type }}</p>
-                            <p><b>Form: </b>{{ product.form }}</p>
-                            <p><b>Size: </b>{{ product.size }}</p>
+                            <p><b>Variety: </b>{% if product.variety %}{{ product.variety }}{% endif %}</p>
+                            <p><b>Type: </b>{% if product.type %}{{ product.type }}{% endif %}</p>
+                            <p><b>Form: </b>{% if product.form %}{{ product.form }}{% endif %}</p>
+                            <p><b>Size: </b>{% if product.size %}{{ product.size }}{% endif %}</p>
                             <p><b>Cultivation Type: </b>{{ product.cultivation_type }}</p>
                             <p><b>Available Volume: </b>{{ product.available_volume|intcomma }} KG</p>
                             <p><b>Price: </b>EUR {{ product.price|floatformat:2 }} / KG</p>
                             <p><b>Origin: </b>{{ product.origin }}</p>
                             <p><b>Location: </b>{{ product.location }}</p>
                             <p><b>Available Since: </b>{{ product.created_on|date }}</p>
-                            <p><b>Description: </b>{{ product.description|linebreaks }}</p>
+                            <p><b>Description: </b>
+                                {% if product.description %}
+                                    {{ product.description|linebreaks }}
+                                {% endif %}</p>
                         </div>
 
                         {% if request.user.is_authenticated and request.user == product.owner %}

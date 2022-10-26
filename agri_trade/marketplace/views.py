@@ -1,7 +1,9 @@
+from django.contrib import messages
 from django.contrib.auth.decorators import login_required
 from django.db.models import Q
-from django.shortcuts import render, get_object_or_404
+from django.shortcuts import render, get_object_or_404, redirect
 
+from agri_trade.marketplace.forms import AddProductForm
 from agri_trade.marketplace.models import Product
 
 
@@ -48,4 +50,26 @@ def product_details(request, pk):
     }
 
     return render(request, 'marketplace/product_details.html', context)
+
+
+@login_required
+def add_product(request):
+    if request.method == 'POST':
+        form = AddProductForm(request.POST, request.FILES)
+        if form.is_valid():
+            product = form.save(commit=False)
+            product.owner = request.user
+            product.save()
+            messages.success(request, 'Your produce was successfully added to the Marketplace!')
+            return redirect('marketplace:marketplace')
+        else:
+            messages.error(request, "Your product couldn't be added. Please fix the form below!")
+    else:
+        form = AddProductForm()
+
+    context = {
+        'form': form,
+    }
+
+    return render(request, 'marketplace/add_product.html', context)
 

@@ -1,0 +1,98 @@
+{% extends 'web/base.html' %}
+
+{% block content %}
+    <div class="container" style="margin-top: 30px; margin-bottom: 50px">
+        <div class="row justify-content-md-center">
+            <div class="col-md-6">
+                <h3>Add Product</h3>
+                <form method="post" action="{% url 'marketplace:add product' %}">
+                    {% csrf_token %}
+
+                    {% if form.errors %}
+                        {% for _, value in form.errors.items %}
+                            {{ value }}
+                        {% endfor %}
+                    {% endif %}
+
+                    <div class="row" style="margin-top: 30px">
+                        <div class="col">
+                            <label class="mb-1">Name*</label>
+                            {{ form.name }}
+                        </div>
+                        <div class="col">
+                            <label class="mb-1">Category*</label>
+                            {{ form.category }}
+                        </div>
+                    </div>
+
+                    <div class="row" style="margin-top: 30px">
+                        <div class="col">
+                            <label class="mb-1">Variety</label>
+                            {{ form.variety }}
+                        </div>
+                        <div class="col">
+                            <label class="mb-1">Type</label>
+                            {{ form.type }}
+                        </div>
+                    </div>
+
+                    <div class="row" style="margin-top: 30px">
+                        <div class="col">
+                            <label class="mb-1">Form</label>
+                            {{ form.form }}
+                        </div>
+                        <div class="col">
+                            <label class="mb-1">Size in mm</label>
+                            {{ form.size }}
+                        </div>
+                    </div>
+
+                    <div class="row" style="margin-top: 30px">
+                        <div class="col">
+                            <label class="mb-1">Cultivation Type*</label>
+                            {{ form.cultivation_type }}
+                        </div>
+                    </div>
+
+                    <div class="row" style="margin-top: 30px">
+                        <div class="col" {% if form.price.errors %} style="color: red" {% endif %}>
+                            <label class="mb-1">Price in EUR/KG*</label>
+                            {{ form.price }}
+                        </div>
+                        <div class="col" {% if form.available_volume.errors %} style="color: red" {% endif %}>
+                            <label class="mb-1" >Available Volume in KG*</label>
+                            {{ form.available_volume }}
+                        </div>
+                    </div>
+
+                    <div class="row" style="margin-top: 30px">
+                        <div class="col">
+                            <label class="mb-1">Description</label>
+                            {{ form.description }}
+                        </div>
+                    </div>
+
+                    <div class="row" style="margin-top: 30px">
+                        <div class="col">
+                            <label class="mb-1">Origin*</label>
+                            {{ form.origin }}
+                        </div>
+                        <div class="col">
+                            <label class="mb-1">Location*</label>
+                            {{ form.location }}
+                        </div>
+                    </div>
+
+                    <div class="row" style="margin-top: 30px">
+                        <div class="col">
+                            <label class="mb-1">Image</label>
+                            {{ form.image }}
+                        </div>
+                    </div>
+
+                    <button type="submit" style="margin-top: 30px" class="btn btn-primary">Add</button>
+                </form>
+            </div>
+        </div>
+    </div>
+{% endblock %}
