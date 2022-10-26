@@ -3,7 +3,7 @@ from django.contrib.auth.decorators import login_required
 from django.db.models import Q
 from django.shortcuts import render, get_object_or_404, redirect
 
-from agri_trade.marketplace.forms import AddProductForm
+from agri_trade.marketplace.forms import AddProductForm, EditProductForm
 from agri_trade.marketplace.models import Product
 
 
@@ -72,4 +72,27 @@ def add_product(request):
     }
 
     return render(request, 'marketplace/add_product.html', context)
+
+
+@login_required
+def edit_product(request, pk):
+    product = get_object_or_404(Product, pk=pk)
+
+    if request.method == 'POST':
+        form = EditProductForm(request.POST, request.FILES, instance=product)
+        if form.is_valid():
+            form.save()
+            messages.success(request, 'Your product details were updates successfully!')
+            return redirect('marketplace:marketplace')
+        else:
+            messages.error(request, 'Something went wrong! Please fix the form below.')
+    else:
+        form = EditProductForm(instance=product)
+
+    context = {
+        'product': product,
+        'form': form,
+    }
+
+    return render(request, 'marketplace/edit_product.html', context)
 

@@ -79,10 +79,10 @@
                                     {% if product.owner == request.user %} class="table-primary" {% endif %}>
                                 <td>{{ product.name }}</td>
                                 <td>{{ product.category }}</td>
-                                <td>{{ product.variety }}</td>
-                                <td>{{ product.type }}</td>
-                                <td>{{ product.form }}</td>
-                                <td>{{ product.size }}</td>
+                                <td>{% if product.variety %}{{ product.variety }}{% endif %}</td>
+                                <td>{% if product.type %}{{ product.type }}{% endif %}</td>
+                                <td>{% if product.form %}{{ product.form }}{% endif %}</td>
+                                <td>{% if product.size %}{{ product.size }}{% endif %}</td>
                                 <td>{{ product.cultivation_type }}</td>
                                 <td>{{ product.origin }}</td>
                                 <td>{{ product.location }}</td>

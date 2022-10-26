@@ -48,3 +48,40 @@ class AddProductForm(forms.ModelForm):
             'image': forms.FileInput(attrs={'class': 'form-control',
                                             }),
         }
+
+
+class EditProductForm(forms.ModelForm):
+    class Meta:
+        model = Product
+        fields = (
+            'name', 'category', 'variety', 'type', 'form', 'size', 'cultivation_type', 'available_volume', 'price',
+            'description', 'origin', 'location', 'image')
+        widgets = {
+            'name': forms.TextInput(attrs={'class': 'form-control',
+                                           }),
+            'category': forms.Select(attrs={'class': 'form-control',
+                                            }),
+            'variety': forms.TextInput(attrs={'class': 'form-control',
+                                              }),
+            'type': forms.TextInput(attrs={'class': 'form-control',
+                                           }),
+            'form': forms.TextInput(attrs={'class': 'form-control',
+                                           }),
+            'size': forms.TextInput(attrs={'class': 'form-control',
+                                           }),
+            'cultivation_type': forms.Select(attrs={'class': 'form-control',
+                                                    }),
+            'available_volume': forms.NumberInput(attrs={'class': 'form-control',
+                                                         }),
+            'price': forms.NumberInput(attrs={'class': 'form-control',
+                                              }),
+            'description': forms.Textarea(attrs={'class': 'form-control',
+                                                 'rows': 5,
+                                                 }),
+            'origin': forms.TextInput(attrs={'class': 'form-control',
+                                             }),
+            'location': forms.TextInput(attrs={'class': 'form-control',
+                                               }),
+            'image': forms.FileInput(attrs={'class': 'form-control',
+                                            }),
+        }

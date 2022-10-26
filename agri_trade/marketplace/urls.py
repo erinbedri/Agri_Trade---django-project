@@ -6,4 +6,5 @@ urlpatterns = [
     path('', views.marketplace, name='marketplace'),
     path('product-add/', views.add_product, name='add product'),
     path('product-details/<int:pk>', views.product_details, name='product details'),
+    path('product-edit/<int:pk>', views.edit_product, name='edit product'),
 ]

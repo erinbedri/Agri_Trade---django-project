@@ -5,7 +5,8 @@
         <div class="row justify-content-md-center">
             <div class="col-md-6">
                 <h3>Add Product</h3>
-                <form method="post" action="{% url 'marketplace:add product' %}" enctype="multipart/form-data">
+                <form method="post" action="{% url 'marketplace:edit product' product.id %}"
+                      enctype="multipart/form-data">
                     {% csrf_token %}
 
                     {% if form.errors %}
@@ -60,7 +61,7 @@
                             {{ form.price }}
                         </div>
                         <div class="col" {% if form.available_volume.errors %} style="color: red" {% endif %}>
-                            <label class="mb-1" >Available Volume in KG*</label>
+                            <label class="mb-1">Available Volume in KG*</label>
                             {{ form.available_volume }}
                         </div>
                     </div>
@@ -87,10 +88,13 @@
                         <div class="col">
                             <label class="mb-1">Image</label>
                             {{ form.image }}
+                            {{ product.image }}
                         </div>
                     </div>
 
-                    <button type="submit" style="margin-top: 30px" class="btn btn-primary">Add</button>
+                    <button type="submit" style="margin-top: 30px" class="btn btn-primary">Edit</button>
+                    <a class="btn btn-secondary" style="margin-top: 30px" href="{% url 'marketplace:marketplace' %}"
+                       role="button">Cancel</a>
                 </form>
             </div>
         </div>
