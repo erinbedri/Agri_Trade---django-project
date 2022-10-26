@@ -85,3 +85,9 @@ class EditProductForm(forms.ModelForm):
             'image': forms.FileInput(attrs={'class': 'form-control',
                                             }),
         }
+
+
+class DeleteProductForm(forms.ModelForm):
+    class Meta:
+        model = Product
+        fields = ()

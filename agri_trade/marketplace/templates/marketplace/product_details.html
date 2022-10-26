@@ -44,7 +44,8 @@
                             <a class="btn btn-primary" style="margin-top: 10px"
                                href="{% url 'marketplace:edit product' product.id %}"
                                role="button">Edit</a>
-                            <a class="btn btn-danger" style="margin-top: 10px" href="#"
+                            <a class="btn btn-danger" style="margin-top: 10px"
+                               href="{% url 'marketplace:delete product' product.id %}"
                                role="button">Delete</a>
                         {% endif %}
                     </div>

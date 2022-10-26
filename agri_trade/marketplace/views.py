@@ -3,7 +3,7 @@ from django.contrib.auth.decorators import login_required
 from django.db.models import Q
 from django.shortcuts import render, get_object_or_404, redirect
 
-from agri_trade.marketplace.forms import AddProductForm, EditProductForm
+from agri_trade.marketplace.forms import AddProductForm, EditProductForm, DeleteProductForm
 from agri_trade.marketplace.models import Product
 
 
@@ -78,6 +78,9 @@ def add_product(request):
 def edit_product(request, pk):
     product = get_object_or_404(Product, pk=pk)
 
+    if request.user != product.owner:
+        return redirect('marketplace:marketplace')
+
     if request.method == 'POST':
         form = EditProductForm(request.POST, request.FILES, instance=product)
         if form.is_valid():
@@ -96,3 +99,28 @@ def edit_product(request, pk):
 
     return render(request, 'marketplace/edit_product.html', context)
 
+
+@login_required
+def delete_product(request, pk):
+    product = get_object_or_404(Product, pk=pk)
+
+    if request.user != product.owner:
+        return redirect('marketplace:marketplace')
+
+    if request.method == 'POST':
+        form = DeleteProductForm(request.POST, request.FILES, instance=product)
+        if form.is_valid():
+            if product.image:
+                image = product.image
+                image.delete()
+            product.delete()
+            return redirect('marketplace:marketplace')
+    else:
+        form = DeleteProductForm(instance=product)
+
+    context = {
+        'product': product,
+        'form': form,
+    }
+
+    return render(request, 'marketplace/delete_product.html', context)
