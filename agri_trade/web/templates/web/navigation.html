@@ -5,27 +5,34 @@
                 aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
+        <ul class="navbar-nav">
+            {% if request.user.is_authenticated %}
+                <li class="nav-item">
+                    <b><a class="nav-link disabled" href="#">Welcome, {{ request.user.username }}!</a></b>
+                </li>
+            {% endif %}
+        </ul>
 
         <div class="collapse navbar-collapse" id="navbarNavDropdown">
-            <ul class="navbar-nav">
+            <ul class="navbar-nav ms-auto">
                 {% if request.user.is_authenticated %}
-                    <li class="nav-item">
-                        <b><a class="nav-link disabled" href="#">Welcome, {{ request.user.username }}!</a></b>
+                    <li class="nav-item" style="padding-right: 20px">
+                        <a class="btn btn-primary" href="#">Add Produce</a>
                     </li>
-                    <li class="nav-item">
+                    <li class="nav-item" style="padding-right: 20px">
                         <a class="nav-link" href="{% url 'marketplace:marketplace' %}">Marketplace</a>
                     </li>
-                    <li class="nav-item">
+                    <li class="nav-item" style="padding-right: 20px">
                         <a class="nav-link" href="{% url 'accounts:account' %}">Account</a>
                     </li>
-                    <li class="nav-item">
+                    <li class="nav-item" style="padding-right: 20px">
                         <a class="nav-link" href="{% url 'accounts:logout' %}">Logout</a>
                     </li>
                 {% else %}
-                    <li class="nav-item">
+                    <li class="nav-item" style="padding-right: 20px">
                         <a class="nav-link" href="{% url 'accounts:login' %}">Login</a>
                     </li>
-                    <li class="nav-item">
+                    <li class="nav-item" style="padding-right: 20px">
                         <a class="nav-link" aria-current="page" href="{% url 'accounts:register' %}">Register</a>
                     </li>
                 {% endif %}
