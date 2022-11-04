@@ -42,7 +42,7 @@
 
                         {% if request.user.is_authenticated and request.user != product.owner %}
                             <button type="button" class="btn btn-primary" style="margin-top: 20px"
-                                    data-bs-toggle="collapse" data-bs-target="#contactSeller">Contact Seller
+                                    data-bs-toggle="collapse" data-bs-target="#contactSeller">See Seller Details
                             </button>
                             <div id="contactSeller" class="collapse card card-body" style="margin-top: 20px">
                                 <p><b>{% if product.owner.company %}Seller Company: </b>{{ product.owner.company }}{% endif %}</p>

@@ -43,6 +43,7 @@ def marketplace(request):
         'origins': origins,
         'locations': locations,
         'page_obj': page_obj,
+        'query': q,
     }
 
     return render(request, 'marketplace/marketplace.html', context)
