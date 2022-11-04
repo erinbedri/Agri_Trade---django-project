@@ -1,5 +1,6 @@
 from django.contrib import messages
 from django.contrib.auth.decorators import login_required
+from django.core.paginator import Paginator
 from django.db.models import Q
 from django.shortcuts import render, get_object_or_404, redirect
 
@@ -9,6 +10,8 @@ from agri_trade.marketplace.models import Product
 
 @login_required
 def marketplace(request):
+    products_per_page = 10
+
     q = request.GET.get('q') if request.GET.get('q') is not None else ''
 
     products = Product.objects \
@@ -30,12 +33,16 @@ def marketplace(request):
     origins = {product.origin for product in Product.objects.all()}
     locations = {product.location for product in Product.objects.all()}
 
+    paginator = Paginator(products, products_per_page)
+    page_number = request.GET.get('page')
+    page_obj = paginator.get_page(page_number)
+
     context = {
-        'products': products,
         'categories': categories,
         'cultivation_types': cultivation_types,
         'origins': origins,
         'locations': locations,
+        'page_obj': page_obj,
     }
 
     return render(request, 'marketplace/marketplace.html', context)

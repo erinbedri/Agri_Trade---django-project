@@ -45,7 +45,7 @@
                                     data-bs-toggle="collapse" data-bs-target="#contactSeller">Contact Seller
                             </button>
                             <div id="contactSeller" class="collapse card card-body" style="margin-top: 20px">
-                                <p><b>Seller Company: </b>{{ product.owner.company }}</p>
+                                <p><b>{% if product.owner.company %}Seller Company: </b>{{ product.owner.company }}{% endif %}</p>
                                 <p><b>Contact Person: </b>{{ product.owner.first_name }} {{ product.owner.last_name }}
                                 </p>
                                 <p><b>Email Address: </b>{{ product.owner.email }}</p>
