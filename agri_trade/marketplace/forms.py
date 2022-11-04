@@ -1,9 +1,23 @@
 from django import forms
 
 from agri_trade.marketplace.models import Product
+from django_countries.fields import CountryField
+from django_countries.widgets import CountrySelectWidget
 
 
 class AddProductForm(forms.ModelForm):
+    origin = CountryField().formfield(
+        widget=CountrySelectWidget(
+           attrs={"class": "form-control"}
+        )
+    )
+
+    location = CountryField().formfield(
+        widget=CountrySelectWidget(
+           attrs={"class": "form-control"}
+        )
+    )
+
     class Meta:
         model = Product
         fields = (
@@ -39,18 +53,24 @@ class AddProductForm(forms.ModelForm):
                                                  'placeholder': 'Description',
                                                  'rows': 5,
                                                  }),
-            'origin': forms.TextInput(attrs={'class': 'form-control',
-                                             'placeholder': 'Origin',
-                                             }),
-            'location': forms.TextInput(attrs={'class': 'form-control',
-                                               'placeholder': 'Location',
-                                               }),
             'image': forms.FileInput(attrs={'class': 'form-control',
                                             }),
         }
 
 
 class EditProductForm(forms.ModelForm):
+    origin = CountryField().formfield(
+        widget=CountrySelectWidget(
+           attrs={"class": "form-control"}
+        )
+    )
+
+    location = CountryField().formfield(
+        widget=CountrySelectWidget(
+           attrs={"class": "form-control"}
+        )
+    )
+
     class Meta:
         model = Product
         fields = (
@@ -78,10 +98,6 @@ class EditProductForm(forms.ModelForm):
             'description': forms.Textarea(attrs={'class': 'form-control',
                                                  'rows': 5,
                                                  }),
-            'origin': forms.TextInput(attrs={'class': 'form-control',
-                                             }),
-            'location': forms.TextInput(attrs={'class': 'form-control',
-                                               }),
             'image': forms.FileInput(attrs={'class': 'form-control',
                                             }),
         }

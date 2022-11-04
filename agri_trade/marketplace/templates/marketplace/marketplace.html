@@ -38,14 +38,14 @@
                             <h6 style="margin-top: 15px">Origin</h6>
                             {% for origin in origins %}
                                 <div>
-                                    <a href="{% url 'marketplace:marketplace' %}?q={{ origin }}">{{ origin }}</a>
+                                    <a href="{% url 'marketplace:marketplace' %}?q={{ origin.name }}">{{ origin.name }}</a>
                                 </div>
                             {% endfor %}
 
                             <h6 style="margin-top: 15px">Location</h6>
                             {% for location in locations %}
                                 <div>
-                                    <a href="{% url 'marketplace:marketplace' %}?q={{ location }}">{{ location }}</a>
+                                    <a href="{% url 'marketplace:marketplace' %}?q={{ location.name }}">{{ location.name }}</a>
                                 </div>
                             {% endfor %}
                         </div>
@@ -84,8 +84,8 @@
                                 <td>{% if product.form %}{{ product.form }}{% endif %}</td>
                                 <td>{% if product.size %}{{ product.size }}{% endif %}</td>
                                 <td>{{ product.cultivation_type }}</td>
-                                <td>{{ product.origin }}</td>
-                                <td>{{ product.location }}</td>
+                                <td>{{ product.origin.name }}</td>
+                                <td>{{ product.location.name }}</td>
                                 <td>{{ product.available_volume|intcomma }} KG</td>
                                 <td>EUR {{ product.price|floatformat:2 }} / KG</td>
                             </tr>

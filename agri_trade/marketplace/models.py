@@ -2,6 +2,7 @@ from django.contrib.auth import get_user_model
 from django.core.validators import MinValueValidator, MaxValueValidator
 from django.db import models
 from django.db.models import CASCADE
+from django_countries.fields import CountryField
 
 from agri_trade.marketplace.validators import file_size
 
@@ -50,10 +51,6 @@ class Product(models.Model):
     PRICE_MIN_VALUE = 0
 
     DESCRIPTION_MAX_LEN = 500
-
-    ORIGIN_MAX_LEN = 50
-
-    LOCATION_MAX_LEN = 50
 
     owner = models.ForeignKey(
         UserModel,
@@ -116,12 +113,10 @@ class Product(models.Model):
         null=True,
     )
 
-    origin = models.CharField(
-        max_length=ORIGIN_MAX_LEN,
+    origin = CountryField(
     )
 
-    location = models.CharField(
-        max_length=LOCATION_MAX_LEN,
+    location = CountryField(
     )
 
     image = models.ImageField(

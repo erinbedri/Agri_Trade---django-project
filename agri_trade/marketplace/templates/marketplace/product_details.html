@@ -31,8 +31,8 @@
                             <p><b>Cultivation Type: </b>{{ product.cultivation_type }}</p>
                             <p><b>Available Volume: </b>{{ product.available_volume|intcomma }} KG</p>
                             <p><b>Price: </b>EUR {{ product.price|floatformat:2 }} / KG</p>
-                            <p><b>Origin: </b>{{ product.origin }}</p>
-                            <p><b>Location: </b>{{ product.location }}</p>
+                            <p><b>Origin: </b>{{ product.origin.name }}</p>
+                            <p><b>Location: </b>{{ product.location.name }}</p>
                             <p><b>Available Since: </b>{{ product.created_on|date }}</p>
                             <p><b>Description: </b>
                                 {% if product.description %}
