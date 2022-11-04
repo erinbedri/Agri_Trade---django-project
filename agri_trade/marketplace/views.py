@@ -44,6 +44,7 @@ def marketplace(request):
         'locations': locations,
         'page_obj': page_obj,
         'query': q,
+        'products_count': len(products),
     }
 
     return render(request, 'marketplace/marketplace.html', context)
