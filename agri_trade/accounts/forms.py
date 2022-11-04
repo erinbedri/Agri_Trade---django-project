@@ -2,6 +2,8 @@ from django.contrib.auth import get_user_model
 from django.contrib.auth.forms import AuthenticationForm, UserCreationForm
 from django import forms
 from django.core.exceptions import ValidationError
+from django_countries.fields import CountryField
+from django_countries.widgets import CountrySelectWidget
 
 from agri_trade.accounts.models import Company
 
@@ -104,6 +106,12 @@ class EditAccountForm(forms.ModelForm):
 
 
 class EditCompanyForm(forms.ModelForm):
+    country = CountryField().formfield(
+        widget=CountrySelectWidget(
+           attrs={"class": "form-control"}
+        )
+    )
+
     name = forms.CharField(max_length=100,
                            widget=forms.TextInput(attrs={'class': 'form-control',
                                                          }))
@@ -119,9 +127,6 @@ class EditCompanyForm(forms.ModelForm):
     location = forms.CharField(max_length=25,
                                widget=forms.TextInput(attrs={'class': 'form-control',
                                                              }))
-    country = forms.CharField(max_length=15,
-                              widget=forms.TextInput(attrs={'class': 'form-control',
-                                                            }))
     description = forms.CharField(max_length=500,
                                   widget=forms.Textarea(attrs={'class': 'form-control',
                                                                'rows': 5,
