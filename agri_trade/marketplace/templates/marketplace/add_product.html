@@ -16,81 +16,89 @@
 
                     <div class="row" style="margin-top: 30px">
                         <div class="col">
-                            <label class="mb-1">Name*</label>
+                            <label class="mb-1" {% if form.name.errors %}style="color: red"{% endif %}>Name*</label>
                             {{ form.name }}
                         </div>
                         <div class="col">
-                            <label class="mb-1">Category*</label>
+                            <label class="mb-1"
+                                   {% if form.category.errors %}style="color: red"{% endif %}>Category*</label>
                             {{ form.category }}
                         </div>
                     </div>
 
                     <div class="row" style="margin-top: 30px">
                         <div class="col">
-                            <label class="mb-1">Variety</label>
+                            <label class="mb-1"
+                                   {% if form.variety.errors %}style="color: red"{% endif %}>Variety</label>
                             {{ form.variety }}
                         </div>
                         <div class="col">
-                            <label class="mb-1">Type</label>
+                            <label class="mb-1" {% if form.type.errors %}style="color: red"{% endif %}>Type</label>
                             {{ form.type }}
                         </div>
                     </div>
 
                     <div class="row" style="margin-top: 30px">
                         <div class="col">
-                            <label class="mb-1">Form</label>
+                            <label class="mb-1" {% if form.form.errors %}style="color: red"{% endif %}>Form</label>
                             {{ form.form }}
                         </div>
                         <div class="col">
-                            <label class="mb-1">Size in mm</label>
+                            <label class="mb-1" {% if form.size.errors %}style="color: red"{% endif %}>Size in
+                                mm</label>
                             {{ form.size }}
                         </div>
                     </div>
 
                     <div class="row" style="margin-top: 30px">
                         <div class="col">
-                            <label class="mb-1">Cultivation Type*</label>
+                            <label class="mb-1" {% if form.cultivation_type.errors %}style="color: red"{% endif %}>Cultivation
+                                Type*</label>
                             {{ form.cultivation_type }}
                         </div>
                     </div>
 
                     <div class="row" style="margin-top: 30px">
-                        <div class="col" {% if form.price.errors %} style="color: red" {% endif %}>
-                            <label class="mb-1">Price in EUR/KG*</label>
+                        <div class="col">
+                            <label class="mb-1" {% if form.price.errors %}style="color: red"{% endif %}>Price in
+                                EUR/KG*</label>
                             {{ form.price }}
                         </div>
-                        <div class="col" {% if form.available_volume.errors %} style="color: red" {% endif %}>
-                            <label class="mb-1" >Available Volume in KG*</label>
+                        <div class="col">
+                            <label class="mb-1" {% if form.available_volume.errors %}style="color: red"{% endif %}>Available
+                                Volume in KG*</label>
                             {{ form.available_volume }}
                         </div>
                     </div>
 
                     <div class="row" style="margin-top: 30px">
                         <div class="col">
-                            <label class="mb-1">Description</label>
+                            <label class="mb-1" {% if form.description.errors %}style="color: red"{% endif %}>Description</label>
                             {{ form.description }}
                         </div>
                     </div>
 
                     <div class="row" style="margin-top: 30px">
                         <div class="col">
-                            <label class="mb-1">Origin*</label>
+                            <label class="mb-1" {% if form.origin.errors %}style="color: red"{% endif %}>Origin*</label>
                             {{ form.origin }}
                         </div>
                         <div class="col">
-                            <label class="mb-1">Location*</label>
+                            <label class="mb-1"
+                                   {% if form.location.errors %}style="color: red"{% endif %}>Location*</label>
                             {{ form.location }}
                         </div>
                     </div>
 
                     <div class="row" style="margin-top: 30px">
                         <div class="col">
-                            <label class="mb-1">Image</label>
+                            <label class="mb-1" {% if form.image.errors %}style="color: red"{% endif %}>Image</label>
                             {{ form.image }}
                         </div>
                     </div>
 
                     <button type="submit" style="margin-top: 30px" class="btn btn-primary">Add</button>
+                    <a class="btn btn-secondary" style="margin-top: 30px" href="{% url 'marketplace:marketplace' %}">Cancel</a>
                 </form>
             </div>
         </div>
