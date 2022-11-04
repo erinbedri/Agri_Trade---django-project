@@ -8,4 +8,5 @@ urlpatterns = [
     path('', include(('agri_trade.web.urls', 'agri_trade.web'), namespace='web')),
     path('accounts/', include(('agri_trade.accounts.urls', 'agri_trade.accounts'), namespace='accounts')),
     path('marketplace/', include(('agri_trade.marketplace.urls', 'agri_trade.marketplace'), namespace='marketplace')),
+    path('messages/', include(('agri_trade.user_messages.urls', 'agri_trade.user_messages'), namespace='user_messages'))
 ] + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)

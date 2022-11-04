@@ -34,6 +34,7 @@ INSTALLED_APPS = [
     'agri_trade.web',
     'agri_trade.accounts',
     'agri_trade.marketplace',
+    'agri_trade.user_messages',
 ]
 
 MIDDLEWARE = [

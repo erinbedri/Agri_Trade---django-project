@@ -50,6 +50,10 @@
                                 </p>
                                 <p><b>Email Address: </b>{{ product.owner.email }}</p>
                             </div>
+
+                            <a class="btn btn-primary" style="margin-top: 20px"
+                               href="#"
+                               role="button">Message Seller</a>
                         {% endif %}
 
                         {% if request.user.is_authenticated and request.user == product.owner %}
