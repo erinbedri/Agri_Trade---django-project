@@ -34,12 +34,33 @@ class Product(models.Model):
 
     CULTIVATION_TYPE_MAX_LEN = max([len(cultivation_type[1]) for cultivation_type in CULTIVATION_TYPES])
 
+    NAME_MAX_LEN = 20
+
+    VARIETY_MAX_LEN = 25
+
+    TYPE_MAX_LEN = 25
+
+    FORM_MAX_LEN = 25
+
+    SIZE_MAX_LEN = 25
+
+    AVAILABLE_VOLUME_MIN_VALUE = 0
+    AVAILABLE_VOLUME_MAX_VALUE = 1000000
+
+    PRICE_MIN_VALUE = 0
+
+    DESCRIPTION_MAX_LEN = 500
+
+    ORIGIN_MAX_LEN = 50
+
+    LOCATION_MAX_LEN = 50
+
     owner = models.ForeignKey(
         UserModel,
         on_delete=CASCADE)
 
     name = models.CharField(
-        max_length=20,
+        max_length=NAME_MAX_LEN,
     )
 
     category = models.CharField(
@@ -48,25 +69,25 @@ class Product(models.Model):
     )
 
     variety = models.CharField(
-        max_length=25,
+        max_length=VARIETY_MAX_LEN,
         blank=True,
         null=True,
     )
 
     type = models.CharField(
-        max_length=25,
+        max_length=TYPE_MAX_LEN,
         blank=True,
         null=True,
     )
 
     form = models.CharField(
-        max_length=25,
+        max_length=FORM_MAX_LEN,
         blank=True,
         null=True,
     )
 
     size = models.CharField(
-        max_length=25,
+        max_length=SIZE_MAX_LEN,
         blank=True,
         null=True,
     )
@@ -78,29 +99,29 @@ class Product(models.Model):
 
     available_volume = models.IntegerField(
         validators=[
-            MinValueValidator(0),
-            MaxValueValidator(1000000),
+            MinValueValidator(AVAILABLE_VOLUME_MIN_VALUE),
+            MaxValueValidator(AVAILABLE_VOLUME_MAX_VALUE),
         ]
     )
 
     price = models.FloatField(
         validators=[
-            MinValueValidator(0),
+            MinValueValidator(PRICE_MIN_VALUE),
         ]
     )
 
     description = models.TextField(
-        max_length=500,
+        max_length=DESCRIPTION_MAX_LEN,
         blank=True,
         null=True,
     )
 
     origin = models.CharField(
-        max_length=50,
+        max_length=ORIGIN_MAX_LEN,
     )
 
     location = models.CharField(
-        max_length=50,
+        max_length=LOCATION_MAX_LEN,
     )
 
     image = models.ImageField(
