@@ -21,33 +21,58 @@
 
                         <div class="container" style="margin-top: 10px">
                             <h5 style="margin-top: 25px"><u>Filter by:</u></h5>
-                            <h6 style="margin-top: 15px">Categories</h6>
-                            {% for category in categories %}
-                                <div>
-                                    <a href="{% url 'marketplace:marketplace' %}?q={{ category }}">{{ category }}</a>
-                                </div>
-                            {% endfor %}
 
-                            <h6 style="margin-top: 15px">Cultivation Types</h6>
-                            {% for type in cultivation_types %}
-                                <div>
-                                    <a href="{% url 'marketplace:marketplace' %}?q={{ type }}">{{ type }}</a>
+                            <div>
+                                <button type="button" class="btn btn-primary" style="margin-top: 20px"
+                                        data-bs-toggle="collapse" data-bs-target="#category">Categories
+                                </button>
+                                <div id="category" class="collapse card card-body" style="margin-top: 20px">
+                                    {% for category in categories %}
+                                        <div>
+                                            <a href="{% url 'marketplace:marketplace' %}?q={{ category }}">{{ category }}</a>
+                                        </div>
+                                    {% endfor %}
                                 </div>
-                            {% endfor %}
+                            </div>
 
-                            <h6 style="margin-top: 15px">Origin</h6>
-                            {% for origin in origins %}
-                                <div>
-                                    <a href="{% url 'marketplace:marketplace' %}?q={{ origin.name }}">{{ origin.name }}</a>
+                            <div>
+                                <button type="button" class="btn btn-primary" style="margin-top: 20px"
+                                        data-bs-toggle="collapse" data-bs-target="#cultivationType">Cultivation Type
+                                </button>
+                                <div id="cultivationType" class="collapse card card-body" style="margin-top: 20px">
+                                    {% for type in cultivation_types %}
+                                        <div>
+                                            <a href="{% url 'marketplace:marketplace' %}?q={{ type }}">{{ type }}</a>
+                                        </div>
+                                    {% endfor %}
                                 </div>
-                            {% endfor %}
+                            </div>
 
-                            <h6 style="margin-top: 15px">Location</h6>
-                            {% for location in locations %}
-                                <div>
-                                    <a href="{% url 'marketplace:marketplace' %}?q={{ location.name }}">{{ location.name }}</a>
+                            <div>
+                                <button type="button" class="btn btn-primary" style="margin-top: 20px"
+                                        data-bs-toggle="collapse" data-bs-target="#origin">Origin
+                                </button>
+                                <div id="origin" class="collapse card card-body" style="margin-top: 20px">
+                                    {% for origin in origins %}
+                                        <div>
+                                            <a href="{% url 'marketplace:marketplace' %}?q={{ origin.name }}">{{ origin.name }}</a>
+                                        </div>
+                                    {% endfor %}
                                 </div>
-                            {% endfor %}
+                            </div>
+
+                            <div>
+                                <button type="button" class="btn btn-primary" style="margin-top: 20px"
+                                        data-bs-toggle="collapse" data-bs-target="#location">Location
+                                </button>
+                                <div id="location" class="collapse card card-body" style="margin-top: 20px">
+                                    {% for location in locations %}
+                                        <div>
+                                            <a href="{% url 'marketplace:marketplace' %}?q={{ location.name }}">{{ location.name }}</a>
+                                        </div>
+                                    {% endfor %}
+                                </div>
+                            </div>
                         </div>
 
                     </div>
