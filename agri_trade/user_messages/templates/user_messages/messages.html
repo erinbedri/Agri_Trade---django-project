@@ -16,7 +16,8 @@
                         </thead>
                         <tbody>
                         {% for message in messages_inbox %}
-                            <tr onclick="window.location='{% url 'user_messages:message' message.id %}';">
+                            <tr onclick="window.location='{% url 'user_messages:message' message.id %}';"
+                                    {% if not message.is_read %} class="table-secondary" {% endif %}>
                                 <td>{{ message.sender }}</td>
                                 <td>{{ message.body|truncatechars:100 }}</td>
                                 <td>{{ message.created_at }}</td>

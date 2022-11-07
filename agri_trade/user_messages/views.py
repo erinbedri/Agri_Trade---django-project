@@ -29,6 +29,10 @@ def show_messages(request):
 def show_message(request, pk):
     msg = get_object_or_404(Message, pk=pk)
 
+    if not msg.is_read:
+        msg.is_read = True
+        msg.save()
+
     context = {
         'message': msg,
     }
