@@ -9,14 +9,14 @@
                     <table class="table table-hover" style="margin-top: 30px">
                         <thead>
                         <tr>
-                            <th scope="col">Sender</th>
+                            <th scope="col">To</th>
                             <th scope="col">Message</th>
                             <th scope="col">Date</th>
                         </tr>
                         </thead>
                         <tbody>
                         {% for message in messages_inbox %}
-                            <tr onclick="window.location='#';">
+                            <tr onclick="window.location='{% url 'user_messages:message' message.id %}';">
                                 <td>{{ message.sender }}</td>
                                 <td>{{ message.body|truncatechars:100 }}</td>
                                 <td>{{ message.created_at }}</td>
@@ -38,15 +38,15 @@
                         <table class="table table-hover" style="margin-top: 30px">
                             <thead>
                             <tr>
-                                <th scope="col">Receiver</th>
+                                <th scope="col">From</th>
                                 <th scope="col">Message</th>
                                 <th scope="col">Date</th>
                             </tr>
                             </thead>
                             <tbody>
                             {% for message in messages_outbox %}
-                                <tr onclick="window.location='#';">
-                                    <td>{{ message.receiver }}</td>
+                                <tr onclick="window.location='{% url 'user_messages:message' message.id %}';">
+                                    <td>{{ message.sender }}</td>
                                     <td>{{ message.body|truncatechars:100 }}</td>
                                     <td>{{ message.created_at }}</td>
                                 </tr>

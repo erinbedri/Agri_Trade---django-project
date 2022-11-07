@@ -1,3 +1,8 @@
 from django.contrib import admin
 
-# Register your models here.
+from agri_trade.user_messages.models import Message
+
+
+@admin.register(Message)
+class MessageAdmin(admin.ModelAdmin):
+    list_display = ('sender', 'receiver', 'body', 'created_at')
