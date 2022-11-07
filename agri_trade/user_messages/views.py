@@ -3,7 +3,7 @@ from django.contrib.auth.decorators import login_required
 from django.shortcuts import render, get_object_or_404, redirect
 
 from agri_trade.marketplace.models import Product
-from agri_trade.user_messages.forms import SendMessageForm, DeleteMessageForm
+from agri_trade.user_messages.forms import SendMessageForm, DeleteMessageForm, ReplyMessageForm
 from agri_trade.user_messages.models import Message
 
 
@@ -90,3 +90,32 @@ def delete_message(request, pk):
     }
 
     return render(request, 'user_messages/delete_message.html', context)
+
+
+@login_required
+def reply_message(request, pk):
+    reply_to_message = get_object_or_404(Message, pk=pk)
+    reply_to_user = reply_to_message.sender
+
+    if request.method == 'POST':
+        form = SendMessageForm(request.POST)
+        if form.is_valid():
+            message = form.save(commit=False)
+            message.sender = request.user
+            message.receiver = reply_to_user
+            message.body = request.POST['body']
+            message.save()
+            messages.success(request, 'Your message was successfully sent!')
+            return redirect('user_messages:messages')
+        else:
+            messages.error(request, "Your message couldn't be sent.")
+    else:
+        form = SendMessageForm({'receiver': reply_to_user})
+
+    context = {
+        'reply_to_user': reply_to_user,
+        'reply_to_message': reply_to_message,
+        'form': form,
+    }
+
+    return render(request, 'user_messages/reply_to_message.html', context)

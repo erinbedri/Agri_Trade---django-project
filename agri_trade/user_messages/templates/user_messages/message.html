@@ -14,7 +14,7 @@
                 </div>
 
                 <div style="margin-top: 25px">
-                    <a class="btn btn-primary" href="#" role="button">Reply</a>
+                    <a class="btn btn-primary" href="{% url 'user_messages:reply to' message.id %}" role="button">Reply</a>
                     <a class="btn btn-danger" href="{% url 'user_messages:delete message' message.id %}" role="button">Delete</a>
                 </div>
 

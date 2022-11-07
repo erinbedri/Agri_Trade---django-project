@@ -19,3 +19,15 @@ class DeleteMessageForm(forms.ModelForm):
     class Meta:
         model = Message
         fields = ()
+
+
+class ReplyMessageForm(forms.ModelForm):
+    class Meta:
+        model = Message
+        fields = ('body',)
+        widgets = {
+            'body': forms.Textarea(attrs={'class': 'form-control',
+                                          'placeholder': 'Your Message',
+                                          'rows': 5,
+                                          }),
+        }
