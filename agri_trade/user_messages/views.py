@@ -17,9 +17,15 @@ def show_messages(request):
         .filter(sender=request.user)\
         .order_by('-created_at')
 
+    unread_messages_count = Message.objects\
+        .filter(is_read=False)\
+        .filter(receiver=request.user)\
+        .count()
+
     context = {
         'messages_inbox': messages_inbox,
         'messages_outbox': messages_outbox,
+        'unread_messages_count': unread_messages_count,
     }
 
     return render(request, 'user_messages/messages.html', context)
