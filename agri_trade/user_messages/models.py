@@ -6,6 +6,8 @@ UserModel = get_user_model()
 
 
 class Message(models.Model):
+    BODY_MAX_LEN = 1500
+
     sender = models.ForeignKey(
         UserModel,
         on_delete=CASCADE,
@@ -19,7 +21,7 @@ class Message(models.Model):
     )
 
     body = models.TextField(
-        max_length=500,
+        max_length=BODY_MAX_LEN,
     )
 
     created_at = models.DateTimeField(

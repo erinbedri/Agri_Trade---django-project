@@ -3,7 +3,7 @@ from django.contrib.auth.decorators import login_required
 from django.shortcuts import render, get_object_or_404, redirect
 
 from agri_trade.marketplace.models import Product
-from agri_trade.user_messages.forms import SendMessageForm
+from agri_trade.user_messages.forms import SendMessageForm, DeleteMessageForm
 from agri_trade.user_messages.models import Message
 
 
@@ -17,15 +17,9 @@ def show_messages(request):
         .filter(sender=request.user)\
         .order_by('-created_at')
 
-    unread_messages_count = Message.objects\
-        .filter(is_read=False)\
-        .filter(receiver=request.user)\
-        .count()
-
     context = {
         'messages_inbox': messages_inbox,
         'messages_outbox': messages_outbox,
-        'unread_messages_count': unread_messages_count,
     }
 
     return render(request, 'user_messages/messages.html', context)
@@ -33,14 +27,14 @@ def show_messages(request):
 
 @login_required
 def show_message(request, pk):
-    msg = get_object_or_404(Message, pk=pk)
+    message = get_object_or_404(Message, pk=pk)
 
-    if not msg.is_read:
-        msg.is_read = True
-        msg.save()
+    if not message.is_read:
+        message.is_read = True
+        message.save()
 
     context = {
-        'message': msg,
+        'message': message,
     }
 
     return render(request, 'user_messages/message.html', context)
@@ -73,3 +67,26 @@ def send_message(request, pk):
     }
 
     return render(request, 'user_messages/send_message.html', context)
+
+
+@login_required
+def delete_message(request, pk):
+    message = get_object_or_404(Message, pk=pk)
+
+    if request.method == 'POST':
+        form = DeleteMessageForm(request.POST, instance=message)
+        if form.is_valid():
+            message.delete()
+            messages.success(request, 'Your message was deleted successfully!')
+            return redirect('user_messages:messages')
+        else:
+            messages.error(request, 'Your message couldn\'t be deleted! Try again later.')
+    else:
+        form = DeleteMessageForm()
+
+    context = {
+        'message': message,
+        'form': form,
+    }
+
+    return render(request, 'user_messages/delete_message.html', context)

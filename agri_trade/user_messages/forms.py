@@ -14,3 +14,8 @@ class SendMessageForm(forms.ModelForm):
                                           }),
         }
 
+
+class DeleteMessageForm(forms.ModelForm):
+    class Meta:
+        model = Message
+        fields = ()

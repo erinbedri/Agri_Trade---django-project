@@ -10,12 +10,12 @@
                     <p><b>From: </b>{{ message.sender }}, {{ message.sender.email }}</p>
                     <p><b>To: </b>{{ message.receiver }}, {{ message.receiver.email }}</p>
                     <p><b>Date: </b>{{ message.created_at }}</p>
-                    <p><b>Message: </b>{{ message.body }}</p>
+                    <p><b>Message: </b>{{ message.body|linebreaks }}</p>
                 </div>
 
                 <div style="margin-top: 25px">
                     <a class="btn btn-primary" href="#" role="button">Reply</a>
-                    <a class="btn btn-danger" href="#" role="button">Delete</a>
+                    <a class="btn btn-danger" href="{% url 'user_messages:delete message' message.id %}" role="button">Delete</a>
                 </div>
 
             </div>
