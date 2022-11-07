@@ -4,12 +4,12 @@
     <div class="container" style="margin-top: 30px; margin-bottom: 50px">
         <div class="row justify-content-md-center">
             <div class="col-md-10">
-                <h3>Sent</h3>
+                <h3>Received</h3>
                 <div class="container">
                     <table class="table table-hover" style="margin-top: 30px">
                         <thead>
                         <tr>
-                            <th scope="col">To</th>
+                            <th scope="col">From</th>
                             <th scope="col">Message</th>
                             <th scope="col">Date</th>
                         </tr>
@@ -33,12 +33,12 @@
         <div class="container" style="margin-top: 30px; margin-bottom: 50px">
             <div class="row justify-content-md-center">
                 <div class="col-md-10">
-                    <h3>Received</h3>
+                    <h3>Sent</h3>
                     <div class="container">
                         <table class="table table-hover" style="margin-top: 30px">
                             <thead>
                             <tr>
-                                <th scope="col">From</th>
+                                <th scope="col">To</th>
                                 <th scope="col">Message</th>
                                 <th scope="col">Date</th>
                             </tr>
@@ -46,7 +46,7 @@
                             <tbody>
                             {% for message in messages_outbox %}
                                 <tr onclick="window.location='{% url 'user_messages:message' message.id %}';">
-                                    <td>{{ message.sender }}</td>
+                                    <td>{{ message.receiver }}</td>
                                     <td>{{ message.body|truncatechars:100 }}</td>
                                     <td>{{ message.created_at }}</td>
                                 </tr>
