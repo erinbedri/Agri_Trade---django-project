@@ -7,14 +7,19 @@
                 <h3>Reply</h3>
 
                 <label for="messageTo" class="form-label">To</label>
-                <input disabled type="text" class="form-control" id="messageTo" aria-describedby="messageTo" value="{{ reply_to_user }}">
+                <input disabled type="text" class="form-control" id="messageTo" aria-describedby="messageTo"
+                       value="{{ reply_to_user }}">
+
+                <label for="subject" class="form-label" style="margin-top: 30px">Subject</label>
+                <input disabled type="text" class="form-control" id="subject" aria-describedby="subject"
+                       value="Re: {{ reply_to_message.subject }}">
 
                 <form action="{% url 'user_messages:reply to' reply_to_message.id %}" method="post">
                     {% csrf_token %}
 
                     <div class="row" style="margin-top: 30px">
                         <div class="col">
-                            <label class="mb-1" {% if form.origin.errors %}style="color: red"{% endif %}>Message</label>
+                            <label class="mb-1">Message</label>
                             {{ form.body }}
                         </div>
                     </div>

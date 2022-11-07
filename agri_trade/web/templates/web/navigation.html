@@ -32,20 +32,20 @@
                         </button>
                     </li>
                     <li class="nav-item" style="padding-right: 20px">
-                        <a class="nav-link" href="{% url 'marketplace:marketplace' %}">Marketplace</a>
+                        <a class="btn btn-primary" href="{% url 'marketplace:marketplace' %}">Marketplace</a>
                     </li>
                     <li class="nav-item" style="padding-right: 20px">
-                        <a class="nav-link" href="{% url 'accounts:account' %}">Account</a>
+                        <a class="btn btn-primary" href="{% url 'accounts:account' %}">Account</a>
                     </li>
                     <li class="nav-item" style="padding-right: 20px">
-                        <a class="nav-link" href="{% url 'accounts:logout' %}">Logout</a>
+                        <a class="btn btn-secondary" href="{% url 'accounts:logout' %}">Logout</a>
                     </li>
                 {% else %}
                     <li class="nav-item" style="padding-right: 20px">
-                        <a class="nav-link" href="{% url 'accounts:login' %}">Login</a>
+                        <a class="btn btn-primary" href="{% url 'accounts:login' %}">Login</a>
                     </li>
                     <li class="nav-item" style="padding-right: 20px">
-                        <a class="nav-link" aria-current="page" href="{% url 'accounts:register' %}">Register</a>
+                        <a class="btn btn-primary" aria-current="page" href="{% url 'accounts:register' %}">Register</a>
                     </li>
                 {% endif %}
             </ul>

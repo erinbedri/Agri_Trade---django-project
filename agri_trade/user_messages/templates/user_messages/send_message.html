@@ -7,14 +7,22 @@
                 <h3>Send Message</h3>
 
                 <label for="messageTo" class="form-label">To</label>
-                <input disabled type="text" class="form-control" id="messageTo" aria-describedby="messageTo" value="{{ product.owner }}">
+                <input disabled type="text" class="form-control" id="messageTo" aria-describedby="messageTo"
+                       value="{{ product.owner }}">
 
                 <form action="{% url 'user_messages:send message' owner.id %}" method="post">
                     {% csrf_token %}
 
                     <div class="row" style="margin-top: 30px">
                         <div class="col">
-                            <label class="mb-1" {% if form.origin.errors %}style="color: red"{% endif %}>Message</label>
+                            <label class="mb-1">Subject</label>
+                            {{ form.subject }}
+                        </div>
+                    </div>
+
+                    <div class="row" style="margin-top: 30px">
+                        <div class="col">
+                            <label class="mb-1">Message</label>
                             {{ form.body }}
                         </div>
                     </div>

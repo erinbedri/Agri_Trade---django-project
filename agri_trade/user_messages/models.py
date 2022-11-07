@@ -6,6 +6,8 @@ UserModel = get_user_model()
 
 
 class Message(models.Model):
+    SUBJECT_MAX_LEN = 50
+
     BODY_MAX_LEN = 1500
 
     sender = models.ForeignKey(
@@ -18,6 +20,10 @@ class Message(models.Model):
         UserModel,
         on_delete=CASCADE,
         related_name='receiver',
+    )
+
+    subject = models.CharField(
+        max_length=SUBJECT_MAX_LEN,
     )
 
     body = models.TextField(

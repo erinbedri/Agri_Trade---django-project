@@ -51,6 +51,7 @@ def send_message(request, pk):
             message = form.save(commit=False)
             message.sender = request.user
             message.receiver = owner
+            message.subject = request.POST['subject']
             message.body = request.POST['body']
             message.save()
             messages.success(request, 'Your message was successfully sent!')
@@ -98,11 +99,12 @@ def reply_message(request, pk):
     reply_to_user = reply_to_message.sender
 
     if request.method == 'POST':
-        form = SendMessageForm(request.POST)
+        form = ReplyMessageForm(request.POST)
         if form.is_valid():
             message = form.save(commit=False)
             message.sender = request.user
             message.receiver = reply_to_user
+            message.subject = f'Re: {reply_to_message.subject}'
             message.body = request.POST['body']
             message.save()
             messages.success(request, 'Your message was successfully sent!')
@@ -110,7 +112,7 @@ def reply_message(request, pk):
         else:
             messages.error(request, "Your message couldn't be sent.")
     else:
-        form = SendMessageForm({'receiver': reply_to_user})
+        form = ReplyMessageForm({'receiver': reply_to_user})
 
     context = {
         'reply_to_user': reply_to_user,
