@@ -21,7 +21,7 @@
                                     {% if not message.is_read %} class="table-secondary" {% endif %}>
                                 <td>{{ message.sender }}</td>
                                 <td>{{ message.subject }}</td>
-                                <td>{{ message.body|truncatechars:75 }}</td>
+                                <td>{{ message.body|truncatechars:125 }}</td>
                                 <td>{{ message.created_at }}</td>
                             </tr>
                         {% empty %}
@@ -52,7 +52,7 @@
                                 <tr onclick="window.location='{% url 'user_messages:message' message.id %}';">
                                     <td>{{ message.receiver }}</td>
                                     <td>{{ message.subject }}</td>
-                                    <td>{{ message.body|truncatechars:75 }}</td>
+                                    <td>{{ message.body|truncatechars:125 }}</td>
                                     <td>{{ message.created_at }}</td>
                                 </tr>
                             {% empty %}

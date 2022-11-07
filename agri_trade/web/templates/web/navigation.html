@@ -20,6 +20,9 @@
                         <a class="btn btn-primary" href="{% url 'marketplace:add product' %}">Add Produce</a>
                     </li>
                     <li class="nav-item" style="padding-right: 20px">
+                        <a class="btn btn-primary" href="{% url 'marketplace:marketplace' %}">Marketplace</a>
+                    </li>
+                    <li class="nav-item" style="padding-right: 20px">
                         <button type="button" class="btn btn-primary position-relative"
                                 onclick="location.href = '{% url 'user_messages:messages' %}';">
                             Messages
@@ -30,9 +33,6 @@
                             </span>
                             {% endif %}
                         </button>
-                    </li>
-                    <li class="nav-item" style="padding-right: 20px">
-                        <a class="btn btn-primary" href="{% url 'marketplace:marketplace' %}">Marketplace</a>
                     </li>
                     <li class="nav-item" style="padding-right: 20px">
                         <a class="btn btn-primary" href="{% url 'accounts:account' %}">Account</a>

@@ -29,7 +29,7 @@ def show_messages(request):
 def show_message(request, pk):
     message = get_object_or_404(Message, pk=pk)
 
-    if not message.is_read:
+    if not message.is_read and message.receiver == request.user:
         message.is_read = True
         message.save()
 
