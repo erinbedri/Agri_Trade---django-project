@@ -28,10 +28,10 @@ def marketplace(request):
             Q(owner__username=q)) \
         .order_by('-created_on')
 
-    categories = {product.category for product in Product.objects.all()}
-    cultivation_types = {product.cultivation_type for product in Product.objects.all()}
-    origins = {product.origin for product in Product.objects.all()}
-    locations = {product.location for product in Product.objects.all()}
+    categories = sorted({product.category for product in Product.objects.all()})
+    cultivation_types = sorted({product.cultivation_type for product in Product.objects.all()})
+    origins = sorted({product.origin.name for product in Product.objects.all()})
+    locations = sorted({product.location.name for product in Product.objects.all()})
 
     paginator = Paginator(products, products_per_page)
     page_number = request.GET.get('page')

@@ -58,7 +58,7 @@
                                 <div id="origin" class="collapse card card-body" style="margin-top: 20px">
                                     {% for origin in origins %}
                                         <div>
-                                            <a href="{% url 'marketplace:marketplace' %}?q={{ origin.name }}">{{ origin.name }}</a>
+                                            <a href="{% url 'marketplace:marketplace' %}?q={{ origin }}">{{ origin }}</a>
                                         </div>
                                     {% endfor %}
                                 </div>
@@ -72,7 +72,7 @@
                                 <div id="location" class="collapse card card-body" style="margin-top: 20px">
                                     {% for location in locations %}
                                         <div>
-                                            <a href="{% url 'marketplace:marketplace' %}?q={{ location.name }}">{{ location.name }}</a>
+                                            <a href="{% url 'marketplace:marketplace' %}?q={{ location }}">{{ location }}</a>
                                         </div>
                                     {% endfor %}
                                 </div>
