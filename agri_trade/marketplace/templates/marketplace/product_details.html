@@ -18,6 +18,35 @@
                                 <img src="{% static 'no_photo.jpg' %}" class="card-img-top" alt="{{ product.name }}">
                             {% endif %}
                         </div>
+
+                        <div style="margin-top: 15px">
+                            {% if request.user.is_authenticated and request.user != product.owner %}
+                                <button type="button" class="btn btn-outline-primary" style="margin-top: 20px"
+                                        data-bs-toggle="collapse" data-bs-target="#contactSeller">See Seller Details
+                                </button>
+                                <div id="contactSeller" class="collapse card card-body" style="margin-top: 20px">
+                                    <p><b>{% if product.owner.company %}Seller Company: </b>
+                                        {{ product.owner.company }}{% endif %}</p>
+                                    <p><b>Contact
+                                        Person: </b>{{ product.owner.first_name }} {{ product.owner.last_name }}
+                                    </p>
+                                    <p><b>Email Address: </b>{{ product.owner.email }}</p>
+                                </div>
+
+                                <a class="btn btn-primary" style="margin-top: 20px"
+                                   href="{% url 'user_messages:send message' product.id %}"
+                                   role="button">Message Seller</a>
+                            {% endif %}
+
+                            {% if request.user.is_authenticated and request.user == product.owner %}
+                                <a class="btn btn-primary" style="margin-top: 10px"
+                                   href="{% url 'marketplace:edit product' product.id %}"
+                                   role="button">Edit</a>
+                                <a class="btn btn-danger" style="margin-top: 10px"
+                                   href="{% url 'marketplace:delete product' product.id %}"
+                                   role="button">Delete</a>
+                            {% endif %}
+                        </div>
                     </div>
 
                     <div class="col">
@@ -40,30 +69,6 @@
                                 {% endif %}</p>
                         </div>
 
-                        {% if request.user.is_authenticated and request.user != product.owner %}
-                            <button type="button" class="btn btn-outline-primary" style="margin-top: 20px"
-                                    data-bs-toggle="collapse" data-bs-target="#contactSeller">See Seller Details
-                            </button>
-                            <div id="contactSeller" class="collapse card card-body" style="margin-top: 20px">
-                                <p><b>{% if product.owner.company %}Seller Company: </b>{{ product.owner.company }}{% endif %}</p>
-                                <p><b>Contact Person: </b>{{ product.owner.first_name }} {{ product.owner.last_name }}
-                                </p>
-                                <p><b>Email Address: </b>{{ product.owner.email }}</p>
-                            </div>
-
-                            <a class="btn btn-primary" style="margin-top: 20px"
-                               href="{% url 'user_messages:send message' product.id %}"
-                               role="button">Message Seller</a>
-                        {% endif %}
-
-                        {% if request.user.is_authenticated and request.user == product.owner %}
-                            <a class="btn btn-primary" style="margin-top: 10px"
-                               href="{% url 'marketplace:edit product' product.id %}"
-                               role="button">Edit</a>
-                            <a class="btn btn-danger" style="margin-top: 10px"
-                               href="{% url 'marketplace:delete product' product.id %}"
-                               role="button">Delete</a>
-                        {% endif %}
                     </div>
                 </div>
             </div>
