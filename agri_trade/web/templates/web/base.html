@@ -13,13 +13,15 @@
     <title>AGRI TRADE</title>
 </head>
 
-<body>
+<body class="d-flex flex-column min-vh-100">
 
 {% include 'web/messages.html' %}
 
 {% include 'web/navigation.html' %}
 
 {% block content %}{% endblock %}
+
+{% include 'web/footer.html' %}
 
 <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
         integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"

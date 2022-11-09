@@ -5,6 +5,9 @@
         <div class="row justify-content-md-center">
             <div class="col-md-6">
                 <h3>Login</h3>
+                <p style="margin-top: 15px">If you do not have an account, please <a
+                        href="{% url 'accounts:register' %}">register</a> instead.</p>
+
                 <form method="post" action="{% url 'accounts:login' %}">
                     {% csrf_token %}
 
@@ -24,10 +27,7 @@
                         {{ form.password }}
                     </div>
 
-                    <p style="margin-top: 15px">If you do not have an account, please <a
-                            href="{% url 'accounts:register' %}">register</a> instead.</p>
-
-                    <button type="submit" class="btn btn-primary">Login</button>
+                    <button style="margin-top: 25px" type="submit" class="btn btn-primary">Login</button>
                 </form>
             </div>
         </div>
