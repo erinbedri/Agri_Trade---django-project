@@ -11,7 +11,7 @@
         <ul class="navbar-nav">
             {% if request.user.is_authenticated %}
                 <li class="nav-item">
-                    <b><a class="nav-link disabled" href="#">Welcome, {{ request.user.username }}!</a></b>
+                    <b><a class="nav-link disabled" href="#" style="color: #2fa1fd">Welcome, {{ request.user.username }}!</a></b>
                 </li>
             {% endif %}
         </ul>
