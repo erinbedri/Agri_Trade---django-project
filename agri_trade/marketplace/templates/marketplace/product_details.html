@@ -15,7 +15,8 @@
                             {% if product.image %}
                                 <img src="{{ product.image.url }}" class="card-img-top" alt="{{ product.name }}">
                             {% else %}
-                                <img src="{% static 'img/no_photo.jpg' %}" class="card-img-top" alt="{{ product.name }}">
+                                <img src="{% static 'img/no_photo.jpg' %}" class="card-img-top"
+                                     alt="{{ product.name }}">
                             {% endif %}
                         </div>
 
@@ -51,6 +52,8 @@
 
                     <div class="col">
                         <div style="margin-top: 30px">
+                            <h5 style="margin-bottom: 15px">Basic Product Information</h5>
+                            <hr>
                             <p><b>Product Name: </b>{{ product.name }}</p>
                             <p><b>Category: </b>{{ product.category }}</p>
                             <p><b>Variety: </b>{% if product.variety %}{{ product.variety }}{% endif %}</p>
@@ -58,10 +61,16 @@
                             <p><b>Form: </b>{% if product.form %}{{ product.form }}{% endif %}</p>
                             <p><b>Size: </b>{% if product.size %}{{ product.size }}{% endif %}</p>
                             <p><b>Cultivation Type: </b>{{ product.cultivation_type }}</p>
+
+                            <h5 style="margin-top: 40px; margin-bottom: 15px">Sell Details</h5>
+                            <hr>
                             <p><b>Available Volume: </b>{{ product.available_volume|intcomma }} KG</p>
                             <p><b>Price: </b>EUR {{ product.price|floatformat:2 }} / KG</p>
                             <p><b>Origin: </b>{{ product.origin.name }}</p>
                             <p><b>Location: </b>{{ product.location.name }}</p>
+
+                            <h5 style="margin-top: 40px; margin-bottom: 15px">Additional Details</h5>
+                            <hr>
                             <p><b>Available Since: </b>{{ product.created_on|date }}</p>
                             <p><b>Description: </b>
                                 {% if product.description %}
