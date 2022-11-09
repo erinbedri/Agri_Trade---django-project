@@ -105,7 +105,12 @@
                         <tbody>
                         {% for product in page_obj %}
                             <tr onclick="window.location='{% url "marketplace:product details" product.id %}';"
-                                    {% if product.owner == request.user %} class="table-primary" {% endif %}>
+                                    {% if product.owner == request.user %}
+                                class="table-primary"
+                                data-bs-toggle="tooltip"
+                                data-bs-placement="top"
+                                title="Your Own Product!"
+                                    {% endif %}>
                                 <td>{{ product.name }}</td>
                                 <td>{{ product.category }}</td>
                                 <td>{% if product.variety %}{{ product.variety }}{% endif %}</td>
