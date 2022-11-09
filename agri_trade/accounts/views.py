@@ -22,7 +22,7 @@ def login_user(request):
             if user is not None:
                 login(request, user)
                 messages.success(request, f'You are now successfully logged in as {request.user.username}!')
-                return redirect('web:homepage')
+                return redirect('marketplace:marketplace')
         else:
             messages.error(request, 'Login was unsuccessful! Fix the issues below.')
     else:
