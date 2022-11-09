@@ -17,6 +17,7 @@ class CustomAuthenticationForm(AuthenticationForm):
     password = forms.CharField(required=True,
                                widget=forms.PasswordInput(attrs={'placeholder': 'Password',
                                                                  'class': 'form-control',
+                                                                 'id': 'password',
                                                                  }))
 
     class Meta:
