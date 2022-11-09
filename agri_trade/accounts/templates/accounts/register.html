@@ -5,6 +5,9 @@
         <div class="row justify-content-md-center">
             <div class="col-md-6">
                 <h3>Register</h3>
+                <p style="margin-top: 15px">If you already have an account, please <a
+                        href="{% url 'accounts:login' %}">login</a> instead.</p>
+
                 <form method="post" action="{% url 'accounts:register' %}">
                     {% csrf_token %}
 
@@ -47,11 +50,15 @@
                         </div>
                     </div>
 
-                    <p style="margin-top: 15px">If you already have an account, please <a
-                            href="{% url 'accounts:login' %}">login</a> instead.</p>
-
-                    <button type="submit" class="btn btn-primary">Register</button>
+                    <button style="margin-top: 25px" type="submit" class="btn btn-primary">Register</button>
                 </form>
+
+                <p style="margin-top: 10px">
+                    By continuing you agree to out
+                    <a href="{% url 'web:data protection' %}">Data Protection</a> and
+                    <a href="{% url 'web:terms and conditions' %}">Terms and Conditions.</a>
+                </p>
+
             </div>
         </div>
     </div>
