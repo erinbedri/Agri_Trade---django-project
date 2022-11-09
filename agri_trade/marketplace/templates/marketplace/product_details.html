@@ -9,8 +9,8 @@
             <div class="col-md-8">
                 <h3>{{ product.name }} Details</h3>
 
-                <div class="row" style="margin-top: 10px">
-                    <div class="col">
+                <div class="row gx-5" style="margin-top: 10px">
+                    <div class="col-md-5">
                         <div class="card" style="width: 20rem; margin-top: 30px">
                             {% if product.image %}
                                 <img src="{{ product.image.url }}" class="card-img-top" alt="{{ product.name }}">
@@ -20,7 +20,7 @@
                             {% endif %}
                         </div>
 
-                        <div style="margin-top: 15px">
+                        <div class="d-grid gap-2" style="margin-top: 15px">
                             {% if request.user.is_authenticated and request.user != product.owner %}
                                 <button type="button" class="btn btn-outline-primary" style="margin-top: 20px"
                                         data-bs-toggle="collapse" data-bs-target="#contactSeller">See Seller Details
@@ -39,14 +39,17 @@
                                    role="button">Message Seller</a>
                             {% endif %}
 
-                            {% if request.user.is_authenticated and request.user == product.owner %}
-                                <a class="btn btn-primary" style="margin-top: 10px"
-                                   href="{% url 'marketplace:edit product' product.id %}"
-                                   role="button">Edit</a>
-                                <a class="btn btn-danger" style="margin-top: 10px"
-                                   href="{% url 'marketplace:delete product' product.id %}"
-                                   role="button">Delete</a>
-                            {% endif %}
+                            <div class="d-grid gap-2">
+                                {% if request.user.is_authenticated and request.user == product.owner %}
+                                    <a class="btn btn-primary" style="margin-top: 10px"
+                                       href="{% url 'marketplace:edit product' product.id %}"
+                                       role="button">Edit</a>
+                                    <a class="btn btn-danger" style="margin-top: 10px"
+                                       href="{% url 'marketplace:delete product' product.id %}"
+                                       role="button">Delete</a>
+                                {% endif %}
+                            </div>
+
                         </div>
                     </div>
 
