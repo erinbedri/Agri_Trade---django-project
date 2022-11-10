@@ -4,7 +4,9 @@ from django.contrib.auth.decorators import login_required
 from django.contrib.auth.models import User
 from django.core.paginator import Paginator
 from django.db.models import Q
+from django.http import HttpResponseRedirect
 from django.shortcuts import render, get_object_or_404, redirect
+from django.urls import reverse
 
 from agri_trade.accounts.models import Company
 from agri_trade.marketplace.forms import AddProductForm, EditProductForm, DeleteProductForm
@@ -58,9 +60,15 @@ def marketplace(request):
 @login_required
 def product_details(request, pk):
     product = get_object_or_404(Product, pk=pk)
+    user_company = get_object_or_404(Company, pk=request.user.id)
+
+    is_in_favourites = False
+    if user_company.favourites.filter(id=product.id).exists():
+        is_in_favourites = True
 
     context = {
         'product': product,
+        'is_in_favourites': is_in_favourites,
     }
 
     return render(request, 'marketplace/product_details.html', context)
@@ -151,4 +159,20 @@ def show_favourites(request):
     }
 
     return render(request, 'marketplace/show_favourites.html', context)
+
+
+@login_required
+def add_product_to_favourites(request, pk):
+    user_company = get_object_or_404(Company, pk=request.user.id)
+    product = get_object_or_404(Product, pk=pk)
+    is_in_favourites = False
+
+    if user_company.favourites.filter(id=product.id).exists():
+        user_company.favourites.remove(product)
+        is_in_favourites = False
+    else:
+        user_company.favourites.add(product)
+        is_in_favourites = True
+
+    return HttpResponseRedirect(reverse('marketplace:product details', args=[str(pk)]))
 

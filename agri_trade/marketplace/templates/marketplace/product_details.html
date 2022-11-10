@@ -38,9 +38,18 @@
                                    href="{% url 'user_messages:send message' product.id %}"
                                    role="button">Message Seller</a>
 
-                                <a class="btn btn-primary" style="margin-top: 20px"
-                                   href="#"
-                                   role="button">Add to Favourites</a>
+                                    <form class="d-grid gap-2" method="POST" action="{% url 'marketplace:add to favourites' product.id %}">
+                                        {% csrf_token %}
+                                        {% if is_in_favourites %}
+                                            <a class="btn btn-danger" style="margin-top: 20px"
+                                               href="{% url 'marketplace:add to favourites' product.id %}"
+                                               role="button">Remove from Favourites</a>
+                                        {% else %}
+                                            <a class="btn btn-primary" style="margin-top: 20px"
+                                               href="{% url 'marketplace:add to favourites' product.id %}"
+                                               role="button">Add to Favourites</a>
+                                        {% endif %}
+                                    </form>
                             {% endif %}
 
                             <div class="d-grid gap-2">
