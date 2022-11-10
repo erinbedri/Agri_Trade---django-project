@@ -4,6 +4,8 @@ from django.db.models import CASCADE
 from django.db.models.signals import post_save
 from django.dispatch import receiver
 
+from agri_trade.marketplace.models import Product
+
 UserModel = get_user_model()
 
 
@@ -46,6 +48,11 @@ class Company(models.Model):
 
     description = models.TextField(
         max_length=500,
+        blank=True,
+    )
+
+    favourites = models.ManyToManyField(
+        Product,
         blank=True,
     )
 

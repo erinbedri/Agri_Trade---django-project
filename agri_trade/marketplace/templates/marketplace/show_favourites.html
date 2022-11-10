@@ -1,0 +1,59 @@
+{% extends 'web/base.html' %}
+{% load humanize %}
+
+{% block content %}
+    <div class="container-fluid" style="margin-top: 30px">
+        <div class="row">
+            <div class="col-2">
+                <div class="container">
+                    <div class="row justify-content-md-left">
+
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-10">
+                <h3>Favourites</h3>
+                <p> Total Favourites: {{ favourites_count }}</p>
+                <div class="container">
+                    <table class="table table-hover" style="margin-top: 30px">
+                        <thead>
+                        <tr>
+                            <th scope="col">Produce</th>
+                            <th scope="col">Category</th>
+                            <th scope="col">Variety</th>
+                            <th scope="col">Type</th>
+                            <th scope="col">Form</th>
+                            <th scope="col">Size</th>
+                            <th scope="col">Cultivation</th>
+                            <th scope="col">Origin</th>
+                            <th scope="col">Location</th>
+                            <th scope="col">Volume</th>
+                            <th scope="col">Price</th>
+                        </tr>
+                        </thead>
+                        <tbody>
+                        {% for favourite in favourites %}
+                            <tr onclick="window.location='{% url "marketplace:product details" favourite.id %}';">
+                                <td>{{ favourite.name }}</td>
+                                <td>{{ favourite.category }}</td>
+                                <td>{% if favourite.variety %}{{ favourite.variety }}{% endif %}</td>
+                                <td>{% if favourite.type %}{{ favourite.type }}{% endif %}</td>
+                                <td>{% if favourite.form %}{{ favourite.form }}{% endif %}</td>
+                                <td>{% if favourite.size %}{{ favourite.size }}{% endif %}</td>
+                                <td>{{ favourite.cultivation_type }}</td>
+                                <td>{{ favourite.origin.name }}</td>
+                                <td>{{ favourite.location.name }}</td>
+                                <td>{{ favourite.available_volume|intcomma }} KG</td>
+                                <td>EUR {{ favourite.price|floatformat:2 }} / KG</td>
+                            </tr>
+                        {% empty %}
+                            <p>You do not have any favourite products yet.</p>
+                        {% endfor %}
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+{% endblock %}

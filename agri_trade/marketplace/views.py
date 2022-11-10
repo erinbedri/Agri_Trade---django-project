@@ -1,12 +1,17 @@
 from django.contrib import messages
+from django.contrib.auth import get_user_model
 from django.contrib.auth.decorators import login_required
+from django.contrib.auth.models import User
 from django.core.paginator import Paginator
 from django.db.models import Q
 from django.shortcuts import render, get_object_or_404, redirect
 
+from agri_trade.accounts.models import Company
 from agri_trade.marketplace.forms import AddProductForm, EditProductForm, DeleteProductForm
 from agri_trade.marketplace.models import Product
 
+
+UserModel = get_user_model()
 
 @login_required
 def marketplace(request):
@@ -133,3 +138,17 @@ def delete_product(request, pk):
     }
 
     return render(request, 'marketplace/delete_product.html', context)
+
+
+@login_required
+def show_favourites(request):
+    favourites = get_object_or_404(Company, pk=request.user.id).favourites.all()
+    favourites_count = favourites.count()
+
+    context = {
+        'favourites': favourites,
+        'favourites_count': favourites_count,
+    }
+
+    return render(request, 'marketplace/show_favourites.html', context)
+
