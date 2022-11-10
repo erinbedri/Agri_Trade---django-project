@@ -1,3 +1,8 @@
 from django.contrib import admin
 
-# Register your models here.
+from agri_trade.posts.models import Post
+
+
+@admin.register(Post)
+class PostAdmin(admin.ModelAdmin):
+    list_display = ('author', 'topic', 'created_on')

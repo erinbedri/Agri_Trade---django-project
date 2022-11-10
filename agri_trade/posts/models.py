@@ -1,3 +1,4 @@
+from ckeditor.fields import RichTextField
 from django.contrib.auth import get_user_model
 from django.db import models
 from django.db.models import CASCADE
@@ -6,27 +7,41 @@ UserModel = get_user_model()
 
 
 class Post(models.Model):
-    TOPIC_MAX_LEN = 50
+    TITLE_MAX_LEN = 50
 
-    SUBTOPIC_MAX_LEN = 50
+    SUBTITLE_MAX_LEN = 150
+
+    TOPIC_CHOICES = (
+        ('Agriculture', 'Agriculture'),
+        ('Markets', 'Markets'),
+        ('Technology', 'Technology'),
+        ('Others', 'Others'),
+    )
+
+    TOPIC_MAX_LEN = max([len(topic[1]) for topic in TOPIC_CHOICES])
 
     author = models.ForeignKey(
         UserModel,
         on_delete=CASCADE,
-        related_name='blog_posts',
+        related_name='posts',
     )
 
-    topic = models.CharField(
-        max_length=TOPIC_MAX_LEN,
+    title = models.CharField(
+        max_length=TITLE_MAX_LEN,
     )
 
-    subtopic = models.CharField(
-        max_length=SUBTOPIC_MAX_LEN,
+    subtitle = models.CharField(
+        max_length=SUBTITLE_MAX_LEN,
         blank=True,
         null=True,
     )
 
-    body = models.TextField()
+    topic = models.CharField(
+        max_length=TOPIC_MAX_LEN,
+        choices=TOPIC_CHOICES,
+    )
+
+    body = RichTextField()
 
     created_on = models.DateTimeField(
         auto_now_add=True,

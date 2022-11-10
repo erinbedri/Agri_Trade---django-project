@@ -30,11 +30,13 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
 
     'django.contrib.humanize',
+    'ckeditor',
 
     'agri_trade.web',
     'agri_trade.accounts',
     'agri_trade.marketplace',
     'agri_trade.user_messages',
+    'agri_trade.posts',
 ]
 
 MIDDLEWARE = [
