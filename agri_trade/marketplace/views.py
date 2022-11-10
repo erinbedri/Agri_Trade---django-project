@@ -150,11 +150,17 @@ def delete_product(request, pk):
 
 @login_required
 def show_favourites(request):
+    favourites_per_page = 10
+
     favourites = get_object_or_404(Company, pk=request.user.id).favourites.all()
     favourites_count = favourites.count()
 
+    paginator = Paginator(favourites, favourites_per_page)
+    page_number = request.GET.get('page')
+    page_obj = paginator.get_page(page_number)
+
     context = {
-        'favourites': favourites,
+        'page_obj': page_obj,
         'favourites_count': favourites_count,
     }
 
