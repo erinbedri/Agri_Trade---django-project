@@ -40,12 +40,12 @@
                     {% if not request.user.is_authenticated %}
                         <p class="lead" style="margin-top: 30px">
                             <a class="btn btn-primary"
-                               href="{% url 'accounts:register' %}" role="button">Register Now</a>
+                               href="{% url 'accounts:register' %}" role="button">Register Now ></a>
                         </p>
                     {% else %}
                         <p class="lead" style="margin-top: 30px">
                             <a class="btn btn-primary"
-                               href="{% url 'marketplace:marketplace' %}" role="button">Go to Marketplace</a>
+                               href="{% url 'marketplace:marketplace' %}" role="button">Go to Marketplace ></a>
                         </p>
                     {% endif %}
                 </div>
