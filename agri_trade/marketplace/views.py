@@ -1,7 +1,6 @@
 from django.contrib import messages
 from django.contrib.auth import get_user_model
 from django.contrib.auth.decorators import login_required
-from django.contrib.auth.models import User
 from django.core.paginator import Paginator
 from django.db.models import Q
 from django.http import HttpResponseRedirect
@@ -12,8 +11,8 @@ from agri_trade.accounts.models import Company
 from agri_trade.marketplace.forms import AddProductForm, EditProductForm, DeleteProductForm
 from agri_trade.marketplace.models import Product
 
-
 UserModel = get_user_model()
+
 
 @login_required
 def marketplace(request):
@@ -21,18 +20,17 @@ def marketplace(request):
 
     q = request.GET.get('q') if request.GET.get('q') is not None else ''
 
-    products = Product.objects \
-        .filter(
-            Q(name__icontains=q) |
-            Q(category__icontains=q) |
-            Q(cultivation_type__icontains=q) |
-            Q(origin__icontains=q) |
-            Q(location__icontains=q) |
-            Q(variety__icontains=q) |
-            Q(type__icontains=q) |
-            Q(description__icontains=q) |
-            Q(form__icontains=q) |
-            Q(owner__username=q)) \
+    products = Product.objects.filter(
+        Q(name__icontains=q) |
+        Q(category__icontains=q) |
+        Q(cultivation_type__icontains=q) |
+        Q(origin__icontains=q) |
+        Q(location__icontains=q) |
+        Q(variety__icontains=q) |
+        Q(type__icontains=q) |
+        Q(description__icontains=q) |
+        Q(form__icontains=q) |
+        Q(owner__username=q)) \
         .order_by('-created_on')
 
     categories = sorted({product.category for product in Product.objects.all()})
@@ -152,16 +150,40 @@ def delete_product(request, pk):
 def show_favourites(request):
     favourites_per_page = 10
 
-    favourites = get_object_or_404(Company, pk=request.user.id).favourites.all()
-    favourites_count = favourites.count()
+    q = request.GET.get('q') if request.GET.get('q') is not None else ''
+
+    favourites = get_object_or_404(Company, pk=request.user.id).favourites.filter(
+        Q(name__icontains=q) |
+        Q(category__icontains=q) |
+        Q(cultivation_type__icontains=q) |
+        Q(origin__icontains=q) |
+        Q(location__icontains=q) |
+        Q(variety__icontains=q) |
+        Q(type__icontains=q) |
+        Q(description__icontains=q) |
+        Q(form__icontains=q) |
+        Q(owner__username=q)) \
+        .order_by('-created_on')
+
+    categories = sorted({favourite.category for favourite in favourites})
+    cultivation_types = sorted({favourite.cultivation_type for favourite in favourites})
+    origins = sorted({favourite.origin.name for favourite in favourites})
+    locations = sorted({favourite.location.name for favourite in favourites})
 
     paginator = Paginator(favourites, favourites_per_page)
     page_number = request.GET.get('page')
     page_obj = paginator.get_page(page_number)
 
+    favourites_count = favourites.count()
+
     context = {
         'page_obj': page_obj,
         'favourites_count': favourites_count,
+        'categories': categories,
+        'cultivation_types': cultivation_types,
+        'origins': origins,
+        'locations': locations,
+        'query': q,
     }
 
     return render(request, 'marketplace/show_favourites.html', context)
@@ -181,4 +203,3 @@ def add_product_to_favourites(request, pk):
         is_in_favourites = True
 
     return HttpResponseRedirect(reverse('marketplace:product details', args=[str(pk)]))
-
