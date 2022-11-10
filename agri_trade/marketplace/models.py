@@ -137,4 +137,4 @@ class Product(models.Model):
     )
 
     def __str__(self):
-        return self.name
+        return f'ID: {self.id} - {self.name} ({self.variety})'
