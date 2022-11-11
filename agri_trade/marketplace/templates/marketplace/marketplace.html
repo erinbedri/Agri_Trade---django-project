@@ -30,7 +30,7 @@
                                 <div id="category" class="collapse card card-body" style="margin-top: 20px">
                                     {% for category in categories %}
                                         <div>
-                                            <a href="{% url 'marketplace:marketplace' %}?q={{ category }}">{{ category }}</a>
+                                            - <a href="{% url 'marketplace:marketplace' %}?q={{ category }}">{{ category }}</a>
                                         </div>
                                     {% endfor %}
                                 </div>
@@ -44,7 +44,7 @@
                                 <div id="cultivationType" class="collapse card card-body" style="margin-top: 20px">
                                     {% for type in cultivation_types %}
                                         <div>
-                                            <a href="{% url 'marketplace:marketplace' %}?q={{ type }}">{{ type }}</a>
+                                            - <a href="{% url 'marketplace:marketplace' %}?q={{ type }}">{{ type }}</a>
                                         </div>
                                     {% endfor %}
                                 </div>
@@ -58,7 +58,7 @@
                                 <div id="origin" class="collapse card card-body" style="margin-top: 20px">
                                     {% for origin in origins %}
                                         <div>
-                                            <a href="{% url 'marketplace:marketplace' %}?q={{ origin }}">{{ origin }}</a>
+                                            - <a href="{% url 'marketplace:marketplace' %}?q={{ origin }}">{{ origin }}</a>
                                         </div>
                                     {% endfor %}
                                 </div>
@@ -72,7 +72,7 @@
                                 <div id="location" class="collapse card card-body" style="margin-top: 20px">
                                     {% for location in locations %}
                                         <div>
-                                            <a href="{% url 'marketplace:marketplace' %}?q={{ location }}">{{ location }}</a>
+                                            - <a href="{% url 'marketplace:marketplace' %}?q={{ location }}">{{ location }}</a>
                                         </div>
                                     {% endfor %}
                                 </div>
