@@ -58,3 +58,26 @@ class Post(models.Model):
         return f'{self.topic} - {self.author}'
 
 
+class PostComment(models.Model):
+    COMMENT_MAX_LEN = 500
+
+    author = models.ForeignKey(
+        UserModel,
+        on_delete=CASCADE,
+    )
+
+    post = models.ForeignKey(
+        Post,
+        on_delete=CASCADE,
+    )
+
+    body = models.TextField(
+        max_length=COMMENT_MAX_LEN,
+    )
+
+    created_on = models.DateTimeField(
+        auto_now_add=True
+    )
+
+    def __str__(self):
+        return f'Comment by {self.author}.'
