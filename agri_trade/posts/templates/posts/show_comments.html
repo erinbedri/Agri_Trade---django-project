@@ -20,15 +20,15 @@
                                     <span class="badge rounded-pill bg-primary">{{ forloop.counter }}</span>
                                     <b>{{ comment.author }}</b> said {{ comment.created_on|timesince }} ago
                                 </div>
-                                <div class="col text-end">
-                                    {% if request.user.is_authenticated %}
-                                        <a href="#"><span class="badge rounded-pill bg-success">+ 5</span></a>
-                                        <a href="#"><span class="badge rounded-pill bg-danger">- 4</span></a>
-                                    {% else %}
-                                        <span class="badge rounded-pill bg-success">+ 5</span>
-                                        <span class="badge rounded-pill bg-danger">- 4</span>
-                                    {% endif %}
-                                </div>
+{#                                <div class="col text-end">#}
+{#                                    {% if request.user.is_authenticated %}#}
+{#                                        <a href="#"><span class="badge rounded-pill bg-success">+ 5</span></a>#}
+{#                                        <a href="#"><span class="badge rounded-pill bg-danger">- 4</span></a>#}
+{#                                    {% else %}#}
+{#                                        <span class="badge rounded-pill bg-success">+ 5</span>#}
+{#                                        <span class="badge rounded-pill bg-danger">- 4</span>#}
+{#                                    {% endif %}#}
+{#                                </div>#}
                             </div>
                         </div>
                         <div class="card-body">

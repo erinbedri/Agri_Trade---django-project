@@ -6,4 +6,5 @@ urlpatterns = [
     path('all/', views.show_posts, name='show posts'),
     path('post/<int:pk>/', views.show_post, name='show post'),
     path('post/<int:pk>/comments/', views.show_comments, name='show comments'),
+    # path('post/<int:pk_1>/comments/comment/<int:pk_2>', views.vote_comment, name='vote comments'),
 ]
