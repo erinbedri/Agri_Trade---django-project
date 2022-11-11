@@ -15,8 +15,16 @@
                 {% for comment in comments %}
                     <div class="card" style="margin-top: 10px">
                         <div class="card-header" style="background-color: #e3f2fd">
-                            <span class="badge rounded-pill bg-primary">{{ forloop.counter }}</span>
-                            <b>{{ comment.author }}</b> said {{ comment.created_on|timesince }} ago
+                            <div class="row">
+                                <div class="col">
+                                    <span class="badge rounded-pill bg-primary">{{ forloop.counter }}</span>
+                                    <b>{{ comment.author }}</b> said {{ comment.created_on|timesince }} ago
+                                </div>
+                                <div class="col text-end">
+                                    <span class="badge rounded-pill bg-success">+ 5</span>
+                                    <span class="badge rounded-pill bg-danger">- 4</span>
+                                </div>
+                            </div>
                         </div>
                         <div class="card-body">
                             <blockquote class="blockquote mb-0">
