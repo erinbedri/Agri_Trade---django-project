@@ -28,3 +28,8 @@ INFO C:\Users\ebedr\Desktop\erin\agri_trade\agri_trade\settings.py changed, relo
 [2022-11-14 17:21:18,013] - [INFO] "GET /posts/all/ HTTP/1.1" 200 6589
 [2022-11-14 17:21:18,356] - [INFO] "GET / HTTP/1.1" 200 4909
 [2022-11-14 17:21:18,690] - [INFO] "GET / HTTP/1.1" 200 4909
+[2022-11-14 17:21:57,439] - [INFO] "GET /accounts/login/ HTTP/1.1" 200 4543
+[2022-11-14 17:21:59,162] - [INFO] "POST /accounts/login/ HTTP/1.1" 302 0
+[2022-11-14 17:21:59,226] - [INFO] "GET /marketplace/ HTTP/1.1" 200 22017
+[2022-11-14 17:22:33,172] - [INFO] "GET /posts/all/ HTTP/1.1" 200 8108
+[2022-11-14 17:22:34,115] - [INFO] "GET / HTTP/1.1" 200 6427
