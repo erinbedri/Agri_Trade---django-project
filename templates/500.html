@@ -1,0 +1,17 @@
+{% extends 'web/base.html' %}
+{% load static %}
+
+{% block content %}
+    <div class="container" style="margin-top: 30px; margin-bottom: 50px">
+        <div class="row justify-content-md-center">
+            <div class="col-md-10">
+                <h3>500</h3>
+                <h4>Internal server error</h4>
+                <div style="margin-top: 30px">
+                    <p>The server has been deserted for a while. Please be patient or try again later.</p>
+                    <p>Maybe our <a href="{% url 'web:homepage' %}">homepage</a> can help you out.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+{% endblock %}
