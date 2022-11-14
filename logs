@@ -1,0 +1,11 @@
+WARNING "GET /static/flags/__.gif HTTP/1.1" 404 1795
+INFO Watching for file changes with StatReloader
+INFO "GET /posts/all/ HTTP/1.1" 200 8108
+INFO "GET /posts/all/ HTTP/1.1" 200 8108
+INFO C:\Users\ebedr\Desktop\erin\agri_trade\agri_trade\settings.py changed, reloading.
+2022-11-14 17:17:56,287 [INFO] Watching for file changes with StatReloader
+2022-11-14 17:18:09,988 [INFO] "GET /marketplace/product-add/ HTTP/1.1" 200 32264
+2022-11-14 17:18:10,019 [WARNING] "GET /static/flags/__.gif HTTP/1.1" 404 1795
+2022-11-14 17:18:10,962 [INFO] "GET /messages/ HTTP/1.1" 200 6247
+2022-11-14 17:18:12,259 [INFO] "GET / HTTP/1.1" 200 6427
+2022-11-14 17:18:12,525 [INFO] "GET /posts/all/ HTTP/1.1" 200 8108
