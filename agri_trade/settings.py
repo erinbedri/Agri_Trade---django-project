@@ -122,11 +122,11 @@ LOGGING = {
     'disable_existing_loggers': False,
     'formatters': {
         'verbose': {
-            'format': '{asctime} [{levelname}] {asctime} {module} {process:d} {thread:d} {message}',
+            'format': '[{asctime}] - [{levelname}] {module} {process:d} {thread:d} {message}',
             'style': '{',
         },
         'simple': {
-            'format': '{asctime} [{levelname}] {message}',
+            'format': '[{asctime}] - [{levelname}] {message}',
             'style': '{',
         },
     },
