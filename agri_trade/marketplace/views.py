@@ -207,11 +207,18 @@ def add_product_to_favourites(request, pk):
 
 @login_required
 def show_my_products(request):
+    my_products_per_page = 10
+
     my_products = Product.objects.filter(owner_id=request.user.id)
     my_products_count = my_products.count()
 
+    paginator = Paginator(my_products, my_products_per_page)
+    page_number = request.GET.get('page')
+    page_obj = paginator.get_page(page_number)
+
     context = {
-        'my_products': my_products,
+        'my_products': page_obj,
+        'page_obj': page_obj,
         'my_products_count': my_products_count,
     }
 

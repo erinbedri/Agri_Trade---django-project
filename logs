@@ -294,3 +294,17 @@ django.template.exceptions.TemplateSyntaxError: Invalid filter: 'intcomma'
 [2022-11-16 14:54:01,115] - [INFO] "GET /marketplace/ HTTP/1.1" 200 22803
 [2022-11-16 14:54:05,008] - [INFO] "GET /marketplace/favourites/ HTTP/1.1" 200 19667
 [2022-11-16 14:54:06,222] - [INFO] "GET /marketplace/my-products/ HTTP/1.1" 200 11008
+[2022-11-16 14:54:53,704] - [INFO] "GET /marketplace/my-products/ HTTP/1.1" 200 11004
+[2022-11-16 14:54:54,201] - [INFO] "GET /marketplace/my-products/ HTTP/1.1" 200 11004
+[2022-11-16 14:56:46,989] - [INFO] "GET /marketplace/my-products/ HTTP/1.1" 200 11004
+[2022-11-16 14:56:47,081] - [INFO] C:\Users\ebedr\Desktop\erin\agri_trade\agri_trade\marketplace\views.py changed, reloading.
+[2022-11-16 14:56:48,262] - [INFO] Watching for file changes with StatReloader
+[2022-11-16 14:56:50,095] - [INFO] "GET /marketplace/my-products/ HTTP/1.1" 200 12111
+[2022-11-16 14:57:13,869] - [INFO] "GET /marketplace/my-products/ HTTP/1.1" 200 12111
+[2022-11-16 14:57:14,380] - [INFO] "GET /marketplace/my-products/ HTTP/1.1" 200 12111
+[2022-11-16 14:57:14,594] - [INFO] "GET /marketplace/my-products/ HTTP/1.1" 200 12111
+[2022-11-16 14:57:14,772] - [INFO] "GET /marketplace/my-products/ HTTP/1.1" 200 12111
+[2022-11-16 14:57:14,813] - [INFO] C:\Users\ebedr\Desktop\erin\agri_trade\agri_trade\marketplace\views.py changed, reloading.
+[2022-11-16 14:57:15,560] - [INFO] Watching for file changes with StatReloader
+[2022-11-16 14:57:16,337] - [INFO] "GET /marketplace/my-products/ HTTP/1.1" 200 12113
+[2022-11-16 14:57:21,729] - [INFO] "GET /marketplace/product-details/19 HTTP/1.1" 200 7931
