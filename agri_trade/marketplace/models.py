@@ -50,7 +50,7 @@ class Product(models.Model):
 
     PRICE_MIN_VALUE = 0
 
-    DESCRIPTION_MAX_LEN = 500
+    DESCRIPTION_MAX_LEN = 1500
 
     owner = models.ForeignKey(
         UserModel,
