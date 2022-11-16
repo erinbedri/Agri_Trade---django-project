@@ -173,3 +173,22 @@ INFO C:\Users\ebedr\Desktop\erin\agri_trade\agri_trade\settings.py changed, relo
 [2022-11-16 14:32:47,752] - [INFO] "GET /admin/auth/user/ HTTP/1.1" 200 12636
 [2022-11-16 14:32:47,790] - [INFO] "GET /admin/jsi18n/ HTTP/1.1" 200 3343
 [2022-11-16 14:32:56,852] - [INFO] "GET /admin/ HTTP/1.1" 200 9108
+[2022-11-16 14:34:50,402] - [INFO] C:\Users\ebedr\Desktop\erin\agri_trade\agri_trade\urls.py changed, reloading.
+[2022-11-16 14:34:51,396] - [INFO] Watching for file changes with StatReloader
+[2022-11-16 14:34:51,788] - [INFO] "GET /admin/ HTTP/1.1" 200 9104
+[2022-11-16 14:35:11,271] - [INFO] "GET /admin/ HTTP/1.1" 200 9104
+[2022-11-16 14:35:11,497] - [INFO] C:\Users\ebedr\Desktop\erin\agri_trade\agri_trade\urls.py changed, reloading.
+[2022-11-16 14:35:12,293] - [INFO] Watching for file changes with StatReloader
+[2022-11-16 14:35:12,978] - [INFO] "GET /admin/ HTTP/1.1" 200 9112
+[2022-11-16 14:36:17,881] - [INFO] "GET /admin/ HTTP/1.1" 200 9112
+[2022-11-16 14:36:20,903] - [INFO] "POST /admin/logout/ HTTP/1.1" 200 1553
+[2022-11-16 14:36:23,267] - [INFO] "GET /admin/ HTTP/1.1" 302 0
+[2022-11-16 14:36:23,283] - [INFO] "GET /admin/login/?next=/admin/ HTTP/1.1" 200 2222
+[2022-11-16 14:36:30,117] - [INFO] "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+[2022-11-16 14:36:30,135] - [INFO] "GET /admin/ HTTP/1.1" 200 9112
+[2022-11-16 14:37:26,782] - [INFO] "POST /admin/logout/ HTTP/1.1" 200 1553
+[2022-11-16 14:37:29,082] - [INFO] "GET / HTTP/1.1" 200 4909
+[2022-11-16 14:37:30,317] - [INFO] "GET /accounts/login/ HTTP/1.1" 200 4543
+[2022-11-16 14:37:35,591] - [INFO] "POST /accounts/login/ HTTP/1.1" 200 5105
+[2022-11-16 14:37:44,351] - [INFO] "POST /accounts/login/ HTTP/1.1" 302 0
+[2022-11-16 14:37:44,399] - [INFO] "GET /marketplace/ HTTP/1.1" 200 22815
