@@ -203,3 +203,16 @@ def add_product_to_favourites(request, pk):
         is_in_favourites = True
 
     return HttpResponseRedirect(reverse('marketplace:product details', args=[str(pk)]))
+
+
+@login_required
+def show_my_products(request):
+    my_products = Product.objects.filter(owner_id=request.user.id)
+    my_products_count = my_products.count()
+
+    context = {
+        'my_products': my_products,
+        'my_products_count': my_products_count,
+    }
+
+    return render(request, 'marketplace/show_my_products.html', context)

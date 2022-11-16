@@ -192,3 +192,105 @@ INFO C:\Users\ebedr\Desktop\erin\agri_trade\agri_trade\settings.py changed, relo
 [2022-11-16 14:37:35,591] - [INFO] "POST /accounts/login/ HTTP/1.1" 200 5105
 [2022-11-16 14:37:44,351] - [INFO] "POST /accounts/login/ HTTP/1.1" 302 0
 [2022-11-16 14:37:44,399] - [INFO] "GET /marketplace/ HTTP/1.1" 200 22815
+[2022-11-16 14:41:22,138] - [INFO] "GET /marketplace/?q=In%20Conversion HTTP/1.1" 200 16393
+[2022-11-16 14:41:25,270] - [INFO] "GET /marketplace/?q=ghjghk HTTP/1.1" 200 14457
+[2022-11-16 14:41:29,753] - [INFO] "GET /marketplace/ HTTP/1.1" 200 22501
+[2022-11-16 14:41:33,121] - [INFO] "GET /marketplace/favourites/ HTTP/1.1" 200 19365
+[2022-11-16 14:45:08,114] - [INFO] C:\Users\ebedr\Desktop\erin\agri_trade\agri_trade\marketplace\views.py changed, reloading.
+[2022-11-16 14:45:09,077] - [INFO] Watching for file changes with StatReloader
+[2022-11-16 14:45:53,573] - [INFO] "GET /marketplace/favourites/ HTTP/1.1" 200 19667
+[2022-11-16 14:45:55,648] - [INFO] "GET /marketplace/my-products/ HTTP/1.1" 200 0
+[2022-11-16 14:46:40,680] - [INFO] "GET /marketplace/my-products/ HTTP/1.1" 200 4920
+[2022-11-16 14:48:51,913] - [INFO] "GET /marketplace/my-products/ HTTP/1.1" 200 4920
+[2022-11-16 14:48:52,555] - [INFO] C:\Users\ebedr\Desktop\erin\agri_trade\agri_trade\marketplace\views.py changed, reloading.
+[2022-11-16 14:48:53,262] - [INFO] Watching for file changes with StatReloader
+[2022-11-16 14:48:53,601] - [ERROR] Internal Server Error: /marketplace/my-products/
+Traceback (most recent call last):
+  File "C:\Users\ebedr\Desktop\erin\agri_trade\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\ebedr\Desktop\erin\agri_trade\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\ebedr\Desktop\erin\agri_trade\venv\lib\site-packages\django\contrib\auth\decorators.py", line 23, in _wrapped_view
+    return view_func(request, *args, **kwargs)
+  File "C:\Users\ebedr\Desktop\erin\agri_trade\agri_trade\marketplace\views.py", line 218, in show_my_products
+    return render(request, 'marketplace/show_my_products.html', context)
+  File "C:\Users\ebedr\Desktop\erin\agri_trade\venv\lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\ebedr\Desktop\erin\agri_trade\venv\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "C:\Users\ebedr\Desktop\erin\agri_trade\venv\lib\site-packages\django\template\loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+  File "C:\Users\ebedr\Desktop\erin\agri_trade\venv\lib\site-packages\django\template\backends\django.py", line 34, in get_template
+    return Template(self.engine.get_template(template_name), self)
+  File "C:\Users\ebedr\Desktop\erin\agri_trade\venv\lib\site-packages\django\template\engine.py", line 175, in get_template
+    template, origin = self.find_template(template_name)
+  File "C:\Users\ebedr\Desktop\erin\agri_trade\venv\lib\site-packages\django\template\engine.py", line 157, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "C:\Users\ebedr\Desktop\erin\agri_trade\venv\lib\site-packages\django\template\loaders\cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+  File "C:\Users\ebedr\Desktop\erin\agri_trade\venv\lib\site-packages\django\template\loaders\base.py", line 28, in get_template
+    return Template(
+  File "C:\Users\ebedr\Desktop\erin\agri_trade\venv\lib\site-packages\django\template\base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "C:\Users\ebedr\Desktop\erin\agri_trade\venv\lib\site-packages\django\template\base.py", line 200, in compile_nodelist
+    return parser.parse()
+  File "C:\Users\ebedr\Desktop\erin\agri_trade\venv\lib\site-packages\django\template\base.py", line 513, in parse
+    raise self.error(token, e)
+  File "C:\Users\ebedr\Desktop\erin\agri_trade\venv\lib\site-packages\django\template\base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+  File "C:\Users\ebedr\Desktop\erin\agri_trade\venv\lib\site-packages\django\template\loader_tags.py", line 293, in do_extends
+    nodelist = parser.parse()
+  File "C:\Users\ebedr\Desktop\erin\agri_trade\venv\lib\site-packages\django\template\base.py", line 513, in parse
+    raise self.error(token, e)
+  File "C:\Users\ebedr\Desktop\erin\agri_trade\venv\lib\site-packages\django\template\base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+  File "C:\Users\ebedr\Desktop\erin\agri_trade\venv\lib\site-packages\django\template\loader_tags.py", line 232, in do_block
+    nodelist = parser.parse(("endblock",))
+  File "C:\Users\ebedr\Desktop\erin\agri_trade\venv\lib\site-packages\django\template\base.py", line 513, in parse
+    raise self.error(token, e)
+  File "C:\Users\ebedr\Desktop\erin\agri_trade\venv\lib\site-packages\django\template\base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+  File "C:\Users\ebedr\Desktop\erin\agri_trade\venv\lib\site-packages\django\template\defaulttags.py", line 854, in do_for
+    nodelist_loop = parser.parse(
+  File "C:\Users\ebedr\Desktop\erin\agri_trade\venv\lib\site-packages\django\template\base.py", line 484, in parse
+    raise self.error(token, e)
+  File "C:\Users\ebedr\Desktop\erin\agri_trade\venv\lib\site-packages\django\template\base.py", line 482, in parse
+    filter_expression = self.compile_filter(token.contents)
+  File "C:\Users\ebedr\Desktop\erin\agri_trade\venv\lib\site-packages\django\template\base.py", line 600, in compile_filter
+    return FilterExpression(token, self)
+  File "C:\Users\ebedr\Desktop\erin\agri_trade\venv\lib\site-packages\django\template\base.py", line 698, in __init__
+    filter_func = parser.find_filter(filter_name)
+  File "C:\Users\ebedr\Desktop\erin\agri_trade\venv\lib\site-packages\django\template\base.py", line 606, in find_filter
+    raise TemplateSyntaxError("Invalid filter: '%s'" % filter_name)
+django.template.exceptions.TemplateSyntaxError: Invalid filter: 'intcomma'
+[2022-11-16 14:48:53,607] - [ERROR] "GET /marketplace/my-products/ HTTP/1.1" 500 216447
+[2022-11-16 14:49:09,973] - [INFO] "GET /marketplace/my-products/ HTTP/1.1" 200 12467
+[2022-11-16 14:49:13,558] - [INFO] "GET /marketplace/my-products/ HTTP/1.1" 200 12467
+[2022-11-16 14:49:49,442] - [INFO] "GET /marketplace/my-products/ HTTP/1.1" 200 12543
+[2022-11-16 14:49:50,015] - [INFO] "GET /marketplace/my-products/ HTTP/1.1" 200 12543
+[2022-11-16 14:49:50,516] - [INFO] "GET /marketplace/my-products/ HTTP/1.1" 200 12543
+[2022-11-16 14:49:50,767] - [INFO] "GET /marketplace/my-products/ HTTP/1.1" 200 12543
+[2022-11-16 14:49:50,956] - [INFO] "GET /marketplace/my-products/ HTTP/1.1" 200 12543
+[2022-11-16 14:51:46,185] - [INFO] "GET /marketplace/my-products/ HTTP/1.1" 200 12543
+[2022-11-16 14:51:47,575] - [INFO] "GET /marketplace/my-products/ HTTP/1.1" 200 13219
+[2022-11-16 14:51:48,197] - [INFO] "GET /marketplace/my-products/ HTTP/1.1" 200 13219
+[2022-11-16 14:51:59,646] - [INFO] "GET /marketplace/my-products/ HTTP/1.1" 200 13219
+[2022-11-16 14:52:00,178] - [INFO] "GET /marketplace/my-products/ HTTP/1.1" 200 13219
+[2022-11-16 14:52:01,006] - [INFO] "GET /marketplace/my-products/ HTTP/1.1" 200 12710
+[2022-11-16 14:52:04,041] - [INFO] "GET /marketplace/ HTTP/1.1" 200 22803
+[2022-11-16 14:52:05,790] - [INFO] "GET /marketplace/my-products/ HTTP/1.1" 200 12710
+[2022-11-16 14:52:43,153] - [INFO] "GET /marketplace/my-products/ HTTP/1.1" 200 12710
+[2022-11-16 14:52:44,013] - [INFO] "GET /marketplace/my-products/ HTTP/1.1" 200 11559
+[2022-11-16 14:52:44,678] - [INFO] "GET /marketplace/my-products/ HTTP/1.1" 200 11559
+[2022-11-16 14:52:49,409] - [INFO] "GET /marketplace/ HTTP/1.1" 200 22803
+[2022-11-16 14:52:51,685] - [INFO] "GET /marketplace/my-products/ HTTP/1.1" 200 11559
+[2022-11-16 14:53:13,325] - [INFO] "GET /marketplace/my-products/ HTTP/1.1" 200 11559
+[2022-11-16 14:53:14,045] - [INFO] "GET /marketplace/my-products/ HTTP/1.1" 200 11008
+[2022-11-16 14:53:18,025] - [INFO] "GET /marketplace/product-details/19 HTTP/1.1" 200 7931
+[2022-11-16 14:53:18,171] - [INFO] "GET /static/img/no_photo.jpg HTTP/1.1" 200 16804
+[2022-11-16 14:53:29,956] - [INFO] "GET /marketplace/ HTTP/1.1" 200 22803
+[2022-11-16 14:53:46,097] - [INFO] "GET /marketplace/favourites/ HTTP/1.1" 200 19667
+[2022-11-16 14:53:51,868] - [INFO] "GET /accounts/account/ HTTP/1.1" 200 10565
+[2022-11-16 14:54:01,115] - [INFO] "GET /marketplace/ HTTP/1.1" 200 22803
+[2022-11-16 14:54:05,008] - [INFO] "GET /marketplace/favourites/ HTTP/1.1" 200 19667
+[2022-11-16 14:54:06,222] - [INFO] "GET /marketplace/my-products/ HTTP/1.1" 200 11008

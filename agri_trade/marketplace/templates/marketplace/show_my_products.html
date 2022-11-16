@@ -1,0 +1,62 @@
+{% extends 'web/base.html' %}
+{% load humanize %}
+
+{% block content %}
+    <div class="container-fluid" style="margin-top: 30px">
+        <div class="row">
+            <div class="col-2">
+                <div class="container">
+                    <div class="row justify-content-md-left">
+                        {% comment %}
+                            Add Search and Filter here
+                        {% endcomment %}
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-10">
+                <h3>My Products</h3>
+                <p> Total Products: {{ my_products_count }}</p>
+                <div class="container">
+                    <table class="table table-hover" style="margin-top: 30px">
+                        <thead>
+                        <tr>
+                            <th scope="col">Produce</th>
+                            <th scope="col">Category</th>
+                            <th scope="col">Variety</th>
+                            <th scope="col">Type</th>
+                            <th scope="col">Form</th>
+                            <th scope="col">Size</th>
+                            <th scope="col">Cultivation</th>
+                            <th scope="col">Origin</th>
+                            <th scope="col">Location</th>
+                            <th scope="col">Volume</th>
+                            <th scope="col">Price</th>
+                        </tr>
+                        </thead>
+                        <tbody>
+                        {% for product in my_products %}
+                            <tr onclick="window.location='{% url "marketplace:product details" product.id %}';">
+                                <td>{{ product.name }}</td>
+                                <td>{{ product.category }}</td>
+                                <td>{% if product.variety %}{{ product.variety }}{% endif %}</td>
+                                <td>{% if product.type %}{{ product.type }}{% endif %}</td>
+                                <td>{% if product.form %}{{ product.form }}{% endif %}</td>
+                                <td>{% if product.size %}{{ product.size }}{% endif %}</td>
+                                <td>{{ product.cultivation_type }}</td>
+                                <td>{{ product.origin.name }}</td>
+                                <td>{{ product.location.name }}</td>
+                                <td>{{ product.available_volume|intcomma }} KG</td>
+                                <td>EUR {{ product.price|floatformat:2 }} / KG</td>
+                            </tr>
+                        {% empty %}
+                            <p>You do not have any products yet.</p>
+                        {% endfor %}
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+
+{% endblock %}
