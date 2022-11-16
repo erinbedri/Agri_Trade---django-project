@@ -83,42 +83,6 @@ class PostComment(models.Model):
         return f'Comment by {self.author}.'
 
 
-class PostCommentLike(models.Model):
-    comment = models.OneToOneField(
-        PostComment,
-        on_delete=CASCADE,
-    )
-
-    users = models.ManyToManyField(
-        UserModel,
-    )
-
-    created_at = models.DateTimeField(
-        auto_now_add=True
-    )
-
-    updated_at = models.DateTimeField(
-        auto_now=True
-    )
-
-
-class PostCommentDislike(models.Model):
-    comment = models.OneToOneField(
-        PostComment,
-        on_delete=CASCADE,
-    )
-
-    users = models.ManyToManyField(
-        UserModel,
-    )
-
-    created_at = models.DateTimeField(
-        auto_now_add=True
-    )
-
-    updated_at = models.DateTimeField(
-        auto_now=True
-    )
 
 
 

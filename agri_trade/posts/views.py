@@ -1,10 +1,9 @@
-from django.contrib.auth.decorators import login_required
 from django.http import HttpResponseRedirect
 from django.shortcuts import render, get_object_or_404, redirect
 from django.urls import reverse
 
 from agri_trade.posts.forms import PostCommentForm
-from agri_trade.posts.models import Post, PostComment, PostCommentLike
+from agri_trade.posts.models import Post, PostComment
 
 
 def show_posts(request):
@@ -58,21 +57,3 @@ def show_comments(request, pk):
     }
 
     return render(request, 'posts/show_comments.html', context)
-
-
-# class PostCommentLikes:
-#     pass
-#
-#
-# @login_required
-# def vote_comment(request, pk_1, pk_2):
-#     comment = get_object_or_404(PostComment, pk=pk_2)
-#
-#     if PostCommentLike.objects.filter(postcommentlike=request.user.id).exists():
-#         PostCommentLike.objects.remove(request.user)
-#         liked = False
-#     else:
-#         watch.likes.add(request.user)
-#         liked = True
-#
-#     return HttpResponseRedirect(reverse('posts:show comments', args=[str(pk_1)]))
