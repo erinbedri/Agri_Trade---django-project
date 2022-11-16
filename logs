@@ -66,3 +66,110 @@ INFO C:\Users\ebedr\Desktop\erin\agri_trade\agri_trade\settings.py changed, relo
 [2022-11-16 14:19:22,873] - [INFO] Watching for file changes with StatReloader
 [2022-11-16 14:20:32,746] - [INFO] C:\Users\ebedr\Desktop\erin\agri_trade\agri_trade\posts\views.py changed, reloading.
 [2022-11-16 14:20:33,355] - [INFO] Watching for file changes with StatReloader
+[2022-11-16 14:22:14,622] - [INFO] "GET /admin/ HTTP/1.1" 302 0
+[2022-11-16 14:22:14,687] - [INFO] "GET /admin/login/?next=/admin/ HTTP/1.1" 200 2374
+[2022-11-16 14:22:15,224] - [INFO] "GET /static/admin/css/dark_mode.css HTTP/1.1" 200 796
+[2022-11-16 14:22:15,226] - [INFO] "GET /static/admin/css/nav_sidebar.css HTTP/1.1" 200 2619
+[2022-11-16 14:22:15,226] - [INFO] "GET /static/admin/css/login.css HTTP/1.1" 200 958
+[2022-11-16 14:22:15,226] - [INFO] "GET /static/admin/css/responsive.css HTTP/1.1" 200 18854
+[2022-11-16 14:22:15,227] - [INFO] "GET /static/admin/css/base.css HTTP/1.1" 200 20344
+[2022-11-16 14:22:15,229] - [INFO] "GET /static/admin/js/nav_sidebar.js HTTP/1.1" 200 3763
+[2022-11-16 14:22:15,662] - [INFO] "GET /admin/ HTTP/1.1" 302 0
+[2022-11-16 14:22:15,673] - [INFO] "GET /admin/login/?next=/admin/ HTTP/1.1" 200 2374
+[2022-11-16 14:22:15,725] - [INFO] "GET /static/admin/css/fonts.css HTTP/1.1" 200 423
+[2022-11-16 14:22:15,761] - [INFO] "GET /static/admin/fonts/Roboto-Light-webfont.woff HTTP/1.1" 200 85692
+[2022-11-16 14:22:15,762] - [INFO] "GET /static/admin/fonts/Roboto-Regular-webfont.woff HTTP/1.1" 200 85876
+[2022-11-16 14:22:15,762] - [INFO] "GET /static/admin/fonts/Roboto-Bold-webfont.woff HTTP/1.1" 200 86184
+[2022-11-16 14:22:19,510] - [INFO] "POST /admin/login/?next=/admin/ HTTP/1.1" 200 2535
+[2022-11-16 14:22:22,193] - [INFO] "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+[2022-11-16 14:22:22,227] - [INFO] "GET /admin/ HTTP/1.1" 200 9108
+[2022-11-16 14:22:22,254] - [INFO] "GET /static/admin/css/dashboard.css HTTP/1.1" 200 380
+[2022-11-16 14:22:22,284] - [INFO] "GET /static/admin/img/icon-changelink.svg HTTP/1.1" 200 380
+[2022-11-16 14:22:22,284] - [INFO] "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 200 331
+[2022-11-16 14:22:22,284] - [INFO] "GET /static/admin/img/icon-deletelink.svg HTTP/1.1" 200 392
+[2022-11-16 14:22:25,453] - [INFO] "GET /admin/auth/user/ HTTP/1.1" 200 12636
+[2022-11-16 14:22:25,491] - [INFO] "GET /static/admin/css/changelists.css HTTP/1.1" 200 6395
+[2022-11-16 14:22:25,496] - [INFO] "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+[2022-11-16 14:22:25,496] - [INFO] "GET /static/admin/js/jquery.init.js HTTP/1.1" 200 347
+[2022-11-16 14:22:25,500] - [INFO] "GET /static/admin/js/core.js HTTP/1.1" 200 5698
+[2022-11-16 14:22:25,501] - [INFO] "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 200 8985
+[2022-11-16 14:22:25,507] - [INFO] "GET /static/admin/js/actions.js HTTP/1.1" 200 7872
+[2022-11-16 14:22:25,509] - [INFO] "GET /static/admin/js/urlify.js HTTP/1.1" 200 7902
+[2022-11-16 14:22:25,509] - [INFO] "GET /static/admin/js/prepopulate.js HTTP/1.1" 200 1531
+[2022-11-16 14:22:25,534] - [INFO] "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 200 288580
+[2022-11-16 14:22:25,543] - [INFO] "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 200 232381
+[2022-11-16 14:22:25,548] - [INFO] "GET /static/admin/js/filters.js HTTP/1.1" 200 966
+[2022-11-16 14:22:25,554] - [INFO] "GET /static/admin/img/search.svg HTTP/1.1" 200 458
+[2022-11-16 14:22:25,560] - [INFO] "GET /static/admin/img/icon-no.svg HTTP/1.1" 200 560
+[2022-11-16 14:22:25,560] - [INFO] "GET /static/admin/img/icon-yes.svg HTTP/1.1" 200 436
+[2022-11-16 14:22:25,571] - [INFO] "GET /static/admin/img/sorting-icons.svg HTTP/1.1" 200 1097
+[2022-11-16 14:22:25,571] - [INFO] "GET /static/admin/img/tooltag-add.svg HTTP/1.1" 200 331
+[2022-11-16 14:22:36,589] - [INFO] "GET /admin/marketplace/product/ HTTP/1.1" 200 20722
+[2022-11-16 14:22:36,618] - [INFO] "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+[2022-11-16 14:22:44,796] - [INFO] "GET /admin/posts/post/ HTTP/1.1" 200 9444
+[2022-11-16 14:22:44,829] - [INFO] "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+[2022-11-16 14:22:46,585] - [INFO] "GET /admin/user_messages/message/ HTTP/1.1" 200 15055
+[2022-11-16 14:22:46,606] - [INFO] "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+[2022-11-16 14:22:48,679] - [INFO] "GET /admin/marketplace/product/ HTTP/1.1" 200 20722
+[2022-11-16 14:22:48,713] - [INFO] "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+[2022-11-16 14:23:51,467] - [INFO] "GET /admin/marketplace/product/28/change/ HTTP/1.1" 200 37609
+[2022-11-16 14:23:51,499] - [INFO] "GET /static/admin/css/forms.css HTTP/1.1" 200 8944
+[2022-11-16 14:23:51,500] - [INFO] "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+[2022-11-16 14:23:51,526] - [INFO] "GET /static/admin/css/widgets.css HTTP/1.1" 200 11297
+[2022-11-16 14:23:51,527] - [INFO] "GET /static/admin/js/prepopulate_init.js HTTP/1.1" 200 586
+[2022-11-16 14:23:51,541] - [INFO] "GET /static/admin/img/icon-viewlink.svg HTTP/1.1" 200 581
+[2022-11-16 14:23:51,542] - [INFO] "GET /static/admin/js/change_form.js HTTP/1.1" 200 606
+[2022-11-16 14:24:12,002] - [INFO] "GET /admin/marketplace/product/ HTTP/1.1" 200 20722
+[2022-11-16 14:26:42,938] - [INFO] C:\Users\ebedr\Desktop\erin\agri_trade\agri_trade\marketplace\admin.py changed, reloading.
+[2022-11-16 14:26:43,883] - [INFO] Watching for file changes with StatReloader
+[2022-11-16 14:27:03,110] - [INFO] C:\Users\ebedr\Desktop\erin\agri_trade\agri_trade\marketplace\admin.py changed, reloading.
+[2022-11-16 14:27:03,804] - [INFO] Watching for file changes with StatReloader
+[2022-11-16 14:27:04,082] - [INFO] "GET /admin/marketplace/product/ HTTP/1.1" 200 19552
+[2022-11-16 14:27:04,116] - [INFO] "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+[2022-11-16 14:30:42,326] - [INFO] "GET /admin/posts/post/ HTTP/1.1" 200 9444
+[2022-11-16 14:30:42,365] - [INFO] "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+[2022-11-16 14:31:10,499] - [INFO] C:\Users\ebedr\Desktop\erin\agri_trade\agri_trade\posts\admin.py changed, reloading.
+[2022-11-16 14:31:11,168] - [INFO] Watching for file changes with StatReloader
+[2022-11-16 14:31:11,958] - [INFO] "GET /admin/posts/post/ HTTP/1.1" 200 9533
+[2022-11-16 14:31:11,995] - [INFO] "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+[2022-11-16 14:31:25,771] - [INFO] "GET /admin/posts/post/ HTTP/1.1" 200 9533
+[2022-11-16 14:31:25,797] - [INFO] "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+[2022-11-16 14:31:26,081] - [INFO] C:\Users\ebedr\Desktop\erin\agri_trade\agri_trade\posts\admin.py changed, reloading.
+[2022-11-16 14:31:27,104] - [INFO] Watching for file changes with StatReloader
+[2022-11-16 14:31:27,840] - [INFO] "GET /admin/posts/post/ HTTP/1.1" 200 9533
+[2022-11-16 14:31:27,869] - [INFO] "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+[2022-11-16 14:31:36,352] - [INFO] "GET /admin/posts/post/6/change/ HTTP/1.1" 200 16445
+[2022-11-16 14:31:36,385] - [INFO] "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+[2022-11-16 14:31:36,580] - [INFO] "GET /static/ckeditor/ckeditor-init.js HTTP/1.1" 200 1526
+[2022-11-16 14:31:36,706] - [INFO] "GET /static/ckeditor/ckeditor/ckeditor.js HTTP/1.1" 200 756028
+[2022-11-16 14:31:36,779] - [INFO] "GET /static/ckeditor/ckeditor/config.js?t=M6K9 HTTP/1.1" 200 336
+[2022-11-16 14:31:36,827] - [INFO] "GET /static/ckeditor/ckeditor/skins/moono-lisa/editor.css?t=M6K9 HTTP/1.1" 200 48309
+[2022-11-16 14:31:36,828] - [INFO] "GET /static/ckeditor/ckeditor/lang/en.js?t=M6K9 HTTP/1.1" 200 17503
+[2022-11-16 14:31:36,844] - [INFO] "GET /static/ckeditor/ckeditor/styles.js?t=M6K9 HTTP/1.1" 200 5577
+[2022-11-16 14:31:36,855] - [INFO] "GET /static/ckeditor/ckeditor/plugins/scayt/skins/moono-lisa/scayt.css?t=M6K9 HTTP/1.1" 200 381
+[2022-11-16 14:31:36,855] - [INFO] "GET /static/ckeditor/ckeditor/plugins/scayt/dialogs/dialog.css?t=M6K9 HTTP/1.1" 200 419
+[2022-11-16 14:31:36,857] - [INFO] "GET /static/ckeditor/ckeditor/plugins/tableselection/styles/tableselection.css?t=M6K9 HTTP/1.1" 200 1145
+[2022-11-16 14:31:36,858] - [INFO] "GET /static/ckeditor/ckeditor/plugins/dialog/styles/dialog.css?t=M6K9 HTTP/1.1" 200 249
+[2022-11-16 14:31:36,862] - [INFO] "GET /static/ckeditor/ckeditor/plugins/copyformatting/styles/copyformatting.css?t=M6K9 HTTP/1.1" 200 1511
+[2022-11-16 14:31:36,884] - [INFO] "GET /static/ckeditor/ckeditor/skins/moono-lisa/icons.png?t=445cf24ebd HTTP/1.1" 200 12237
+[2022-11-16 14:31:36,925] - [INFO] "GET /static/ckeditor/ckeditor/contents.css?t=M6K9 HTTP/1.1" 200 3092
+[2022-11-16 14:31:43,097] - [INFO] "GET /admin/posts/post/ HTTP/1.1" 200 9533
+[2022-11-16 14:31:48,383] - [INFO] "GET /admin/user_messages/message/ HTTP/1.1" 200 15055
+[2022-11-16 14:31:48,421] - [INFO] "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+[2022-11-16 14:32:18,941] - [INFO] "GET /admin/user_messages/message/ HTTP/1.1" 200 15055
+[2022-11-16 14:32:18,964] - [INFO] "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+[2022-11-16 14:32:19,421] - [INFO] C:\Users\ebedr\Desktop\erin\agri_trade\agri_trade\user_messages\admin.py changed, reloading.
+[2022-11-16 14:32:20,164] - [INFO] Watching for file changes with StatReloader
+[2022-11-16 14:32:20,496] - [INFO] "GET /admin/user_messages/message/ HTTP/1.1" 200 15752
+[2022-11-16 14:32:20,519] - [INFO] "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+[2022-11-16 14:32:33,559] - [INFO] "GET /admin/auth/group/ HTTP/1.1" 200 7355
+[2022-11-16 14:32:33,583] - [INFO] "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+[2022-11-16 14:32:33,940] - [INFO] "GET /admin/auth/group/ HTTP/1.1" 200 7355
+[2022-11-16 14:32:33,963] - [INFO] "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+[2022-11-16 14:32:35,033] - [INFO] "GET /admin/auth/user/ HTTP/1.1" 200 12636
+[2022-11-16 14:32:35,067] - [INFO] "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+[2022-11-16 14:32:37,810] - [INFO] "GET /admin/accounts/company/ HTTP/1.1" 200 11540
+[2022-11-16 14:32:37,841] - [INFO] "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+[2022-11-16 14:32:47,752] - [INFO] "GET /admin/auth/user/ HTTP/1.1" 200 12636
+[2022-11-16 14:32:47,790] - [INFO] "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+[2022-11-16 14:32:56,852] - [INFO] "GET /admin/ HTTP/1.1" 200 9108
