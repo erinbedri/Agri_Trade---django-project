@@ -4,6 +4,7 @@ django-ckeditor==6.5.1
 django-countries==7.4.2
 django-js-asset==2.0.0
 Pillow==9.2.0
+psycopg2==2.9.5
 sqlparse==0.4.3
 typing_extensions==4.4.0
 tzdata==2022.5
