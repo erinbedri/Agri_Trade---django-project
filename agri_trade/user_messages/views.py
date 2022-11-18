@@ -1,21 +1,16 @@
 from django.contrib import messages
 from django.contrib.auth.decorators import login_required
-from django.shortcuts import render, get_object_or_404, redirect
+from django.shortcuts import render, redirect
 
-from agri_trade.marketplace.models import Product
 from agri_trade.user_messages.forms import SendMessageForm, DeleteMessageForm, ReplyMessageForm
-from agri_trade.user_messages.models import Message
+
+from agri_trade.user_messages import services as user_messages_services
 
 
 @login_required
 def show_messages(request):
-    messages_inbox = Message.objects\
-        .filter(receiver=request.user)\
-        .order_by('-created_at')
-
-    messages_outbox = Message.objects\
-        .filter(sender=request.user)\
-        .order_by('-created_at')
+    messages_inbox = user_messages_services.get_all_inbox_messages(user=request.user)
+    messages_outbox = user_messages_services.get_all_outbox_messages(user=request.user)
 
     context = {
         'messages_inbox': messages_inbox,
@@ -27,7 +22,7 @@ def show_messages(request):
 
 @login_required
 def show_message(request, pk):
-    message = get_object_or_404(Message, pk=pk)
+    message = user_messages_services.get_single_message(pk)
 
     if not message.is_read and message.receiver == request.user:
         message.is_read = True
@@ -42,8 +37,8 @@ def show_message(request, pk):
 
 @login_required
 def send_message(request, pk):
-    owner = get_object_or_404(Product, pk=pk).owner
-    product = get_object_or_404(Product, pk=pk)
+    product = user_messages_services.get_single_product(pk)
+    owner = product.owner
 
     if request.method == 'POST':
         form = SendMessageForm(request.POST)
@@ -62,8 +57,8 @@ def send_message(request, pk):
         form = SendMessageForm({'receiver': owner})
 
     context = {
-        'owner': owner,
         'product': product,
+        'owner': owner,
         'form': form,
     }
 
@@ -72,7 +67,7 @@ def send_message(request, pk):
 
 @login_required
 def delete_message(request, pk):
-    message = get_object_or_404(Message, pk=pk)
+    message = user_messages_services.get_single_message(pk)
 
     if request.method == 'POST':
         form = DeleteMessageForm(request.POST, instance=message)
@@ -95,7 +90,7 @@ def delete_message(request, pk):
 
 @login_required
 def reply_message(request, pk):
-    reply_to_message = get_object_or_404(Message, pk=pk)
+    reply_to_message = user_messages_services.get_single_message(pk)
     reply_to_user = reply_to_message.sender
 
     if request.method == 'POST':
@@ -121,3 +116,4 @@ def reply_message(request, pk):
     }
 
     return render(request, 'user_messages/reply_to_message.html', context)
+

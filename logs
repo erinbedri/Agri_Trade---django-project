@@ -1081,3 +1081,137 @@ LINE 1: ...ession_data", "django_session"."expire_date" FROM "django_se...
 [2022-11-18 17:20:16,993] - [INFO] "GET / HTTP/1.1" 200 7556
 [2022-11-18 17:23:44,488] - [INFO] C:\Users\ebedr\Desktop\erin\agri_trade\agri_trade\posts\services.py changed, reloading.
 [2022-11-18 17:23:45,143] - [INFO] Watching for file changes with StatReloader
+[2022-11-18 17:23:53,609] - [INFO] "GET /posts/all/ HTTP/1.1" 200 6378
+[2022-11-18 17:23:54,568] - [INFO] "GET /posts/post/1/ HTTP/1.1" 200 5565
+[2022-11-18 17:23:56,278] - [INFO] "GET /posts/post/1/comments/ HTTP/1.1" 200 7733
+[2022-11-18 17:23:58,127] - [INFO] "GET / HTTP/1.1" 200 7556
+[2022-11-18 22:33:55,110] - [INFO] Watching for file changes with StatReloader
+[2022-11-18 22:34:07,443] - [INFO] "GET /posts/all/ HTTP/1.1" 200 6389
+[2022-11-18 22:35:18,419] - [INFO] "GET /messages/ HTTP/1.1" 200 6919
+[2022-11-18 22:35:18,712] - [INFO] C:\Users\ebedr\Desktop\erin\agri_trade\agri_trade\user_messages\views.py changed, reloading.
+[2022-11-18 22:35:20,043] - [INFO] Watching for file changes with StatReloader
+[2022-11-18 22:35:20,609] - [INFO] "GET /marketplace/ HTTP/1.1" 200 10765
+[2022-11-18 22:35:21,190] - [INFO] "GET /marketplace/ HTTP/1.1" 200 10765
+[2022-11-18 22:35:21,752] - [INFO] "GET /marketplace/ HTTP/1.1" 200 10765
+[2022-11-18 22:35:22,791] - [INFO] "GET /messages/ HTTP/1.1" 200 6919
+[2022-11-18 22:37:52,278] - [INFO] "GET /posts/all/ HTTP/1.1" 200 6389
+[2022-11-18 22:37:52,343] - [INFO] C:\Users\ebedr\Desktop\erin\agri_trade\agri_trade\user_messages\services.py changed, reloading.
+[2022-11-18 22:37:53,732] - [INFO] Watching for file changes with StatReloader
+[2022-11-18 22:37:54,270] - [INFO] "GET /messages/ HTTP/1.1" 200 6919
+[2022-11-18 22:37:55,435] - [INFO] "GET /marketplace/product-add/ HTTP/1.1" 200 32938
+[2022-11-18 22:37:55,598] - [WARNING] "GET /static/flags/__.gif HTTP/1.1" 404 1795
+[2022-11-18 22:37:56,570] - [INFO] "GET /marketplace/ HTTP/1.1" 200 10765
+[2022-11-18 22:37:57,858] - [INFO] "GET /marketplace/product-add/ HTTP/1.1" 200 32938
+[2022-11-18 22:37:57,929] - [WARNING] "GET /static/flags/__.gif HTTP/1.1" 404 1795
+[2022-11-18 22:38:02,344] - [INFO] "GET /accounts/logout/ HTTP/1.1" 302 0
+[2022-11-18 22:38:02,364] - [INFO] "GET / HTTP/1.1" 200 6056
+[2022-11-18 22:38:03,738] - [INFO] "GET /accounts/login/ HTTP/1.1" 200 4986
+[2022-11-18 22:38:09,460] - [INFO] "POST /accounts/login/ HTTP/1.1" 200 5549
+[2022-11-18 22:38:11,537] - [INFO] "GET /accounts/login/ HTTP/1.1" 200 4986
+[2022-11-18 22:38:14,052] - [INFO] "POST /accounts/login/ HTTP/1.1" 302 0
+[2022-11-18 22:38:14,146] - [INFO] "GET /marketplace/ HTTP/1.1" 200 11075
+[2022-11-18 22:38:51,051] - [INFO] "GET /marketplace/ HTTP/1.1" 200 11076
+[2022-11-18 22:38:52,246] - [INFO] "GET /marketplace/ HTTP/1.1" 200 11076
+[2022-11-18 22:38:53,103] - [INFO] "GET /messages/ HTTP/1.1" 200 7820
+[2022-11-18 22:38:57,763] - [INFO] "GET /messages/message/1 HTTP/1.1" 200 6098
+[2022-11-18 22:38:58,924] - [INFO] "GET /messages/reply-to/1 HTTP/1.1" 200 6499
+[2022-11-18 22:39:02,163] - [INFO] "POST /messages/reply-to/1 HTTP/1.1" 302 0
+[2022-11-18 22:39:02,245] - [INFO] "GET /messages/ HTTP/1.1" 200 8890
+[2022-11-18 22:39:03,812] - [INFO] "GET /messages/ HTTP/1.1" 200 8589
+[2022-11-18 22:39:47,092] - [INFO] "GET /messages/ HTTP/1.1" 200 9383
+[2022-11-18 22:39:56,126] - [INFO] "GET /messages/ HTTP/1.1" 200 9383
+[2022-11-18 22:39:56,535] - [INFO] C:\Users\ebedr\Desktop\erin\agri_trade\agri_trade\user_messages\services.py changed, reloading.
+[2022-11-18 22:39:57,782] - [INFO] Watching for file changes with StatReloader
+[2022-11-18 22:39:58,376] - [INFO] "GET /messages/ HTTP/1.1" 200 9383
+[2022-11-18 22:39:58,664] - [INFO] "GET /messages/ HTTP/1.1" 200 9383
+[2022-11-18 22:39:59,300] - [INFO] "GET /messages/ HTTP/1.1" 200 9383
+[2022-11-18 22:40:01,281] - [INFO] "GET /messages/ HTTP/1.1" 200 9383
+[2022-11-18 22:40:02,038] - [INFO] "GET /messages/ HTTP/1.1" 200 9383
+[2022-11-18 22:40:06,077] - [INFO] "GET /messages/message/2 HTTP/1.1" 200 6098
+[2022-11-18 22:40:07,103] - [INFO] "GET /messages/reply-to/2 HTTP/1.1" 200 6814
+[2022-11-18 22:40:10,551] - [ERROR] Internal Server Error: /messages/reply-to/2
+Traceback (most recent call last):
+  File "C:\Users\ebedr\Desktop\erin\agri_trade\venv\lib\site-packages\django\db\backends\utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+psycopg2.errors.UniqueViolation: duplicate key value violates unique constraint "user_messages_message_pkey"
+DETAIL:  Key (id)=(3) already exists.
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\ebedr\Desktop\erin\agri_trade\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\ebedr\Desktop\erin\agri_trade\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\ebedr\Desktop\erin\agri_trade\venv\lib\site-packages\django\contrib\auth\decorators.py", line 23, in _wrapped_view
+    return view_func(request, *args, **kwargs)
+  File "C:\Users\ebedr\Desktop\erin\agri_trade\agri_trade\user_messages\views.py", line 106, in reply_message
+    message.save()
+  File "C:\Users\ebedr\Desktop\erin\agri_trade\venv\lib\site-packages\django\db\models\base.py", line 812, in save
+    self.save_base(
+  File "C:\Users\ebedr\Desktop\erin\agri_trade\venv\lib\site-packages\django\db\models\base.py", line 863, in save_base
+    updated = self._save_table(
+  File "C:\Users\ebedr\Desktop\erin\agri_trade\venv\lib\site-packages\django\db\models\base.py", line 1006, in _save_table
+    results = self._do_insert(
+  File "C:\Users\ebedr\Desktop\erin\agri_trade\venv\lib\site-packages\django\db\models\base.py", line 1047, in _do_insert
+    return manager._insert(
+  File "C:\Users\ebedr\Desktop\erin\agri_trade\venv\lib\site-packages\django\db\models\manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "C:\Users\ebedr\Desktop\erin\agri_trade\venv\lib\site-packages\django\db\models\query.py", line 1790, in _insert
+    return query.get_compiler(using=using).execute_sql(returning_fields)
+  File "C:\Users\ebedr\Desktop\erin\agri_trade\venv\lib\site-packages\django\db\models\sql\compiler.py", line 1660, in execute_sql
+    cursor.execute(sql, params)
+  File "C:\Users\ebedr\Desktop\erin\agri_trade\venv\lib\site-packages\django\db\backends\utils.py", line 103, in execute
+    return super().execute(sql, params)
+  File "C:\Users\ebedr\Desktop\erin\agri_trade\venv\lib\site-packages\django\db\backends\utils.py", line 67, in execute
+    return self._execute_with_wrappers(
+  File "C:\Users\ebedr\Desktop\erin\agri_trade\venv\lib\site-packages\django\db\backends\utils.py", line 80, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "C:\Users\ebedr\Desktop\erin\agri_trade\venv\lib\site-packages\django\db\backends\utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+  File "C:\Users\ebedr\Desktop\erin\agri_trade\venv\lib\site-packages\django\db\utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "C:\Users\ebedr\Desktop\erin\agri_trade\venv\lib\site-packages\django\db\backends\utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+django.db.utils.IntegrityError: duplicate key value violates unique constraint "user_messages_message_pkey"
+DETAIL:  Key (id)=(3) already exists.
+
+[2022-11-18 22:40:10,556] - [ERROR] "POST /messages/reply-to/2 HTTP/1.1" 500 145617
+[2022-11-18 22:40:10,904] - [WARNING] Not Found: /favicon.ico
+[2022-11-18 22:40:10,904] - [WARNING] "GET /favicon.ico HTTP/1.1" 404 3562
+[2022-11-18 22:40:24,338] - [INFO] "POST /messages/reply-to/2 HTTP/1.1" 302 0
+[2022-11-18 22:40:24,433] - [INFO] "GET /messages/ HTTP/1.1" 200 10459
+[2022-11-18 22:40:34,599] - [INFO] "GET /messages/ HTTP/1.1" 200 10158
+[2022-11-18 22:40:34,646] - [INFO] C:\Users\ebedr\Desktop\erin\agri_trade\agri_trade\user_messages\services.py changed, reloading.
+[2022-11-18 22:40:36,232] - [INFO] Watching for file changes with StatReloader
+[2022-11-18 22:40:36,691] - [INFO] "GET /messages/ HTTP/1.1" 200 10158
+[2022-11-18 22:40:37,038] - [INFO] "GET /messages/ HTTP/1.1" 200 10158
+[2022-11-18 22:40:37,503] - [INFO] "GET /messages/ HTTP/1.1" 200 10158
+[2022-11-18 22:41:40,316] - [INFO] "GET /messages/message/1 HTTP/1.1" 200 6098
+[2022-11-18 22:41:40,394] - [INFO] C:\Users\ebedr\Desktop\erin\agri_trade\agri_trade\user_messages\services.py changed, reloading.
+[2022-11-18 22:41:41,540] - [INFO] Watching for file changes with StatReloader
+[2022-11-18 22:41:42,579] - [INFO] "GET /messages/message/1 HTTP/1.1" 200 6098
+[2022-11-18 22:43:18,002] - [INFO] "GET /messages/ HTTP/1.1" 200 10158
+[2022-11-18 22:43:18,421] - [INFO] "GET /messages/ HTTP/1.1" 200 10158
+[2022-11-18 22:43:18,482] - [INFO] C:\Users\ebedr\Desktop\erin\agri_trade\agri_trade\user_messages\views.py changed, reloading.
+[2022-11-18 22:43:19,990] - [INFO] Watching for file changes with StatReloader
+[2022-11-18 22:43:20,566] - [INFO] "GET /marketplace/ HTTP/1.1" 200 11076
+[2022-11-18 22:43:21,736] - [INFO] "GET /messages/ HTTP/1.1" 200 10158
+[2022-11-18 22:43:22,520] - [INFO] "GET /messages/message/1 HTTP/1.1" 200 6098
+[2022-11-18 22:43:23,655] - [INFO] "GET /messages/reply-to/1 HTTP/1.1" 200 6810
+[2022-11-18 22:43:25,761] - [INFO] "POST /messages/reply-to/1 HTTP/1.1" 302 0
+[2022-11-18 22:43:25,854] - [INFO] "GET /messages/ HTTP/1.1" 200 11259
+[2022-11-18 22:46:07,624] - [INFO] "GET /messages/ HTTP/1.1" 200 10958
+[2022-11-18 22:46:07,677] - [INFO] C:\Users\ebedr\Desktop\erin\agri_trade\agri_trade\user_messages\views.py changed, reloading.
+[2022-11-18 22:46:09,290] - [INFO] Watching for file changes with StatReloader
+[2022-11-18 22:46:09,705] - [INFO] "GET /posts/all/ HTTP/1.1" 200 6700
+[2022-11-18 22:46:10,947] - [INFO] "GET /messages/ HTTP/1.1" 200 10958
+[2022-11-18 22:46:12,217] - [INFO] "GET /messages/message/2 HTTP/1.1" 200 6098
+[2022-11-18 22:46:13,888] - [INFO] "GET /messages/reply-to/2 HTTP/1.1" 200 6814
+[2022-11-18 22:46:16,092] - [INFO] "POST /messages/reply-to/2 HTTP/1.1" 302 0
+[2022-11-18 22:46:16,189] - [INFO] "GET /messages/ HTTP/1.1" 200 12073
+[2022-11-18 22:46:20,443] - [INFO] "GET /messages/message/3 HTTP/1.1" 200 6098
+[2022-11-18 22:46:22,016] - [INFO] "GET /messages/ HTTP/1.1" 200 11747
+[2022-11-18 22:47:48,328] - [INFO] C:\Users\ebedr\Desktop\erin\agri_trade\agri_trade\user_messages\views.py changed, reloading.
+[2022-11-18 22:47:49,389] - [INFO] Watching for file changes with StatReloader
