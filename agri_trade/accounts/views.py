@@ -6,6 +6,8 @@ from django.shortcuts import render, redirect, get_object_or_404
 from agri_trade.accounts.forms import CustomAuthenticationForm, CustomRegistrationForm, EditAccountForm, EditCompanyForm
 from agri_trade.accounts.models import Company
 
+from agri_trade.accounts import services as accounts_services
+
 UserModel = get_user_model()
 
 
@@ -66,7 +68,7 @@ def register_user(request):
 
 @login_required
 def account(request):
-    company = get_object_or_404(Company, pk=request.user.id)
+    company = accounts_services.get_single_company(user_id=request.user.id)
 
     context = {
         'company': company,
@@ -77,7 +79,7 @@ def account(request):
 
 @login_required
 def edit_account(request):
-    company = get_object_or_404(Company, pk=request.user.id)
+    company = accounts_services.get_single_company(user_id=request.user.id)
 
     if request.method == 'POST':
         account_form = EditAccountForm(request.POST, instance=request.user)

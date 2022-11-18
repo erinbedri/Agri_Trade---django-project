@@ -1215,3 +1215,16 @@ DETAIL:  Key (id)=(3) already exists.
 [2022-11-18 22:46:22,016] - [INFO] "GET /messages/ HTTP/1.1" 200 11747
 [2022-11-18 22:47:48,328] - [INFO] C:\Users\ebedr\Desktop\erin\agri_trade\agri_trade\user_messages\views.py changed, reloading.
 [2022-11-18 22:47:49,389] - [INFO] Watching for file changes with StatReloader
+[2022-11-18 22:51:45,010] - [INFO] C:\Users\ebedr\Desktop\erin\agri_trade\agri_trade\web\views.py changed, reloading.
+[2022-11-18 22:51:46,199] - [INFO] Watching for file changes with StatReloader
+[2022-11-18 22:51:46,589] - [INFO] "GET /accounts/account/ HTTP/1.1" 200 11163
+[2022-11-18 22:51:48,009] - [INFO] "GET /accounts/account/edit HTTP/1.1" 200 21893
+[2022-11-18 22:51:48,082] - [WARNING] "GET /static/flags/de.gif HTTP/1.1" 404 1795
+[2022-11-18 22:51:58,973] - [INFO] "POST /accounts/account/edit HTTP/1.1" 302 0
+[2022-11-18 22:51:59,048] - [INFO] "GET /accounts/account/ HTTP/1.1" 200 11481
+[2022-11-18 22:53:13,417] - [INFO] C:\Users\ebedr\Desktop\erin\agri_trade\agri_trade\accounts\views.py changed, reloading.
+[2022-11-18 22:53:14,571] - [INFO] Watching for file changes with StatReloader
+[2022-11-18 22:53:15,189] - [INFO] "GET /accounts/account/ HTTP/1.1" 200 11177
+[2022-11-18 22:53:17,975] - [INFO] "GET /accounts/account/ HTTP/1.1" 200 11177
+[2022-11-18 22:53:19,680] - [INFO] "GET / HTTP/1.1" 200 7867
+[2022-11-18 22:53:21,539] - [INFO] "GET /accounts/account/ HTTP/1.1" 200 11177
