@@ -1228,3 +1228,5 @@ DETAIL:  Key (id)=(3) already exists.
 [2022-11-18 22:53:17,975] - [INFO] "GET /accounts/account/ HTTP/1.1" 200 11177
 [2022-11-18 22:53:19,680] - [INFO] "GET / HTTP/1.1" 200 7867
 [2022-11-18 22:53:21,539] - [INFO] "GET /accounts/account/ HTTP/1.1" 200 11177
+[2022-11-18 22:57:28,375] - [INFO] C:\Users\ebedr\Desktop\erin\agri_trade\agri_trade\accounts\views.py changed, reloading.
+[2022-11-18 22:57:29,424] - [INFO] Watching for file changes with StatReloader

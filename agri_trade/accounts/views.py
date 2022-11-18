@@ -1,10 +1,9 @@
 from django.contrib import messages
 from django.contrib.auth import get_user_model, authenticate, login, logout
 from django.contrib.auth.decorators import login_required
-from django.shortcuts import render, redirect, get_object_or_404
+from django.shortcuts import render, redirect
 
 from agri_trade.accounts.forms import CustomAuthenticationForm, CustomRegistrationForm, EditAccountForm, EditCompanyForm
-from agri_trade.accounts.models import Company
 
 from agri_trade.accounts import services as accounts_services
 
