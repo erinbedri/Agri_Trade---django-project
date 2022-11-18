@@ -4,16 +4,19 @@ from agri_trade.posts.models import Post, PostComment
 
 
 def get_all_posts():
-    return Post.objects.all()
+    posts = Post.objects.all()
+    return posts
 
 
 def get_single_post(pk):
-    return get_object_or_404(Post, pk=pk)
+    post = get_object_or_404(Post, pk=pk)
+    return post
 
 
 def get_all_comments(pk):
-    return PostComment.objects\
+    comments = PostComment.objects\
         .filter(post_id__exact=pk)\
         .order_by('created_on')
+    return comments
 
 
