@@ -1,13 +1,13 @@
 from django.http import HttpResponseRedirect
-from django.shortcuts import render, get_object_or_404, redirect
+from django.shortcuts import render
 from django.urls import reverse
 
 from agri_trade.posts.forms import PostCommentForm
-from agri_trade.posts.models import Post, PostComment
+from agri_trade.posts import services as post_services
 
 
 def show_posts(request):
-    posts = Post.objects.all()
+    posts = post_services.get_all_posts()
 
     context = {
         'posts': posts,
@@ -17,10 +17,8 @@ def show_posts(request):
 
 
 def show_post(request, pk):
-    post = get_object_or_404(Post, pk=pk)
-    comments = PostComment.objects \
-        .filter(post_id__exact=pk) \
-        .order_by('created_on')
+    post = post_services.get_single_post(pk=pk)
+    comments = post_services.get_all_comments(pk=pk)
     comments_count = comments.count()
 
     context = {
@@ -32,10 +30,8 @@ def show_post(request, pk):
 
 
 def show_comments(request, pk):
-    post = get_object_or_404(Post, pk=pk)
-    comments = PostComment.objects \
-        .filter(post_id__exact=pk) \
-        .order_by('created_on')
+    post = post_services.get_single_post(pk=pk)
+    comments = post_services.get_all_comments(pk=pk)
     comments_count = comments.count()
 
     if request.method == 'POST':

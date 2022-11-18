@@ -992,3 +992,83 @@ LINE 1: ...ession_data", "django_session"."expire_date" FROM "django_se...
 [2022-11-17 17:14:42,836] - [INFO] "GET /accounts/register/ HTTP/1.1" 200 6606
 [2022-11-17 17:14:43,301] - [INFO] "GET /accounts/login/ HTTP/1.1" 200 4986
 [2022-11-17 17:14:44,694] - [INFO] "GET / HTTP/1.1" 200 5736
+[2022-11-18 17:12:01,186] - [INFO] Watching for file changes with StatReloader
+[2022-11-18 17:12:06,467] - [INFO] "GET / HTTP/1.1" 200 5736
+[2022-11-18 17:12:06,523] - [INFO] "GET /static/css/style.css HTTP/1.1" 304 0
+[2022-11-18 17:12:06,534] - [INFO] "GET /static/js/scripts.js HTTP/1.1" 304 0
+[2022-11-18 17:12:06,534] - [INFO] "GET /static/img/logo.png HTTP/1.1" 304 0
+[2022-11-18 17:12:06,534] - [INFO] "GET /static/img/homepage_circle.png HTTP/1.1" 304 0
+[2022-11-18 17:12:12,833] - [INFO] "GET /accounts/login/ HTTP/1.1" 200 4986
+[2022-11-18 17:12:14,492] - [INFO] "POST /accounts/login/ HTTP/1.1" 302 0
+[2022-11-18 17:12:14,582] - [INFO] "GET /marketplace/ HTTP/1.1" 200 11075
+[2022-11-18 17:12:16,482] - [INFO] "GET /posts/all/ HTTP/1.1" 200 5496
+[2022-11-18 17:13:39,909] - [INFO] "GET /posts/all/ HTTP/1.1" 200 5496
+[2022-11-18 17:13:40,053] - [INFO] "GET /static/img/flaticon.png HTTP/1.1" 304 0
+[2022-11-18 17:13:40,589] - [INFO] C:\Users\ebedr\Desktop\erin\agri_trade\agri_trade\posts\views.py changed, reloading.
+[2022-11-18 17:13:41,422] - [INFO] Watching for file changes with StatReloader
+[2022-11-18 17:13:41,837] - [INFO] "GET / HTTP/1.1" 200 7556
+[2022-11-18 17:13:42,778] - [INFO] "GET /marketplace/ HTTP/1.1" 200 10765
+[2022-11-18 17:13:43,778] - [INFO] "GET /posts/all/ HTTP/1.1" 200 5496
+[2022-11-18 17:13:49,469] - [INFO] "GET /admin/ HTTP/1.1" 200 6272
+[2022-11-18 17:13:49,764] - [INFO] "GET /static/admin/css/fonts.css HTTP/1.1" 200 423
+[2022-11-18 17:13:49,764] - [INFO] "GET /static/admin/css/dashboard.css HTTP/1.1" 200 380
+[2022-11-18 17:13:49,767] - [INFO] "GET /static/admin/js/nav_sidebar.js HTTP/1.1" 200 3763
+[2022-11-18 17:13:49,783] - [INFO] "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 200 331
+[2022-11-18 17:13:49,783] - [INFO] "GET /static/admin/img/icon-changelink.svg HTTP/1.1" 200 380
+[2022-11-18 17:13:49,807] - [INFO] "GET /static/admin/fonts/Roboto-Light-webfont.woff HTTP/1.1" 200 85692
+[2022-11-18 17:13:49,807] - [INFO] "GET /static/admin/fonts/Roboto-Bold-webfont.woff HTTP/1.1" 200 86184
+[2022-11-18 17:13:49,808] - [INFO] "GET /static/admin/fonts/Roboto-Regular-webfont.woff HTTP/1.1" 200 85876
+[2022-11-18 17:13:50,090] - [WARNING] Not Found: /favicon.ico
+[2022-11-18 17:13:50,090] - [WARNING] "GET /favicon.ico HTTP/1.1" 404 3562
+[2022-11-18 17:13:52,888] - [INFO] "GET /admin/posts/post/add/ HTTP/1.1" 200 11916
+[2022-11-18 17:13:52,940] - [INFO] "GET /static/admin/css/forms.css HTTP/1.1" 200 8944
+[2022-11-18 17:13:52,946] - [INFO] "GET /static/admin/js/jquery.init.js HTTP/1.1" 200 347
+[2022-11-18 17:13:52,951] - [INFO] "GET /static/ckeditor/ckeditor-init.js HTTP/1.1" 200 1526
+[2022-11-18 17:13:52,959] - [INFO] "GET /static/admin/js/core.js HTTP/1.1" 200 5698
+[2022-11-18 17:13:52,965] - [INFO] "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 200 8985
+[2022-11-18 17:13:52,969] - [INFO] "GET /static/admin/js/actions.js HTTP/1.1" 200 7872
+[2022-11-18 17:13:52,973] - [INFO] "GET /static/admin/js/urlify.js HTTP/1.1" 200 7902
+[2022-11-18 17:13:52,977] - [INFO] "GET /static/admin/css/widgets.css HTTP/1.1" 200 11297
+[2022-11-18 17:13:52,982] - [INFO] "GET /static/admin/js/prepopulate.js HTTP/1.1" 200 1531
+[2022-11-18 17:13:53,000] - [INFO] "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 200 288580
+[2022-11-18 17:13:53,010] - [INFO] "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+[2022-11-18 17:13:53,023] - [INFO] "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 200 232381
+[2022-11-18 17:13:53,034] - [INFO] "GET /static/admin/js/prepopulate_init.js HTTP/1.1" 200 586
+[2022-11-18 17:13:53,042] - [INFO] "GET /static/admin/img/icon-viewlink.svg HTTP/1.1" 200 581
+[2022-11-18 17:13:53,053] - [INFO] "GET /static/admin/js/change_form.js HTTP/1.1" 200 606
+[2022-11-18 17:13:53,112] - [INFO] "GET /static/ckeditor/ckeditor/ckeditor.js HTTP/1.1" 200 756028
+[2022-11-18 17:13:53,189] - [INFO] "GET /static/ckeditor/ckeditor/config.js?t=M6K9 HTTP/1.1" 200 336
+[2022-11-18 17:13:53,216] - [INFO] "GET /static/ckeditor/ckeditor/skins/moono-lisa/editor.css?t=M6K9 HTTP/1.1" 200 48309
+[2022-11-18 17:13:53,220] - [INFO] "GET /static/ckeditor/ckeditor/lang/en.js?t=M6K9 HTTP/1.1" 200 17503
+[2022-11-18 17:13:53,243] - [INFO] "GET /static/ckeditor/ckeditor/styles.js?t=M6K9 HTTP/1.1" 200 5577
+[2022-11-18 17:13:53,260] - [INFO] "GET /static/ckeditor/ckeditor/plugins/scayt/dialogs/dialog.css?t=M6K9 HTTP/1.1" 200 419
+[2022-11-18 17:13:53,260] - [INFO] "GET /static/ckeditor/ckeditor/plugins/scayt/skins/moono-lisa/scayt.css?t=M6K9 HTTP/1.1" 200 381
+[2022-11-18 17:13:53,260] - [INFO] "GET /static/ckeditor/ckeditor/plugins/tableselection/styles/tableselection.css?t=M6K9 HTTP/1.1" 200 1145
+[2022-11-18 17:13:53,261] - [INFO] "GET /static/ckeditor/ckeditor/plugins/dialog/styles/dialog.css?t=M6K9 HTTP/1.1" 200 249
+[2022-11-18 17:13:53,269] - [INFO] "GET /static/ckeditor/ckeditor/plugins/copyformatting/styles/copyformatting.css?t=M6K9 HTTP/1.1" 200 1511
+[2022-11-18 17:13:53,301] - [INFO] "GET /static/ckeditor/ckeditor/skins/moono-lisa/icons.png?t=445cf24ebd HTTP/1.1" 200 12237
+[2022-11-18 17:13:53,354] - [INFO] "GET /static/ckeditor/ckeditor/contents.css?t=M6K9 HTTP/1.1" 200 3092
+[2022-11-18 17:14:07,271] - [INFO] "POST /admin/posts/post/add/ HTTP/1.1" 200 12134
+[2022-11-18 17:14:07,441] - [INFO] "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+[2022-11-18 17:14:10,991] - [INFO] "POST /admin/posts/post/add/ HTTP/1.1" 302 0
+[2022-11-18 17:14:11,085] - [INFO] "GET /admin/posts/post/ HTTP/1.1" 200 9032
+[2022-11-18 17:14:11,154] - [INFO] "GET /static/admin/js/filters.js HTTP/1.1" 200 966
+[2022-11-18 17:14:11,170] - [INFO] "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+[2022-11-18 17:14:11,202] - [INFO] "GET /static/admin/img/tooltag-add.svg HTTP/1.1" 200 331
+[2022-11-18 17:14:11,203] - [INFO] "GET /static/admin/img/icon-yes.svg HTTP/1.1" 200 436
+[2022-11-18 17:14:11,204] - [INFO] "GET /static/admin/img/sorting-icons.svg HTTP/1.1" 200 1097
+[2022-11-18 17:14:13,895] - [INFO] "GET / HTTP/1.1" 200 7556
+[2022-11-18 17:14:15,025] - [INFO] "GET /posts/all/ HTTP/1.1" 200 6378
+[2022-11-18 17:14:15,850] - [INFO] "GET /posts/post/1/ HTTP/1.1" 200 5565
+[2022-11-18 17:17:50,161] - [INFO] "GET /posts/post/1/ HTTP/1.1" 200 5565
+[2022-11-18 17:17:50,590] - [INFO] C:\Users\ebedr\Desktop\erin\agri_trade\agri_trade\posts\views.py changed, reloading.
+[2022-11-18 17:17:51,782] - [INFO] Watching for file changes with StatReloader
+[2022-11-18 17:17:52,399] - [INFO] "GET /posts/post/1/comments/ HTTP/1.1" 200 6120
+[2022-11-18 17:17:55,765] - [INFO] "POST /posts/post/1/comments/ HTTP/1.1" 302 0
+[2022-11-18 17:17:55,824] - [INFO] "GET /posts/post/1/comments/ HTTP/1.1" 200 6926
+[2022-11-18 17:17:57,951] - [INFO] "GET /posts/all/ HTTP/1.1" 200 6378
+[2022-11-18 17:17:58,729] - [INFO] "GET /posts/post/1/ HTTP/1.1" 200 5565
+[2022-11-18 17:18:00,306] - [INFO] "GET /posts/post/1/comments/ HTTP/1.1" 200 6926
+[2022-11-18 17:18:01,039] - [INFO] "GET /posts/all/ HTTP/1.1" 200 6378
+[2022-11-18 17:18:32,731] - [INFO] C:\Users\ebedr\Desktop\erin\agri_trade\agri_trade\posts\views.py changed, reloading.
+[2022-11-18 17:18:33,423] - [INFO] Watching for file changes with StatReloader
