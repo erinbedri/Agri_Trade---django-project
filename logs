@@ -1072,3 +1072,5 @@ LINE 1: ...ession_data", "django_session"."expire_date" FROM "django_se...
 [2022-11-18 17:18:01,039] - [INFO] "GET /posts/all/ HTTP/1.1" 200 6378
 [2022-11-18 17:18:32,731] - [INFO] C:\Users\ebedr\Desktop\erin\agri_trade\agri_trade\posts\views.py changed, reloading.
 [2022-11-18 17:18:33,423] - [INFO] Watching for file changes with StatReloader
+[2022-11-18 17:20:01,239] - [INFO] C:\Users\ebedr\Desktop\erin\agri_trade\agri_trade\posts\views.py changed, reloading.
+[2022-11-18 17:20:01,879] - [INFO] Watching for file changes with StatReloader

@@ -23,6 +23,7 @@ def show_post(request, pk):
 
     context = {
         'post': post,
+        'comments': comments,
         'comments_count': comments_count,
     }
 
