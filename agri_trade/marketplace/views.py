@@ -20,15 +20,16 @@ PRODUCTS_PER_PAGE = 10
 def marketplace(request):
     q = request.GET.get('q') if request.GET.get('q') is not None else ''
 
-    products = marketplace_services.get_products_by_query(query=q)
-    products_count = products.count()
+    products_all = marketplace_services.get_all_products()
+    products_by_query = marketplace_services.get_products_by_query(query=q)
+    products_count = products_by_query.count()
 
-    categories = sorted({product.category for product in Product.objects.all()})
-    cultivation_types = sorted({product.cultivation_type for product in Product.objects.all()})
-    origins = sorted({product.origin.name for product in Product.objects.all()})
-    locations = sorted({product.location.name for product in Product.objects.all()})
+    categories = sorted({product.category for product in products_all})
+    cultivation_types = sorted({product.cultivation_type for product in products_all})
+    origins = sorted({product.origin.name for product in products_all})
+    locations = sorted({product.location.name for product in products_all})
 
-    paginator = Paginator(products, PRODUCTS_PER_PAGE)
+    paginator = Paginator(products_by_query, PRODUCTS_PER_PAGE)
     page_number = request.GET.get('page')
     page_obj = paginator.get_page(page_number)
 
@@ -141,15 +142,15 @@ def show_favourites(request):
     q = request.GET.get('q') if request.GET.get('q') is not None else ''
 
     company = marketplace_services.get_single_company(user_id=request.user.id)
-    favourites = marketplace_services.get_favourites_by_query(company=company, query=q)
-    favourites_count = favourites.count()
+    favourites_by_query = marketplace_services.get_favourites_by_query(company=company, query=q)
+    favourites_count = favourites_by_query.count()
 
-    categories = sorted({favourite.category for favourite in favourites})
-    cultivation_types = sorted({favourite.cultivation_type for favourite in favourites})
-    origins = sorted({favourite.origin.name for favourite in favourites})
-    locations = sorted({favourite.location.name for favourite in favourites})
+    categories = sorted({favourite.category for favourite in favourites_by_query})
+    cultivation_types = sorted({favourite.cultivation_type for favourite in favourites_by_query})
+    origins = sorted({favourite.origin.name for favourite in favourites_by_query})
+    locations = sorted({favourite.location.name for favourite in favourites_by_query})
 
-    paginator = Paginator(favourites, PRODUCTS_PER_PAGE)
+    paginator = Paginator(favourites_by_query, PRODUCTS_PER_PAGE)
     page_number = request.GET.get('page')
     page_obj = paginator.get_page(page_number)
 

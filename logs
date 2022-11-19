@@ -1337,3 +1337,19 @@ DETAIL:  Key (id)=(3) already exists.
 [2022-11-19 11:37:40,118] - [INFO] "GET /marketplace/favourites/ HTTP/1.1" 200 10845
 [2022-11-19 11:37:42,897] - [INFO] "GET /marketplace/favourites/?q=dfgdfg HTTP/1.1" 200 10855
 [2022-11-19 11:37:44,075] - [INFO] "GET /marketplace/favourites/ HTTP/1.1" 200 10845
+[2022-11-19 11:38:25,800] - [INFO] "GET /marketplace/favourites/ HTTP/1.1" 200 10845
+[2022-11-19 11:38:25,941] - [INFO] "GET /marketplace/favourites/ HTTP/1.1" 200 10845
+[2022-11-19 11:38:26,115] - [INFO] "GET /marketplace/favourites/ HTTP/1.1" 200 10845
+[2022-11-19 11:42:15,168] - [INFO] C:\Users\ebedr\Desktop\erin\agri_trade\agri_trade\marketplace\services.py changed, reloading.
+[2022-11-19 11:42:16,202] - [INFO] Watching for file changes with StatReloader
+[2022-11-19 11:42:16,593] - [INFO] "GET /marketplace/favourites/ HTTP/1.1" 200 10845
+[2022-11-19 11:42:18,027] - [INFO] "GET /marketplace/favourites/ HTTP/1.1" 200 10845
+[2022-11-19 11:42:20,317] - [INFO] "GET /marketplace/my-products/ HTTP/1.1" 200 8524
+[2022-11-19 11:42:21,520] - [INFO] "GET /marketplace/ HTTP/1.1" 200 12837
+[2022-11-19 11:42:22,108] - [INFO] "GET /marketplace/product-details/2 HTTP/1.1" 200 8124
+[2022-11-19 11:42:22,295] - [INFO] "GET /media/produces/sunflower.jpg HTTP/1.1" 200 33040
+[2022-11-19 11:42:24,318] - [INFO] "GET /marketplace/product-edit/2 HTTP/1.1" 200 33084
+[2022-11-19 11:42:24,362] - [WARNING] "GET /static/flags/gr.gif HTTP/1.1" 404 1795
+[2022-11-19 11:42:24,362] - [WARNING] "GET /static/flags/au.gif HTTP/1.1" 404 1795
+[2022-11-19 11:42:25,800] - [INFO] "GET /posts/all/ HTTP/1.1" 200 6701
+[2022-11-19 11:42:26,336] - [INFO] "GET / HTTP/1.1" 200 7867
