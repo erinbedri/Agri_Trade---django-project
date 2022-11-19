@@ -1412,3 +1412,13 @@ django.urls.exceptions.NoReverseMatch: Reverse for 'login' not found. 'login' is
 [2022-11-19 11:54:16,322] - [INFO] "GET /marketplace/ HTTP/1.1" 200 11377
 [2022-11-19 11:56:16,033] - [INFO] C:\Users\ebedr\Desktop\erin\agri_trade\agri_trade\accounts\views.py changed, reloading.
 [2022-11-19 11:56:16,647] - [INFO] Watching for file changes with StatReloader
+[2022-11-19 11:56:37,959] - [INFO] "GET /marketplace/ HTTP/1.1" 200 11076
+[2022-11-19 11:56:38,265] - [INFO] "GET /marketplace/ HTTP/1.1" 200 11076
+[2022-11-19 11:56:38,448] - [INFO] "GET /marketplace/ HTTP/1.1" 200 11076
+[2022-11-19 11:56:38,919] - [INFO] "GET / HTTP/1.1" 200 7867
+[2022-11-19 11:56:39,286] - [INFO] "GET /posts/all/ HTTP/1.1" 200 6701
+[2022-11-19 11:56:40,450] - [INFO] "GET /marketplace/ HTTP/1.1" 200 11076
+[2022-11-19 11:58:36,668] - [INFO] C:\Users\ebedr\Desktop\erin\agri_trade\agri_trade\user_messages\views.py changed, reloading.
+[2022-11-19 11:58:37,462] - [INFO] Watching for file changes with StatReloader
+[2022-11-19 12:00:56,209] - [INFO] C:\Users\ebedr\Desktop\erin\agri_trade\agri_trade\user_messages\views.py changed, reloading.
+[2022-11-19 12:00:56,800] - [INFO] Watching for file changes with StatReloader

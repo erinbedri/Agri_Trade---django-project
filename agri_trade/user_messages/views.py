@@ -3,9 +3,16 @@ from django.contrib.auth.decorators import login_required
 from django.shortcuts import render, redirect
 
 from agri_trade.user_messages.forms import SendMessageForm, DeleteMessageForm, ReplyMessageForm
-
 from agri_trade.user_messages import services as user_messages_services
 
+SEND_MESSAGE_SUCCESS_MESSAGE = 'Your message was successfully sent!'
+SEND_MESSAGE_ERROR_MESSAGE = 'Your message couldn\'t be sent.'
+
+DELETE_MESSAGE_SUCCESS_MESSAGE = 'Your message was deleted successfully!'
+DELETE_MESSAGE_ERROR_MESSAGE = 'Your message couldn\'t be deleted! Try again later.'
+
+REPLY_TO_MESSAGE_SUCCESS_MESSAGE = 'Your message was successfully sent!'
+REPLY_TO_MESSAGE_ERROR_MESSAGE = 'Your message couldn\'t be sent.'
 
 @login_required
 def show_messages(request):
@@ -49,10 +56,10 @@ def send_message(request, pk):
             message.subject = request.POST['subject']
             message.body = request.POST['body']
             message.save()
-            messages.success(request, 'Your message was successfully sent!')
+            messages.success(request, SEND_MESSAGE_SUCCESS_MESSAGE)
             return redirect('marketplace:marketplace')
         else:
-            messages.error(request, "Your message couldn't be sent.")
+            messages.error(request, SEND_MESSAGE_ERROR_MESSAGE)
     else:
         form = SendMessageForm({'receiver': owner})
 
@@ -73,10 +80,10 @@ def delete_message(request, pk):
         form = DeleteMessageForm(request.POST, instance=message)
         if form.is_valid():
             message.delete()
-            messages.success(request, 'Your message was deleted successfully!')
+            messages.success(request, DELETE_MESSAGE_SUCCESS_MESSAGE)
             return redirect('user_messages:messages')
         else:
-            messages.error(request, 'Your message couldn\'t be deleted! Try again later.')
+            messages.error(request, DELETE_MESSAGE_ERROR_MESSAGE)
     else:
         form = DeleteMessageForm()
 
@@ -102,10 +109,10 @@ def reply_message(request, pk):
             message.subject = f'Re: {reply_to_message.subject}'
             message.body = request.POST['body']
             message.save()
-            messages.success(request, 'Your message was successfully sent!')
+            messages.success(request, REPLY_TO_MESSAGE_SUCCESS_MESSAGE)
             return redirect('user_messages:messages')
         else:
-            messages.error(request, "Your message couldn't be sent.")
+            messages.error(request, REPLY_TO_MESSAGE_ERROR_MESSAGE)
     else:
         form = ReplyMessageForm({'receiver': reply_to_user})
 
