@@ -7,13 +7,20 @@ from django.shortcuts import render, redirect
 from django.urls import reverse
 
 from agri_trade.marketplace.forms import AddProductForm, EditProductForm, DeleteProductForm
-from agri_trade.marketplace.models import Product
-
 from agri_trade.marketplace import services as marketplace_services
 
 UserModel = get_user_model()
 
 PRODUCTS_PER_PAGE = 10
+
+ADD_PRODUCT_SUCCESS_MESSAGE = 'Your produce was successfully added to the Marketplace!'
+ADD_PRODUCT_ERROR_MESSAGE = 'Your product couldn\'t be added. Please fix the form below!'
+
+EDIT_PRODUCT_SUCCESS_MESSAGE = 'Your product details were updates successfully!'
+EDIT_PRODUCT_ERROR_MESSAGE = 'Something went wrong! Please fix the form below.'
+
+DELETE_PRODUCT_SUCCESS_MESSAGE = 'Your product was successfully deleted!'
+DELETE_PRODUCT_ERROR_MESSAGE = 'Your product couldn\'t be delete. Please try again!'
 
 
 @login_required
@@ -71,10 +78,10 @@ def add_product(request):
             product = form.save(commit=False)
             product.owner = request.user
             product.save()
-            messages.success(request, 'Your produce was successfully added to the Marketplace!')
+            messages.success(request, ADD_PRODUCT_SUCCESS_MESSAGE)
             return redirect('marketplace:marketplace')
         else:
-            messages.error(request, "Your product couldn't be added. Please fix the form below!")
+            messages.error(request, ADD_PRODUCT_ERROR_MESSAGE)
     else:
         form = AddProductForm()
 
@@ -96,10 +103,10 @@ def edit_product(request, pk):
         form = EditProductForm(request.POST, request.FILES, instance=product)
         if form.is_valid():
             form.save()
-            messages.success(request, 'Your product details were updates successfully!')
+            messages.success(request, EDIT_PRODUCT_SUCCESS_MESSAGE)
             return redirect('marketplace:marketplace')
         else:
-            messages.error(request, 'Something went wrong! Please fix the form below.')
+            messages.error(request, EDIT_PRODUCT_ERROR_MESSAGE)
     else:
         form = EditProductForm(instance=product)
 
@@ -125,7 +132,10 @@ def delete_product(request, pk):
                 image = product.image
                 image.delete()
             product.delete()
+            messages.success(request, DELETE_PRODUCT_SUCCESS_MESSAGE)
             return redirect('marketplace:marketplace')
+        else:
+            messages.error(request, DELETE_PRODUCT_ERROR_MESSAGE)
     else:
         form = DeleteProductForm(instance=product)
 
