@@ -1377,3 +1377,38 @@ DETAIL:  Key (id)=(3) already exists.
 [2022-11-19 11:48:03,763] - [INFO] "GET /marketplace/ HTTP/1.1" 200 11380
 [2022-11-19 11:48:07,865] - [INFO] "GET /marketplace/ HTTP/1.1" 200 11076
 [2022-11-19 11:48:08,111] - [INFO] "GET /marketplace/ HTTP/1.1" 200 11076
+[2022-11-19 11:53:06,231] - [INFO] C:\Users\ebedr\Desktop\erin\agri_trade\agri_trade\accounts\views.py changed, reloading.
+[2022-11-19 11:53:07,044] - [INFO] Watching for file changes with StatReloader
+[2022-11-19 11:53:07,463] - [INFO] "GET /accounts/logout/ HTTP/1.1" 302 0
+[2022-11-19 11:53:07,479] - [INFO] "GET / HTTP/1.1" 200 6056
+[2022-11-19 11:53:08,466] - [INFO] "GET /accounts/register/ HTTP/1.1" 200 6606
+[2022-11-19 11:53:21,308] - [INFO] "POST /accounts/register/ HTTP/1.1" 200 7160
+[2022-11-19 11:53:33,240] - [ERROR] Internal Server Error: /accounts/register/
+Traceback (most recent call last):
+  File "C:\Users\ebedr\Desktop\erin\agri_trade\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\ebedr\Desktop\erin\agri_trade\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\ebedr\Desktop\erin\agri_trade\agri_trade\accounts\views.py", line 60, in register_user
+    return redirect('web:login')
+  File "C:\Users\ebedr\Desktop\erin\agri_trade\venv\lib\site-packages\django\shortcuts.py", line 48, in redirect
+    return redirect_class(resolve_url(to, *args, **kwargs))
+  File "C:\Users\ebedr\Desktop\erin\agri_trade\venv\lib\site-packages\django\shortcuts.py", line 145, in resolve_url
+    return reverse(to, args=args, kwargs=kwargs)
+  File "C:\Users\ebedr\Desktop\erin\agri_trade\venv\lib\site-packages\django\urls\base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+  File "C:\Users\ebedr\Desktop\erin\agri_trade\venv\lib\site-packages\django\urls\resolvers.py", line 828, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'login' not found. 'login' is not a valid view function or pattern name.
+[2022-11-19 11:53:33,241] - [ERROR] "POST /accounts/register/ HTTP/1.1" 500 87462
+[2022-11-19 11:53:33,406] - [WARNING] Not Found: /favicon.ico
+[2022-11-19 11:53:33,407] - [WARNING] "GET /favicon.ico HTTP/1.1" 404 3562
+[2022-11-19 11:53:48,011] - [INFO] C:\Users\ebedr\Desktop\erin\agri_trade\agri_trade\accounts\views.py changed, reloading.
+[2022-11-19 11:53:48,692] - [INFO] Watching for file changes with StatReloader
+[2022-11-19 11:53:48,953] - [INFO] "POST /accounts/register/ HTTP/1.1" 200 7474
+[2022-11-19 11:54:07,290] - [INFO] "POST /accounts/register/ HTTP/1.1" 302 0
+[2022-11-19 11:54:07,299] - [INFO] "GET /accounts/login/ HTTP/1.1" 200 5300
+[2022-11-19 11:54:16,261] - [INFO] "POST /accounts/login/ HTTP/1.1" 302 0
+[2022-11-19 11:54:16,322] - [INFO] "GET /marketplace/ HTTP/1.1" 200 11377
+[2022-11-19 11:56:16,033] - [INFO] C:\Users\ebedr\Desktop\erin\agri_trade\agri_trade\accounts\views.py changed, reloading.
+[2022-11-19 11:56:16,647] - [INFO] Watching for file changes with StatReloader
