@@ -11,8 +11,6 @@ SEND_MESSAGE_ERROR_MESSAGE = 'Your message couldn\'t be sent.'
 DELETE_MESSAGE_SUCCESS_MESSAGE = 'Your message was deleted successfully!'
 DELETE_MESSAGE_ERROR_MESSAGE = 'Your message couldn\'t be deleted! Try again later.'
 
-REPLY_TO_MESSAGE_SUCCESS_MESSAGE = 'Your message was successfully sent!'
-REPLY_TO_MESSAGE_ERROR_MESSAGE = 'Your message couldn\'t be sent.'
 
 @login_required
 def show_messages(request):
@@ -109,10 +107,10 @@ def reply_message(request, pk):
             message.subject = f'Re: {reply_to_message.subject}'
             message.body = request.POST['body']
             message.save()
-            messages.success(request, REPLY_TO_MESSAGE_SUCCESS_MESSAGE)
+            messages.success(request, SEND_MESSAGE_SUCCESS_MESSAGE)
             return redirect('user_messages:messages')
         else:
-            messages.error(request, REPLY_TO_MESSAGE_ERROR_MESSAGE)
+            messages.error(request, SEND_MESSAGE_ERROR_MESSAGE)
     else:
         form = ReplyMessageForm({'receiver': reply_to_user})
 

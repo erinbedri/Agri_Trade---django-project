@@ -1422,3 +1422,5 @@ django.urls.exceptions.NoReverseMatch: Reverse for 'login' not found. 'login' is
 [2022-11-19 11:58:37,462] - [INFO] Watching for file changes with StatReloader
 [2022-11-19 12:00:56,209] - [INFO] C:\Users\ebedr\Desktop\erin\agri_trade\agri_trade\user_messages\views.py changed, reloading.
 [2022-11-19 12:00:56,800] - [INFO] Watching for file changes with StatReloader
+[2022-11-19 12:01:52,328] - [INFO] C:\Users\ebedr\Desktop\erin\agri_trade\agri_trade\user_messages\views.py changed, reloading.
+[2022-11-19 12:01:52,916] - [INFO] Watching for file changes with StatReloader
