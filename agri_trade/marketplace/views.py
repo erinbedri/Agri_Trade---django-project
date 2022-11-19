@@ -2,43 +2,33 @@ from django.contrib import messages
 from django.contrib.auth import get_user_model
 from django.contrib.auth.decorators import login_required
 from django.core.paginator import Paginator
-from django.db.models import Q
 from django.http import HttpResponseRedirect
-from django.shortcuts import render, get_object_or_404, redirect
+from django.shortcuts import render, redirect
 from django.urls import reverse
 
-from agri_trade.accounts.models import Company
 from agri_trade.marketplace.forms import AddProductForm, EditProductForm, DeleteProductForm
 from agri_trade.marketplace.models import Product
 
+from agri_trade.marketplace import services as marketplace_services
+
 UserModel = get_user_model()
+
+PRODUCTS_PER_PAGE = 10
 
 
 @login_required
 def marketplace(request):
-    products_per_page = 10
-
     q = request.GET.get('q') if request.GET.get('q') is not None else ''
 
-    products = Product.objects.filter(
-        Q(name__icontains=q) |
-        Q(category__icontains=q) |
-        Q(cultivation_type__icontains=q) |
-        Q(origin__icontains=q) |
-        Q(location__icontains=q) |
-        Q(variety__icontains=q) |
-        Q(type__icontains=q) |
-        Q(description__icontains=q) |
-        Q(form__icontains=q) |
-        Q(owner__username=q)) \
-        .order_by('-created_on')
+    products = marketplace_services.get_products_by_query(query=q)
+    products_count = products.count()
 
     categories = sorted({product.category for product in Product.objects.all()})
     cultivation_types = sorted({product.cultivation_type for product in Product.objects.all()})
     origins = sorted({product.origin.name for product in Product.objects.all()})
     locations = sorted({product.location.name for product in Product.objects.all()})
 
-    paginator = Paginator(products, products_per_page)
+    paginator = Paginator(products, PRODUCTS_PER_PAGE)
     page_number = request.GET.get('page')
     page_obj = paginator.get_page(page_number)
 
@@ -49,7 +39,7 @@ def marketplace(request):
         'locations': locations,
         'page_obj': page_obj,
         'query': q,
-        'products_count': len(products),
+        'products_count': products_count,
     }
 
     return render(request, 'marketplace/marketplace.html', context)
@@ -57,8 +47,8 @@ def marketplace(request):
 
 @login_required
 def product_details(request, pk):
-    product = get_object_or_404(Product, pk=pk)
-    user_company = get_object_or_404(Company, pk=request.user.id)
+    product = marketplace_services.get_single_product(pk=pk)
+    user_company = marketplace_services.get_single_company(user_id=request.user.id)
 
     is_in_favourites = False
     if user_company.favourites.filter(id=product.id).exists():
@@ -96,7 +86,7 @@ def add_product(request):
 
 @login_required
 def edit_product(request, pk):
-    product = get_object_or_404(Product, pk=pk)
+    product = marketplace_services.get_single_product(pk=pk)
 
     if request.user != product.owner:
         return redirect('marketplace:marketplace')
@@ -122,7 +112,7 @@ def edit_product(request, pk):
 
 @login_required
 def delete_product(request, pk):
-    product = get_object_or_404(Product, pk=pk)
+    product = marketplace_services.get_single_product(pk=pk)
 
     if request.user != product.owner:
         return redirect('marketplace:marketplace')
@@ -148,29 +138,16 @@ def delete_product(request, pk):
 
 @login_required
 def show_favourites(request):
-    favourites_per_page = 10
-
     q = request.GET.get('q') if request.GET.get('q') is not None else ''
 
-    favourites = get_object_or_404(Company, pk=request.user.id).favourites.filter(
-        Q(name__icontains=q) |
-        Q(category__icontains=q) |
-        Q(cultivation_type__icontains=q) |
-        Q(origin__icontains=q) |
-        Q(location__icontains=q) |
-        Q(variety__icontains=q) |
-        Q(type__icontains=q) |
-        Q(description__icontains=q) |
-        Q(form__icontains=q) |
-        Q(owner__username=q)) \
-        .order_by('-created_on')
+    favourites = marketplace_services.get_favourites_by_query(user_id=request.user.id, query=q)
 
     categories = sorted({favourite.category for favourite in favourites})
     cultivation_types = sorted({favourite.cultivation_type for favourite in favourites})
     origins = sorted({favourite.origin.name for favourite in favourites})
     locations = sorted({favourite.location.name for favourite in favourites})
 
-    paginator = Paginator(favourites, favourites_per_page)
+    paginator = Paginator(favourites, PRODUCTS_PER_PAGE)
     page_number = request.GET.get('page')
     page_obj = paginator.get_page(page_number)
 
@@ -191,8 +168,8 @@ def show_favourites(request):
 
 @login_required
 def add_product_to_favourites(request, pk):
-    user_company = get_object_or_404(Company, pk=request.user.id)
-    product = get_object_or_404(Product, pk=pk)
+    user_company = marketplace_services.get_single_company(user_id=request.user.id)
+    product = marketplace_services.get_single_product(pk=pk)
     is_in_favourites = False
 
     if user_company.favourites.filter(id=product.id).exists():
@@ -207,12 +184,10 @@ def add_product_to_favourites(request, pk):
 
 @login_required
 def show_my_products(request):
-    my_products_per_page = 10
-
     my_products = Product.objects.filter(owner_id=request.user.id)
     my_products_count = my_products.count()
 
-    paginator = Paginator(my_products, my_products_per_page)
+    paginator = Paginator(my_products, PRODUCTS_PER_PAGE)
     page_number = request.GET.get('page')
     page_obj = paginator.get_page(page_number)
 

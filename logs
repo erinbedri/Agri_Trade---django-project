@@ -1230,3 +1230,61 @@ DETAIL:  Key (id)=(3) already exists.
 [2022-11-18 22:53:21,539] - [INFO] "GET /accounts/account/ HTTP/1.1" 200 11177
 [2022-11-18 22:57:28,375] - [INFO] C:\Users\ebedr\Desktop\erin\agri_trade\agri_trade\accounts\views.py changed, reloading.
 [2022-11-18 22:57:29,424] - [INFO] Watching for file changes with StatReloader
+[2022-11-19 11:05:29,049] - [INFO] Watching for file changes with StatReloader
+[2022-11-19 11:05:31,848] - [INFO] "GET / HTTP/1.1" 200 7867
+[2022-11-19 11:05:32,494] - [INFO] "GET / HTTP/1.1" 200 7867
+[2022-11-19 11:05:33,652] - [INFO] "GET /marketplace/ HTTP/1.1" 200 11076
+[2022-11-19 11:08:03,929] - [INFO] C:\Users\ebedr\Desktop\erin\agri_trade\agri_trade\marketplace\views.py changed, reloading.
+[2022-11-19 11:08:04,788] - [INFO] Watching for file changes with StatReloader
+[2022-11-19 11:08:05,340] - [INFO] "GET /marketplace/?q=ebedr HTTP/1.1" 200 11085
+[2022-11-19 11:08:05,784] - [INFO] "GET /marketplace/ HTTP/1.1" 200 11076
+[2022-11-19 11:08:07,784] - [INFO] "GET /marketplace/?q=asdasdasd HTTP/1.1" 200 11089
+[2022-11-19 11:08:09,454] - [INFO] "GET /marketplace/ HTTP/1.1" 200 11076
+[2022-11-19 11:08:12,607] - [INFO] "GET /marketplace/product-add/ HTTP/1.1" 200 33249
+[2022-11-19 11:08:12,650] - [WARNING] "GET /static/flags/__.gif HTTP/1.1" 404 1795
+[2022-11-19 11:08:23,835] - [WARNING] "GET /static/flags/au.gif HTTP/1.1" 404 1795
+[2022-11-19 11:08:24,929] - [WARNING] "GET /static/flags/gr.gif HTTP/1.1" 404 1795
+[2022-11-19 11:08:26,188] - [INFO] "POST /marketplace/product-add/ HTTP/1.1" 302 0
+[2022-11-19 11:08:26,260] - [INFO] "GET /marketplace/ HTTP/1.1" 200 13158
+[2022-11-19 11:08:27,341] - [INFO] "GET /marketplace/product-details/2 HTTP/1.1" 200 8156
+[2022-11-19 11:08:29,162] - [INFO] "GET /marketplace/ HTTP/1.1" 200 12837
+[2022-11-19 11:08:29,483] - [INFO] "GET /marketplace/ HTTP/1.1" 200 12837
+[2022-11-19 11:08:31,057] - [INFO] "GET /marketplace/?q=Pulses HTTP/1.1" 200 12847
+[2022-11-19 11:08:32,417] - [INFO] "GET /marketplace/?q=Organic HTTP/1.1" 200 12848
+[2022-11-19 11:08:33,259] - [INFO] "GET /marketplace/ HTTP/1.1" 200 12837
+[2022-11-19 11:08:33,747] - [INFO] "GET /marketplace/?q=ebedr HTTP/1.1" 200 12846
+[2022-11-19 11:08:34,327] - [INFO] "GET /marketplace/ HTTP/1.1" 200 12837
+[2022-11-19 11:08:36,320] - [INFO] "GET /marketplace/?q=sdfsdfsdf HTTP/1.1" 200 11977
+[2022-11-19 11:08:37,446] - [INFO] "GET /marketplace/ HTTP/1.1" 200 12837
+[2022-11-19 11:13:28,153] - [INFO] C:\Users\ebedr\Desktop\erin\agri_trade\agri_trade\marketplace\views.py changed, reloading.
+[2022-11-19 11:13:29,187] - [INFO] Watching for file changes with StatReloader
+[2022-11-19 11:13:29,673] - [INFO] "GET /marketplace/favourites/ HTTP/1.1" 200 10845
+[2022-11-19 11:13:31,945] - [INFO] "GET /marketplace/favourites/ HTTP/1.1" 200 10845
+[2022-11-19 11:13:32,244] - [INFO] "GET /marketplace/favourites/ HTTP/1.1" 200 10845
+[2022-11-19 11:13:34,775] - [INFO] "GET /marketplace/favourites/?q=xycxc HTTP/1.1" 200 10854
+[2022-11-19 11:13:35,855] - [INFO] "GET /marketplace/favourites/ HTTP/1.1" 200 10845
+[2022-11-19 11:16:38,950] - [INFO] C:\Users\ebedr\Desktop\erin\agri_trade\agri_trade\marketplace\services.py changed, reloading.
+[2022-11-19 11:16:39,763] - [INFO] Watching for file changes with StatReloader
+[2022-11-19 11:16:40,205] - [INFO] "GET /marketplace/ HTTP/1.1" 200 12837
+[2022-11-19 11:16:40,642] - [INFO] "GET /marketplace/ HTTP/1.1" 200 12837
+[2022-11-19 11:19:34,661] - [INFO] "GET /marketplace/?q=ebedr HTTP/1.1" 200 12846
+[2022-11-19 11:19:35,077] - [INFO] C:\Users\ebedr\Desktop\erin\agri_trade\agri_trade\marketplace\services.py changed, reloading.
+[2022-11-19 11:19:35,896] - [INFO] Watching for file changes with StatReloader
+[2022-11-19 11:19:36,386] - [INFO] "GET /marketplace/ HTTP/1.1" 200 12837
+[2022-11-19 11:19:36,397] - [INFO] - Broken pipe from ('127.0.0.1', 51867)
+[2022-11-19 11:19:36,748] - [INFO] "GET /marketplace/?q=ebedr HTTP/1.1" 200 12846
+[2022-11-19 11:19:37,334] - [INFO] "GET /marketplace/product-details/2 HTTP/1.1" 200 8156
+[2022-11-19 11:19:39,007] - [INFO] "GET /marketplace/ HTTP/1.1" 200 12837
+[2022-11-19 11:19:41,426] - [INFO] "GET /marketplace/?q=Australia HTTP/1.1" 200 12850
+[2022-11-19 11:19:42,439] - [INFO] "GET /marketplace/?q=ebedr HTTP/1.1" 200 12846
+[2022-11-19 11:19:42,952] - [INFO] "GET /marketplace/ HTTP/1.1" 200 12837
+[2022-11-19 11:20:51,583] - [INFO] "GET /marketplace/?q=ebedr HTTP/1.1" 200 12846
+[2022-11-19 11:20:51,939] - [INFO] "GET /marketplace/?q=ebedr HTTP/1.1" 200 12846
+[2022-11-19 11:20:52,333] - [INFO] "GET /marketplace/ HTTP/1.1" 200 12837
+[2022-11-19 11:20:52,473] - [INFO] C:\Users\ebedr\Desktop\erin\agri_trade\agri_trade\marketplace\views.py changed, reloading.
+[2022-11-19 11:20:53,129] - [INFO] Watching for file changes with StatReloader
+[2022-11-19 11:20:53,690] - [INFO] "GET /marketplace/ HTTP/1.1" 200 12837
+[2022-11-19 11:20:55,592] - [INFO] "GET /marketplace/ HTTP/1.1" 200 12837
+[2022-11-19 11:20:57,077] - [INFO] "GET /marketplace/ HTTP/1.1" 200 12837
+[2022-11-19 11:22:18,849] - [INFO] C:\Users\ebedr\Desktop\erin\agri_trade\agri_trade\marketplace\views.py changed, reloading.
+[2022-11-19 11:22:19,533] - [INFO] Watching for file changes with StatReloader
