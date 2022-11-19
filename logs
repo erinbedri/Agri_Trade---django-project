@@ -1288,3 +1288,17 @@ DETAIL:  Key (id)=(3) already exists.
 [2022-11-19 11:20:57,077] - [INFO] "GET /marketplace/ HTTP/1.1" 200 12837
 [2022-11-19 11:22:18,849] - [INFO] C:\Users\ebedr\Desktop\erin\agri_trade\agri_trade\marketplace\views.py changed, reloading.
 [2022-11-19 11:22:19,533] - [INFO] Watching for file changes with StatReloader
+[2022-11-19 11:22:52,721] - [INFO] "GET /messages/ HTTP/1.1" 200 11747
+[2022-11-19 11:22:54,086] - [INFO] "GET /messages/message/1 HTTP/1.1" 200 6098
+[2022-11-19 11:22:55,389] - [INFO] "GET /messages/reply-to/1 HTTP/1.1" 200 6810
+[2022-11-19 11:22:57,269] - [INFO] "POST /messages/reply-to/1 HTTP/1.1" 302 0
+[2022-11-19 11:22:57,447] - [INFO] "GET /messages/ HTTP/1.1" 200 12850
+[2022-11-19 11:23:21,785] - [INFO] "GET / HTTP/1.1" 200 7867
+[2022-11-19 11:23:23,332] - [INFO] "GET /marketplace/ HTTP/1.1" 200 12837
+[2022-11-19 11:26:53,307] - [INFO] C:\Users\ebedr\Desktop\erin\agri_trade\agri_trade\marketplace\views.py changed, reloading.
+[2022-11-19 11:26:54,166] - [INFO] Watching for file changes with StatReloader
+[2022-11-19 11:26:54,757] - [INFO] "GET /marketplace/my-products/ HTTP/1.1" 200 8524
+[2022-11-19 11:27:30,849] - [INFO] "GET /marketplace/my-products/ HTTP/1.1" 200 8524
+[2022-11-19 11:27:34,162] - [INFO] "GET /marketplace/favourites/ HTTP/1.1" 200 10845
+[2022-11-19 11:27:36,604] - [INFO] "GET /accounts/account/ HTTP/1.1" 200 11177
+[2022-11-19 11:27:38,260] - [INFO] "GET /marketplace/ HTTP/1.1" 200 12837

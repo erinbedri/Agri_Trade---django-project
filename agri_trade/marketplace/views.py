@@ -141,6 +141,7 @@ def show_favourites(request):
     q = request.GET.get('q') if request.GET.get('q') is not None else ''
 
     favourites = marketplace_services.get_favourites_by_query(user_id=request.user.id, query=q)
+    favourites_count = favourites.count()
 
     categories = sorted({favourite.category for favourite in favourites})
     cultivation_types = sorted({favourite.cultivation_type for favourite in favourites})
@@ -150,8 +151,6 @@ def show_favourites(request):
     paginator = Paginator(favourites, PRODUCTS_PER_PAGE)
     page_number = request.GET.get('page')
     page_obj = paginator.get_page(page_number)
-
-    favourites_count = favourites.count()
 
     context = {
         'page_obj': page_obj,
@@ -184,7 +183,7 @@ def add_product_to_favourites(request, pk):
 
 @login_required
 def show_my_products(request):
-    my_products = Product.objects.filter(owner_id=request.user.id)
+    my_products = marketplace_services.get_products_by_user_id(user_id=request.user.id)
     my_products_count = my_products.count()
 
     paginator = Paginator(my_products, PRODUCTS_PER_PAGE)

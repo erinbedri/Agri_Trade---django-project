@@ -37,6 +37,11 @@ def get_favourites_by_query(user_id, query):
     return favourites
 
 
+def get_products_by_user_id(user_id):
+    products = Product.objects.filter(owner_id=user_id)
+    return products
+
+
 def get_single_product(pk):
     product = get_object_or_404(Product, pk=pk)
     return product
