@@ -140,7 +140,8 @@ def delete_product(request, pk):
 def show_favourites(request):
     q = request.GET.get('q') if request.GET.get('q') is not None else ''
 
-    favourites = marketplace_services.get_favourites_by_query(user_id=request.user.id, query=q)
+    company = marketplace_services.get_single_company(user_id=request.user.id)
+    favourites = marketplace_services.get_favourites_by_query(company=company, query=q)
     favourites_count = favourites.count()
 
     categories = sorted({favourite.category for favourite in favourites})

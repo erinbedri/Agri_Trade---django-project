@@ -1302,3 +1302,38 @@ DETAIL:  Key (id)=(3) already exists.
 [2022-11-19 11:27:34,162] - [INFO] "GET /marketplace/favourites/ HTTP/1.1" 200 10845
 [2022-11-19 11:27:36,604] - [INFO] "GET /accounts/account/ HTTP/1.1" 200 11177
 [2022-11-19 11:27:38,260] - [INFO] "GET /marketplace/ HTTP/1.1" 200 12837
+[2022-11-19 11:28:55,812] - [INFO] "GET /posts/all/ HTTP/1.1" 200 6701
+[2022-11-19 11:28:56,749] - [INFO] "GET /posts/post/1/ HTTP/1.1" 200 5888
+[2022-11-19 11:28:58,342] - [INFO] "GET /posts/post/1/comments/ HTTP/1.1" 200 8067
+[2022-11-19 11:29:05,858] - [INFO] "POST /posts/post/1/comments/ HTTP/1.1" 302 0
+[2022-11-19 11:29:05,919] - [INFO] "GET /posts/post/1/comments/ HTTP/1.1" 200 8875
+[2022-11-19 11:29:07,592] - [INFO] "GET /marketplace/ HTTP/1.1" 200 12837
+[2022-11-19 11:29:09,837] - [INFO] "GET /marketplace/product-details/2 HTTP/1.1" 200 8156
+[2022-11-19 11:29:12,219] - [INFO] "GET /marketplace/product-edit/2 HTTP/1.1" 200 33062
+[2022-11-19 11:29:12,320] - [WARNING] "GET /static/flags/au.gif HTTP/1.1" 404 1795
+[2022-11-19 11:29:12,321] - [WARNING] "GET /static/flags/gr.gif HTTP/1.1" 404 1795
+[2022-11-19 11:29:21,778] - [INFO] "POST /marketplace/product-edit/2 HTTP/1.1" 302 0
+[2022-11-19 11:29:21,837] - [INFO] "GET /marketplace/ HTTP/1.1" 200 13150
+[2022-11-19 11:29:23,258] - [INFO] "GET /marketplace/product-details/2 HTTP/1.1" 200 8124
+[2022-11-19 11:29:23,438] - [INFO] "GET /media/produces/sunflower.jpg HTTP/1.1" 200 33040
+[2022-11-19 11:29:33,419] - [INFO] "GET /marketplace/ HTTP/1.1" 200 12837
+[2022-11-19 11:30:07,729] - [INFO] "GET /terms-and-conditions/ HTTP/1.1" 200 7807
+[2022-11-19 11:30:09,548] - [INFO] "GET / HTTP/1.1" 200 7867
+[2022-11-19 11:30:16,519] - [INFO] "GET /marketplace/ HTTP/1.1" 200 12837
+[2022-11-19 11:30:18,176] - [INFO] "GET / HTTP/1.1" 200 7867
+[2022-11-19 11:30:19,613] - [INFO] "GET /accounts/logout/ HTTP/1.1" 302 0
+[2022-11-19 11:30:19,621] - [INFO] "GET / HTTP/1.1" 200 6056
+[2022-11-19 11:30:21,847] - [INFO] "GET /accounts/register/ HTTP/1.1" 200 6606
+[2022-11-19 11:30:24,422] - [INFO] "GET /accounts/login/ HTTP/1.1" 200 4986
+[2022-11-19 11:30:25,210] - [INFO] "GET / HTTP/1.1" 200 5736
+[2022-11-19 11:30:46,785] - [INFO] "GET /accounts/login/ HTTP/1.1" 200 4986
+[2022-11-19 11:30:48,174] - [INFO] "POST /accounts/login/ HTTP/1.1" 302 0
+[2022-11-19 11:30:48,341] - [INFO] "GET /marketplace/ HTTP/1.1" 200 13147
+[2022-11-19 11:35:34,881] - [INFO] C:\Users\ebedr\Desktop\erin\agri_trade\agri_trade\marketplace\views.py changed, reloading.
+[2022-11-19 11:35:35,754] - [INFO] Watching for file changes with StatReloader
+[2022-11-19 11:35:36,184] - [INFO] "GET /marketplace/favourites/ HTTP/1.1" 200 10845
+[2022-11-19 11:37:38,957] - [INFO] C:\Users\ebedr\Desktop\erin\agri_trade\agri_trade\marketplace\services.py changed, reloading.
+[2022-11-19 11:37:39,711] - [INFO] Watching for file changes with StatReloader
+[2022-11-19 11:37:40,118] - [INFO] "GET /marketplace/favourites/ HTTP/1.1" 200 10845
+[2022-11-19 11:37:42,897] - [INFO] "GET /marketplace/favourites/?q=dfgdfg HTTP/1.1" 200 10855
+[2022-11-19 11:37:44,075] - [INFO] "GET /marketplace/favourites/ HTTP/1.1" 200 10845

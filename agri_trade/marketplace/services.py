@@ -21,8 +21,8 @@ def get_products_by_query(query):
     return products
 
 
-def get_favourites_by_query(user_id, query):
-    favourites = get_object_or_404(Company, pk=user_id).favourites.filter(
+def get_favourites_by_query(company, query):
+    favourites = company.favourites.filter(
         Q(name__icontains=query) |
         Q(category__icontains=query) |
         Q(cultivation_type__icontains=query) |
@@ -31,8 +31,7 @@ def get_favourites_by_query(user_id, query):
         Q(variety__icontains=query) |
         Q(type__icontains=query) |
         Q(description__icontains=query) |
-        Q(form__icontains=query) |
-        Q(owner__username=query)) \
+        Q(form__icontains=query))\
         .order_by('-created_on')
     return favourites
 
