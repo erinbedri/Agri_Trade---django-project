@@ -1424,3 +1424,34 @@ django.urls.exceptions.NoReverseMatch: Reverse for 'login' not found. 'login' is
 [2022-11-19 12:00:56,800] - [INFO] Watching for file changes with StatReloader
 [2022-11-19 12:01:52,328] - [INFO] C:\Users\ebedr\Desktop\erin\agri_trade\agri_trade\user_messages\views.py changed, reloading.
 [2022-11-19 12:01:52,916] - [INFO] Watching for file changes with StatReloader
+[2022-11-19 12:20:43,760] - [INFO] "GET /marketplace/?q=ebedr HTTP/1.1" 200 11085
+[2022-11-19 12:20:43,982] - [INFO] "GET /marketplace/?q=ebedr HTTP/1.1" 200 11085
+[2022-11-19 12:20:44,347] - [INFO] "GET /marketplace/?q=ebedr HTTP/1.1" 200 11085
+[2022-11-19 12:20:44,596] - [INFO] "GET /marketplace/?q=ebedr HTTP/1.1" 200 11085
+[2022-11-19 12:20:45,163] - [INFO] "GET /marketplace/ HTTP/1.1" 200 11076
+[2022-11-19 12:20:47,367] - [INFO] "GET /marketplace/ HTTP/1.1" 200 11076
+[2022-11-19 12:20:48,398] - [INFO] "GET /marketplace/ HTTP/1.1" 200 11076
+[2022-11-19 12:20:49,768] - [INFO] "GET /marketplace/product-add/ HTTP/1.1" 200 33249
+[2022-11-19 12:20:49,805] - [WARNING] "GET /static/flags/__.gif HTTP/1.1" 404 1795
+[2022-11-19 12:21:08,492] - [INFO] "GET / HTTP/1.1" 200 7867
+[2022-11-19 12:21:09,405] - [INFO] "GET /posts/all/ HTTP/1.1" 200 6700
+[2022-11-19 12:21:38,269] - [INFO] Watching for file changes with StatReloader
+[2022-11-19 12:21:39,526] - [INFO] "GET / HTTP/1.1" 200 7867
+[2022-11-21 11:28:35,074] - [INFO] Watching for file changes with StatReloader
+[2022-11-21 11:28:53,241] - [INFO] Watching for file changes with StatReloader
+[2022-11-21 11:29:19,507] - [INFO] Watching for file changes with StatReloader
+[2022-11-21 11:29:23,176] - [INFO] "GET / HTTP/1.1" 200 7867
+[2022-11-21 11:29:23,214] - [INFO] "GET /static/css/style.css HTTP/1.1" 304 0
+[2022-11-21 11:29:23,231] - [INFO] "GET /static/js/scripts.js HTTP/1.1" 304 0
+[2022-11-21 11:29:23,231] - [INFO] "GET /static/img/logo.png HTTP/1.1" 304 0
+[2022-11-21 11:29:23,232] - [INFO] "GET /static/img/homepage_circle.png HTTP/1.1" 304 0
+[2022-11-21 11:29:26,763] - [INFO] "GET /marketplace/ HTTP/1.1" 200 11076
+[2022-11-21 11:29:28,492] - [INFO] "GET /marketplace/ HTTP/1.1" 200 11076
+[2022-11-21 11:34:39,322] - [INFO] "GET /marketplace/ HTTP/1.1" 200 11076
+[2022-11-21 11:34:39,424] - [INFO] "GET /static/img/flaticon.png HTTP/1.1" 304 0
+[2022-11-21 11:34:53,125] - [INFO] Watching for file changes with StatReloader
+[2022-11-21 11:34:54,867] - [INFO] "GET / HTTP/1.1" 200 7867
+[2022-11-21 11:35:22,826] - [INFO] "GET / HTTP/1.1" 200 7867
+[2022-11-21 11:35:23,323] - [INFO] "GET /posts/all/ HTTP/1.1" 200 6697
+[2022-11-21 11:35:24,383] - [INFO] "GET /posts/post/1/ HTTP/1.1" 200 5884
+[2022-11-21 11:35:25,412] - [INFO] "GET / HTTP/1.1" 200 7867
