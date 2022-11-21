@@ -14,9 +14,9 @@ MESSAGE_TAGS = {
 
 BASE_DIR = Path(__file__).resolve().parent.parent
 
-SECRET_KEY = 'django-insecure-htwpnk026k=)t2ab#f*jxq@ujnf3x01tk4*t#9$u)txs^s923e'
+SECRET_KEY = os.environ.get('SECRET_KEY')
 
-DEBUG = True
+DEBUG = bool(os.environ.get('DEBUG'))
 
 ALLOWED_HOSTS = [
     'localhost',
