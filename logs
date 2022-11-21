@@ -1455,3 +1455,5 @@ django.urls.exceptions.NoReverseMatch: Reverse for 'login' not found. 'login' is
 [2022-11-21 11:35:23,323] - [INFO] "GET /posts/all/ HTTP/1.1" 200 6697
 [2022-11-21 11:35:24,383] - [INFO] "GET /posts/post/1/ HTTP/1.1" 200 5884
 [2022-11-21 11:35:25,412] - [INFO] "GET / HTTP/1.1" 200 7867
+[2022-11-21 16:19:33,760] - [INFO] Watching for file changes with StatReloader
+[2022-11-21 16:19:35,644] - [INFO] "GET / HTTP/1.1" 200 7867
