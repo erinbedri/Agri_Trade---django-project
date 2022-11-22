@@ -19,6 +19,7 @@ SECRET_KEY = os.environ.get('SECRET_KEY')
 DEBUG = bool(os.environ.get('DEBUG'))
 
 ALLOWED_HOSTS = os.environ.get('ALLOWED_HOSTS').split(' ')
+print(ALLOWED_HOSTS)
 
 INSTALLED_APPS = [
     'django.contrib.admin',
@@ -72,13 +73,6 @@ TEMPLATES = [
 
 WSGI_APPLICATION = 'agri_trade.wsgi.application'
 
-# DATABASES = {
-#     'default': {
-#         'ENGINE': 'django.db.backends.sqlite3',
-#         'NAME': BASE_DIR / 'db.sqlite3',
-#     }
-# }
-
 DATABASES = {
     'default': {
         'ENGINE': os.environ.get('DB_ENGINE'),
@@ -118,6 +112,8 @@ STATIC_URL = 'static/'
 STATICFILES_DIRS = [
     BASE_DIR / "static/",
 ]
+
+STATIC_ROOT = BASE_DIR / 'staticfiles'
 
 MEDIA_URL = "media/"
 

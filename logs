@@ -1462,3 +1462,37 @@ django.urls.exceptions.NoReverseMatch: Reverse for 'login' not found. 'login' is
 [2022-11-21 16:24:11,826] - [INFO] Watching for file changes with StatReloader
 [2022-11-21 16:32:55,862] - [INFO] C:\Users\ebedr\Desktop\erin\agri_trade\agri_trade\settings.py changed, reloading.
 [2022-11-21 16:36:28,430] - [INFO] Watching for file changes with StatReloader
+[2022-11-21 16:36:31,283] - [WARNING] Session data corrupted
+[2022-11-21 16:36:31,319] - [INFO] "GET / HTTP/1.1" 200 5736
+[2022-11-21 16:36:34,832] - [WARNING] Session data corrupted
+[2022-11-21 16:36:34,857] - [INFO] "GET /posts/all/ HTTP/1.1" 200 4565
+[2022-11-21 16:36:36,365] - [WARNING] Session data corrupted
+[2022-11-21 16:36:36,395] - [INFO] "GET /posts/post/1/ HTTP/1.1" 200 3752
+[2022-11-21 16:36:38,013] - [WARNING] Session data corrupted
+[2022-11-21 16:36:38,016] - [INFO] "GET / HTTP/1.1" 200 5736
+[2022-11-21 16:36:39,468] - [WARNING] Session data corrupted
+[2022-11-21 16:36:39,515] - [INFO] "GET /accounts/login/ HTTP/1.1" 200 4986
+[2022-11-21 16:36:41,850] - [WARNING] Session data corrupted
+[2022-11-21 16:36:42,579] - [INFO] "POST /accounts/login/ HTTP/1.1" 302 0
+[2022-11-21 16:36:42,697] - [INFO] "GET /marketplace/ HTTP/1.1" 200 11377
+[2022-11-21 16:36:51,261] - [INFO] "GET / HTTP/1.1" 200 7867
+[2022-11-21 16:57:20,419] - [INFO] "GET /posts/all/ HTTP/1.1" 200 6697
+[2022-11-21 16:57:22,356] - [INFO] "GET /posts/post/1/ HTTP/1.1" 200 5884
+[2022-11-21 16:57:24,330] - [INFO] "GET /posts/post/1/comments/ HTTP/1.1" 200 8875
+[2022-11-22 09:46:18,341] - [INFO] Watching for file changes with StatReloader
+[2022-11-22 09:46:20,861] - [INFO] "GET / HTTP/1.1" 200 7867
+[2022-11-22 09:47:09,041] - [INFO] C:\Users\ebedr\Desktop\erin\agri_trade\agri_trade\settings.py changed, reloading.
+[2022-11-22 09:47:09,760] - [INFO] Watching for file changes with StatReloader
+[2022-11-22 09:48:28,133] - [INFO] C:\Users\ebedr\Desktop\erin\agri_trade\agri_trade\settings.py changed, reloading.
+[2022-11-22 09:48:28,743] - [INFO] Watching for file changes with StatReloader
+[2022-11-22 09:49:36,114] - [INFO] Watching for file changes with StatReloader
+[2022-11-22 09:50:46,488] - [INFO] Watching for file changes with StatReloader
+[2022-11-22 09:58:32,655] - [INFO] C:\Users\ebedr\Desktop\erin\agri_trade\agri_trade\settings.py changed, reloading.
+[2022-11-22 09:58:33,625] - [INFO] Watching for file changes with StatReloader
+[2022-11-22 12:08:55,285] - [INFO] C:\Users\ebedr\Desktop\erin\agri_trade\agri_trade\settings.py changed, reloading.
+[2022-11-22 12:08:56,073] - [INFO] Watching for file changes with StatReloader
+[2022-11-22 12:15:03,914] - [INFO] Watching for file changes with StatReloader
+[2022-11-22 12:15:17,883] - [INFO] "GET / HTTP/1.1" 200 7867
+[2022-11-22 12:15:20,282] - [INFO] "GET /posts/all/ HTTP/1.1" 200 6697
+[2022-11-22 12:15:21,167] - [INFO] "GET /posts/post/1/ HTTP/1.1" 200 5884
+[2022-11-22 12:15:22,302] - [INFO] "GET / HTTP/1.1" 200 7867
