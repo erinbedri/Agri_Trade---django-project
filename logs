@@ -1605,3 +1605,242 @@ django.urls.exceptions.NoReverseMatch: Reverse for 'login' not found. 'login' is
 [2022-11-22 13:50:44,382] - [WARNING] "GET /static/img/logo.png HTTP/1.1" 404 5754
 [2022-11-22 13:52:56,633] - [INFO] C:\Users\ebedr\Desktop\erin\agri_trade\agri_trade\settings.py changed, reloading.
 [2022-11-22 13:52:57,340] - [INFO] Watching for file changes with StatReloader
+[2022-11-22 13:54:14,794] - [INFO] "GET /posts/all/ HTTP/1.1" 200 6697
+[2022-11-22 13:54:14,893] - [WARNING] Not Found: /static/css/style.css
+[2022-11-22 13:54:14,893] - [WARNING] "GET /static/css/style.css HTTP/1.1" 404 5754
+[2022-11-22 13:54:14,908] - [WARNING] Not Found: /static/js/scripts.js
+[2022-11-22 13:54:14,910] - [WARNING] Not Found: /static/img/logo.png
+[2022-11-22 13:54:14,914] - [WARNING] "GET /static/js/scripts.js HTTP/1.1" 404 5754
+[2022-11-22 13:54:14,915] - [WARNING] "GET /static/img/logo.png HTTP/1.1" 404 5754
+[2022-11-22 13:54:15,093] - [WARNING] Not Found: /static/img/flaticon.png
+[2022-11-22 13:54:15,093] - [WARNING] "GET /static/img/flaticon.png HTTP/1.1" 404 5754
+[2022-11-22 13:54:15,670] - [INFO] "GET /posts/all/ HTTP/1.1" 200 6697
+[2022-11-22 13:54:15,763] - [WARNING] Not Found: /static/img/logo.png
+[2022-11-22 13:54:15,763] - [WARNING] "GET /static/img/logo.png HTTP/1.1" 404 5754
+[2022-11-22 13:54:15,850] - [WARNING] Not Found: /static/css/style.css
+[2022-11-22 13:54:15,851] - [WARNING] "GET /static/css/style.css HTTP/1.1" 404 5754
+[2022-11-22 13:54:15,870] - [WARNING] Not Found: /static/js/scripts.js
+[2022-11-22 13:54:15,871] - [WARNING] "GET /static/js/scripts.js HTTP/1.1" 404 5754
+[2022-11-22 13:54:16,677] - [INFO] "GET /posts/all/ HTTP/1.1" 200 6697
+[2022-11-22 13:54:16,758] - [WARNING] Not Found: /static/css/style.css
+[2022-11-22 13:54:16,758] - [WARNING] "GET /static/css/style.css HTTP/1.1" 404 5754
+[2022-11-22 13:54:16,770] - [WARNING] Not Found: /static/js/scripts.js
+[2022-11-22 13:54:16,771] - [WARNING] "GET /static/js/scripts.js HTTP/1.1" 404 5754
+[2022-11-22 13:54:16,774] - [WARNING] Not Found: /static/img/logo.png
+[2022-11-22 13:54:16,774] - [WARNING] "GET /static/img/logo.png HTTP/1.1" 404 5754
+[2022-11-22 13:54:17,898] - [INFO] "GET /posts/all/ HTTP/1.1" 200 6697
+[2022-11-22 13:54:17,978] - [WARNING] Not Found: /static/css/style.css
+[2022-11-22 13:54:17,978] - [WARNING] "GET /static/css/style.css HTTP/1.1" 404 5754
+[2022-11-22 13:54:17,992] - [WARNING] Not Found: /static/js/scripts.js
+[2022-11-22 13:54:17,994] - [WARNING] Not Found: /static/img/logo.png
+[2022-11-22 13:54:17,995] - [WARNING] "GET /static/js/scripts.js HTTP/1.1" 404 5754
+[2022-11-22 13:54:17,995] - [WARNING] "GET /static/img/logo.png HTTP/1.1" 404 5754
+[2022-11-22 13:54:20,172] - [INFO] "GET /marketplace/my-products/ HTTP/1.1" 200 8509
+[2022-11-22 13:54:20,251] - [WARNING] Not Found: /static/css/style.css
+[2022-11-22 13:54:20,251] - [WARNING] "GET /static/css/style.css HTTP/1.1" 404 5754
+[2022-11-22 13:54:20,267] - [WARNING] Not Found: /static/img/logo.png
+[2022-11-22 13:54:20,270] - [WARNING] Not Found: /static/js/scripts.js
+[2022-11-22 13:54:20,271] - [WARNING] "GET /static/img/logo.png HTTP/1.1" 404 5754
+[2022-11-22 13:54:20,271] - [WARNING] "GET /static/js/scripts.js HTTP/1.1" 404 5754
+[2022-11-22 13:54:22,310] - [INFO] "GET /marketplace/product-details/4 HTTP/1.1" 200 8078
+[2022-11-22 13:54:22,418] - [WARNING] Not Found: /static/css/style.css
+[2022-11-22 13:54:22,420] - [WARNING] Not Found: /static/js/scripts.js
+[2022-11-22 13:54:22,421] - [WARNING] "GET /static/css/style.css HTTP/1.1" 404 5754
+[2022-11-22 13:54:22,422] - [WARNING] "GET /static/js/scripts.js HTTP/1.1" 404 5754
+[2022-11-22 13:54:22,427] - [WARNING] Not Found: /static/img/logo.png
+[2022-11-22 13:54:22,428] - [WARNING] "GET /static/img/logo.png HTTP/1.1" 404 5754
+[2022-11-22 13:54:25,055] - [INFO] "GET /posts/all/ HTTP/1.1" 200 6697
+[2022-11-22 13:54:25,136] - [WARNING] Not Found: /static/css/style.css
+[2022-11-22 13:54:25,136] - [WARNING] "GET /static/css/style.css HTTP/1.1" 404 5754
+[2022-11-22 13:54:25,151] - [WARNING] Not Found: /static/js/scripts.js
+[2022-11-22 13:54:25,153] - [WARNING] Not Found: /static/img/logo.png
+[2022-11-22 13:54:25,154] - [WARNING] "GET /static/js/scripts.js HTTP/1.1" 404 5754
+[2022-11-22 13:54:25,154] - [WARNING] "GET /static/img/logo.png HTTP/1.1" 404 5754
+[2022-11-22 13:54:26,492] - [INFO] "GET /marketplace/ HTTP/1.1" 200 12822
+[2022-11-22 13:54:26,589] - [WARNING] Not Found: /static/css/style.css
+[2022-11-22 13:54:26,591] - [WARNING] Not Found: /static/js/scripts.js
+[2022-11-22 13:54:26,593] - [WARNING] Not Found: /static/img/logo.png
+[2022-11-22 13:54:26,594] - [WARNING] "GET /static/css/style.css HTTP/1.1" 404 5754
+[2022-11-22 13:54:26,594] - [WARNING] "GET /static/js/scripts.js HTTP/1.1" 404 5754
+[2022-11-22 13:54:26,595] - [WARNING] "GET /static/img/logo.png HTTP/1.1" 404 5754
+[2022-11-22 13:58:11,071] - [INFO] "GET /posts/all/ HTTP/1.1" 200 6697
+[2022-11-22 13:58:11,153] - [WARNING] Not Found: /static/css/style.css
+[2022-11-22 13:58:11,153] - [WARNING] "GET /static/css/style.css HTTP/1.1" 404 5754
+[2022-11-22 13:58:11,170] - [WARNING] Not Found: /static/img/logo.png
+[2022-11-22 13:58:11,173] - [WARNING] Not Found: /static/js/scripts.js
+[2022-11-22 13:58:11,173] - [WARNING] "GET /static/img/logo.png HTTP/1.1" 404 5754
+[2022-11-22 13:58:11,173] - [WARNING] "GET /static/js/scripts.js HTTP/1.1" 404 5754
+[2022-11-22 13:58:11,657] - [INFO] "GET / HTTP/1.1" 200 7867
+[2022-11-22 13:58:11,761] - [WARNING] Not Found: /static/css/style.css
+[2022-11-22 13:58:11,767] - [WARNING] Not Found: /static/js/scripts.js
+[2022-11-22 13:58:11,769] - [WARNING] Not Found: /static/img/homepage_circle.png
+[2022-11-22 13:58:11,771] - [WARNING] Not Found: /static/img/logo.png
+[2022-11-22 13:58:11,772] - [WARNING] "GET /static/css/style.css HTTP/1.1" 404 5754
+[2022-11-22 13:58:11,772] - [WARNING] "GET /static/js/scripts.js HTTP/1.1" 404 5754
+[2022-11-22 13:58:11,773] - [WARNING] "GET /static/img/logo.png HTTP/1.1" 404 5754
+[2022-11-22 13:58:11,773] - [WARNING] "GET /static/img/homepage_circle.png HTTP/1.1" 404 5754
+[2022-11-22 13:58:12,766] - [INFO] "GET /marketplace/ HTTP/1.1" 200 12822
+[2022-11-22 13:58:12,849] - [WARNING] Not Found: /static/css/style.css
+[2022-11-22 13:58:12,850] - [WARNING] "GET /static/css/style.css HTTP/1.1" 404 5754
+[2022-11-22 13:58:12,861] - [WARNING] Not Found: /static/js/scripts.js
+[2022-11-22 13:58:12,862] - [WARNING] Not Found: /static/img/logo.png
+[2022-11-22 13:58:12,863] - [WARNING] "GET /static/js/scripts.js HTTP/1.1" 404 5754
+[2022-11-22 13:58:12,863] - [WARNING] "GET /static/img/logo.png HTTP/1.1" 404 5754
+[2022-11-22 13:58:13,778] - [INFO] "GET / HTTP/1.1" 200 7867
+[2022-11-22 13:58:13,875] - [WARNING] Not Found: /static/css/style.css
+[2022-11-22 13:58:13,877] - [WARNING] "GET /static/css/style.css HTTP/1.1" 404 5754
+[2022-11-22 13:58:13,883] - [WARNING] Not Found: /static/js/scripts.js
+[2022-11-22 13:58:13,885] - [WARNING] Not Found: /static/img/logo.png
+[2022-11-22 13:58:13,886] - [WARNING] "GET /static/js/scripts.js HTTP/1.1" 404 5754
+[2022-11-22 13:58:13,886] - [WARNING] "GET /static/img/logo.png HTTP/1.1" 404 5754
+[2022-11-22 13:58:13,894] - [WARNING] Not Found: /static/img/homepage_circle.png
+[2022-11-22 13:58:13,894] - [WARNING] "GET /static/img/homepage_circle.png HTTP/1.1" 404 5754
+[2022-11-22 13:58:49,666] - [INFO] C:\Users\ebedr\Desktop\erin\agri_trade\agri_trade\settings.py changed, reloading.
+[2022-11-22 13:58:50,394] - [INFO] Watching for file changes with StatReloader
+[2022-11-22 13:58:53,071] - [ERROR] "GET / HTTP/1.1" 500 59
+[2022-11-22 13:58:53,395] - [ERROR] "GET /favicon.ico HTTP/1.1" 500 59
+[2022-11-22 13:58:54,048] - [ERROR] "GET / HTTP/1.1" 500 59
+[2022-11-22 13:58:54,252] - [ERROR] "GET /favicon.ico HTTP/1.1" 500 59
+[2022-11-22 13:58:54,718] - [ERROR] "GET / HTTP/1.1" 500 59
+[2022-11-22 13:58:54,939] - [ERROR] "GET /favicon.ico HTTP/1.1" 500 59
+[2022-11-22 13:58:55,619] - [ERROR] "GET / HTTP/1.1" 500 59
+[2022-11-22 13:58:55,935] - [ERROR] "GET /favicon.ico HTTP/1.1" 500 59
+[2022-11-22 13:59:00,433] - [INFO] Watching for file changes with StatReloader
+[2022-11-22 13:59:04,478] - [ERROR] "GET / HTTP/1.1" 500 59
+[2022-11-22 13:59:04,681] - [ERROR] "GET /favicon.ico HTTP/1.1" 500 59
+[2022-11-22 13:59:05,453] - [ERROR] "GET / HTTP/1.1" 500 59
+[2022-11-22 13:59:05,650] - [ERROR] "GET /favicon.ico HTTP/1.1" 500 59
+[2022-11-22 13:59:06,015] - [ERROR] "GET / HTTP/1.1" 500 59
+[2022-11-22 13:59:06,236] - [ERROR] "GET /favicon.ico HTTP/1.1" 500 59
+[2022-11-22 13:59:16,257] - [ERROR] "GET / HTTP/1.1" 500 59
+[2022-11-22 13:59:16,425] - [ERROR] "GET /favicon.ico HTTP/1.1" 500 59
+[2022-11-22 13:59:55,109] - [ERROR] "GET / HTTP/1.1" 500 59
+[2022-11-22 13:59:55,161] - [INFO] C:\Users\ebedr\Desktop\erin\agri_trade\agri_trade\settings.py changed, reloading.
+[2022-11-22 13:59:56,013] - [INFO] Watching for file changes with StatReloader
+[2022-11-22 13:59:56,347] - [INFO] "GET / HTTP/1.1" 200 7867
+[2022-11-22 13:59:56,354] - [WARNING] Not Found: /favicon.ico
+[2022-11-22 13:59:56,357] - [INFO] - Broken pipe from ('127.0.0.1', 62874)
+[2022-11-22 13:59:56,446] - [WARNING] Not Found: /static/css/style.css
+[2022-11-22 13:59:56,447] - [INFO] - Broken pipe from ('127.0.0.1', 62878)
+[2022-11-22 13:59:56,602] - [INFO] "GET / HTTP/1.1" 200 7867
+[2022-11-22 13:59:56,702] - [WARNING] Not Found: /static/css/style.css
+[2022-11-22 13:59:56,702] - [WARNING] "GET /static/css/style.css HTTP/1.1" 404 5754
+[2022-11-22 13:59:56,735] - [WARNING] Not Found: /static/js/scripts.js
+[2022-11-22 13:59:56,737] - [WARNING] Not Found: /static/img/logo.png
+[2022-11-22 13:59:56,739] - [WARNING] Not Found: /static/img/homepage_circle.png
+[2022-11-22 13:59:56,739] - [WARNING] "GET /static/img/logo.png HTTP/1.1" 404 5754
+[2022-11-22 13:59:56,739] - [WARNING] "GET /static/img/homepage_circle.png HTTP/1.1" 404 5754
+[2022-11-22 13:59:56,739] - [WARNING] "GET /static/js/scripts.js HTTP/1.1" 404 5754
+[2022-11-22 13:59:57,567] - [INFO] "GET / HTTP/1.1" 200 7867
+[2022-11-22 13:59:57,655] - [WARNING] Not Found: /static/css/style.css
+[2022-11-22 13:59:57,656] - [WARNING] "GET /static/css/style.css HTTP/1.1" 404 5754
+[2022-11-22 13:59:57,671] - [WARNING] Not Found: /static/js/scripts.js
+[2022-11-22 13:59:57,673] - [WARNING] "GET /static/js/scripts.js HTTP/1.1" 404 5754
+[2022-11-22 13:59:57,677] - [WARNING] Not Found: /static/img/logo.png
+[2022-11-22 13:59:57,679] - [WARNING] Not Found: /static/img/homepage_circle.png
+[2022-11-22 13:59:57,680] - [WARNING] "GET /static/img/logo.png HTTP/1.1" 404 5754
+[2022-11-22 13:59:57,680] - [WARNING] "GET /static/img/homepage_circle.png HTTP/1.1" 404 5754
+[2022-11-22 14:01:22,164] - [INFO] Watching for file changes with StatReloader
+[2022-11-22 14:01:23,523] - [INFO] "GET / HTTP/1.1" 200 7867
+[2022-11-22 14:01:23,613] - [WARNING] Not Found: /static/css/style.css
+[2022-11-22 14:01:23,614] - [WARNING] "GET /static/css/style.css HTTP/1.1" 404 5754
+[2022-11-22 14:01:23,636] - [WARNING] Not Found: /static/js/scripts.js
+[2022-11-22 14:01:23,638] - [WARNING] Not Found: /static/img/logo.png
+[2022-11-22 14:01:23,640] - [WARNING] "GET /static/js/scripts.js HTTP/1.1" 404 5754
+[2022-11-22 14:01:23,641] - [WARNING] "GET /static/img/logo.png HTTP/1.1" 404 5754
+[2022-11-22 14:01:23,646] - [WARNING] Not Found: /static/img/homepage_circle.png
+[2022-11-22 14:01:23,647] - [WARNING] "GET /static/img/homepage_circle.png HTTP/1.1" 404 5754
+[2022-11-22 14:02:50,091] - [INFO] "GET / HTTP/1.1" 200 7867
+[2022-11-22 14:02:50,169] - [WARNING] Not Found: /static/css/style.css
+[2022-11-22 14:02:50,170] - [WARNING] "GET /static/css/style.css HTTP/1.1" 404 5754
+[2022-11-22 14:02:50,189] - [WARNING] Not Found: /static/img/logo.png
+[2022-11-22 14:02:50,190] - [WARNING] "GET /static/img/logo.png HTTP/1.1" 404 5754
+[2022-11-22 14:02:50,287] - [WARNING] Not Found: /static/js/scripts.js
+[2022-11-22 14:02:50,288] - [WARNING] "GET /static/js/scripts.js HTTP/1.1" 404 5754
+[2022-11-22 14:02:50,306] - [WARNING] Not Found: /static/img/homepage_circle.png
+[2022-11-22 14:02:50,306] - [WARNING] "GET /static/img/homepage_circle.png HTTP/1.1" 404 5754
+[2022-11-22 14:02:50,628] - [INFO] C:\Users\ebedr\Desktop\erin\agri_trade\agri_trade\settings.py changed, reloading.
+[2022-11-22 14:02:51,536] - [INFO] Watching for file changes with StatReloader
+[2022-11-22 14:02:52,069] - [INFO] "GET / HTTP/1.1" 200 7867
+[2022-11-22 14:02:52,155] - [WARNING] Not Found: /static/css/style.css
+[2022-11-22 14:02:52,155] - [WARNING] "GET /static/css/style.css HTTP/1.1" 404 5754
+[2022-11-22 14:02:52,166] - [WARNING] Not Found: /static/js/scripts.js
+[2022-11-22 14:02:52,169] - [WARNING] Not Found: /static/img/logo.png
+[2022-11-22 14:02:52,171] - [WARNING] Not Found: /static/img/homepage_circle.png
+[2022-11-22 14:02:52,171] - [WARNING] "GET /static/js/scripts.js HTTP/1.1" 404 5754
+[2022-11-22 14:02:52,171] - [WARNING] "GET /static/img/logo.png HTTP/1.1" 404 5754
+[2022-11-22 14:02:52,172] - [WARNING] "GET /static/img/homepage_circle.png HTTP/1.1" 404 5754
+[2022-11-22 14:02:52,521] - [INFO] "GET / HTTP/1.1" 200 7867
+[2022-11-22 14:02:52,604] - [WARNING] Not Found: /static/css/style.css
+[2022-11-22 14:02:52,605] - [WARNING] "GET /static/css/style.css HTTP/1.1" 404 5754
+[2022-11-22 14:02:52,621] - [WARNING] Not Found: /static/js/scripts.js
+[2022-11-22 14:02:52,624] - [WARNING] "GET /static/js/scripts.js HTTP/1.1" 404 5754
+[2022-11-22 14:02:52,627] - [WARNING] Not Found: /static/img/homepage_circle.png
+[2022-11-22 14:02:52,629] - [WARNING] "GET /static/img/homepage_circle.png HTTP/1.1" 404 5754
+[2022-11-22 14:02:52,633] - [WARNING] Not Found: /static/img/logo.png
+[2022-11-22 14:02:52,634] - [WARNING] "GET /static/img/logo.png HTTP/1.1" 404 5754
+[2022-11-22 14:02:52,866] - [INFO] "GET / HTTP/1.1" 200 7867
+[2022-11-22 14:02:52,965] - [WARNING] Not Found: /static/css/style.css
+[2022-11-22 14:02:52,966] - [WARNING] "GET /static/css/style.css HTTP/1.1" 404 5754
+[2022-11-22 14:02:53,011] - [WARNING] Not Found: /static/js/scripts.js
+[2022-11-22 14:02:53,012] - [WARNING] "GET /static/js/scripts.js HTTP/1.1" 404 5754
+[2022-11-22 14:02:53,021] - [WARNING] Not Found: /static/img/logo.png
+[2022-11-22 14:02:53,023] - [WARNING] "GET /static/img/logo.png HTTP/1.1" 404 5754
+[2022-11-22 14:02:53,027] - [WARNING] Not Found: /static/img/homepage_circle.png
+[2022-11-22 14:02:53,028] - [WARNING] "GET /static/img/homepage_circle.png HTTP/1.1" 404 5754
+[2022-11-22 14:02:53,461] - [INFO] "GET /marketplace/ HTTP/1.1" 200 12822
+[2022-11-22 14:02:53,559] - [WARNING] Not Found: /static/css/style.css
+[2022-11-22 14:02:53,560] - [WARNING] Not Found: /static/js/scripts.js
+[2022-11-22 14:02:53,562] - [WARNING] Not Found: /static/img/logo.png
+[2022-11-22 14:02:53,563] - [WARNING] "GET /static/css/style.css HTTP/1.1" 404 5754
+[2022-11-22 14:02:53,563] - [WARNING] "GET /static/js/scripts.js HTTP/1.1" 404 5754
+[2022-11-22 14:02:53,564] - [WARNING] "GET /static/img/logo.png HTTP/1.1" 404 5754
+[2022-11-22 14:02:54,583] - [INFO] "GET / HTTP/1.1" 200 7867
+[2022-11-22 14:02:54,674] - [WARNING] Not Found: /static/css/style.css
+[2022-11-22 14:02:54,675] - [WARNING] "GET /static/css/style.css HTTP/1.1" 404 5754
+[2022-11-22 14:02:54,689] - [WARNING] Not Found: /static/js/scripts.js
+[2022-11-22 14:02:54,692] - [WARNING] "GET /static/js/scripts.js HTTP/1.1" 404 5754
+[2022-11-22 14:02:54,696] - [WARNING] Not Found: /static/img/homepage_circle.png
+[2022-11-22 14:02:54,698] - [WARNING] Not Found: /static/img/logo.png
+[2022-11-22 14:02:54,699] - [WARNING] "GET /static/img/logo.png HTTP/1.1" 404 5754
+[2022-11-22 14:02:54,699] - [WARNING] "GET /static/img/homepage_circle.png HTTP/1.1" 404 5754
+[2022-11-22 14:02:55,198] - [INFO] "GET /posts/all/ HTTP/1.1" 200 6697
+[2022-11-22 14:02:55,293] - [WARNING] Not Found: /static/css/style.css
+[2022-11-22 14:02:55,293] - [WARNING] "GET /static/css/style.css HTTP/1.1" 404 5754
+[2022-11-22 14:02:55,306] - [WARNING] Not Found: /static/js/scripts.js
+[2022-11-22 14:02:55,308] - [WARNING] Not Found: /static/img/logo.png
+[2022-11-22 14:02:55,309] - [WARNING] "GET /static/js/scripts.js HTTP/1.1" 404 5754
+[2022-11-22 14:02:55,309] - [WARNING] "GET /static/img/logo.png HTTP/1.1" 404 5754
+[2022-11-22 14:02:56,089] - [INFO] "GET / HTTP/1.1" 200 7867
+[2022-11-22 14:02:56,193] - [WARNING] Not Found: /static/css/style.css
+[2022-11-22 14:02:56,195] - [WARNING] Not Found: /static/js/scripts.js
+[2022-11-22 14:02:56,196] - [WARNING] "GET /static/css/style.css HTTP/1.1" 404 5754
+[2022-11-22 14:02:56,197] - [WARNING] "GET /static/js/scripts.js HTTP/1.1" 404 5754
+[2022-11-22 14:02:56,201] - [WARNING] Not Found: /static/img/homepage_circle.png
+[2022-11-22 14:02:56,203] - [WARNING] Not Found: /static/img/logo.png
+[2022-11-22 14:02:56,203] - [WARNING] "GET /static/img/homepage_circle.png HTTP/1.1" 404 5754
+[2022-11-22 14:02:56,203] - [WARNING] "GET /static/img/logo.png HTTP/1.1" 404 5754
+[2022-11-22 14:03:10,906] - [WARNING] Not Found: /static/css/style.css
+[2022-11-22 14:03:10,906] - [WARNING] "GET /static/css/style.css HTTP/1.1" 404 5754
+[2022-11-22 14:03:10,982] - [WARNING] Not Found: /static/css/style.css
+[2022-11-22 14:03:10,983] - [WARNING] "GET /static/css/style.css HTTP/1.1" 404 5754
+[2022-11-22 14:03:10,993] - [WARNING] Not Found: /static/js/scripts.js
+[2022-11-22 14:03:10,995] - [WARNING] Not Found: /static/img/logo.png
+[2022-11-22 14:03:10,995] - [WARNING] "GET /static/js/scripts.js HTTP/1.1" 404 5754
+[2022-11-22 14:03:10,996] - [WARNING] "GET /static/img/logo.png HTTP/1.1" 404 5754
+[2022-11-22 14:04:29,056] - [INFO] C:\Users\ebedr\Desktop\erin\agri_trade\agri_trade\settings.py changed, reloading.
+[2022-11-22 14:04:29,883] - [INFO] Watching for file changes with StatReloader
+[2022-11-22 14:04:30,251] - [INFO] "GET / HTTP/1.1" 200 7867
+[2022-11-22 14:04:30,659] - [INFO] "GET /static/img/logo.png HTTP/1.1" 200 25234
+[2022-11-22 14:04:30,662] - [INFO] "GET /static/css/style.css HTTP/1.1" 200 115
+[2022-11-22 14:04:30,665] - [INFO] "GET /static/js/scripts.js HTTP/1.1" 200 191
+[2022-11-22 14:04:30,710] - [INFO] "GET /static/img/homepage_circle.png HTTP/1.1" 200 120984
+[2022-11-22 14:04:40,388] - [INFO] "GET /posts/all/ HTTP/1.1" 200 6697
+[2022-11-22 14:04:40,422] - [INFO] "GET /static/css/style.css HTTP/1.1" 200 115
+[2022-11-22 14:04:40,435] - [INFO] "GET /static/js/scripts.js HTTP/1.1" 200 191
+[2022-11-22 14:04:40,436] - [INFO] "GET /static/img/logo.png HTTP/1.1" 200 25234
+[2022-11-22 14:04:41,038] - [INFO] "GET / HTTP/1.1" 200 7867
+[2022-11-22 14:04:41,076] - [INFO] "GET /static/css/style.css HTTP/1.1" 200 115
+[2022-11-22 14:04:41,093] - [INFO] "GET /static/js/scripts.js HTTP/1.1" 200 191
+[2022-11-22 14:04:41,096] - [INFO] "GET /static/img/logo.png HTTP/1.1" 200 25234
+[2022-11-22 14:04:41,097] - [INFO] "GET /static/img/homepage_circle.png HTTP/1.1" 200 120984

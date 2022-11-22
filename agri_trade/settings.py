@@ -6,20 +6,20 @@ import cloudinary
 from django.contrib.messages import constants as messages
 
 MESSAGE_TAGS = {
-        messages.DEBUG: 'alert-secondary',
-        messages.INFO: 'alert-info',
-        messages.SUCCESS: 'alert-success',
-        messages.WARNING: 'alert-warning',
-        messages.ERROR: 'alert-danger',
- }
+    messages.DEBUG: 'alert-secondary',
+    messages.INFO: 'alert-info',
+    messages.SUCCESS: 'alert-success',
+    messages.WARNING: 'alert-warning',
+    messages.ERROR: 'alert-danger',
+}
 
 BASE_DIR = Path(__file__).resolve().parent.parent
 
 SECRET_KEY = os.environ.get('SECRET_KEY')
 
-DEBUG = bool(os.environ.get('DEBUG'))
+DEBUG = bool(os.environ.get('DEBUG', 'True'))
 
-ALLOWED_HOSTS = os.environ.get('ALLOWED_HOSTS', 'localhost').split(' ')
+ALLOWED_HOSTS = os.environ.get('ALLOWED_HOSTS', ['localhost', '127.0.0.1']).split(' ')
 
 INSTALLED_APPS = [
     'django.contrib.admin',
@@ -114,6 +114,9 @@ STATICFILES_DIRS = [
     BASE_DIR / "static/",
 ]
 
+print(STATIC_URL)
+print(STATICFILES_DIRS)
+
 STATIC_ROOT = BASE_DIR / 'staticfiles'
 
 MEDIA_URL = "media/"
@@ -156,9 +159,8 @@ LOGGING = {
     },
 }
 
-
 cloudinary.config(
-  cloud_name=os.getenv('CLOUDINARY_CLOUD_NAME'),
-  api_key=os.getenv('CLOUDINARY_API_KEY'),
-  api_secret=os.getenv('CLOUDINARY_API_SECRET')
+    cloud_name=os.getenv('CLOUDINARY_CLOUD_NAME'),
+    api_key=os.getenv('CLOUDINARY_API_KEY'),
+    api_secret=os.getenv('CLOUDINARY_API_SECRET')
 )
