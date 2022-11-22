@@ -1846,3 +1846,5 @@ django.urls.exceptions.NoReverseMatch: Reverse for 'login' not found. 'login' is
 [2022-11-22 14:04:41,097] - [INFO] "GET /static/img/homepage_circle.png HTTP/1.1" 200 120984
 [2022-11-22 14:59:04,120] - [INFO] C:\Users\ebedr\Desktop\erin\agri_trade\agri_trade\settings.py changed, reloading.
 [2022-11-22 14:59:04,882] - [INFO] Watching for file changes with StatReloader
+[2022-11-22 15:16:15,514] - [INFO] C:\Users\ebedr\Desktop\erin\agri_trade\agri_trade\settings.py changed, reloading.
+[2022-11-22 15:16:16,587] - [INFO] Watching for file changes with StatReloader
