@@ -1875,3 +1875,40 @@ django.urls.exceptions.NoReverseMatch: Reverse for 'login' not found. 'login' is
 [2022-11-22 15:24:31,316] - [WARNING] "GET /posts/post/51/ HTTP/1.1" 404 3874
 [2022-11-22 15:25:09,777] - [INFO] C:\Users\ebedr\Desktop\erin\agri_trade\agri_trade\settings.py changed, reloading.
 [2022-11-22 15:25:10,518] - [INFO] Watching for file changes with StatReloader
+[2022-11-22 15:25:23,673] - [WARNING] Not Found: /posts/post/51/
+[2022-11-22 15:25:23,674] - [WARNING] "GET /posts/post/51/ HTTP/1.1" 404 5754
+[2022-11-22 15:25:24,734] - [WARNING] Not Found: /posts/post/51/
+[2022-11-22 15:25:24,734] - [WARNING] "GET /posts/post/51/ HTTP/1.1" 404 5754
+[2022-11-22 15:26:23,735] - [WARNING] Not Found: /posts/post/51/
+[2022-11-22 15:26:23,735] - [WARNING] "GET /posts/post/51/ HTTP/1.1" 404 5754
+[2022-11-22 15:27:07,093] - [WARNING] Not Found: /posts/post/51/
+[2022-11-22 15:27:07,093] - [WARNING] "GET /posts/post/51/ HTTP/1.1" 404 5754
+[2022-11-22 15:27:08,604] - [WARNING] Not Found: /posts/post/51/
+[2022-11-22 15:27:08,604] - [WARNING] "GET /posts/post/51/ HTTP/1.1" 404 5754
+[2022-11-22 15:27:09,153] - [WARNING] Not Found: /posts/post/51/
+[2022-11-22 15:27:09,153] - [WARNING] "GET /posts/post/51/ HTTP/1.1" 404 5754
+[2022-11-22 15:27:09,300] - [WARNING] Not Found: /posts/post/51/
+[2022-11-22 15:27:09,300] - [WARNING] "GET /posts/post/51/ HTTP/1.1" 404 5754
+[2022-11-22 15:27:10,001] - [WARNING] Not Found: /posts/post/51/
+[2022-11-22 15:27:10,002] - [WARNING] "GET /posts/post/51/ HTTP/1.1" 404 5754
+[2022-11-22 15:27:10,927] - [INFO] "GET /posts/all/ HTTP/1.1" 200 6697
+[2022-11-22 15:27:11,952] - [INFO] "GET /posts/post/1/ HTTP/1.1" 200 5884
+[2022-11-22 15:27:15,905] - [WARNING] Not Found: /posts/post/155/
+[2022-11-22 15:27:15,905] - [WARNING] "GET /posts/post/155/ HTTP/1.1" 404 5754
+[2022-11-22 15:28:25,673] - [INFO] "GET /posts/all/ HTTP/1.1" 200 6697
+[2022-11-22 15:28:26,431] - [INFO] "GET /posts/post/1/ HTTP/1.1" 200 5884
+[2022-11-22 15:28:30,455] - [WARNING] Not Found: /posts/post/1585/
+[2022-11-22 15:28:30,455] - [WARNING] "GET /posts/post/1585/ HTTP/1.1" 404 5754
+[2022-11-22 15:32:27,564] - [WARNING] Not Found: /posts/post/1585/
+[2022-11-22 15:32:27,565] - [WARNING] "GET /posts/post/1585/ HTTP/1.1" 404 5754
+[2022-11-22 15:32:29,406] - [INFO] "GET /posts/all/ HTTP/1.1" 200 6697
+[2022-11-22 15:32:30,054] - [INFO] "GET /posts/post/1/ HTTP/1.1" 200 5884
+[2022-11-22 15:32:33,716] - [WARNING] Not Found: /posts/post/15/
+[2022-11-22 15:32:33,717] - [WARNING] "GET /posts/post/15/ HTTP/1.1" 404 5754
+[2022-11-22 15:33:04,715] - [INFO] Watching for file changes with StatReloader
+[2022-11-22 15:33:26,555] - [WARNING] Not Found: /posts/post/15/
+[2022-11-22 15:33:26,556] - [WARNING] "GET /posts/post/15/ HTTP/1.1" 404 3874
+[2022-11-22 15:33:26,991] - [INFO] C:\Users\ebedr\Desktop\erin\agri_trade\agri_trade\settings.py changed, reloading.
+[2022-11-22 15:33:27,879] - [INFO] Watching for file changes with StatReloader
+[2022-11-22 15:33:28,456] - [WARNING] Not Found: /posts/post/15/
+[2022-11-22 15:33:28,456] - [WARNING] "GET /posts/post/15/ HTTP/1.1" 404 3874
