@@ -2,6 +2,7 @@ from pathlib import Path
 
 import os
 
+import cloudinary
 from django.contrib.messages import constants as messages
 
 MESSAGE_TAGS = {
@@ -18,8 +19,7 @@ SECRET_KEY = os.environ.get('SECRET_KEY')
 
 DEBUG = bool(os.environ.get('DEBUG'))
 
-ALLOWED_HOSTS = os.environ.get('ALLOWED_HOSTS').split(' ')
-print(ALLOWED_HOSTS)
+ALLOWED_HOSTS = os.environ.get('ALLOWED_HOSTS', 'localhost').split(' ')
 
 INSTALLED_APPS = [
     'django.contrib.admin',
@@ -76,12 +76,12 @@ WSGI_APPLICATION = 'agri_trade.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': os.environ.get('DB_ENGINE'),
-        'NAME': os.environ.get('DB_NAME'),
-        'USER': os.environ.get('DB_USER'),
-        'PASSWORD': os.environ.get('DB_PASSWORD'),
-        'HOST': os.environ.get('DB_HOST'),
-        'PORT': os.environ.get('DB_PORT'),
+        'ENGINE': os.environ.get('DB_ENGINE', 'django.db.backends.postgresql'),
+        'NAME': os.environ.get('DB_NAME', 'db_agritrade'),
+        'USER': os.environ.get('DB_USER', 'postgres'),
+        'PASSWORD': os.environ.get('DB_PASSWORD', '123QWE'),
+        'HOST': os.environ.get('DB_HOST', '127.0.0.1'),
+        'PORT': os.environ.get('DB_PORT', '5432'),
     }
 }
 
@@ -156,3 +156,9 @@ LOGGING = {
     },
 }
 
+
+cloudinary.config(
+  cloud_name=os.getenv('CLOUDINARY_CLOUD_NAME'),
+  api_key=os.getenv('CLOUDINARY_API_KEY'),
+  api_secret=os.getenv('CLOUDINARY_API_SECRET')
+)

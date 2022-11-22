@@ -1,3 +1,4 @@
+from cloudinary.models import CloudinaryField
 from django.contrib.auth import get_user_model
 from django.core.validators import MinValueValidator, MaxValueValidator
 from django.db import models
@@ -119,10 +120,10 @@ class Product(models.Model):
     location = CountryField(
     )
 
-    image = models.ImageField(
+    image = CloudinaryField(
         null=True,
         blank=True,
-        upload_to='produces',
+        use_filename=True,
         validators=(
             file_size,
         )
