@@ -1912,3 +1912,74 @@ django.urls.exceptions.NoReverseMatch: Reverse for 'login' not found. 'login' is
 [2022-11-22 15:33:27,879] - [INFO] Watching for file changes with StatReloader
 [2022-11-22 15:33:28,456] - [WARNING] Not Found: /posts/post/15/
 [2022-11-22 15:33:28,456] - [WARNING] "GET /posts/post/15/ HTTP/1.1" 404 3874
+[2022-11-22 15:35:40,870] - [WARNING] Not Found: /posts/post/15/
+[2022-11-22 15:35:40,870] - [WARNING] "GET /posts/post/15/ HTTP/1.1" 404 3874
+[2022-11-22 15:35:42,109] - [WARNING] Not Found: /posts/post/15/
+[2022-11-22 15:35:42,109] - [WARNING] "GET /posts/post/15/ HTTP/1.1" 404 3874
+[2022-11-22 15:35:43,021] - [WARNING] Not Found: /posts/post/15/
+[2022-11-22 15:35:43,022] - [WARNING] "GET /posts/post/15/ HTTP/1.1" 404 3874
+[2022-11-22 15:35:43,515] - [WARNING] Not Found: /posts/post/15/
+[2022-11-22 15:35:43,515] - [WARNING] "GET /posts/post/15/ HTTP/1.1" 404 3874
+[2022-11-22 15:35:43,893] - [WARNING] Not Found: /posts/post/15/
+[2022-11-22 15:35:43,894] - [WARNING] "GET /posts/post/15/ HTTP/1.1" 404 3874
+[2022-11-22 15:35:44,194] - [WARNING] Not Found: /posts/post/15/
+[2022-11-22 15:35:44,194] - [WARNING] "GET /posts/post/15/ HTTP/1.1" 404 3874
+[2022-11-22 15:35:44,639] - [WARNING] Not Found: /posts/post/15/
+[2022-11-22 15:35:44,639] - [WARNING] "GET /posts/post/15/ HTTP/1.1" 404 3874
+[2022-11-22 15:35:44,876] - [WARNING] Not Found: /posts/post/15/
+[2022-11-22 15:35:44,876] - [WARNING] "GET /posts/post/15/ HTTP/1.1" 404 3874
+[2022-11-22 15:35:45,139] - [WARNING] Not Found: /posts/post/15/
+[2022-11-22 15:35:45,140] - [WARNING] "GET /posts/post/15/ HTTP/1.1" 404 3874
+[2022-11-22 15:35:45,338] - [WARNING] Not Found: /posts/post/15/
+[2022-11-22 15:35:45,338] - [WARNING] "GET /posts/post/15/ HTTP/1.1" 404 3874
+[2022-11-22 15:35:45,520] - [WARNING] Not Found: /posts/post/15/
+[2022-11-22 15:35:45,520] - [WARNING] "GET /posts/post/15/ HTTP/1.1" 404 3874
+[2022-11-22 15:35:45,729] - [WARNING] Not Found: /posts/post/15/
+[2022-11-22 15:35:45,729] - [WARNING] "GET /posts/post/15/ HTTP/1.1" 404 3874
+[2022-11-22 15:35:46,190] - [WARNING] Not Found: /posts/post/15/
+[2022-11-22 15:35:46,191] - [WARNING] "GET /posts/post/15/ HTTP/1.1" 404 3874
+[2022-11-22 15:35:46,761] - [WARNING] Not Found: /posts/post/15/
+[2022-11-22 15:35:46,761] - [WARNING] "GET /posts/post/15/ HTTP/1.1" 404 3874
+[2022-11-22 15:35:51,755] - [INFO] Watching for file changes with StatReloader
+[2022-11-22 15:35:55,022] - [WARNING] Not Found: /posts/post/15/
+[2022-11-22 15:35:55,023] - [WARNING] "GET /posts/post/15/ HTTP/1.1" 404 3874
+[2022-11-22 15:35:56,806] - [WARNING] Not Found: /posts/post/15/
+[2022-11-22 15:35:56,807] - [WARNING] "GET /posts/post/15/ HTTP/1.1" 404 3874
+[2022-11-22 15:35:57,727] - [WARNING] Not Found: /posts/post/15/
+[2022-11-22 15:35:57,728] - [WARNING] "GET /posts/post/15/ HTTP/1.1" 404 3874
+[2022-11-22 15:35:58,409] - [WARNING] Not Found: /posts/post/15/
+[2022-11-22 15:35:58,409] - [WARNING] "GET /posts/post/15/ HTTP/1.1" 404 3874
+[2022-11-22 15:35:58,973] - [WARNING] Not Found: /posts/post/15/
+[2022-11-22 15:35:58,973] - [WARNING] "GET /posts/post/15/ HTTP/1.1" 404 3874
+[2022-11-22 15:36:03,607] - [WARNING] Not Found: /posts/post/15/
+[2022-11-22 15:36:03,608] - [WARNING] "GET /posts/post/15/ HTTP/1.1" 404 3874
+[2022-11-22 15:36:07,719] - [WARNING] Not Found: /posts/post/15/
+[2022-11-22 15:36:07,720] - [WARNING] "GET /posts/post/15/ HTTP/1.1" 404 3874
+[2022-11-22 15:36:09,559] - [INFO] "GET /posts/all/ HTTP/1.1" 200 6697
+[2022-11-22 15:36:10,552] - [INFO] "GET /posts/post/1/ HTTP/1.1" 200 5884
+[2022-11-22 15:36:13,802] - [WARNING] Not Found: /posts/post/15/
+[2022-11-22 15:36:13,803] - [WARNING] "GET /posts/post/15/ HTTP/1.1" 404 3874
+[2022-11-22 15:36:52,673] - [WARNING] Not Found: /posts/post/15/
+[2022-11-22 15:36:52,674] - [WARNING] "GET /posts/post/15/ HTTP/1.1" 404 3874
+[2022-11-22 15:36:54,135] - [WARNING] Not Found: /posts/post/15/
+[2022-11-22 15:36:54,136] - [WARNING] "GET /posts/post/15/ HTTP/1.1" 404 3874
+[2022-11-22 15:36:55,552] - [WARNING] Not Found: /posts/post/15/
+[2022-11-22 15:36:55,553] - [WARNING] "GET /posts/post/15/ HTTP/1.1" 404 3874
+[2022-11-22 15:36:58,738] - [WARNING] Not Found: /posts/post/15/
+[2022-11-22 15:36:58,738] - [WARNING] "GET /posts/post/15/ HTTP/1.1" 404 3874
+[2022-11-22 15:38:13,707] - [WARNING] Not Found: /posts/post/15/
+[2022-11-22 15:38:13,707] - [WARNING] "GET /posts/post/15/ HTTP/1.1" 404 3874
+[2022-11-22 15:38:15,195] - [WARNING] Not Found: /posts/post/15/
+[2022-11-22 15:38:15,195] - [WARNING] "GET /posts/post/15/ HTTP/1.1" 404 3874
+[2022-11-22 15:38:17,678] - [INFO] "GET /marketplace/ HTTP/1.1" 200 12822
+[2022-11-22 15:38:18,713] - [INFO] "GET /marketplace/product-details/4 HTTP/1.1" 200 8078
+[2022-11-22 15:38:21,484] - [WARNING] Not Found: /marketplace/product-details/45
+[2022-11-22 15:38:21,485] - [WARNING] "GET /marketplace/product-details/45 HTTP/1.1" 404 3932
+[2022-11-22 15:38:40,131] - [WARNING] Not Found: /marketplace/product-details/45
+[2022-11-22 15:38:40,131] - [WARNING] "GET /marketplace/product-details/45 HTTP/1.1" 404 3932
+[2022-11-22 15:38:40,639] - [INFO] C:\Users\ebedr\Desktop\erin\agri_trade\agri_trade\settings.py changed, reloading.
+[2022-11-22 15:38:41,480] - [INFO] Watching for file changes with StatReloader
+[2022-11-22 15:38:42,990] - [WARNING] Not Found: /marketplace/product-details/45
+[2022-11-22 15:38:42,990] - [WARNING] "GET /marketplace/product-details/45 HTTP/1.1" 404 5754
+[2022-11-22 15:38:44,439] - [WARNING] Not Found: /marketplace/product-details/45
+[2022-11-22 15:38:44,440] - [WARNING] "GET /marketplace/product-details/45 HTTP/1.1" 404 5754
