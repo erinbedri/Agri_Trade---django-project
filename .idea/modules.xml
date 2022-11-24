@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/agri_trade.iml" filepath="$PROJECT_DIR$/.idea/agri_trade.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/Agri_Trade---django-project.iml" filepath="$PROJECT_DIR$/.idea/Agri_Trade---django-project.iml" />
     </modules>
   </component>
 </project>

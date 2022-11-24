@@ -17,8 +17,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 
 SECRET_KEY = os.environ.get('SECRET_KEY')
 
-DEBUG = False
-print(DEBUG)
+DEBUG = True
 
 ALLOWED_HOSTS = os.environ.get('ALLOWED_HOSTS', '127.0.0.1').split(' ')
 
@@ -112,7 +111,7 @@ USE_TZ = True
 STATIC_URL = 'static/'
 
 STATICFILES_DIRS = [
-    BASE_DIR / "static/",
+     BASE_DIR / "static/",
 ]
 
 STATIC_ROOT = BASE_DIR / 'staticfiles'
