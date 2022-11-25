@@ -5056,3 +5056,17 @@ django.urls.exceptions.NoReverseMatch: Reverse for 'profile' not found. 'profile
 [2022-11-25 14:26:18,732] - [INFO] "GET /posts/all/ HTTP/1.1" 200 5578
 [2022-11-25 14:26:18,955] - [INFO] "GET /static/img/flaticon.png HTTP/1.1" 200 11490
 [2022-11-25 14:26:20,456] - [INFO] "GET /accounts/account/ HTTP/1.1" 200 10512
+[2022-11-25 14:27:16,943] - [INFO] "GET /admin HTTP/1.1" 301 0
+[2022-11-25 14:27:17,029] - [INFO] "GET /admin/ HTTP/1.1" 302 0
+[2022-11-25 14:27:17,169] - [INFO] "GET /admin/login/?next=/admin/ HTTP/1.1" 200 2378
+[2022-11-25 14:27:17,219] - [INFO] "GET /static/admin/css/base.css HTTP/1.1" 200 20344
+[2022-11-25 14:27:17,224] - [INFO] "GET /static/admin/css/login.css HTTP/1.1" 200 958
+[2022-11-25 14:27:17,227] - [INFO] "GET /static/admin/css/dark_mode.css HTTP/1.1" 200 796
+[2022-11-25 14:27:17,229] - [INFO] "GET /static/admin/css/responsive.css HTTP/1.1" 200 18854
+[2022-11-25 14:27:17,232] - [INFO] "GET /static/admin/css/nav_sidebar.css HTTP/1.1" 200 2619
+[2022-11-25 14:27:17,239] - [INFO] "GET /static/admin/js/nav_sidebar.js HTTP/1.1" 200 3763
+[2022-11-25 14:27:17,256] - [INFO] "GET /static/admin/css/fonts.css HTTP/1.1" 200 423
+[2022-11-25 14:27:17,310] - [INFO] "GET /static/admin/fonts/Roboto-Light-webfont.woff HTTP/1.1" 200 85692
+[2022-11-25 14:27:17,310] - [INFO] "GET /static/admin/fonts/Roboto-Regular-webfont.woff HTTP/1.1" 200 85876
+[2022-11-25 14:27:17,311] - [INFO] "GET /static/admin/fonts/Roboto-Bold-webfont.woff HTTP/1.1" 200 86184
+[2022-11-25 14:27:21,326] - [INFO] "POST /admin/login/?next=/admin/ HTTP/1.1" 200 2539
