@@ -50,6 +50,9 @@ class CustomRegistrationForm(UserCreationForm):
 
     PASSWORD2_PLACEHOLDER = 'Confirm Password'
 
+    EMAIL_VALIDATION_ERROR_MESSAGE = 'Email already exists!'
+    USERNAME_VALIDATION_ERROR_MESSAGE = 'Username already exists!'
+
     first_name = forms.CharField(
         required=True,
         max_length=FIRST_NAME_MAX_LENGTH,
@@ -118,10 +121,10 @@ class CustomRegistrationForm(UserCreationForm):
         username = self.cleaned_data.get('username')
 
         if UserModel.objects.filter(email=email):
-            raise ValidationError('Email already exists!')
+            raise ValidationError(self.EMAIL_VALIDATION_ERROR_MESSAGE)
 
         if UserModel.objects.filter(username=username):
-            raise ValidationError('Username already exists!')
+            raise ValidationError(self.USERNAME_VALIDATION_ERROR_MESSAGE)
 
         return self.cleaned_data
 
