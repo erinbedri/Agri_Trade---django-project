@@ -4157,3 +4157,7 @@ LINE 1: ...ost"."created_on", "posts_post"."updated_on" FROM "posts_pos...
 [2022-11-25 12:43:12,610] - [INFO] "GET /accounts/register/ HTTP/1.1" 200 6606
 [2022-11-25 12:47:04,839] - [INFO] C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\agri_trade\accounts\forms.py changed, reloading.
 [2022-11-25 12:47:06,275] - [INFO] Watching for file changes with StatReloader
+[2022-11-25 13:21:23,800] - [INFO] "GET /posts/all/ HTTP/1.1" 200 3675
+[2022-11-25 13:21:26,329] - [INFO] "GET /accounts/login/ HTTP/1.1" 200 4986
+[2022-11-25 13:21:26,822] - [INFO] "GET /accounts/register/ HTTP/1.1" 200 6606
+[2022-11-25 13:21:27,678] - [INFO] "GET / HTTP/1.1" 200 5736

@@ -29,7 +29,7 @@ class CustomRegistrationFormTest(TestCase):
 
     def test_username_field_label(self):
         form = EditAccountForm()
-        self.assertTrue(form.fields['last_name'].label is None or form.fields['last_name'].label == 'Last Name')
+        self.assertTrue(form.fields['last_name'].label is None or form.fields['last_name'].label == 'Username')
 
     def test_username_max_length(self):
         form = EditAccountForm()
