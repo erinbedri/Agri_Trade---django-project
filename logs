@@ -3773,7 +3773,10 @@ Traceback (most recent call last):
   File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\template\base.py", line 1005, in <listcomp>
     return SafeString("".join([node.render_annotated(context) for node in self]))
   File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\template\base.py", line 966, in render_annotated
-    return self.render(context)
+    return self.render(context)additional details
+Get contacted by potential Buyers with our integrated messaging system
+
+
   File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\template\defaulttags.py", line 194, in render
     len_values = len(values)
   File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\db\models\query.py", line 376, in __len__
@@ -4082,3 +4085,64 @@ LINE 1: ...ost"."created_on", "posts_post"."updated_on" FROM "posts_pos...
 [2022-11-24 23:25:22,895] - [INFO] "GET /accounts/login/ HTTP/1.1" 200 5300
 [2022-11-24 23:25:27,012] - [INFO] "POST /accounts/login/ HTTP/1.1" 302 0
 [2022-11-24 23:25:27,223] - [INFO] "GET /marketplace/ HTTP/1.1" 200 11074
+[2022-11-24 23:32:38,678] - [INFO] "GET /marketplace/ HTTP/1.1" 200 10773
+[2022-11-24 23:32:38,705] - [INFO] "GET /static/css/style.css HTTP/1.1" 304 0
+[2022-11-24 23:32:38,712] - [INFO] "GET /static/img/logo.png HTTP/1.1" 304 0
+[2022-11-24 23:32:38,721] - [INFO] "GET /static/js/scripts.js HTTP/1.1" 304 0
+[2022-11-24 23:32:39,357] - [INFO] "GET / HTTP/1.1" 200 7560
+[2022-11-24 23:32:39,402] - [INFO] "GET /static/img/homepage_circle.png HTTP/1.1" 200 120984
+[2022-11-24 23:32:40,399] - [INFO] "GET /posts/all/ HTTP/1.1" 200 5500
+[2022-11-24 23:32:42,811] - [INFO] "GET /marketplace/ HTTP/1.1" 200 10773
+[2022-11-24 23:32:43,939] - [INFO] "GET /marketplace/product-add/ HTTP/1.1" 200 32925
+[2022-11-24 23:32:43,997] - [WARNING] "GET /static/flags/__.gif HTTP/1.1" 404 1795
+[2022-11-24 23:32:44,308] - [INFO] "GET /messages/ HTTP/1.1" 200 6923
+[2022-11-24 23:32:47,860] - [INFO] "GET / HTTP/1.1" 200 7560
+[2022-11-24 23:34:36,676] - [INFO] Watching for file changes with StatReloader
+[2022-11-25 10:47:15,295] - [INFO] Watching for file changes with StatReloader
+[2022-11-25 10:47:19,051] - [INFO] "GET / HTTP/1.1" 200 7560
+[2022-11-25 10:47:19,076] - [INFO] "GET /static/css/style.css HTTP/1.1" 304 0
+[2022-11-25 10:47:19,086] - [INFO] "GET /static/js/scripts.js HTTP/1.1" 304 0
+[2022-11-25 10:47:19,090] - [INFO] "GET /static/img/logo.png HTTP/1.1" 304 0
+[2022-11-25 10:47:19,091] - [INFO] "GET /static/img/homepage_circle.png HTTP/1.1" 304 0
+[2022-11-25 10:47:19,442] - [INFO] "GET /static/img/flaticon.png HTTP/1.1" 200 11490
+[2022-11-25 10:48:10,808] - [INFO] "GET / HTTP/1.1" 200 7560
+[2022-11-25 10:48:14,399] - [INFO] "GET / HTTP/1.1" 200 7664
+[2022-11-25 10:48:42,234] - [INFO] "GET / HTTP/1.1" 200 7664
+[2022-11-25 10:48:42,921] - [INFO] "GET / HTTP/1.1" 200 7664
+[2022-11-25 10:48:46,827] - [INFO] "GET / HTTP/1.1" 200 7693
+[2022-11-25 10:48:59,621] - [INFO] "GET / HTTP/1.1" 200 7693
+[2022-11-25 10:49:00,184] - [INFO] "GET / HTTP/1.1" 200 7702
+[2022-11-25 10:49:00,481] - [INFO] "GET / HTTP/1.1" 200 7702
+[2022-11-25 10:49:29,616] - [INFO] "GET / HTTP/1.1" 200 7702
+[2022-11-25 10:49:29,908] - [INFO] "GET / HTTP/1.1" 200 7702
+[2022-11-25 10:49:30,225] - [INFO] "GET / HTTP/1.1" 200 7702
+[2022-11-25 10:49:45,077] - [INFO] "GET / HTTP/1.1" 200 7711
+[2022-11-25 10:49:45,401] - [INFO] "GET / HTTP/1.1" 200 7711
+[2022-11-25 10:49:45,731] - [INFO] "GET / HTTP/1.1" 200 7711
+[2022-11-25 10:49:46,004] - [INFO] "GET / HTTP/1.1" 200 7711
+[2022-11-25 10:50:43,097] - [INFO] "GET /marketplace/ HTTP/1.1" 200 10924
+[2022-11-25 10:52:21,595] - [WARNING] Not Found: /marketplace/5
+[2022-11-25 10:52:21,595] - [WARNING] "GET /marketplace/5 HTTP/1.1" 404 5061
+[2022-11-25 10:52:21,872] - [WARNING] Not Found: /favicon.ico
+[2022-11-25 10:52:21,873] - [WARNING] "GET /favicon.ico HTTP/1.1" 404 3562
+[2022-11-25 11:13:37,315] - [INFO] C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\agri_trade\accounts\models.py changed, reloading.
+[2022-11-25 11:13:38,747] - [INFO] Watching for file changes with StatReloader
+[2022-11-25 11:22:02,226] - [INFO] C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\agri_trade\accounts\models.py changed, reloading.
+[2022-11-25 11:22:03,594] - [INFO] Watching for file changes with StatReloader
+[2022-11-25 11:27:32,018] - [INFO] "GET /accounts/account/ HTTP/1.1" 200 10371
+[2022-11-25 11:27:33,574] - [INFO] "GET /accounts/account/edit HTTP/1.1" 200 21063
+[2022-11-25 11:27:33,618] - [WARNING] "GET /static/flags/__.gif HTTP/1.1" 404 1795
+[2022-11-25 11:27:46,114] - [WARNING] "GET /static/flags/az.gif HTTP/1.1" 404 1795
+[2022-11-25 11:27:56,143] - [WARNING] "GET /static/flags/bh.gif HTTP/1.1" 404 1795
+[2022-11-25 11:28:37,998] - [INFO] "POST /accounts/account/edit HTTP/1.1" 302 0
+[2022-11-25 11:28:38,075] - [INFO] "GET /accounts/account/ HTTP/1.1" 200 10738
+[2022-11-25 11:28:46,974] - [INFO] "GET /accounts/account/edit HTTP/1.1" 200 21169
+[2022-11-25 11:28:47,008] - [WARNING] "GET /static/flags/bh.gif HTTP/1.1" 404 1795
+[2022-11-25 11:28:50,800] - [WARNING] "GET /static/flags/fk.gif HTTP/1.1" 404 1795
+[2022-11-25 11:28:51,790] - [INFO] "POST /accounts/account/edit HTTP/1.1" 302 0
+[2022-11-25 11:28:51,865] - [INFO] "GET /accounts/account/ HTTP/1.1" 200 10738
+[2022-11-25 11:28:54,741] - [INFO] "GET /accounts/account/edit HTTP/1.1" 200 21169
+[2022-11-25 11:28:54,775] - [WARNING] "GET /static/flags/fk.gif HTTP/1.1" 404 1795
+[2022-11-25 11:28:59,167] - [WARNING] "GET /static/flags/sh.gif HTTP/1.1" 404 1795
+[2022-11-25 11:29:00,580] - [INFO] "POST /accounts/account/edit HTTP/1.1" 302 0
+[2022-11-25 11:29:00,756] - [INFO] "GET /accounts/account/ HTTP/1.1" 200 10738
