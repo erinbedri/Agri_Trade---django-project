@@ -4161,3 +4161,14 @@ LINE 1: ...ost"."created_on", "posts_post"."updated_on" FROM "posts_pos...
 [2022-11-25 13:21:26,329] - [INFO] "GET /accounts/login/ HTTP/1.1" 200 4986
 [2022-11-25 13:21:26,822] - [INFO] "GET /accounts/register/ HTTP/1.1" 200 6606
 [2022-11-25 13:21:27,678] - [INFO] "GET / HTTP/1.1" 200 5736
+[2022-11-25 14:19:03,409] - [INFO] "GET /accounts/login/ HTTP/1.1" 200 4986
+[2022-11-25 14:19:03,448] - [INFO] "GET /static/css/style.css HTTP/1.1" 304 0
+[2022-11-25 14:19:03,450] - [INFO] "GET /static/js/scripts.js HTTP/1.1" 304 0
+[2022-11-25 14:19:03,451] - [INFO] "GET /static/img/logo.png HTTP/1.1" 304 0
+[2022-11-25 14:19:12,867] - [INFO] "POST /accounts/login/ HTTP/1.1" 302 0
+[2022-11-25 14:19:12,985] - [INFO] "GET /marketplace/ HTTP/1.1" 200 11074
+[2022-11-25 14:19:20,840] - [INFO] "GET /marketplace/product-add/ HTTP/1.1" 200 32925
+[2022-11-25 14:19:20,981] - [WARNING] "GET /static/flags/__.gif HTTP/1.1" 404 1795
+[2022-11-25 14:19:30,206] - [INFO] "GET /marketplace/ HTTP/1.1" 200 10773
+[2022-11-25 14:21:02,539] - [INFO] C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\agri_trade\settings.py changed, reloading.
+[2022-11-25 14:21:03,832] - [INFO] Watching for file changes with StatReloader
