@@ -4172,3 +4172,887 @@ LINE 1: ...ost"."created_on", "posts_post"."updated_on" FROM "posts_pos...
 [2022-11-25 14:19:30,206] - [INFO] "GET /marketplace/ HTTP/1.1" 200 10773
 [2022-11-25 14:21:02,539] - [INFO] C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\agri_trade\settings.py changed, reloading.
 [2022-11-25 14:21:03,832] - [INFO] Watching for file changes with StatReloader
+[2022-11-25 14:25:02,799] - [ERROR] Internal Server Error: /marketplace/
+Traceback (most recent call last):
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\contrib\auth\decorators.py", line 23, in _wrapped_view
+    return view_func(request, *args, **kwargs)
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\agri_trade\marketplace\views.py", line 53, in marketplace
+    return render(request, 'marketplace/marketplace.html', context)
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\template\backends\django.py", line 62, in render
+    return self.template.render(context)
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\template\base.py", line 175, in render
+    return self._render(context)
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\template\loader_tags.py", line 157, in render
+    return compiled_parent._render(context)
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\template\loader_tags.py", line 208, in render
+    return template.render(context)
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\template\base.py", line 177, in render
+    return self._render(context)
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\template\defaulttags.py", line 322, in render
+    return nodelist.render(context)
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\template\defaulttags.py", line 472, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\urls\base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\urls\resolvers.py", line 828, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'profile' not found. 'profile' is not a valid view function or pattern name.
+[2022-11-25 14:25:02,895] - [ERROR] "GET /marketplace/ HTTP/1.1" 500 3655
+[2022-11-25 14:25:03,055] - [ERROR] Internal Server Error: /static/img/flaticon.png
+[2022-11-25 14:25:03,056] - [ERROR] "GET /static/img/flaticon.png HTTP/1.1" 500 3655
+[2022-11-25 14:25:05,966] - [INFO] "GET /accounts/login/ HTTP/1.1" 302 0
+[2022-11-25 14:25:06,038] - [ERROR] Internal Server Error: /
+Traceback (most recent call last):
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\core\handlers\base.py", line 220, in _get_response
+    response = response.render()
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\template\response.py", line 114, in render
+    self.content = self.rendered_content
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\template\response.py", line 92, in rendered_content
+    return template.render(context, self._request)
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\template\backends\django.py", line 62, in render
+    return self.template.render(context)
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\template\base.py", line 175, in render
+    return self._render(context)
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\template\loader_tags.py", line 157, in render
+    return compiled_parent._render(context)
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\template\loader_tags.py", line 208, in render
+    return template.render(context)
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\template\base.py", line 177, in render
+    return self._render(context)
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\template\defaulttags.py", line 322, in render
+    return nodelist.render(context)
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\template\defaulttags.py", line 472, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\urls\base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\urls\resolvers.py", line 828, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'profile' not found. 'profile' is not a valid view function or pattern name.
+[2022-11-25 14:25:06,054] - [ERROR] "GET / HTTP/1.1" 500 3655
+[2022-11-25 14:25:06,194] - [ERROR] Internal Server Error: /static/img/flaticon.png
+[2022-11-25 14:25:06,194] - [ERROR] "GET /static/img/flaticon.png HTTP/1.1" 500 3655
+[2022-11-25 14:25:09,365] - [INFO] "GET /accounts/login/ HTTP/1.1" 302 0
+[2022-11-25 14:25:09,433] - [ERROR] Internal Server Error: /
+Traceback (most recent call last):
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\core\handlers\base.py", line 220, in _get_response
+    response = response.render()
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\template\response.py", line 114, in render
+    self.content = self.rendered_content
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\template\response.py", line 92, in rendered_content
+    return template.render(context, self._request)
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\template\backends\django.py", line 62, in render
+    return self.template.render(context)
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\template\base.py", line 175, in render
+    return self._render(context)
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\template\loader_tags.py", line 157, in render
+    return compiled_parent._render(context)
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\template\loader_tags.py", line 208, in render
+    return template.render(context)
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\template\base.py", line 177, in render
+    return self._render(context)
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\template\defaulttags.py", line 322, in render
+    return nodelist.render(context)
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\template\defaulttags.py", line 472, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\urls\base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\urls\resolvers.py", line 828, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'profile' not found. 'profile' is not a valid view function or pattern name.
+[2022-11-25 14:25:09,436] - [ERROR] "GET / HTTP/1.1" 500 3655
+[2022-11-25 14:25:09,537] - [ERROR] Internal Server Error: /static/img/flaticon.png
+[2022-11-25 14:25:09,537] - [ERROR] "GET /static/img/flaticon.png HTTP/1.1" 500 3655
+[2022-11-25 14:25:09,844] - [INFO] "GET /accounts/login/ HTTP/1.1" 302 0
+[2022-11-25 14:25:09,916] - [ERROR] Internal Server Error: /
+Traceback (most recent call last):
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\core\handlers\base.py", line 220, in _get_response
+    response = response.render()
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\template\response.py", line 114, in render
+    self.content = self.rendered_content
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\template\response.py", line 92, in rendered_content
+    return template.render(context, self._request)
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\template\backends\django.py", line 62, in render
+    return self.template.render(context)
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\template\base.py", line 175, in render
+    return self._render(context)
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\template\loader_tags.py", line 157, in render
+    return compiled_parent._render(context)
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\template\loader_tags.py", line 208, in render
+    return template.render(context)
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\template\base.py", line 177, in render
+    return self._render(context)
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\template\defaulttags.py", line 322, in render
+    return nodelist.render(context)
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\template\defaulttags.py", line 472, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\urls\base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\urls\resolvers.py", line 828, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'profile' not found. 'profile' is not a valid view function or pattern name.
+[2022-11-25 14:25:09,919] - [ERROR] "GET / HTTP/1.1" 500 3655
+[2022-11-25 14:25:10,056] - [ERROR] Internal Server Error: /static/img/flaticon.png
+[2022-11-25 14:25:10,057] - [ERROR] "GET /static/img/flaticon.png HTTP/1.1" 500 3655
+[2022-11-25 14:25:13,185] - [INFO] "GET /accounts/register/ HTTP/1.1" 302 0
+[2022-11-25 14:25:13,254] - [ERROR] Internal Server Error: /
+Traceback (most recent call last):
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\core\handlers\base.py", line 220, in _get_response
+    response = response.render()
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\template\response.py", line 114, in render
+    self.content = self.rendered_content
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\template\response.py", line 92, in rendered_content
+    return template.render(context, self._request)
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\template\backends\django.py", line 62, in render
+    return self.template.render(context)
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\template\base.py", line 175, in render
+    return self._render(context)
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\template\loader_tags.py", line 157, in render
+    return compiled_parent._render(context)
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\template\loader_tags.py", line 208, in render
+    return template.render(context)
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\template\base.py", line 177, in render
+    return self._render(context)
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\template\defaulttags.py", line 322, in render
+    return nodelist.render(context)
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\template\defaulttags.py", line 472, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\urls\base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\urls\resolvers.py", line 828, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'profile' not found. 'profile' is not a valid view function or pattern name.
+[2022-11-25 14:25:13,257] - [ERROR] "GET / HTTP/1.1" 500 3655
+[2022-11-25 14:25:13,384] - [ERROR] Internal Server Error: /static/img/flaticon.png
+[2022-11-25 14:25:13,384] - [ERROR] "GET /static/img/flaticon.png HTTP/1.1" 500 3655
+[2022-11-25 14:25:14,038] - [INFO] "GET /accounts/login/ HTTP/1.1" 302 0
+[2022-11-25 14:25:14,109] - [ERROR] Internal Server Error: /
+Traceback (most recent call last):
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\core\handlers\base.py", line 220, in _get_response
+    response = response.render()
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\template\response.py", line 114, in render
+    self.content = self.rendered_content
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\template\response.py", line 92, in rendered_content
+    return template.render(context, self._request)
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\template\backends\django.py", line 62, in render
+    return self.template.render(context)
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\template\base.py", line 175, in render
+    return self._render(context)
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\template\loader_tags.py", line 157, in render
+    return compiled_parent._render(context)
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\template\loader_tags.py", line 208, in render
+    return template.render(context)
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\template\base.py", line 177, in render
+    return self._render(context)
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\template\defaulttags.py", line 322, in render
+    return nodelist.render(context)
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\template\defaulttags.py", line 472, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\urls\base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\urls\resolvers.py", line 828, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'profile' not found. 'profile' is not a valid view function or pattern name.
+[2022-11-25 14:25:14,114] - [ERROR] "GET / HTTP/1.1" 500 3655
+[2022-11-25 14:25:14,248] - [ERROR] Internal Server Error: /static/img/flaticon.png
+[2022-11-25 14:25:14,248] - [ERROR] "GET /static/img/flaticon.png HTTP/1.1" 500 3655
+[2022-11-25 14:25:15,233] - [ERROR] Internal Server Error: /
+Traceback (most recent call last):
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\core\handlers\base.py", line 220, in _get_response
+    response = response.render()
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\template\response.py", line 114, in render
+    self.content = self.rendered_content
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\template\response.py", line 92, in rendered_content
+    return template.render(context, self._request)
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\template\backends\django.py", line 62, in render
+    return self.template.render(context)
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\template\base.py", line 175, in render
+    return self._render(context)
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\template\loader_tags.py", line 157, in render
+    return compiled_parent._render(context)
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\template\loader_tags.py", line 208, in render
+    return template.render(context)
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\template\base.py", line 177, in render
+    return self._render(context)
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\template\defaulttags.py", line 322, in render
+    return nodelist.render(context)
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\template\defaulttags.py", line 472, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\urls\base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\urls\resolvers.py", line 828, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'profile' not found. 'profile' is not a valid view function or pattern name.
+[2022-11-25 14:25:15,238] - [ERROR] "GET / HTTP/1.1" 500 3655
+[2022-11-25 14:25:15,361] - [ERROR] Internal Server Error: /static/img/flaticon.png
+[2022-11-25 14:25:15,362] - [ERROR] "GET /static/img/flaticon.png HTTP/1.1" 500 3655
+[2022-11-25 14:25:16,487] - [ERROR] Internal Server Error: /
+Traceback (most recent call last):
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\core\handlers\base.py", line 220, in _get_response
+    response = response.render()
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\template\response.py", line 114, in render
+    self.content = self.rendered_content
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\template\response.py", line 92, in rendered_content
+    return template.render(context, self._request)
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\template\backends\django.py", line 62, in render
+    return self.template.render(context)
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\template\base.py", line 175, in render
+    return self._render(context)
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\template\loader_tags.py", line 157, in render
+    return compiled_parent._render(context)
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\template\loader_tags.py", line 208, in render
+    return template.render(context)
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\template\base.py", line 177, in render
+    return self._render(context)
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\template\defaulttags.py", line 322, in render
+    return nodelist.render(context)
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\template\defaulttags.py", line 472, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\urls\base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\urls\resolvers.py", line 828, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'profile' not found. 'profile' is not a valid view function or pattern name.
+[2022-11-25 14:25:16,492] - [ERROR] "GET / HTTP/1.1" 500 3655
+[2022-11-25 14:25:16,618] - [ERROR] Internal Server Error: /static/img/flaticon.png
+[2022-11-25 14:25:16,619] - [ERROR] "GET /static/img/flaticon.png HTTP/1.1" 500 3655
+[2022-11-25 14:25:26,299] - [INFO] Watching for file changes with StatReloader
+[2022-11-25 14:25:28,018] - [ERROR] Internal Server Error: /
+Traceback (most recent call last):
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\core\handlers\base.py", line 220, in _get_response
+    response = response.render()
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\template\response.py", line 114, in render
+    self.content = self.rendered_content
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\template\response.py", line 92, in rendered_content
+    return template.render(context, self._request)
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\template\backends\django.py", line 62, in render
+    return self.template.render(context)
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\template\base.py", line 175, in render
+    return self._render(context)
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\template\loader_tags.py", line 157, in render
+    return compiled_parent._render(context)
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\template\loader_tags.py", line 208, in render
+    return template.render(context)
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\template\base.py", line 177, in render
+    return self._render(context)
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\template\defaulttags.py", line 322, in render
+    return nodelist.render(context)
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\template\defaulttags.py", line 472, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\urls\base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\urls\resolvers.py", line 828, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'profile' not found. 'profile' is not a valid view function or pattern name.
+[2022-11-25 14:25:28,026] - [ERROR] "GET / HTTP/1.1" 500 3655
+[2022-11-25 14:25:28,195] - [ERROR] Internal Server Error: /static/img/flaticon.png
+[2022-11-25 14:25:28,196] - [ERROR] "GET /static/img/flaticon.png HTTP/1.1" 500 3655
+[2022-11-25 14:25:29,978] - [ERROR] Internal Server Error: /
+Traceback (most recent call last):
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\core\handlers\base.py", line 220, in _get_response
+    response = response.render()
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\template\response.py", line 114, in render
+    self.content = self.rendered_content
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\template\response.py", line 92, in rendered_content
+    return template.render(context, self._request)
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\template\backends\django.py", line 62, in render
+    return self.template.render(context)
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\template\base.py", line 175, in render
+    return self._render(context)
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\template\loader_tags.py", line 157, in render
+    return compiled_parent._render(context)
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\template\loader_tags.py", line 208, in render
+    return template.render(context)
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\template\base.py", line 177, in render
+    return self._render(context)
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\template\defaulttags.py", line 322, in render
+    return nodelist.render(context)
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\template\defaulttags.py", line 472, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\urls\base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\urls\resolvers.py", line 828, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'profile' not found. 'profile' is not a valid view function or pattern name.
+[2022-11-25 14:25:29,982] - [ERROR] "GET / HTTP/1.1" 500 3655
+[2022-11-25 14:25:30,108] - [ERROR] Internal Server Error: /static/img/flaticon.png
+[2022-11-25 14:25:30,109] - [ERROR] "GET /static/img/flaticon.png HTTP/1.1" 500 3655
+[2022-11-25 14:25:57,004] - [ERROR] Internal Server Error: /
+Traceback (most recent call last):
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\core\handlers\base.py", line 220, in _get_response
+    response = response.render()
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\template\response.py", line 114, in render
+    self.content = self.rendered_content
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\template\response.py", line 92, in rendered_content
+    return template.render(context, self._request)
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\template\backends\django.py", line 62, in render
+    return self.template.render(context)
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\template\base.py", line 175, in render
+    return self._render(context)
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\template\loader_tags.py", line 157, in render
+    return compiled_parent._render(context)
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\template\loader_tags.py", line 208, in render
+    return template.render(context)
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\template\base.py", line 177, in render
+    return self._render(context)
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\template\defaulttags.py", line 322, in render
+    return nodelist.render(context)
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\template\defaulttags.py", line 472, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\urls\base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\urls\resolvers.py", line 828, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'profile' not found. 'profile' is not a valid view function or pattern name.
+[2022-11-25 14:25:57,007] - [ERROR] "GET / HTTP/1.1" 500 3655
+[2022-11-25 14:25:57,137] - [ERROR] Internal Server Error: /static/img/flaticon.png
+[2022-11-25 14:25:57,138] - [ERROR] "GET /static/img/flaticon.png HTTP/1.1" 500 3655
+[2022-11-25 14:25:57,821] - [INFO] C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\agri_trade\settings.py changed, reloading.
+[2022-11-25 14:25:59,145] - [INFO] Watching for file changes with StatReloader
+[2022-11-25 14:26:03,510] - [INFO] Watching for file changes with StatReloader
+[2022-11-25 14:26:04,276] - [ERROR] Internal Server Error: /posts/all/
+Traceback (most recent call last):
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\agri_trade\posts\views.py", line 16, in show_posts
+    return render(request, 'posts/show_posts.html', context)
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\template\backends\django.py", line 62, in render
+    return self.template.render(context)
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\template\base.py", line 175, in render
+    return self._render(context)
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\template\loader_tags.py", line 157, in render
+    return compiled_parent._render(context)
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\template\loader_tags.py", line 208, in render
+    return template.render(context)
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\template\base.py", line 177, in render
+    return self._render(context)
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\template\defaulttags.py", line 322, in render
+    return nodelist.render(context)
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\template\defaulttags.py", line 472, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\urls\base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\urls\resolvers.py", line 828, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'profile' not found. 'profile' is not a valid view function or pattern name.
+[2022-11-25 14:26:04,283] - [ERROR] "GET /posts/all/ HTTP/1.1" 500 192196
+[2022-11-25 14:26:05,801] - [ERROR] Internal Server Error: /posts/all/
+Traceback (most recent call last):
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\agri_trade\posts\views.py", line 16, in show_posts
+    return render(request, 'posts/show_posts.html', context)
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\template\backends\django.py", line 62, in render
+    return self.template.render(context)
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\template\base.py", line 175, in render
+    return self._render(context)
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\template\loader_tags.py", line 157, in render
+    return compiled_parent._render(context)
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\template\loader_tags.py", line 208, in render
+    return template.render(context)
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\template\base.py", line 177, in render
+    return self._render(context)
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\template\defaulttags.py", line 322, in render
+    return nodelist.render(context)
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\template\defaulttags.py", line 472, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\urls\base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\urls\resolvers.py", line 828, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'profile' not found. 'profile' is not a valid view function or pattern name.
+[2022-11-25 14:26:05,806] - [ERROR] "GET /posts/all/ HTTP/1.1" 500 192333
+[2022-11-25 14:26:17,809] - [ERROR] Internal Server Error: /posts/all/
+Traceback (most recent call last):
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\agri_trade\posts\views.py", line 16, in show_posts
+    return render(request, 'posts/show_posts.html', context)
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\template\backends\django.py", line 62, in render
+    return self.template.render(context)
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\template\base.py", line 175, in render
+    return self._render(context)
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\template\loader_tags.py", line 157, in render
+    return compiled_parent._render(context)
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\template\loader_tags.py", line 208, in render
+    return template.render(context)
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\template\base.py", line 177, in render
+    return self._render(context)
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\template\defaulttags.py", line 322, in render
+    return nodelist.render(context)
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\template\defaulttags.py", line 472, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\urls\base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\urls\resolvers.py", line 828, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'profile' not found. 'profile' is not a valid view function or pattern name.
+[2022-11-25 14:26:17,813] - [ERROR] "GET /posts/all/ HTTP/1.1" 500 192333
+[2022-11-25 14:26:18,732] - [INFO] "GET /posts/all/ HTTP/1.1" 200 5578
+[2022-11-25 14:26:18,955] - [INFO] "GET /static/img/flaticon.png HTTP/1.1" 200 11490
+[2022-11-25 14:26:20,456] - [INFO] "GET /accounts/account/ HTTP/1.1" 200 10512
