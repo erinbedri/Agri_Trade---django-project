@@ -22,15 +22,17 @@
                               style="color: #2fa1fd">Welcome, {{ request.user.username }}!</a></b>
                     </li>
                     <li class="nav-item" style="padding-right: 20px">
-                        <a class="btn btn-outline-primary" href="{% url 'marketplace:marketplace' %}">Marketplace</a>
+                        <a class="btn btn-outline-primary" href="{% url 'marketplace:marketplace' %}"><i
+                                class="fa-solid fa-store"></i> Marketplace</a>
                     </li>
                     <li class="nav-item" style="padding-right: 20px">
-                        <a class="btn btn-outline-primary" href="{% url 'marketplace:add product' %}">Add Produce</a>
+                        <a class="btn btn-outline-primary" href="{% url 'marketplace:add product' %}"><i
+                                class="fa-solid fa-plus"></i> Add Produce</a>
                     </li>
                     <li class="nav-item" style="padding-right: 20px">
                         <button type="button" class="btn btn-outline-primary position-relative"
-                                onclick="location.href = '{% url 'user_messages:messages' %}';">
-                            Messages
+                                onclick="location.href = '{% url 'user_messages:messages' %}';"><i
+                                class="fa-solid fa-envelope"></i> Messages
                             {% if request.unread_messages_count > 0 %}
                                 <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">
                                 {{ request.unread_messages_count }}
@@ -42,8 +44,7 @@
 
                     <div class="dropdown">
                         <button class="btn btn-outline-primary dropdown-toggle" type="button" id="dropdownMenuButton1"
-                                data-bs-toggle="dropdown" aria-expanded="false">
-                            Account
+                                data-bs-toggle="dropdown" aria-expanded="false"><i class="fa-solid fa-user"></i> Account
                         </button>
                         <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
                             <li>
@@ -58,7 +59,8 @@
                                 <hr class="dropdown-divider">
                             </li>
                             <li>
-                                <a class="dropdown-item" href="{% url 'accounts:logout' %}"><i class="fa-solid fa-right-from-bracket"></i> Logout</a>
+                                <a class="dropdown-item" href="{% url 'accounts:logout' %}"><i
+                                        class="fa-solid fa-right-from-bracket"></i> Logout</a>
                             </li>
                         </ul>
                     </div>

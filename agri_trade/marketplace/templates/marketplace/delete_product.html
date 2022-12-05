@@ -13,11 +13,11 @@
                         {% csrf_token %}
                         <h5 style="margin-top: 30px">Are you sure you want to delete this product?</h5>
                         <button class="btn btn-danger" style="margin-top: 10px"
-                                role="button">Delete
+                                role="button"><i class="fa-sharp fa-solid fa-trash"></i> Delete
                         </button>
                         <a class="btn btn-secondary" style="margin-top: 10px"
                            href="{% url 'marketplace:marketplace' %}"
-                           role="button">Cancel</a>
+                           role="button"><i class="fa-solid fa-ban"></i> Cancel</a>
                     </form>
                 {% endif %}
             </div>

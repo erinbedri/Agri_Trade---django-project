@@ -36,18 +36,18 @@
 
                                 <a class="btn btn-primary" style="margin-top: 20px"
                                    href="{% url 'user_messages:send message' product.id %}"
-                                   role="button">Message Seller</a>
+                                   role="button"><i class="fa-solid fa-message"></i> Message Seller</a>
 
                                     <form class="d-grid gap-2" method="POST" action="{% url 'marketplace:add to favourites' product.id %}">
                                         {% csrf_token %}
                                         {% if is_in_favourites %}
                                             <a class="btn btn-danger" style="margin-top: 20px"
                                                href="{% url 'marketplace:add to favourites' product.id %}"
-                                               role="button">Remove from Favourites</a>
+                                               role="button"><i class="fa-sharp fa-solid fa-trash"></i> Remove from Favourites</a>
                                         {% else %}
                                             <a class="btn btn-primary" style="margin-top: 20px"
                                                href="{% url 'marketplace:add to favourites' product.id %}"
-                                               role="button">Add to Favourites</a>
+                                               role="button"><i class="fa-solid fa-plus"></i> Add to Favourites</a>
                                         {% endif %}
                                     </form>
                             {% endif %}
@@ -56,10 +56,10 @@
                                 {% if request.user.is_authenticated and request.user == product.owner %}
                                     <a class="btn btn-primary" style="margin-top: 10px"
                                        href="{% url 'marketplace:edit product' product.id %}"
-                                       role="button">Edit</a>
+                                       role="button"><i class="fa-solid fa-pen"></i> Edit</a>
                                     <a class="btn btn-danger" style="margin-top: 10px"
                                        href="{% url 'marketplace:delete product' product.id %}"
-                                       role="button">Delete</a>
+                                       role="button"><i class="fa-sharp fa-solid fa-trash"></i> Delete</a>
                                 {% endif %}
                             </div>
 
