@@ -5206,3 +5206,57 @@ django.urls.exceptions.NoReverseMatch: Reverse for 'profile' not found. 'profile
 [2022-11-29 16:16:48,636] - [INFO] "GET / HTTP/1.1" 200 7567
 [2022-11-29 16:16:53,762] - [INFO] "GET /marketplace/ HTTP/1.1" 200 10780
 [2022-11-29 16:20:12,118] - [INFO] "GET /accounts/account/ HTTP/1.1" 200 10441
+[2022-12-05 14:56:30,179] - [INFO] Watching for file changes with StatReloader
+[2022-12-05 14:56:37,982] - [INFO] "GET / HTTP/1.1" 200 7567
+[2022-12-05 14:56:38,902] - [INFO] "GET /static/img/homepage_circle.png HTTP/1.1" 200 120984
+[2022-12-05 14:56:38,906] - [INFO] "GET /static/img/logo.png HTTP/1.1" 200 25234
+[2022-12-05 14:56:38,909] - [INFO] "GET /static/css/style.css HTTP/1.1" 200 115
+[2022-12-05 14:56:38,925] - [INFO] "GET /static/js/scripts.js HTTP/1.1" 200 191
+[2022-12-05 14:56:39,024] - [INFO] "GET /static/img/flaticon.png HTTP/1.1" 200 11490
+[2022-12-05 15:13:45,599] - [INFO] "GET /marketplace/ HTTP/1.1" 200 10780
+[2022-12-05 15:13:49,635] - [INFO] "GET /marketplace/product-add/ HTTP/1.1" 200 32932
+[2022-12-05 15:13:49,801] - [WARNING] "GET /static/flags/__.gif HTTP/1.1" 404 1795
+[2022-12-05 15:14:04,340] - [WARNING] "GET /static/flags/am.gif HTTP/1.1" 404 1795
+[2022-12-05 15:14:05,456] - [WARNING] "GET /static/flags/az.gif HTTP/1.1" 404 1795
+[2022-12-05 15:14:06,337] - [INFO] "POST /marketplace/product-add/ HTTP/1.1" 302 0
+[2022-12-05 15:14:06,445] - [INFO] "GET /marketplace/ HTTP/1.1" 200 12865
+[2022-12-05 15:14:09,528] - [INFO] "GET /marketplace/product-details/1 HTTP/1.1" 200 7855
+[2022-12-05 15:14:09,567] - [INFO] "GET /static/img/no_photo.jpg HTTP/1.1" 200 16804
+[2022-12-05 15:14:57,166] - [INFO] "GET /accounts/logout/ HTTP/1.1" 302 0
+[2022-12-05 15:14:57,175] - [INFO] "GET / HTTP/1.1" 200 6055
+[2022-12-05 15:14:59,407] - [INFO] "GET /accounts/login/ HTTP/1.1" 200 4985
+[2022-12-05 15:15:40,776] - [INFO] "GET /accounts/login/ HTTP/1.1" 200 4985
+[2022-12-05 15:15:42,828] - [INFO] "POST /accounts/login/ HTTP/1.1" 302 0
+[2022-12-05 15:15:42,925] - [INFO] "GET /marketplace/ HTTP/1.1" 200 12845
+[2022-12-05 15:16:27,818] - [INFO] "GET /marketplace/ HTTP/1.1" 200 12590
+[2022-12-05 15:16:30,953] - [INFO] "GET /marketplace/ HTTP/1.1" 200 12590
+[2022-12-05 15:16:38,169] - [INFO] "GET /marketplace/ HTTP/1.1" 200 12590
+[2022-12-05 15:16:51,876] - [INFO] "GET /marketplace/ HTTP/1.1" 200 12590
+[2022-12-05 15:16:56,757] - [INFO] "GET / HTTP/1.1" 200 7613
+[2022-12-05 15:17:12,502] - [INFO] "GET / HTTP/1.1" 200 7617
+[2022-12-05 15:17:13,231] - [INFO] "GET / HTTP/1.1" 200 7617
+[2022-12-05 15:18:10,289] - [INFO] "GET / HTTP/1.1" 200 7613
+[2022-12-05 15:18:11,039] - [INFO] "GET / HTTP/1.1" 200 7613
+[2022-12-05 15:20:49,543] - [INFO] "GET / HTTP/1.1" 200 7613
+[2022-12-05 15:23:34,625] - [INFO] "GET / HTTP/1.1" 200 7613
+[2022-12-05 15:26:19,891] - [INFO] C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\agri_trade\settings.py changed, reloading.
+[2022-12-05 15:26:21,742] - [INFO] Watching for file changes with StatReloader
+[2022-12-05 15:26:54,136] - [INFO] Watching for file changes with StatReloader
+[2022-12-05 15:27:46,137] - [INFO] Watching for file changes with StatReloader
+[2022-12-05 15:27:49,515] - [INFO] "GET / HTTP/1.1" 200 7844
+[2022-12-05 15:27:50,140] - [INFO] "GET /static/fontawesomefree/css/fontawesome.css HTTP/1.1" 200 113333
+[2022-12-05 15:27:50,148] - [INFO] "GET /static/fontawesomefree/css/solid.css HTTP/1.1" 200 625
+[2022-12-05 15:27:50,149] - [INFO] "GET /static/fontawesomefree/css/brands.css HTTP/1.1" 200 23682
+[2022-12-05 15:27:51,889] - [INFO] "GET /static/fontawesomefree/webfonts/fa-solid-900.woff2 HTTP/1.1" 200 150516
+[2022-12-05 15:28:07,891] - [INFO] "GET / HTTP/1.1" 200 7844
+[2022-12-05 15:28:07,919] - [INFO] "GET /static/fontawesomefree/css/fontawesome.css HTTP/1.1" 304 0
+[2022-12-05 15:28:07,929] - [INFO] "GET /static/fontawesomefree/css/brands.css HTTP/1.1" 304 0
+[2022-12-05 15:28:07,933] - [INFO] "GET /static/fontawesomefree/css/solid.css HTTP/1.1" 304 0
+[2022-12-05 15:28:12,002] - [INFO] "GET / HTTP/1.1" 200 7845
+[2022-12-05 15:28:48,246] - [INFO] "GET / HTTP/1.1" 200 7852
+[2022-12-05 15:28:48,280] - [INFO] "GET /static/fontawesomefree/css/fontawesome.css HTTP/1.1" 304 0
+[2022-12-05 15:28:48,292] - [INFO] "GET /static/fontawesomefree/css/brands.css HTTP/1.1" 304 0
+[2022-12-05 15:28:48,293] - [INFO] "GET /static/fontawesomefree/css/solid.css HTTP/1.1" 304 0
+[2022-12-05 15:28:52,794] - [INFO] "GET / HTTP/1.1" 200 7852
+[2022-12-05 15:29:02,335] - [INFO] "GET / HTTP/1.1" 200 7852
+[2022-12-05 15:29:07,129] - [INFO] "GET / HTTP/1.1" 200 7852

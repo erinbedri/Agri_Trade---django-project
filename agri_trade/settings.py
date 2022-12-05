@@ -31,6 +31,7 @@ INSTALLED_APPS = [
 
     'django.contrib.humanize',
     'ckeditor',
+    'fontawesomefree',
 
     'agri_trade.web',
     'agri_trade.accounts',
