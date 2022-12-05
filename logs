@@ -5326,3 +5326,1024 @@ django.urls.exceptions.NoReverseMatch: Reverse for 'profile' not found. 'profile
 [2022-12-05 15:42:06,622] - [INFO] "GET /marketplace/ HTTP/1.1" 200 12822
 [2022-12-05 15:42:24,279] - [INFO] "GET /marketplace/product-add/ HTTP/1.1" 200 33275
 [2022-12-05 15:42:24,338] - [WARNING] "GET /static/flags/__.gif HTTP/1.1" 404 1795
+[2022-12-05 15:43:15,860] - [INFO] "GET /marketplace/product-add/ HTTP/1.1" 200 33275
+[2022-12-05 15:43:15,892] - [WARNING] "GET /static/flags/__.gif HTTP/1.1" 404 1795
+[2022-12-05 15:43:17,510] - [INFO] "GET /marketplace/ HTTP/1.1" 200 12822
+[2022-12-05 15:43:18,232] - [INFO] "GET /marketplace/product-details/1 HTTP/1.1" 200 8133
+[2022-12-05 15:43:43,132] - [INFO] "GET /admin HTTP/1.1" 301 0
+[2022-12-05 15:43:43,420] - [INFO] "GET /admin/ HTTP/1.1" 200 3125
+[2022-12-05 15:43:43,451] - [INFO] "GET /static/admin/css/dark_mode.css HTTP/1.1" 200 796
+[2022-12-05 15:43:43,459] - [INFO] "GET /static/admin/css/nav_sidebar.css HTTP/1.1" 200 2619
+[2022-12-05 15:43:43,460] - [INFO] "GET /static/admin/css/base.css HTTP/1.1" 200 20344
+[2022-12-05 15:43:43,503] - [INFO] "GET /static/admin/css/fonts.css HTTP/1.1" 200 423
+[2022-12-05 15:43:43,504] - [INFO] "GET /static/admin/css/dashboard.css HTTP/1.1" 200 380
+[2022-12-05 15:43:43,505] - [INFO] "GET /static/admin/css/responsive.css HTTP/1.1" 200 18854
+[2022-12-05 15:43:43,537] - [INFO] "GET /static/admin/js/nav_sidebar.js HTTP/1.1" 200 3763
+[2022-12-05 15:43:43,567] - [INFO] "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 200 331
+[2022-12-05 15:43:43,567] - [INFO] "GET /static/admin/img/icon-changelink.svg HTTP/1.1" 200 380
+[2022-12-05 15:43:43,572] - [INFO] "GET /static/admin/fonts/Roboto-Light-webfont.woff HTTP/1.1" 200 85692
+[2022-12-05 15:43:43,589] - [INFO] "GET /static/admin/fonts/Roboto-Regular-webfont.woff HTTP/1.1" 200 85876
+[2022-12-05 15:43:43,590] - [INFO] "GET /static/admin/fonts/Roboto-Bold-webfont.woff HTTP/1.1" 200 86184
+[2022-12-05 15:43:43,777] - [WARNING] Not Found: /favicon.ico
+[2022-12-05 15:43:43,778] - [WARNING] "GET /favicon.ico HTTP/1.1" 404 3562
+[2022-12-05 15:43:47,383] - [INFO] "POST /admin/logout/ HTTP/1.1" 200 1553
+[2022-12-05 15:43:49,938] - [INFO] "GET /admin/ HTTP/1.1" 302 0
+[2022-12-05 15:43:49,991] - [INFO] "GET /admin/login/?next=/admin/ HTTP/1.1" 200 2222
+[2022-12-05 15:43:50,025] - [INFO] "GET /static/admin/css/login.css HTTP/1.1" 200 958
+[2022-12-05 15:43:54,018] - [INFO] "POST /admin/login/?next=/admin/ HTTP/1.1" 200 2383
+[2022-12-05 15:43:57,767] - [INFO] "POST /admin/login/?next=/admin/ HTTP/1.1" 200 2383
+[2022-12-05 15:44:04,272] - [INFO] "POST /admin/login/?next=/admin/ HTTP/1.1" 200 2383
+[2022-12-05 15:44:08,219] - [INFO] "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+[2022-12-05 15:44:08,314] - [INFO] "GET /admin/ HTTP/1.1" 200 3125
+[2022-12-05 15:44:15,322] - [INFO] "POST /admin/logout/ HTTP/1.1" 200 1553
+[2022-12-05 15:44:34,937] - [INFO] "GET /admin/ HTTP/1.1" 302 0
+[2022-12-05 15:44:34,955] - [INFO] "GET /admin/login/?next=/admin/ HTTP/1.1" 200 2222
+[2022-12-05 15:44:40,490] - [INFO] "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+[2022-12-05 15:44:40,588] - [INFO] "GET /admin/ HTTP/1.1" 200 7161
+[2022-12-05 15:44:44,028] - [INFO] "GET /admin/auth/user/ HTTP/1.1" 200 11381
+[2022-12-05 15:44:44,096] - [INFO] "GET /static/admin/js/jquery.init.js HTTP/1.1" 200 347
+[2022-12-05 15:44:44,101] - [INFO] "GET /static/admin/js/core.js HTTP/1.1" 200 5698
+[2022-12-05 15:44:44,109] - [INFO] "GET /static/admin/css/changelists.css HTTP/1.1" 200 6395
+[2022-12-05 15:44:44,117] - [INFO] "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 200 8985
+[2022-12-05 15:44:44,129] - [INFO] "GET /static/admin/js/urlify.js HTTP/1.1" 200 7902
+[2022-12-05 15:44:44,129] - [INFO] "GET /static/admin/js/actions.js HTTP/1.1" 200 7872
+[2022-12-05 15:44:44,131] - [INFO] "GET /static/admin/js/prepopulate.js HTTP/1.1" 200 1531
+[2022-12-05 15:44:44,163] - [INFO] "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 200 288580
+[2022-12-05 15:44:44,184] - [INFO] "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+[2022-12-05 15:44:44,188] - [INFO] "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 200 232381
+[2022-12-05 15:44:44,204] - [INFO] "GET /static/admin/js/filters.js HTTP/1.1" 200 966
+[2022-12-05 15:44:44,219] - [INFO] "GET /static/admin/img/search.svg HTTP/1.1" 200 458
+[2022-12-05 15:44:44,232] - [INFO] "GET /static/admin/img/icon-yes.svg HTTP/1.1" 200 436
+[2022-12-05 15:44:44,252] - [INFO] "GET /static/admin/img/sorting-icons.svg HTTP/1.1" 200 1097
+[2022-12-05 15:44:44,252] - [INFO] "GET /static/admin/img/tooltag-add.svg HTTP/1.1" 200 331
+[2022-12-05 15:44:47,361] - [INFO] "GET /admin/marketplace/product/ HTTP/1.1" 200 9436
+[2022-12-05 15:44:47,464] - [INFO] "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+[2022-12-05 15:44:50,933] - [INFO] "GET /admin/marketplace/product/add/ HTTP/1.1" 200 36721
+[2022-12-05 15:44:50,973] - [INFO] "GET /static/admin/css/forms.css HTTP/1.1" 200 8944
+[2022-12-05 15:44:51,006] - [INFO] "GET /static/admin/css/widgets.css HTTP/1.1" 200 11297
+[2022-12-05 15:44:51,008] - [INFO] "GET /static/admin/js/prepopulate_init.js HTTP/1.1" 200 586
+[2022-12-05 15:44:51,021] - [INFO] "GET /static/admin/img/icon-viewlink.svg HTTP/1.1" 200 581
+[2022-12-05 15:44:51,036] - [INFO] "GET /static/admin/js/change_form.js HTTP/1.1" 200 606
+[2022-12-05 15:44:51,038] - [INFO] "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+[2022-12-05 15:45:03,270] - [INFO] "POST /admin/marketplace/product/add/ HTTP/1.1" 302 0
+[2022-12-05 15:45:03,374] - [INFO] "GET /admin/marketplace/product/ HTTP/1.1" 200 10127
+[2022-12-05 15:45:03,477] - [INFO] "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+[2022-12-05 15:45:07,505] - [INFO] "GET / HTTP/1.1" 200 7841
+[2022-12-05 15:45:07,531] - [INFO] "GET /static/fontawesomefree/css/fontawesome.css HTTP/1.1" 304 0
+[2022-12-05 15:45:07,549] - [INFO] "GET /static/fontawesomefree/css/brands.css HTTP/1.1" 304 0
+[2022-12-05 15:45:07,549] - [INFO] "GET /static/fontawesomefree/css/solid.css HTTP/1.1" 304 0
+[2022-12-05 15:45:08,830] - [INFO] "GET /marketplace/ HTTP/1.1" 200 14178
+[2022-12-05 15:45:10,699] - [INFO] "GET /marketplace/product-details/1 HTTP/1.1" 200 9343
+[2022-12-05 15:45:12,725] - [INFO] "GET /marketplace/product-details/2 HTTP/1.1" 200 8019
+[2022-12-05 15:45:41,423] - [INFO] "GET /marketplace/product-details/2 HTTP/1.1" 200 8051
+[2022-12-05 15:45:41,483] - [INFO] "GET /static/fontawesomefree/webfonts/fa-solid-900.woff2 HTTP/1.1" 304 0
+[2022-12-05 15:46:02,031] - [INFO] "GET /marketplace/product-details/2 HTTP/1.1" 200 8094
+[2022-12-05 15:46:05,423] - [INFO] "GET /marketplace/ HTTP/1.1" 200 14178
+[2022-12-05 15:46:06,517] - [INFO] "GET /marketplace/product-details/1 HTTP/1.1" 200 9343
+[2022-12-05 15:46:33,167] - [INFO] "GET /marketplace/favourites/1/add HTTP/1.1" 302 0
+[2022-12-05 15:46:33,252] - [INFO] "GET /marketplace/product-details/1 HTTP/1.1" 200 9347
+[2022-12-05 15:46:37,316] - [INFO] "GET /marketplace/favourites/1/add HTTP/1.1" 302 0
+[2022-12-05 15:46:37,505] - [INFO] "GET /marketplace/product-details/1 HTTP/1.1" 200 9343
+[2022-12-05 15:47:20,537] - [INFO] "GET /marketplace/product-details/1 HTTP/1.1" 200 9343
+[2022-12-05 15:47:20,570] - [INFO] "GET /static/fontawesomefree/css/fontawesome.css HTTP/1.1" 304 0
+[2022-12-05 15:47:20,579] - [INFO] "GET /static/fontawesomefree/css/solid.css HTTP/1.1" 304 0
+[2022-12-05 15:47:20,581] - [INFO] "GET /static/fontawesomefree/css/brands.css HTTP/1.1" 304 0
+[2022-12-05 15:47:21,067] - [INFO] "GET /marketplace/product-details/1 HTTP/1.1" 200 9376
+[2022-12-05 15:47:22,809] - [INFO] "GET /marketplace/favourites/1/add HTTP/1.1" 302 0
+[2022-12-05 15:47:22,901] - [INFO] "GET /marketplace/product-details/1 HTTP/1.1" 200 9347
+[2022-12-05 15:47:43,782] - [INFO] "GET /marketplace/product-details/1 HTTP/1.1" 200 9390
+[2022-12-05 15:47:44,465] - [INFO] "GET /marketplace/product-details/1 HTTP/1.1" 200 9390
+[2022-12-05 15:47:45,598] - [INFO] "GET /marketplace/favourites/1/add HTTP/1.1" 302 0
+[2022-12-05 15:47:45,692] - [INFO] "GET /marketplace/product-details/1 HTTP/1.1" 200 9376
+[2022-12-05 15:47:46,515] - [INFO] "GET /marketplace/favourites/1/add HTTP/1.1" 302 0
+[2022-12-05 15:47:46,599] - [INFO] "GET /marketplace/product-details/1 HTTP/1.1" 200 9390
+[2022-12-05 15:47:47,137] - [INFO] "GET /marketplace/favourites/1/add HTTP/1.1" 302 0
+[2022-12-05 15:47:47,234] - [INFO] "GET /marketplace/product-details/1 HTTP/1.1" 200 9376
+[2022-12-05 15:48:25,130] - [INFO] "GET /marketplace/product-details/1 HTTP/1.1" 200 9412
+[2022-12-05 15:48:29,502] - [INFO] "GET /marketplace/product-add/ HTTP/1.1" 200 33348
+[2022-12-05 15:48:29,548] - [WARNING] "GET /static/flags/__.gif HTTP/1.1" 404 1795
+[2022-12-05 15:48:31,871] - [INFO] "GET /marketplace/ HTTP/1.1" 200 14178
+[2022-12-05 15:48:32,934] - [INFO] "GET /marketplace/product-details/2 HTTP/1.1" 200 8094
+[2022-12-05 15:48:34,431] - [INFO] "GET /marketplace/product-edit/2 HTTP/1.1" 200 32954
+[2022-12-05 15:48:34,483] - [WARNING] "GET /static/flags/bs.gif HTTP/1.1" 404 1795
+[2022-12-05 15:48:34,485] - [WARNING] "GET /static/flags/bh.gif HTTP/1.1" 404 1795
+[2022-12-05 15:48:55,357] - [INFO] "GET /marketplace/product-edit/2 HTTP/1.1" 200 32954
+[2022-12-05 15:48:55,397] - [WARNING] "GET /static/flags/bh.gif HTTP/1.1" 404 1795
+[2022-12-05 15:48:55,397] - [WARNING] "GET /static/flags/bs.gif HTTP/1.1" 404 1795
+[2022-12-05 15:48:56,133] - [INFO] "GET /marketplace/product-edit/2 HTTP/1.1" 200 33014
+[2022-12-05 15:48:56,185] - [WARNING] "GET /static/flags/bs.gif HTTP/1.1" 404 1795
+[2022-12-05 15:48:56,186] - [WARNING] "GET /static/flags/bh.gif HTTP/1.1" 404 1795
+[2022-12-05 15:49:08,837] - [INFO] "GET /marketplace/product-edit/2 HTTP/1.1" 200 33046
+[2022-12-05 15:49:08,876] - [WARNING] "GET /static/flags/bh.gif HTTP/1.1" 404 1795
+[2022-12-05 15:49:08,878] - [WARNING] "GET /static/flags/bs.gif HTTP/1.1" 404 1795
+[2022-12-05 15:49:40,739] - [INFO] "GET /marketplace/product-edit/2 HTTP/1.1" 200 33018
+[2022-12-05 15:49:40,770] - [INFO] "GET /static/fontawesomefree/css/fontawesome.css HTTP/1.1" 304 0
+[2022-12-05 15:49:40,770] - [INFO] "GET /static/fontawesomefree/css/brands.css HTTP/1.1" 304 0
+[2022-12-05 15:49:40,771] - [INFO] "GET /static/fontawesomefree/css/solid.css HTTP/1.1" 304 0
+[2022-12-05 15:49:40,789] - [WARNING] "GET /static/flags/bs.gif HTTP/1.1" 404 1795
+[2022-12-05 15:49:40,790] - [WARNING] "GET /static/flags/bh.gif HTTP/1.1" 404 1795
+[2022-12-05 15:50:04,028] - [INFO] "GET /marketplace/product-edit/2 HTTP/1.1" 200 33019
+[2022-12-05 15:50:04,069] - [WARNING] "GET /static/flags/bh.gif HTTP/1.1" 404 1795
+[2022-12-05 15:50:04,071] - [WARNING] "GET /static/flags/bs.gif HTTP/1.1" 404 1795
+[2022-12-05 15:50:08,031] - [INFO] "POST /marketplace/product-edit/2 HTTP/1.1" 302 0
+[2022-12-05 15:50:08,146] - [INFO] "GET /marketplace/ HTTP/1.1" 200 14491
+[2022-12-05 15:50:10,720] - [INFO] "GET /marketplace/product-details/2 HTTP/1.1" 200 8094
+[2022-12-05 15:50:11,911] - [INFO] "GET /marketplace/product-delete/2 HTTP/1.1" 200 6260
+[2022-12-05 15:50:30,144] - [INFO] "GET /marketplace/product-delete/2 HTTP/1.1" 200 6260
+[2022-12-05 15:50:30,940] - [INFO] "GET /marketplace/product-delete/2 HTTP/1.1" 200 6292
+[2022-12-05 15:50:49,381] - [INFO] "GET /marketplace/product-delete/2 HTTP/1.1" 200 6292
+[2022-12-05 15:50:49,864] - [INFO] "GET /marketplace/product-delete/2 HTTP/1.1" 200 6335
+[2022-12-05 15:50:50,329] - [INFO] "GET /marketplace/product-delete/2 HTTP/1.1" 200 6335
+[2022-12-05 15:50:56,715] - [INFO] "GET /marketplace/ HTTP/1.1" 200 14178
+[2022-12-05 15:53:04,917] - [INFO] "GET /marketplace/product-details/1 HTTP/1.1" 200 9412
+[2022-12-05 15:53:04,947] - [INFO] "GET /static/fontawesomefree/css/fontawesome.css HTTP/1.1" 304 0
+[2022-12-05 15:53:04,957] - [INFO] "GET /static/fontawesomefree/css/brands.css HTTP/1.1" 304 0
+[2022-12-05 15:53:04,957] - [INFO] "GET /static/fontawesomefree/css/solid.css HTTP/1.1" 304 0
+[2022-12-05 15:53:07,492] - [INFO] "GET /marketplace/favourites/1/add HTTP/1.1" 302 0
+[2022-12-05 15:53:07,581] - [INFO] "GET /marketplace/product-details/1 HTTP/1.1" 200 9426
+[2022-12-05 15:53:08,965] - [INFO] "GET /marketplace/favourites/1/add HTTP/1.1" 302 0
+[2022-12-05 15:53:09,059] - [INFO] "GET /marketplace/product-details/1 HTTP/1.1" 200 9412
+[2022-12-05 15:53:12,034] - [INFO] "GET /marketplace/favourites/ HTTP/1.1" 200 10819
+[2022-12-05 15:53:14,874] - [INFO] "GET /marketplace/my-products/ HTTP/1.1" 200 8470
+[2022-12-05 15:53:17,858] - [INFO] "GET /marketplace/ HTTP/1.1" 200 14178
+[2022-12-05 15:53:18,481] - [INFO] "GET /accounts/account/ HTTP/1.1" 200 10620
+[2022-12-05 15:53:20,370] - [INFO] "GET /accounts/account/edit HTTP/1.1" 200 21285
+[2022-12-05 15:53:20,424] - [WARNING] "GET /static/flags/__.gif HTTP/1.1" 404 1795
+[2022-12-05 15:54:04,509] - [INFO] "GET /accounts/account/edit HTTP/1.1" 200 21285
+[2022-12-05 15:54:04,540] - [WARNING] "GET /static/flags/__.gif HTTP/1.1" 404 1795
+[2022-12-05 15:54:05,045] - [INFO] "GET /accounts/account/edit HTTP/1.1" 200 21349
+[2022-12-05 15:54:05,105] - [WARNING] "GET /static/flags/__.gif HTTP/1.1" 404 1795
+[2022-12-05 15:54:10,241] - [INFO] "GET /accounts/account/ HTTP/1.1" 200 10620
+[2022-12-05 15:54:24,436] - [INFO] "GET /accounts/account/ HTTP/1.1" 200 10620
+[2022-12-05 15:54:25,265] - [INFO] "GET /accounts/account/ HTTP/1.1" 200 10652
+[2022-12-05 15:54:25,678] - [INFO] "GET /accounts/account/ HTTP/1.1" 200 10652
+[2022-12-05 15:54:32,664] - [INFO] "GET /messages/ HTTP/1.1" 200 7204
+[2022-12-05 15:54:33,870] - [INFO] "GET /marketplace/product-add/ HTTP/1.1" 200 33348
+[2022-12-05 15:54:33,907] - [WARNING] "GET /static/flags/__.gif HTTP/1.1" 404 1795
+[2022-12-05 15:54:34,633] - [INFO] "GET /marketplace/ HTTP/1.1" 200 14178
+[2022-12-05 15:55:13,969] - [INFO] "GET /marketplace/ HTTP/1.1" 200 14211
+[2022-12-05 15:55:21,523] - [INFO] "GET /marketplace/ HTTP/1.1" 200 14211
+[2022-12-05 15:55:22,130] - [INFO] "GET /marketplace/ HTTP/1.1" 200 14211
+[2022-12-05 15:55:56,629] - [INFO] "GET /marketplace/ HTTP/1.1" 200 14190
+[2022-12-05 15:55:56,659] - [INFO] "GET /static/fontawesomefree/css/brands.css HTTP/1.1" 304 0
+[2022-12-05 15:55:56,661] - [INFO] "GET /static/fontawesomefree/css/fontawesome.css HTTP/1.1" 304 0
+[2022-12-05 15:55:56,662] - [INFO] "GET /static/fontawesomefree/css/solid.css HTTP/1.1" 304 0
+[2022-12-05 15:56:16,648] - [INFO] "GET /marketplace/ HTTP/1.1" 200 14223
+[2022-12-05 15:56:17,085] - [INFO] "GET /marketplace/ HTTP/1.1" 200 14223
+[2022-12-05 15:56:55,764] - [INFO] "GET /marketplace/ HTTP/1.1" 200 14223
+[2022-12-05 15:56:56,877] - [INFO] "GET /marketplace/ HTTP/1.1" 200 14393
+[2022-12-05 15:57:06,088] - [INFO] "GET /imprint/ HTTP/1.1" 200 7983
+[2022-12-05 15:59:26,695] - [INFO] "GET /posts/all/ HTTP/1.1" 200 5996
+[2022-12-05 15:59:26,733] - [INFO] "GET /static/fontawesomefree/css/fontawesome.css HTTP/1.1" 304 0
+[2022-12-05 15:59:26,742] - [INFO] "GET /static/fontawesomefree/css/brands.css HTTP/1.1" 304 0
+[2022-12-05 15:59:26,743] - [INFO] "GET /static/fontawesomefree/css/solid.css HTTP/1.1" 304 0
+[2022-12-05 15:59:27,876] - [INFO] "GET /marketplace/ HTTP/1.1" 200 14393
+[2022-12-05 16:13:28,632] - [INFO] "GET /admin/ HTTP/1.1" 200 7466
+[2022-12-05 16:13:35,319] - [INFO] "GET /admin/accounts/company/ HTTP/1.1" 200 9754
+[2022-12-05 16:13:35,441] - [INFO] "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+[2022-12-05 16:13:53,305] - [INFO] "GET /admin/accounts/company/ HTTP/1.1" 200 9754
+[2022-12-05 16:13:53,404] - [INFO] "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+[2022-12-05 16:13:53,579] - [INFO] C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\agri_trade\accounts\admin.py changed, reloading.
+[2022-12-05 16:13:55,202] - [INFO] Watching for file changes with StatReloader
+[2022-12-05 16:14:25,339] - [INFO] C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\agri_trade\accounts\admin.py changed, reloading.
+[2022-12-05 16:14:26,751] - [INFO] Watching for file changes with StatReloader
+[2022-12-05 16:14:27,359] - [INFO] "GET /admin/accounts/company/ HTTP/1.1" 200 9754
+[2022-12-05 16:14:27,494] - [INFO] "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+[2022-12-05 16:14:33,743] - [INFO] "GET /admin/auth/user/ HTTP/1.1" 200 11381
+[2022-12-05 16:14:33,957] - [INFO] "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+[2022-12-05 16:15:51,476] - [INFO] C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\agri_trade\accounts\admin.py changed, reloading.
+[2022-12-05 16:15:52,917] - [INFO] Watching for file changes with StatReloader
+[2022-12-05 16:16:08,939] - [INFO] Watching for file changes with StatReloader
+[2022-12-05 16:16:32,469] - [INFO] Watching for file changes with StatReloader
+[2022-12-05 16:16:34,200] - [INFO] "GET / HTTP/1.1" 200 8056
+[2022-12-05 16:16:34,266] - [INFO] "GET /static/fontawesomefree/css/fontawesome.css HTTP/1.1" 304 0
+[2022-12-05 16:16:34,268] - [INFO] "GET /static/fontawesomefree/css/brands.css HTTP/1.1" 304 0
+[2022-12-05 16:16:34,273] - [INFO] "GET /static/fontawesomefree/css/solid.css HTTP/1.1" 304 0
+[2022-12-05 16:16:34,406] - [INFO] "GET /static/fontawesomefree/webfonts/fa-solid-900.woff2 HTTP/1.1" 304 0
+[2022-12-05 16:16:37,738] - [INFO] "GET /admin/ HTTP/1.1" 200 7466
+[2022-12-05 16:16:43,016] - [INFO] "GET /admin/accounts/company/ HTTP/1.1" 200 9754
+[2022-12-05 16:16:43,129] - [INFO] "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+[2022-12-05 16:16:54,971] - [INFO] C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\agri_trade\accounts\admin.py changed, reloading.
+[2022-12-05 16:16:56,292] - [INFO] Watching for file changes with StatReloader
+[2022-12-05 16:17:58,403] - [INFO] C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\agri_trade\accounts\admin.py changed, reloading.
+[2022-12-05 16:17:59,968] - [INFO] Watching for file changes with StatReloader
+[2022-12-05 16:22:21,348] - [INFO] C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\agri_trade\accounts\admin.py changed, reloading.
+[2022-12-05 16:22:22,770] - [INFO] Watching for file changes with StatReloader
+[2022-12-05 16:22:24,873] - [INFO] "GET /admin/accounts/company/1/change/ HTTP/1.1" 200 13466
+[2022-12-05 16:22:25,001] - [INFO] "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+[2022-12-05 16:22:46,804] - [INFO] "GET /admin/accounts/company/ HTTP/1.1" 200 9754
+[2022-12-05 16:23:50,751] - [INFO] C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\agri_trade\accounts\admin.py changed, reloading.
+[2022-12-05 16:23:52,208] - [INFO] Watching for file changes with StatReloader
+[2022-12-05 16:24:01,283] - [INFO] C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\agri_trade\accounts\admin.py changed, reloading.
+[2022-12-05 16:24:02,707] - [INFO] Watching for file changes with StatReloader
+[2022-12-05 16:24:03,364] - [INFO] "GET /admin/accounts/company/ HTTP/1.1" 200 9754
+[2022-12-05 16:24:03,522] - [INFO] "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+[2022-12-05 16:26:59,476] - [INFO] "GET /admin/accounts/company/1/change/ HTTP/1.1" 200 13466
+[2022-12-05 16:26:59,597] - [INFO] "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+[2022-12-05 16:27:24,608] - [INFO] "GET /admin/accounts/company/ HTTP/1.1" 200 9754
+[2022-12-05 16:27:26,765] - [INFO] "GET /admin/marketplace/product/ HTTP/1.1" 200 9902
+[2022-12-05 16:27:26,867] - [INFO] "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+[2022-12-05 16:27:33,582] - [INFO] "GET /admin/posts/post/ HTTP/1.1" 200 7007
+[2022-12-05 16:27:33,677] - [INFO] "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+[2022-12-05 16:27:35,888] - [INFO] "GET /admin/user_messages/message/ HTTP/1.1" 200 7060
+[2022-12-05 16:27:35,987] - [INFO] "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+[2022-12-05 16:27:43,680] - [INFO] "GET /admin/user_messages/message/add/ HTTP/1.1" 200 11563
+[2022-12-05 16:27:43,791] - [INFO] "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+[2022-12-05 16:27:50,465] - [INFO] "GET /admin/auth/user/add/?_to_field=id&_popup=1 HTTP/1.1" 200 4867
+[2022-12-05 16:27:50,589] - [INFO] "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+[2022-12-05 16:28:06,752] - [INFO] "POST /admin/user_messages/message/add/ HTTP/1.1" 302 0
+[2022-12-05 16:28:06,842] - [INFO] "GET /admin/user_messages/message/ HTTP/1.1" 200 9268
+[2022-12-05 16:28:06,962] - [INFO] "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+[2022-12-05 16:28:34,712] - [INFO] C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\agri_trade\user_messages\admin.py changed, reloading.
+[2022-12-05 16:28:35,997] - [INFO] Watching for file changes with StatReloader
+[2022-12-05 16:28:36,576] - [INFO] "GET /admin/user_messages/message/ HTTP/1.1" 200 9279
+[2022-12-05 16:28:36,684] - [INFO] "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+[2022-12-05 16:28:36,852] - [INFO] "GET /static/admin/img/icon-no.svg HTTP/1.1" 200 560
+[2022-12-05 16:29:09,189] - [INFO] "GET /admin/user_messages/message/ HTTP/1.1" 200 9279
+[2022-12-05 16:29:09,317] - [INFO] "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+[2022-12-05 16:29:09,440] - [INFO] C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\agri_trade\user_messages\admin.py changed, reloading.
+[2022-12-05 16:29:10,777] - [INFO] Watching for file changes with StatReloader
+[2022-12-05 16:29:11,287] - [INFO] "GET /admin/user_messages/message/ HTTP/1.1" 200 9279
+[2022-12-05 16:29:11,388] - [INFO] "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+[2022-12-05 16:29:17,686] - [INFO] "GET /admin/posts/post/ HTTP/1.1" 200 7007
+[2022-12-05 16:29:17,891] - [INFO] "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+[2022-12-05 16:29:21,131] - [INFO] "GET /admin/marketplace/product/ HTTP/1.1" 200 9902
+[2022-12-05 16:29:21,237] - [INFO] "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+[2022-12-05 16:29:54,977] - [INFO] C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\agri_trade\marketplace\admin.py changed, reloading.
+[2022-12-05 16:29:56,386] - [INFO] Watching for file changes with StatReloader
+[2022-12-05 16:29:57,957] - [INFO] "GET /admin/marketplace/product/ HTTP/1.1" 200 9901
+[2022-12-05 16:29:58,064] - [INFO] "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+[2022-12-05 16:30:00,205] - [INFO] "GET /admin/auth/user/ HTTP/1.1" 200 11381
+[2022-12-05 16:30:00,302] - [INFO] "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+[2022-12-05 16:30:08,851] - [INFO] "GET /admin/accounts/company/ HTTP/1.1" 200 9754
+[2022-12-05 16:30:08,956] - [INFO] "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+[2022-12-05 16:30:11,487] - [INFO] "GET /admin/auth/user/ HTTP/1.1" 200 11381
+[2022-12-05 16:30:11,595] - [INFO] "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+[2022-12-05 16:30:43,275] - [INFO] "GET /admin/auth/user/ HTTP/1.1" 200 11381
+[2022-12-05 16:30:43,376] - [INFO] "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+[2022-12-05 16:33:44,072] - [INFO] "GET /admin/marketplace/product/ HTTP/1.1" 200 9901
+[2022-12-05 16:33:44,180] - [INFO] "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+[2022-12-05 16:33:48,254] - [INFO] "GET /admin/posts/post/ HTTP/1.1" 200 7007
+[2022-12-05 16:33:48,356] - [INFO] "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+[2022-12-05 16:33:49,845] - [INFO] "GET /admin/auth/user/ HTTP/1.1" 200 11381
+[2022-12-05 16:33:49,952] - [INFO] "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+[2022-12-05 16:34:15,445] - [INFO] C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\agri_trade\accounts\admin.py changed, reloading.
+[2022-12-05 16:34:16,836] - [INFO] Watching for file changes with StatReloader
+[2022-12-05 16:34:17,484] - [INFO] "GET /admin/accounts/company/ HTTP/1.1" 200 10075
+[2022-12-05 16:34:17,698] - [INFO] "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+[2022-12-05 16:34:20,469] - [INFO] "GET /admin/accounts/company/?q=sad HTTP/1.1" 200 8010
+[2022-12-05 16:34:20,569] - [INFO] "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+[2022-12-05 16:34:23,772] - [INFO] "GET /admin/accounts/company/?q= HTTP/1.1" 200 10205
+[2022-12-05 16:34:23,875] - [INFO] "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+[2022-12-05 16:34:38,656] - [INFO] C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\agri_trade\accounts\admin.py changed, reloading.
+[2022-12-05 16:34:40,020] - [INFO] Watching for file changes with StatReloader
+[2022-12-05 16:34:49,979] - [INFO] "GET /admin/accounts/company/?q= HTTP/1.1" 200 10205
+[2022-12-05 16:34:50,295] - [INFO] "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+[2022-12-05 16:34:50,645] - [INFO] C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\agri_trade\accounts\admin.py changed, reloading.
+[2022-12-05 16:34:52,026] - [INFO] Watching for file changes with StatReloader
+[2022-12-05 16:34:57,305] - [ERROR] Internal Server Error: /admin/accounts/company/
+Traceback (most recent call last):
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\contrib\admin\options.py", line 686, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\utils\decorators.py", line 133, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\views\decorators\cache.py", line 62, in _wrapped_view_func
+    response = view_func(request, *args, **kwargs)
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\contrib\admin\sites.py", line 242, in inner
+    return view(request, *args, **kwargs)
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\utils\decorators.py", line 46, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\utils\decorators.py", line 133, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\contrib\admin\options.py", line 1931, in changelist_view
+    cl = self.get_changelist_instance(request)
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\contrib\admin\options.py", line 834, in get_changelist_instance
+    return ChangeList(
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\contrib\admin\views\main.py", line 122, in __init__
+    self.queryset = self.get_queryset(request)
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\contrib\admin\views\main.py", line 529, in get_queryset
+    qs, search_may_have_duplicates = self.model_admin.get_search_results(
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\contrib\admin\options.py", line 1152, in get_search_results
+    queryset = queryset.filter(models.Q(*term_queries))
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\db\models\query.py", line 1420, in filter
+    return self._filter_or_exclude(False, args, kwargs)
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\db\models\query.py", line 1438, in _filter_or_exclude
+    clone._filter_or_exclude_inplace(negate, args, kwargs)
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\db\models\query.py", line 1445, in _filter_or_exclude_inplace
+    self._query.add_q(Q(*args, **kwargs))
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\db\models\sql\query.py", line 1532, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\db\models\sql\query.py", line 1562, in _add_q
+    child_clause, needed_inner = self.build_filter(
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\db\models\sql\query.py", line 1388, in build_filter
+    return self._add_q(
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\db\models\sql\query.py", line 1562, in _add_q
+    child_clause, needed_inner = self.build_filter(
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\db\models\sql\query.py", line 1388, in build_filter
+    return self._add_q(
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\db\models\sql\query.py", line 1562, in _add_q
+    child_clause, needed_inner = self.build_filter(
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\db\models\sql\query.py", line 1478, in build_filter
+    condition = self.build_lookup(lookups, col, value)
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\db\models\sql\query.py", line 1292, in build_lookup
+    raise FieldError(
+django.core.exceptions.FieldError: Related Field got invalid lookup: icontains
+[2022-12-05 16:34:57,314] - [ERROR] "GET /admin/accounts/company/?q=ITC HTTP/1.1" 500 184514
+[2022-12-05 16:34:59,780] - [INFO] "GET /admin/accounts/company/?q= HTTP/1.1" 200 10205
+[2022-12-05 16:35:01,369] - [ERROR] Internal Server Error: /admin/accounts/company/
+Traceback (most recent call last):
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\contrib\admin\options.py", line 686, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\utils\decorators.py", line 133, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\views\decorators\cache.py", line 62, in _wrapped_view_func
+    response = view_func(request, *args, **kwargs)
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\contrib\admin\sites.py", line 242, in inner
+    return view(request, *args, **kwargs)
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\utils\decorators.py", line 46, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\utils\decorators.py", line 133, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\contrib\admin\options.py", line 1931, in changelist_view
+    cl = self.get_changelist_instance(request)
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\contrib\admin\options.py", line 834, in get_changelist_instance
+    return ChangeList(
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\contrib\admin\views\main.py", line 122, in __init__
+    self.queryset = self.get_queryset(request)
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\contrib\admin\views\main.py", line 529, in get_queryset
+    qs, search_may_have_duplicates = self.model_admin.get_search_results(
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\contrib\admin\options.py", line 1152, in get_search_results
+    queryset = queryset.filter(models.Q(*term_queries))
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\db\models\query.py", line 1420, in filter
+    return self._filter_or_exclude(False, args, kwargs)
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\db\models\query.py", line 1438, in _filter_or_exclude
+    clone._filter_or_exclude_inplace(negate, args, kwargs)
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\db\models\query.py", line 1445, in _filter_or_exclude_inplace
+    self._query.add_q(Q(*args, **kwargs))
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\db\models\sql\query.py", line 1532, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\db\models\sql\query.py", line 1562, in _add_q
+    child_clause, needed_inner = self.build_filter(
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\db\models\sql\query.py", line 1388, in build_filter
+    return self._add_q(
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\db\models\sql\query.py", line 1562, in _add_q
+    child_clause, needed_inner = self.build_filter(
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\db\models\sql\query.py", line 1388, in build_filter
+    return self._add_q(
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\db\models\sql\query.py", line 1562, in _add_q
+    child_clause, needed_inner = self.build_filter(
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\db\models\sql\query.py", line 1478, in build_filter
+    condition = self.build_lookup(lookups, col, value)
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\db\models\sql\query.py", line 1292, in build_lookup
+    raise FieldError(
+django.core.exceptions.FieldError: Related Field got invalid lookup: icontains
+[2022-12-05 16:35:01,374] - [ERROR] "GET /admin/accounts/company/?q=ITC HTTP/1.1" 500 184514
+[2022-12-05 16:35:21,596] - [INFO] C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\agri_trade\accounts\admin.py changed, reloading.
+[2022-12-05 16:35:22,963] - [INFO] Watching for file changes with StatReloader
+[2022-12-05 16:35:23,474] - [INFO] "GET /admin/accounts/company/?q= HTTP/1.1" 200 10205
+[2022-12-05 16:35:25,514] - [ERROR] Internal Server Error: /admin/accounts/company/
+Traceback (most recent call last):
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\contrib\admin\options.py", line 686, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\utils\decorators.py", line 133, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\views\decorators\cache.py", line 62, in _wrapped_view_func
+    response = view_func(request, *args, **kwargs)
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\contrib\admin\sites.py", line 242, in inner
+    return view(request, *args, **kwargs)
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\utils\decorators.py", line 46, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\utils\decorators.py", line 133, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\contrib\admin\options.py", line 1931, in changelist_view
+    cl = self.get_changelist_instance(request)
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\contrib\admin\options.py", line 834, in get_changelist_instance
+    return ChangeList(
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\contrib\admin\views\main.py", line 122, in __init__
+    self.queryset = self.get_queryset(request)
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\contrib\admin\views\main.py", line 529, in get_queryset
+    qs, search_may_have_duplicates = self.model_admin.get_search_results(
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\contrib\admin\options.py", line 1152, in get_search_results
+    queryset = queryset.filter(models.Q(*term_queries))
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\db\models\query.py", line 1420, in filter
+    return self._filter_or_exclude(False, args, kwargs)
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\db\models\query.py", line 1438, in _filter_or_exclude
+    clone._filter_or_exclude_inplace(negate, args, kwargs)
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\db\models\query.py", line 1445, in _filter_or_exclude_inplace
+    self._query.add_q(Q(*args, **kwargs))
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\db\models\sql\query.py", line 1532, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\db\models\sql\query.py", line 1562, in _add_q
+    child_clause, needed_inner = self.build_filter(
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\db\models\sql\query.py", line 1388, in build_filter
+    return self._add_q(
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\db\models\sql\query.py", line 1562, in _add_q
+    child_clause, needed_inner = self.build_filter(
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\db\models\sql\query.py", line 1388, in build_filter
+    return self._add_q(
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\db\models\sql\query.py", line 1562, in _add_q
+    child_clause, needed_inner = self.build_filter(
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\db\models\sql\query.py", line 1478, in build_filter
+    condition = self.build_lookup(lookups, col, value)
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\db\models\sql\query.py", line 1292, in build_lookup
+    raise FieldError(
+django.core.exceptions.FieldError: Related Field got invalid lookup: icontains
+[2022-12-05 16:35:25,520] - [ERROR] "GET /admin/accounts/company/?q=ITC HTTP/1.1" 500 184514
+[2022-12-05 16:35:53,691] - [INFO] "GET /admin/accounts/company/?q= HTTP/1.1" 200 10205
+[2022-12-05 16:35:56,392] - [ERROR] Internal Server Error: /admin/accounts/company/
+Traceback (most recent call last):
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\contrib\admin\options.py", line 686, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\utils\decorators.py", line 133, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\views\decorators\cache.py", line 62, in _wrapped_view_func
+    response = view_func(request, *args, **kwargs)
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\contrib\admin\sites.py", line 242, in inner
+    return view(request, *args, **kwargs)
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\utils\decorators.py", line 46, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\utils\decorators.py", line 133, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\contrib\admin\options.py", line 1931, in changelist_view
+    cl = self.get_changelist_instance(request)
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\contrib\admin\options.py", line 834, in get_changelist_instance
+    return ChangeList(
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\contrib\admin\views\main.py", line 122, in __init__
+    self.queryset = self.get_queryset(request)
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\contrib\admin\views\main.py", line 529, in get_queryset
+    qs, search_may_have_duplicates = self.model_admin.get_search_results(
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\contrib\admin\options.py", line 1152, in get_search_results
+    queryset = queryset.filter(models.Q(*term_queries))
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\db\models\query.py", line 1420, in filter
+    return self._filter_or_exclude(False, args, kwargs)
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\db\models\query.py", line 1438, in _filter_or_exclude
+    clone._filter_or_exclude_inplace(negate, args, kwargs)
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\db\models\query.py", line 1445, in _filter_or_exclude_inplace
+    self._query.add_q(Q(*args, **kwargs))
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\db\models\sql\query.py", line 1532, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\db\models\sql\query.py", line 1562, in _add_q
+    child_clause, needed_inner = self.build_filter(
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\db\models\sql\query.py", line 1388, in build_filter
+    return self._add_q(
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\db\models\sql\query.py", line 1562, in _add_q
+    child_clause, needed_inner = self.build_filter(
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\db\models\sql\query.py", line 1388, in build_filter
+    return self._add_q(
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\db\models\sql\query.py", line 1562, in _add_q
+    child_clause, needed_inner = self.build_filter(
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\db\models\sql\query.py", line 1478, in build_filter
+    condition = self.build_lookup(lookups, col, value)
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\db\models\sql\query.py", line 1292, in build_lookup
+    raise FieldError(
+django.core.exceptions.FieldError: Related Field got invalid lookup: icontains
+[2022-12-05 16:35:56,395] - [ERROR] "GET /admin/accounts/company/?q=hfg HTTP/1.1" 500 184514
+[2022-12-05 16:35:59,206] - [INFO] "GET /admin/accounts/company/?q= HTTP/1.1" 200 10205
+[2022-12-05 16:36:05,328] - [INFO] "GET /admin/accounts/company/?q= HTTP/1.1" 200 10205
+[2022-12-05 16:36:05,437] - [INFO] "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+[2022-12-05 16:36:06,055] - [INFO] C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\agri_trade\accounts\admin.py changed, reloading.
+[2022-12-05 16:36:07,322] - [INFO] Watching for file changes with StatReloader
+[2022-12-05 16:36:07,933] - [ERROR] Internal Server Error: /admin/accounts/company/
+Traceback (most recent call last):
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\contrib\admin\options.py", line 686, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\utils\decorators.py", line 133, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\views\decorators\cache.py", line 62, in _wrapped_view_func
+    response = view_func(request, *args, **kwargs)
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\contrib\admin\sites.py", line 242, in inner
+    return view(request, *args, **kwargs)
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\utils\decorators.py", line 46, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\utils\decorators.py", line 133, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\contrib\admin\options.py", line 1931, in changelist_view
+    cl = self.get_changelist_instance(request)
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\contrib\admin\options.py", line 834, in get_changelist_instance
+    return ChangeList(
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\contrib\admin\views\main.py", line 122, in __init__
+    self.queryset = self.get_queryset(request)
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\contrib\admin\views\main.py", line 529, in get_queryset
+    qs, search_may_have_duplicates = self.model_admin.get_search_results(
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\contrib\admin\options.py", line 1152, in get_search_results
+    queryset = queryset.filter(models.Q(*term_queries))
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\db\models\query.py", line 1420, in filter
+    return self._filter_or_exclude(False, args, kwargs)
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\db\models\query.py", line 1438, in _filter_or_exclude
+    clone._filter_or_exclude_inplace(negate, args, kwargs)
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\db\models\query.py", line 1445, in _filter_or_exclude_inplace
+    self._query.add_q(Q(*args, **kwargs))
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\db\models\sql\query.py", line 1532, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\db\models\sql\query.py", line 1562, in _add_q
+    child_clause, needed_inner = self.build_filter(
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\db\models\sql\query.py", line 1388, in build_filter
+    return self._add_q(
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\db\models\sql\query.py", line 1562, in _add_q
+    child_clause, needed_inner = self.build_filter(
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\db\models\sql\query.py", line 1388, in build_filter
+    return self._add_q(
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\db\models\sql\query.py", line 1562, in _add_q
+    child_clause, needed_inner = self.build_filter(
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\db\models\sql\query.py", line 1478, in build_filter
+    condition = self.build_lookup(lookups, col, value)
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\db\models\sql\query.py", line 1292, in build_lookup
+    raise FieldError(
+django.core.exceptions.FieldError: Related Field got invalid lookup: icontains
+[2022-12-05 16:36:07,943] - [ERROR] "GET /admin/accounts/company/?q=asdasd HTTP/1.1" 500 180274
+[2022-12-05 16:36:11,194] - [INFO] "GET /admin/accounts/company/?q= HTTP/1.1" 200 10205
+[2022-12-05 16:36:21,997] - [ERROR] Internal Server Error: /admin/accounts/company/
+Traceback (most recent call last):
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\contrib\admin\options.py", line 686, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\utils\decorators.py", line 133, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\views\decorators\cache.py", line 62, in _wrapped_view_func
+    response = view_func(request, *args, **kwargs)
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\contrib\admin\sites.py", line 242, in inner
+    return view(request, *args, **kwargs)
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\utils\decorators.py", line 46, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\utils\decorators.py", line 133, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\contrib\admin\options.py", line 1931, in changelist_view
+    cl = self.get_changelist_instance(request)
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\contrib\admin\options.py", line 834, in get_changelist_instance
+    return ChangeList(
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\contrib\admin\views\main.py", line 122, in __init__
+    self.queryset = self.get_queryset(request)
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\contrib\admin\views\main.py", line 529, in get_queryset
+    qs, search_may_have_duplicates = self.model_admin.get_search_results(
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\contrib\admin\options.py", line 1152, in get_search_results
+    queryset = queryset.filter(models.Q(*term_queries))
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\db\models\query.py", line 1420, in filter
+    return self._filter_or_exclude(False, args, kwargs)
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\db\models\query.py", line 1438, in _filter_or_exclude
+    clone._filter_or_exclude_inplace(negate, args, kwargs)
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\db\models\query.py", line 1445, in _filter_or_exclude_inplace
+    self._query.add_q(Q(*args, **kwargs))
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\db\models\sql\query.py", line 1532, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\db\models\sql\query.py", line 1562, in _add_q
+    child_clause, needed_inner = self.build_filter(
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\db\models\sql\query.py", line 1388, in build_filter
+    return self._add_q(
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\db\models\sql\query.py", line 1562, in _add_q
+    child_clause, needed_inner = self.build_filter(
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\db\models\sql\query.py", line 1388, in build_filter
+    return self._add_q(
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\db\models\sql\query.py", line 1562, in _add_q
+    child_clause, needed_inner = self.build_filter(
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\db\models\sql\query.py", line 1478, in build_filter
+    condition = self.build_lookup(lookups, col, value)
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\db\models\sql\query.py", line 1292, in build_lookup
+    raise FieldError(
+django.core.exceptions.FieldError: Related Field got invalid lookup: icontains
+[2022-12-05 16:36:21,999] - [ERROR] "GET /admin/accounts/company/?q=adm HTTP/1.1" 500 180166
+[2022-12-05 16:36:39,337] - [INFO] "GET /admin/accounts/company/?q= HTTP/1.1" 200 10205
+[2022-12-05 16:36:40,086] - [INFO] C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\agri_trade\accounts\admin.py changed, reloading.
+[2022-12-05 16:36:41,306] - [INFO] Watching for file changes with StatReloader
+[2022-12-05 16:36:42,088] - [INFO] - Broken pipe from ('127.0.0.1', 61882)
+[2022-12-05 16:36:42,152] - [INFO] "GET /admin/accounts/company/?q=adm HTTP/1.1" 200 8010
+[2022-12-05 16:36:42,259] - [INFO] "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+[2022-12-05 16:36:44,682] - [INFO] "GET /admin/accounts/company/?q= HTTP/1.1" 200 10205
+[2022-12-05 16:36:44,787] - [INFO] "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+[2022-12-05 16:37:27,481] - [INFO] C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\agri_trade\accounts\admin.py changed, reloading.
+[2022-12-05 16:37:28,744] - [INFO] Watching for file changes with StatReloader
+[2022-12-05 16:37:29,556] - [INFO] "GET /admin/accounts/company/?q= HTTP/1.1" 200 10205
+[2022-12-05 16:37:29,674] - [INFO] "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+[2022-12-05 16:37:30,167] - [INFO] "GET /admin/accounts/company/?q= HTTP/1.1" 200 10205
+[2022-12-05 16:37:30,276] - [INFO] "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+[2022-12-05 16:37:31,555] - [INFO] "GET /admin/accounts/company/?q=asdasd HTTP/1.1" 200 8016
+[2022-12-05 16:37:31,650] - [INFO] "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+[2022-12-05 16:37:33,889] - [INFO] "GET /admin/accounts/company/?q=a HTTP/1.1" 200 8006
+[2022-12-05 16:37:34,001] - [INFO] "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+[2022-12-05 16:37:35,052] - [INFO] "GET /admin/accounts/company/?q=a HTTP/1.1" 200 8006
+[2022-12-05 16:37:35,143] - [INFO] "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+[2022-12-05 16:37:36,975] - [INFO] "GET /admin/accounts/company/?q=as HTTP/1.1" 200 8008
+[2022-12-05 16:37:37,082] - [INFO] "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+[2022-12-05 16:37:38,562] - [INFO] "GET /admin/accounts/company/?q= HTTP/1.1" 200 10205
+[2022-12-05 16:37:38,755] - [INFO] "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+[2022-12-05 16:37:42,960] - [INFO] "GET /admin/accounts/company/?q=s HTTP/1.1" 200 9865
+[2022-12-05 16:37:43,068] - [INFO] "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+[2022-12-05 16:38:19,812] - [INFO] "GET /admin/marketplace/product/ HTTP/1.1" 200 9901
+[2022-12-05 16:38:19,915] - [INFO] "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+[2022-12-05 16:38:20,270] - [INFO] C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\agri_trade\marketplace\admin.py changed, reloading.
+[2022-12-05 16:38:21,640] - [INFO] Watching for file changes with StatReloader
+[2022-12-05 16:38:22,407] - [INFO] "GET /admin/marketplace/product/ HTTP/1.1" 200 10222
+[2022-12-05 16:38:22,506] - [INFO] "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+[2022-12-05 16:38:26,068] - [ERROR] Internal Server Error: /admin/marketplace/product/
+Traceback (most recent call last):
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\contrib\admin\options.py", line 686, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\utils\decorators.py", line 133, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\views\decorators\cache.py", line 62, in _wrapped_view_func
+    response = view_func(request, *args, **kwargs)
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\contrib\admin\sites.py", line 242, in inner
+    return view(request, *args, **kwargs)
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\utils\decorators.py", line 46, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\utils\decorators.py", line 133, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\contrib\admin\options.py", line 1931, in changelist_view
+    cl = self.get_changelist_instance(request)
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\contrib\admin\options.py", line 834, in get_changelist_instance
+    return ChangeList(
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\contrib\admin\views\main.py", line 122, in __init__
+    self.queryset = self.get_queryset(request)
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\contrib\admin\views\main.py", line 529, in get_queryset
+    qs, search_may_have_duplicates = self.model_admin.get_search_results(
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\contrib\admin\options.py", line 1152, in get_search_results
+    queryset = queryset.filter(models.Q(*term_queries))
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\db\models\query.py", line 1420, in filter
+    return self._filter_or_exclude(False, args, kwargs)
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\db\models\query.py", line 1438, in _filter_or_exclude
+    clone._filter_or_exclude_inplace(negate, args, kwargs)
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\db\models\query.py", line 1445, in _filter_or_exclude_inplace
+    self._query.add_q(Q(*args, **kwargs))
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\db\models\sql\query.py", line 1532, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\db\models\sql\query.py", line 1562, in _add_q
+    child_clause, needed_inner = self.build_filter(
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\db\models\sql\query.py", line 1388, in build_filter
+    return self._add_q(
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\db\models\sql\query.py", line 1562, in _add_q
+    child_clause, needed_inner = self.build_filter(
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\db\models\sql\query.py", line 1388, in build_filter
+    return self._add_q(
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\db\models\sql\query.py", line 1562, in _add_q
+    child_clause, needed_inner = self.build_filter(
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\db\models\sql\query.py", line 1478, in build_filter
+    condition = self.build_lookup(lookups, col, value)
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\db\models\sql\query.py", line 1292, in build_lookup
+    raise FieldError(
+django.core.exceptions.FieldError: Related Field got invalid lookup: icontains
+[2022-12-05 16:38:26,076] - [ERROR] "GET /admin/marketplace/product/?q=y HTTP/1.1" 500 185528
+[2022-12-05 16:38:31,779] - [INFO] "GET /admin/marketplace/product/ HTTP/1.1" 200 10222
+[2022-12-05 16:38:40,701] - [INFO] "GET /admin/marketplace/product/ HTTP/1.1" 200 10222
+[2022-12-05 16:38:40,807] - [INFO] "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+[2022-12-05 16:38:41,406] - [INFO] C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\agri_trade\marketplace\admin.py changed, reloading.
+[2022-12-05 16:38:42,685] - [INFO] Watching for file changes with StatReloader
+[2022-12-05 16:38:43,215] - [INFO] "GET /admin/marketplace/product/?q=yxc HTTP/1.1" 200 8019
+[2022-12-05 16:38:43,321] - [INFO] "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+[2022-12-05 16:38:45,728] - [INFO] "GET /admin/marketplace/product/?q= HTTP/1.1" 200 10352
+[2022-12-05 16:38:45,831] - [INFO] "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+[2022-12-05 16:38:49,777] - [INFO] "GET /admin/marketplace/product/?q=o HTTP/1.1" 200 10363
+[2022-12-05 16:38:49,870] - [INFO] "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+[2022-12-05 16:38:54,950] - [INFO] "GET /admin/marketplace/product/?q=34 HTTP/1.1" 200 9955
+[2022-12-05 16:38:55,170] - [INFO] "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+[2022-12-05 16:38:58,706] - [INFO] "GET /admin/marketplace/product/?q= HTTP/1.1" 200 10352
+[2022-12-05 16:38:58,802] - [INFO] "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+[2022-12-05 16:41:21,396] - [INFO] C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\agri_trade\marketplace\admin.py changed, reloading.
+[2022-12-05 16:41:23,274] - [INFO] Watching for file changes with StatReloader
+[2022-12-05 16:41:24,641] - [INFO] "GET /admin/marketplace/product/ HTTP/1.1" 200 10222
+[2022-12-05 16:41:24,748] - [INFO] "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+[2022-12-05 16:41:28,644] - [ERROR] Internal Server Error: /admin/marketplace/product/
+Traceback (most recent call last):
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\contrib\admin\options.py", line 686, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\utils\decorators.py", line 133, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\views\decorators\cache.py", line 62, in _wrapped_view_func
+    response = view_func(request, *args, **kwargs)
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\contrib\admin\sites.py", line 242, in inner
+    return view(request, *args, **kwargs)
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\utils\decorators.py", line 46, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\utils\decorators.py", line 133, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\contrib\admin\options.py", line 1931, in changelist_view
+    cl = self.get_changelist_instance(request)
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\contrib\admin\options.py", line 834, in get_changelist_instance
+    return ChangeList(
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\contrib\admin\views\main.py", line 122, in __init__
+    self.queryset = self.get_queryset(request)
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\contrib\admin\views\main.py", line 529, in get_queryset
+    qs, search_may_have_duplicates = self.model_admin.get_search_results(
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\contrib\admin\options.py", line 1152, in get_search_results
+    queryset = queryset.filter(models.Q(*term_queries))
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\db\models\query.py", line 1420, in filter
+    return self._filter_or_exclude(False, args, kwargs)
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\db\models\query.py", line 1438, in _filter_or_exclude
+    clone._filter_or_exclude_inplace(negate, args, kwargs)
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\db\models\query.py", line 1445, in _filter_or_exclude_inplace
+    self._query.add_q(Q(*args, **kwargs))
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\db\models\sql\query.py", line 1532, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\db\models\sql\query.py", line 1562, in _add_q
+    child_clause, needed_inner = self.build_filter(
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\db\models\sql\query.py", line 1388, in build_filter
+    return self._add_q(
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\db\models\sql\query.py", line 1562, in _add_q
+    child_clause, needed_inner = self.build_filter(
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\db\models\sql\query.py", line 1388, in build_filter
+    return self._add_q(
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\db\models\sql\query.py", line 1562, in _add_q
+    child_clause, needed_inner = self.build_filter(
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\db\models\sql\query.py", line 1407, in build_filter
+    lookups, parts, reffed_expression = self.solve_lookup_type(arg)
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\db\models\sql\query.py", line 1217, in solve_lookup_type
+    _, field, _, lookup_parts = self.names_to_path(lookup_splitted, self.get_meta())
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\db\models\sql\query.py", line 1709, in names_to_path
+    raise FieldError(
+django.core.exceptions.FieldError: Cannot resolve keyword 'product' into field. Choices are: available_volume, category, company, created_on, cultivation_type, description, edited_on, form, id, image, location, name, origin, owner, owner_id, price, size, type, variety
+[2022-12-05 16:41:28,652] - [ERROR] "GET /admin/marketplace/product/?q=ad HTTP/1.1" 500 189603
+[2022-12-05 16:41:48,338] - [INFO] C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\agri_trade\marketplace\admin.py changed, reloading.
+[2022-12-05 16:41:49,709] - [INFO] Watching for file changes with StatReloader
+[2022-12-05 16:41:50,473] - [ERROR] Internal Server Error: /admin/marketplace/product/
+Traceback (most recent call last):
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\contrib\admin\options.py", line 686, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\utils\decorators.py", line 133, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\views\decorators\cache.py", line 62, in _wrapped_view_func
+    response = view_func(request, *args, **kwargs)
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\contrib\admin\sites.py", line 242, in inner
+    return view(request, *args, **kwargs)
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\utils\decorators.py", line 46, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\utils\decorators.py", line 133, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\contrib\admin\options.py", line 1931, in changelist_view
+    cl = self.get_changelist_instance(request)
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\contrib\admin\options.py", line 834, in get_changelist_instance
+    return ChangeList(
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\contrib\admin\views\main.py", line 122, in __init__
+    self.queryset = self.get_queryset(request)
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\contrib\admin\views\main.py", line 529, in get_queryset
+    qs, search_may_have_duplicates = self.model_admin.get_search_results(
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\contrib\admin\options.py", line 1152, in get_search_results
+    queryset = queryset.filter(models.Q(*term_queries))
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\db\models\query.py", line 1420, in filter
+    return self._filter_or_exclude(False, args, kwargs)
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\db\models\query.py", line 1438, in _filter_or_exclude
+    clone._filter_or_exclude_inplace(negate, args, kwargs)
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\db\models\query.py", line 1445, in _filter_or_exclude_inplace
+    self._query.add_q(Q(*args, **kwargs))
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\db\models\sql\query.py", line 1532, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\db\models\sql\query.py", line 1562, in _add_q
+    child_clause, needed_inner = self.build_filter(
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\db\models\sql\query.py", line 1388, in build_filter
+    return self._add_q(
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\db\models\sql\query.py", line 1562, in _add_q
+    child_clause, needed_inner = self.build_filter(
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\db\models\sql\query.py", line 1388, in build_filter
+    return self._add_q(
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\db\models\sql\query.py", line 1562, in _add_q
+    child_clause, needed_inner = self.build_filter(
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\db\models\sql\query.py", line 1478, in build_filter
+    condition = self.build_lookup(lookups, col, value)
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\db\models\sql\query.py", line 1292, in build_lookup
+    raise FieldError(
+django.core.exceptions.FieldError: Related Field got invalid lookup: icontains
+[2022-12-05 16:41:50,483] - [ERROR] "GET /admin/marketplace/product/?q=ad HTTP/1.1" 500 185781
+[2022-12-05 16:42:24,618] - [INFO] "GET /admin/marketplace/product/ HTTP/1.1" 200 10222
+[2022-12-05 16:42:27,272] - [INFO] "GET /admin/auth/user/ HTTP/1.1" 200 11381
+[2022-12-05 16:42:27,492] - [INFO] "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+[2022-12-05 16:42:32,996] - [INFO] C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\agri_trade\marketplace\admin.py changed, reloading.
+[2022-12-05 16:42:34,451] - [INFO] Watching for file changes with StatReloader
+[2022-12-05 16:42:35,234] - [INFO] "GET /admin/marketplace/product/ HTTP/1.1" 200 10222
+[2022-12-05 16:42:35,454] - [INFO] "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+[2022-12-05 16:42:37,708] - [INFO] "GET /admin/marketplace/product/?q=ad HTTP/1.1" 200 9942
+[2022-12-05 16:42:37,815] - [INFO] "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+[2022-12-05 16:43:03,511] - [INFO] "GET /admin/accounts/company/ HTTP/1.1" 200 10075
+[2022-12-05 16:43:03,618] - [INFO] "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+[2022-12-05 16:43:03,756] - [INFO] C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\agri_trade\accounts\admin.py changed, reloading.
+[2022-12-05 16:43:05,082] - [INFO] Watching for file changes with StatReloader
+[2022-12-05 16:43:05,739] - [ERROR] Internal Server Error: /admin/accounts/company/
+Traceback (most recent call last):
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\contrib\admin\options.py", line 686, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\utils\decorators.py", line 133, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\views\decorators\cache.py", line 62, in _wrapped_view_func
+    response = view_func(request, *args, **kwargs)
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\contrib\admin\sites.py", line 242, in inner
+    return view(request, *args, **kwargs)
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\utils\decorators.py", line 46, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\utils\decorators.py", line 133, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\contrib\admin\options.py", line 1931, in changelist_view
+    cl = self.get_changelist_instance(request)
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\contrib\admin\options.py", line 834, in get_changelist_instance
+    return ChangeList(
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\contrib\admin\views\main.py", line 122, in __init__
+    self.queryset = self.get_queryset(request)
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\contrib\admin\views\main.py", line 529, in get_queryset
+    qs, search_may_have_duplicates = self.model_admin.get_search_results(
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\contrib\admin\options.py", line 1152, in get_search_results
+    queryset = queryset.filter(models.Q(*term_queries))
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\db\models\query.py", line 1420, in filter
+    return self._filter_or_exclude(False, args, kwargs)
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\db\models\query.py", line 1438, in _filter_or_exclude
+    clone._filter_or_exclude_inplace(negate, args, kwargs)
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\db\models\query.py", line 1445, in _filter_or_exclude_inplace
+    self._query.add_q(Q(*args, **kwargs))
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\db\models\sql\query.py", line 1532, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\db\models\sql\query.py", line 1562, in _add_q
+    child_clause, needed_inner = self.build_filter(
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\db\models\sql\query.py", line 1388, in build_filter
+    return self._add_q(
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\db\models\sql\query.py", line 1562, in _add_q
+    child_clause, needed_inner = self.build_filter(
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\db\models\sql\query.py", line 1388, in build_filter
+    return self._add_q(
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\db\models\sql\query.py", line 1562, in _add_q
+    child_clause, needed_inner = self.build_filter(
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\db\models\sql\query.py", line 1407, in build_filter
+    lookups, parts, reffed_expression = self.solve_lookup_type(arg)
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\db\models\sql\query.py", line 1217, in solve_lookup_type
+    _, field, _, lookup_parts = self.names_to_path(lookup_splitted, self.get_meta())
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\db\models\sql\query.py", line 1709, in names_to_path
+    raise FieldError(
+django.core.exceptions.FieldError: Cannot resolve keyword 'account_username' into field. Choices are: account, account_id, address, country, description, favourites, location, name, postcode, updated_on, vat
+[2022-12-05 16:43:05,747] - [ERROR] "GET /admin/accounts/company/?q=ad HTTP/1.1" 500 187837
+[2022-12-05 16:43:11,711] - [INFO] "GET /admin/accounts/company/ HTTP/1.1" 200 10075
+[2022-12-05 16:43:19,543] - [INFO] "GET /admin/accounts/company/ HTTP/1.1" 200 10075
+[2022-12-05 16:43:19,647] - [INFO] "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+[2022-12-05 16:43:19,706] - [INFO] C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\agri_trade\accounts\admin.py changed, reloading.
+[2022-12-05 16:43:21,058] - [INFO] Watching for file changes with StatReloader
+[2022-12-05 16:43:21,622] - [INFO] "GET /admin/accounts/company/?q=ad HTTP/1.1" 200 9826
+[2022-12-05 16:43:21,722] - [INFO] "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+[2022-12-05 16:43:24,759] - [INFO] "GET /admin/accounts/company/ HTTP/1.1" 200 10075
+[2022-12-05 16:43:50,370] - [INFO] C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\agri_trade\posts\admin.py changed, reloading.
+[2022-12-05 16:43:51,718] - [INFO] Watching for file changes with StatReloader
+[2022-12-05 16:43:52,415] - [INFO] "GET /admin/posts/post/ HTTP/1.1" 200 7328
+[2022-12-05 16:43:52,634] - [INFO] "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+[2022-12-05 16:43:54,201] - [INFO] "GET /admin/posts/post/?q=asd HTTP/1.1" 200 7365
+[2022-12-05 16:43:54,304] - [INFO] "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+[2022-12-05 16:43:56,443] - [INFO] "GET /admin/posts/post/?q=ad HTTP/1.1" 200 7363
+[2022-12-05 16:43:56,553] - [INFO] "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+[2022-12-05 16:43:57,810] - [INFO] "GET /admin/posts/post/?q=ad HTTP/1.1" 200 7363
+[2022-12-05 16:43:58,006] - [INFO] "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+[2022-12-05 16:43:59,898] - [INFO] "GET /admin/posts/post/add/?_changelist_filters=q%3Dad HTTP/1.1" 200 11994
+[2022-12-05 16:44:00,027] - [INFO] "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+[2022-12-05 16:44:00,263] - [INFO] "GET /static/ckeditor/ckeditor-init.js HTTP/1.1" 200 1526
+[2022-12-05 16:44:00,453] - [INFO] "GET /static/ckeditor/ckeditor/ckeditor.js HTTP/1.1" 200 756028
+[2022-12-05 16:44:00,552] - [INFO] "GET /static/ckeditor/ckeditor/config.js?t=M6K9 HTTP/1.1" 200 336
+[2022-12-05 16:44:00,572] - [INFO] "GET /static/ckeditor/ckeditor/skins/moono-lisa/editor.css?t=M6K9 HTTP/1.1" 200 48309
+[2022-12-05 16:44:00,577] - [INFO] "GET /static/ckeditor/ckeditor/lang/en.js?t=M6K9 HTTP/1.1" 200 17503
+[2022-12-05 16:44:00,599] - [INFO] "GET /static/ckeditor/ckeditor/styles.js?t=M6K9 HTTP/1.1" 200 5577
+[2022-12-05 16:44:00,624] - [INFO] "GET /static/ckeditor/ckeditor/plugins/scayt/skins/moono-lisa/scayt.css?t=M6K9 HTTP/1.1" 200 381
+[2022-12-05 16:44:00,625] - [INFO] "GET /static/ckeditor/ckeditor/plugins/tableselection/styles/tableselection.css?t=M6K9 HTTP/1.1" 200 1145
+[2022-12-05 16:44:00,625] - [INFO] "GET /static/ckeditor/ckeditor/plugins/scayt/dialogs/dialog.css?t=M6K9 HTTP/1.1" 200 419
+[2022-12-05 16:44:00,628] - [INFO] "GET /static/ckeditor/ckeditor/plugins/dialog/styles/dialog.css?t=M6K9 HTTP/1.1" 200 249
+[2022-12-05 16:44:00,636] - [INFO] "GET /static/ckeditor/ckeditor/plugins/copyformatting/styles/copyformatting.css?t=M6K9 HTTP/1.1" 200 1511
+[2022-12-05 16:44:00,672] - [INFO] "GET /static/ckeditor/ckeditor/skins/moono-lisa/icons.png?t=445cf24ebd HTTP/1.1" 200 12237
+[2022-12-05 16:44:00,722] - [INFO] "GET /static/ckeditor/ckeditor/contents.css?t=M6K9 HTTP/1.1" 200 3092
+[2022-12-05 16:44:07,518] - [INFO] "POST /admin/posts/post/add/?_changelist_filters=q%3Dad HTTP/1.1" 302 0
+[2022-12-05 16:44:07,613] - [INFO] "GET /admin/posts/post/?q=ad HTTP/1.1" 200 9456
+[2022-12-05 16:44:07,726] - [INFO] "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+[2022-12-05 16:44:11,101] - [INFO] "GET /admin/posts/post/?q=ad HTTP/1.1" 200 9248
+[2022-12-05 16:44:11,223] - [INFO] "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+[2022-12-05 16:44:13,415] - [INFO] "GET /admin/accounts/company/ HTTP/1.1" 200 10075
+[2022-12-05 16:44:13,516] - [INFO] "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+[2022-12-05 16:44:32,769] - [INFO] C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\agri_trade\accounts\admin.py changed, reloading.
+[2022-12-05 16:44:34,180] - [INFO] Watching for file changes with StatReloader
+[2022-12-05 16:44:43,151] - [INFO] C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\agri_trade\accounts\admin.py changed, reloading.
+[2022-12-05 16:44:44,468] - [INFO] Watching for file changes with StatReloader
+[2022-12-05 16:45:10,423] - [INFO] C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\agri_trade\accounts\admin.py changed, reloading.
+[2022-12-05 16:45:11,754] - [INFO] Watching for file changes with StatReloader
+[2022-12-05 16:45:33,475] - [INFO] Watching for file changes with StatReloader
+[2022-12-05 16:46:06,737] - [INFO] C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\agri_trade\accounts\admin.py changed, reloading.
+[2022-12-05 16:46:08,016] - [INFO] Watching for file changes with StatReloader
+[2022-12-05 16:46:08,731] - [INFO] "GET /admin/posts/post/ HTTP/1.1" 200 9141
+[2022-12-05 16:46:08,865] - [INFO] "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+[2022-12-05 16:46:11,075] - [INFO] "GET /admin/accounts/company/ HTTP/1.1" 200 10075
+[2022-12-05 16:46:11,178] - [INFO] "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+[2022-12-05 16:46:22,206] - [INFO] "GET /admin/auth/user/ HTTP/1.1" 200 11381
+[2022-12-05 16:46:22,423] - [INFO] "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+[2022-12-05 16:46:27,589] - [INFO] "GET /admin/auth/user/1/change/ HTTP/1.1" 200 19727
+[2022-12-05 16:46:27,722] - [INFO] "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+[2022-12-05 16:46:28,149] - [INFO] "GET /static/admin/js/SelectFilter2.js HTTP/1.1" 200 11317
+[2022-12-05 16:46:28,149] - [INFO] "GET /static/admin/js/calendar.js HTTP/1.1" 200 8466
+[2022-12-05 16:46:28,151] - [INFO] "GET /static/admin/js/SelectBox.js HTTP/1.1" 200 4360
+[2022-12-05 16:46:28,152] - [INFO] "GET /static/admin/js/admin/DateTimeShortcuts.js HTTP/1.1" 200 19379
+[2022-12-05 16:46:28,242] - [INFO] "GET /static/admin/img/icon-calendar.svg HTTP/1.1" 200 1086
+[2022-12-05 16:46:28,242] - [INFO] "GET /static/admin/img/icon-unknown.svg HTTP/1.1" 200 655
+[2022-12-05 16:46:28,242] - [INFO] "GET /static/admin/img/icon-unknown-alt.svg HTTP/1.1" 200 655
+[2022-12-05 16:46:28,243] - [INFO] "GET /static/admin/img/selector-icons.svg HTTP/1.1" 200 3291
+[2022-12-05 16:46:28,243] - [INFO] "GET /static/admin/img/icon-clock.svg HTTP/1.1" 200 677
+[2022-12-05 16:46:36,610] - [INFO] "GET /admin/accounts/company/ HTTP/1.1" 200 10075
+[2022-12-05 16:46:36,713] - [INFO] "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+[2022-12-05 16:47:41,029] - [INFO] C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\agri_trade\accounts\admin.py changed, reloading.
+[2022-12-05 16:47:42,423] - [INFO] Watching for file changes with StatReloader
+[2022-12-05 16:47:52,468] - [INFO] C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\agri_trade\accounts\admin.py changed, reloading.
+[2022-12-05 16:47:53,793] - [INFO] Watching for file changes with StatReloader
+[2022-12-05 16:47:54,479] - [INFO] "GET /admin/auth/user/1/change/ HTTP/1.1" 200 19727
+[2022-12-05 16:47:54,618] - [INFO] "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+[2022-12-05 16:48:03,018] - [INFO] "GET /admin/accounts/company/ HTTP/1.1" 200 10075
+[2022-12-05 16:48:03,241] - [INFO] "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+[2022-12-05 16:48:22,514] - [INFO] "GET /admin/posts/post/ HTTP/1.1" 200 9141
+[2022-12-05 16:48:22,631] - [INFO] "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+[2022-12-05 16:48:23,049] - [INFO] C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\agri_trade\accounts\admin.py changed, reloading.
+[2022-12-05 16:48:24,213] - [INFO] Watching for file changes with StatReloader
+[2022-12-05 16:48:35,052] - [INFO] "GET /admin/user_messages/message/ HTTP/1.1" 200 9279
+[2022-12-05 16:48:35,178] - [INFO] "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+[2022-12-05 16:48:54,691] - [INFO] C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\agri_trade\user_messages\admin.py changed, reloading.
+[2022-12-05 16:48:56,092] - [INFO] Watching for file changes with StatReloader
+[2022-12-05 16:48:56,721] - [INFO] "GET /admin/user_messages/message/ HTTP/1.1" 200 9600
+[2022-12-05 16:48:56,826] - [INFO] "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+[2022-12-05 16:48:59,394] - [ERROR] Internal Server Error: /admin/user_messages/message/
+Traceback (most recent call last):
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\contrib\admin\options.py", line 686, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\utils\decorators.py", line 133, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\views\decorators\cache.py", line 62, in _wrapped_view_func
+    response = view_func(request, *args, **kwargs)
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\contrib\admin\sites.py", line 242, in inner
+    return view(request, *args, **kwargs)
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\utils\decorators.py", line 46, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\utils\decorators.py", line 133, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\contrib\admin\options.py", line 1931, in changelist_view
+    cl = self.get_changelist_instance(request)
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\contrib\admin\options.py", line 834, in get_changelist_instance
+    return ChangeList(
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\contrib\admin\views\main.py", line 122, in __init__
+    self.queryset = self.get_queryset(request)
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\contrib\admin\views\main.py", line 529, in get_queryset
+    qs, search_may_have_duplicates = self.model_admin.get_search_results(
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\contrib\admin\options.py", line 1152, in get_search_results
+    queryset = queryset.filter(models.Q(*term_queries))
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\db\models\query.py", line 1420, in filter
+    return self._filter_or_exclude(False, args, kwargs)
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\db\models\query.py", line 1438, in _filter_or_exclude
+    clone._filter_or_exclude_inplace(negate, args, kwargs)
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\db\models\query.py", line 1445, in _filter_or_exclude_inplace
+    self._query.add_q(Q(*args, **kwargs))
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\db\models\sql\query.py", line 1532, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\db\models\sql\query.py", line 1562, in _add_q
+    child_clause, needed_inner = self.build_filter(
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\db\models\sql\query.py", line 1388, in build_filter
+    return self._add_q(
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\db\models\sql\query.py", line 1562, in _add_q
+    child_clause, needed_inner = self.build_filter(
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\db\models\sql\query.py", line 1388, in build_filter
+    return self._add_q(
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\db\models\sql\query.py", line 1562, in _add_q
+    child_clause, needed_inner = self.build_filter(
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\db\models\sql\query.py", line 1478, in build_filter
+    condition = self.build_lookup(lookups, col, value)
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\db\models\sql\query.py", line 1292, in build_lookup
+    raise FieldError(
+django.core.exceptions.FieldError: Related Field got invalid lookup: icontains
+[2022-12-05 16:48:59,400] - [ERROR] "GET /admin/user_messages/message/?q=ad HTTP/1.1" 500 184360
+[2022-12-05 16:49:00,996] - [INFO] "GET /admin/user_messages/message/ HTTP/1.1" 200 9600
+[2022-12-05 16:49:14,701] - [INFO] C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\agri_trade\user_messages\admin.py changed, reloading.
+[2022-12-05 16:49:16,309] - [INFO] Watching for file changes with StatReloader
+[2022-12-05 16:49:16,867] - [INFO] "GET /admin/user_messages/message/ HTTP/1.1" 200 9600
+[2022-12-05 16:49:16,979] - [INFO] "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+[2022-12-05 16:49:19,546] - [INFO] "GET /admin/user_messages/message/?q=ad HTTP/1.1" 200 9716
+[2022-12-05 16:49:19,647] - [INFO] "GET /admin/jsi18n/ HTTP/1.1" 200 3343
