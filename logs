@@ -6347,3 +6347,82 @@ django.core.exceptions.FieldError: Related Field got invalid lookup: icontains
 [2022-12-05 16:49:16,979] - [INFO] "GET /admin/jsi18n/ HTTP/1.1" 200 3343
 [2022-12-05 16:49:19,546] - [INFO] "GET /admin/user_messages/message/?q=ad HTTP/1.1" 200 9716
 [2022-12-05 16:49:19,647] - [INFO] "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+[2022-12-05 16:54:37,782] - [INFO] C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\agri_trade\accounts\admin.py changed, reloading.
+[2022-12-05 16:54:41,039] - [INFO] Watching for file changes with StatReloader
+[2022-12-05 16:55:22,061] - [INFO] "GET /admin/accounts/company/ HTTP/1.1" 200 10075
+[2022-12-05 16:55:22,229] - [INFO] "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+[2022-12-05 16:55:40,442] - [INFO] "GET /admin/accounts/company/ HTTP/1.1" 200 10075
+[2022-12-05 16:55:40,557] - [INFO] C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\agri_trade\accounts\admin.py changed, reloading.
+[2022-12-05 16:55:42,422] - [INFO] Watching for file changes with StatReloader
+[2022-12-05 16:55:56,606] - [INFO] C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\agri_trade\accounts\admin.py changed, reloading.
+[2022-12-05 16:55:58,369] - [INFO] Watching for file changes with StatReloader
+[2022-12-05 16:56:00,302] - [INFO] "GET /admin/accounts/company/ HTTP/1.1" 200 10506
+[2022-12-05 16:56:00,449] - [INFO] "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+[2022-12-05 16:56:05,468] - [INFO] "GET /admin/accounts/company/? HTTP/1.1" 200 10506
+[2022-12-05 16:56:05,603] - [INFO] "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+[2022-12-05 16:56:06,519] - [INFO] "GET /admin/accounts/company/?account__id__exact=2 HTTP/1.1" 200 10564
+[2022-12-05 16:56:06,642] - [INFO] "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+[2022-12-05 16:56:10,220] - [INFO] "GET /admin/accounts/company/? HTTP/1.1" 200 10506
+[2022-12-05 16:56:10,365] - [INFO] "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+[2022-12-05 16:56:22,126] - [INFO] "GET /admin/accounts/company/? HTTP/1.1" 200 10506
+[2022-12-05 16:56:22,148] - [INFO] C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\agri_trade\accounts\admin.py changed, reloading.
+[2022-12-05 16:56:24,126] - [INFO] Watching for file changes with StatReloader
+[2022-12-05 16:56:25,414] - [INFO] "GET /admin/accounts/company/? HTTP/1.1" 200 10472
+[2022-12-05 16:56:25,570] - [INFO] "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+[2022-12-05 16:56:34,591] - [INFO] - Broken pipe from ('127.0.0.1', 63142)
+[2022-12-05 16:56:34,663] - [INFO] "GET /admin/accounts/company/1/change/ HTTP/1.1" 200 13466
+[2022-12-05 16:56:34,787] - [INFO] "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+[2022-12-05 16:56:38,383] - [INFO] "GET /admin/accounts/company/? HTTP/1.1" 200 10472
+[2022-12-05 16:56:56,845] - [INFO] "GET /admin/marketplace/product/ HTTP/1.1" 200 10222
+[2022-12-05 16:56:56,976] - [INFO] "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+[2022-12-05 16:57:16,451] - [INFO] "GET /admin/marketplace/product/ HTTP/1.1" 200 10222
+[2022-12-05 16:57:16,568] - [INFO] "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+[2022-12-05 16:57:17,394] - [INFO] C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\agri_trade\marketplace\admin.py changed, reloading.
+[2022-12-05 16:57:19,419] - [INFO] Watching for file changes with StatReloader
+[2022-12-05 16:57:20,193] - [INFO] "GET /admin/marketplace/product/ HTTP/1.1" 200 10791
+[2022-12-05 16:57:20,323] - [INFO] - Broken pipe from ('127.0.0.1', 63164)
+[2022-12-05 16:57:21,137] - [INFO] "GET /admin/marketplace/product/ HTTP/1.1" 200 10791
+[2022-12-05 16:57:21,261] - [INFO] "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+[2022-12-05 16:57:24,874] - [INFO] "GET /admin/marketplace/product/?cultivation_type__exact=In+Conversion HTTP/1.1" 200 8801
+[2022-12-05 16:57:25,032] - [INFO] "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+[2022-12-05 16:57:26,442] - [INFO] "GET /admin/marketplace/product/? HTTP/1.1" 200 10791
+[2022-12-05 16:57:26,612] - [INFO] "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+[2022-12-05 16:57:42,343] - [INFO] "GET /admin/marketplace/product/? HTTP/1.1" 200 10791
+[2022-12-05 16:57:42,469] - [INFO] "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+[2022-12-05 16:57:42,609] - [INFO] C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\agri_trade\marketplace\admin.py changed, reloading.
+[2022-12-05 16:57:44,338] - [INFO] Watching for file changes with StatReloader
+[2022-12-05 16:57:45,130] - [INFO] "GET /admin/marketplace/product/? HTTP/1.1" 200 11098
+[2022-12-05 16:57:45,282] - [INFO] "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+[2022-12-05 16:57:58,206] - [INFO] "GET /admin/marketplace/product/1/change/ HTTP/1.1" 200 37116
+[2022-12-05 16:57:58,344] - [INFO] "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+[2022-12-05 16:58:10,839] - [INFO] "GET /admin/marketplace/product/? HTTP/1.1" 200 11098
+[2022-12-05 16:58:11,709] - [INFO] C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\agri_trade\marketplace\admin.py changed, reloading.
+[2022-12-05 16:58:13,584] - [INFO] Watching for file changes with StatReloader
+[2022-12-05 16:58:14,493] - [INFO] "GET /admin/marketplace/product/? HTTP/1.1" 200 11812
+[2022-12-05 16:58:14,670] - [INFO] "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+[2022-12-05 16:58:17,136] - [INFO] "GET /admin/marketplace/product/?category__exact=Spices HTTP/1.1" 200 9893
+[2022-12-05 16:58:17,285] - [INFO] "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+[2022-12-05 16:58:19,208] - [INFO] "GET /admin/marketplace/product/? HTTP/1.1" 200 11812
+[2022-12-05 16:58:19,325] - [INFO] "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+[2022-12-05 16:58:51,292] - [INFO] "GET /admin/posts/post/ HTTP/1.1" 200 9141
+[2022-12-05 16:58:51,428] - [INFO] "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+[2022-12-05 16:58:51,620] - [INFO] C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\agri_trade\posts\admin.py changed, reloading.
+[2022-12-05 16:58:53,332] - [INFO] Watching for file changes with StatReloader
+[2022-12-05 16:59:11,777] - [INFO] C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\agri_trade\posts\admin.py changed, reloading.
+[2022-12-05 16:59:13,456] - [INFO] Watching for file changes with StatReloader
+[2022-12-05 16:59:14,113] - [INFO] "GET /admin/posts/post/ HTTP/1.1" 200 9568
+[2022-12-05 16:59:14,298] - [INFO] "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+[2022-12-05 16:59:28,163] - [INFO] "GET /admin/user_messages/message/ HTTP/1.1" 200 9600
+[2022-12-05 16:59:28,280] - [INFO] "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+[2022-12-05 16:59:44,461] - [INFO] C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\agri_trade\user_messages\admin.py changed, reloading.
+[2022-12-05 16:59:46,558] - [INFO] Watching for file changes with StatReloader
+[2022-12-05 16:59:48,138] - [INFO] "GET /admin/user_messages/message/ HTTP/1.1" 200 10014
+[2022-12-05 16:59:48,256] - [INFO] "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+[2022-12-05 16:59:48,790] - [INFO] "GET /admin/user_messages/message/ HTTP/1.1" 200 10014
+[2022-12-05 16:59:48,912] - [INFO] "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+[2022-12-05 16:59:50,328] - [INFO] "GET /admin/user_messages/message/?is_read__exact=0 HTTP/1.1" 200 10385
+[2022-12-05 16:59:50,503] - [INFO] "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+[2022-12-05 16:59:51,705] - [INFO] "GET /admin/user_messages/message/?is_read__exact=1 HTTP/1.1" 200 8610
+[2022-12-05 16:59:51,884] - [INFO] "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+[2022-12-05 16:59:53,468] - [INFO] "GET /admin/user_messages/message/? HTTP/1.1" 200 10014
+[2022-12-05 16:59:53,591] - [INFO] "GET /admin/jsi18n/ HTTP/1.1" 200 3343
