@@ -19,6 +19,8 @@ REGISTRATION_ERROR_MESSAGE = 'Registration was unsuccessful! Fix the issues belo
 EDIT_SUCCESS_MESSAGE = 'Your account was updated successfully!'
 EDIT_ERROR_MESSAGE = 'Edit was unsuccessful! Fix the issues below.'
 
+SESSION_EXPIRATION_TIME_IN_SECONDS = 0
+
 
 def login_user(request):
     if request.user.is_authenticated:
@@ -29,9 +31,12 @@ def login_user(request):
         if form.is_valid():
             username = form.cleaned_data.get('username')
             password = form.cleaned_data.get('password')
+            remember_me = form.cleaned_data.get('remember_me')
             user = authenticate(username=username, password=password)
             if user is not None:
                 login(request, user)
+                if not remember_me:
+                    request.session.set_expiry(SESSION_EXPIRATION_TIME_IN_SECONDS)
                 messages.success(request, LOGIN_SUCCESS_MESSAGE)
                 return redirect('marketplace:marketplace')
         else:

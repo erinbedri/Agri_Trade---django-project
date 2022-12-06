@@ -6426,3 +6426,60 @@ django.core.exceptions.FieldError: Related Field got invalid lookup: icontains
 [2022-12-05 16:59:51,884] - [INFO] "GET /admin/jsi18n/ HTTP/1.1" 200 3343
 [2022-12-05 16:59:53,468] - [INFO] "GET /admin/user_messages/message/? HTTP/1.1" 200 10014
 [2022-12-05 16:59:53,591] - [INFO] "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+[2022-12-06 10:56:18,625] - [INFO] Watching for file changes with StatReloader
+[2022-12-06 10:56:20,521] - [INFO] "GET / HTTP/1.1" 200 8056
+[2022-12-06 10:56:20,587] - [INFO] "GET /static/fontawesomefree/css/brands.css HTTP/1.1" 304 0
+[2022-12-06 10:56:20,589] - [INFO] "GET /static/fontawesomefree/css/fontawesome.css HTTP/1.1" 304 0
+[2022-12-06 10:56:20,592] - [INFO] "GET /static/fontawesomefree/css/solid.css HTTP/1.1" 304 0
+[2022-12-06 10:56:20,740] - [INFO] "GET /static/fontawesomefree/webfonts/fa-solid-900.woff2 HTTP/1.1" 304 0
+[2022-12-06 10:56:22,616] - [INFO] "GET /marketplace/ HTTP/1.1" 200 14393
+[2022-12-06 10:56:26,958] - [INFO] "GET /marketplace/product-details/1 HTTP/1.1" 200 9627
+[2022-12-06 10:56:28,661] - [INFO] "GET / HTTP/1.1" 200 8056
+[2022-12-06 10:56:29,426] - [INFO] "GET /marketplace/ HTTP/1.1" 200 14393
+[2022-12-06 11:01:27,496] - [INFO] C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\agri_trade\accounts\forms.py changed, reloading.
+[2022-12-06 11:01:28,855] - [INFO] Watching for file changes with StatReloader
+[2022-12-06 11:01:29,511] - [INFO] "GET /accounts/logout/ HTTP/1.1" 302 0
+[2022-12-06 11:01:29,540] - [INFO] "GET / HTTP/1.1" 200 6286
+[2022-12-06 11:01:30,217] - [INFO] "GET /accounts/login/ HTTP/1.1" 200 5216
+[2022-12-06 11:02:30,914] - [INFO] "GET /accounts/login/ HTTP/1.1" 200 5611
+[2022-12-06 11:02:31,710] - [INFO] "GET /accounts/login/ HTTP/1.1" 200 5611
+[2022-12-06 11:03:04,532] - [INFO] "GET /accounts/login/ HTTP/1.1" 200 5328
+[2022-12-06 11:03:05,544] - [INFO] "GET /accounts/login/ HTTP/1.1" 200 5328
+[2022-12-06 11:03:14,282] - [INFO] "GET /accounts/login/ HTTP/1.1" 200 5328
+[2022-12-06 11:03:14,815] - [INFO] "GET /accounts/login/ HTTP/1.1" 200 5328
+[2022-12-06 11:03:15,312] - [INFO] "GET /accounts/login/ HTTP/1.1" 200 5326
+[2022-12-06 11:03:51,848] - [INFO] "GET /accounts/login/ HTTP/1.1" 200 5392
+[2022-12-06 11:03:52,547] - [INFO] "GET /accounts/login/ HTTP/1.1" 200 5392
+[2022-12-06 11:04:00,664] - [INFO] "GET /accounts/login/ HTTP/1.1" 200 5367
+[2022-12-06 11:04:39,110] - [INFO] "GET /accounts/login/ HTTP/1.1" 200 5367
+[2022-12-06 11:04:39,882] - [INFO] "GET /accounts/login/ HTTP/1.1" 200 5454
+[2022-12-06 11:04:40,466] - [INFO] "GET /accounts/login/ HTTP/1.1" 200 5454
+[2022-12-06 11:04:45,653] - [INFO] "GET /accounts/login/ HTTP/1.1" 200 5454
+[2022-12-06 11:04:46,171] - [INFO] "GET /accounts/login/ HTTP/1.1" 200 5369
+[2022-12-06 11:04:46,647] - [INFO] "GET /accounts/login/ HTTP/1.1" 200 5369
+[2022-12-06 11:04:53,538] - [INFO] "GET /accounts/login/ HTTP/1.1" 200 5369
+[2022-12-06 11:04:54,065] - [INFO] "GET /accounts/login/ HTTP/1.1" 200 5369
+[2022-12-06 11:04:54,621] - [INFO] "GET /accounts/login/ HTTP/1.1" 200 5381
+[2022-12-06 11:06:38,478] - [INFO] C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\agri_trade\accounts\views.py changed, reloading.
+[2022-12-06 11:06:39,974] - [INFO] Watching for file changes with StatReloader
+[2022-12-06 11:06:44,311] - [INFO] "POST /accounts/login/ HTTP/1.1" 302 0
+[2022-12-06 11:06:44,454] - [INFO] "GET /marketplace/ HTTP/1.1" 200 14694
+[2022-12-06 11:06:53,170] - [INFO] "GET / HTTP/1.1" 200 8056
+[2022-12-06 11:07:02,079] - [INFO] "GET / HTTP/1.1" 200 8056
+[2022-12-06 11:07:05,719] - [INFO] "GET /accounts/logout/ HTTP/1.1" 302 0
+[2022-12-06 11:07:05,728] - [INFO] "GET / HTTP/1.1" 200 6286
+[2022-12-06 11:07:07,938] - [INFO] "GET /accounts/login/ HTTP/1.1" 200 5381
+[2022-12-06 11:07:10,532] - [INFO] "POST /accounts/login/ HTTP/1.1" 302 0
+[2022-12-06 11:07:10,639] - [INFO] "GET /marketplace/ HTTP/1.1" 200 14694
+[2022-12-06 11:07:15,321] - [INFO] "GET / HTTP/1.1" 200 8056
+[2022-12-06 11:07:22,076] - [INFO] "GET / HTTP/1.1" 200 8056
+[2022-12-06 11:07:22,757] - [INFO] "GET / HTTP/1.1" 200 8056
+[2022-12-06 11:08:22,227] - [INFO] C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\agri_trade\accounts\views.py changed, reloading.
+[2022-12-06 11:08:23,640] - [INFO] Watching for file changes with StatReloader
+[2022-12-06 11:08:24,380] - [INFO] "GET /accounts/logout/ HTTP/1.1" 302 0
+[2022-12-06 11:08:24,404] - [INFO] "GET / HTTP/1.1" 200 6286
+[2022-12-06 11:08:25,606] - [INFO] "GET /accounts/login/ HTTP/1.1" 200 5381
+[2022-12-06 11:08:31,192] - [INFO] "POST /accounts/login/ HTTP/1.1" 302 0
+[2022-12-06 11:08:31,315] - [INFO] "GET /marketplace/ HTTP/1.1" 200 15013
+[2022-12-06 11:08:37,154] - [INFO] "GET / HTTP/1.1" 200 8371
+[2022-12-06 11:08:46,747] - [INFO] "GET / HTTP/1.1" 200 8371

@@ -30,6 +30,10 @@ class CustomAuthenticationForm(AuthenticationForm):
                 'id': 'password',
             }))
 
+    remember_me = forms.BooleanField(
+        required=False
+    )
+
     class Meta:
         model = UserModel
 
