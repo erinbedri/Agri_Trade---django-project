@@ -30,7 +30,8 @@
                                 <div id="category" class="collapse card card-body" style="margin-top: 20px">
                                     {% for category in categories %}
                                         <div>
-                                            - <a href="{% url 'marketplace:marketplace' %}?q={{ category }}">{{ category }}</a>
+                                            - <a
+                                                href="{% url 'marketplace:marketplace' %}?q={{ category }}">{{ category }}</a>
                                         </div>
                                     {% endfor %}
                                 </div>
@@ -58,7 +59,8 @@
                                 <div id="origin" class="collapse card card-body" style="margin-top: 20px">
                                     {% for origin in origins %}
                                         <div>
-                                            - <a href="{% url 'marketplace:marketplace' %}?q={{ origin }}">{{ origin }}</a>
+                                            - <a
+                                                href="{% url 'marketplace:marketplace' %}?q={{ origin }}">{{ origin }}</a>
                                         </div>
                                     {% endfor %}
                                 </div>
@@ -72,7 +74,8 @@
                                 <div id="location" class="collapse card card-body" style="margin-top: 20px">
                                     {% for location in locations %}
                                         <div>
-                                            - <a href="{% url 'marketplace:marketplace' %}?q={{ location }}">{{ location }}</a>
+                                            - <a
+                                                href="{% url 'marketplace:marketplace' %}?q={{ location }}">{{ location }}</a>
                                         </div>
                                     {% endfor %}
                                 </div>
@@ -117,7 +120,11 @@
                                 <td>{% if product.type %}{{ product.type }}{% endif %}</td>
                                 <td>{% if product.form %}{{ product.form }}{% endif %}</td>
                                 <td>{% if product.size %}{{ product.size }}{% endif %}</td>
-                                <td>{{ product.cultivation_type }}</td>
+                                {% if product.cultivation_type == 'Organic' %}
+                                    <td style="color: green; font-weight: bold">{{ product.cultivation_type }}</td>
+                                {% else %}
+                                    <td>{{ product.cultivation_type }}</td>
+                                {% endif %}
                                 <td>{{ product.origin.name }}</td>
                                 <td>{{ product.location.name }}</td>
                                 <td>{{ product.available_volume|intcomma }} KG</td>
