@@ -6512,3 +6512,69 @@ django.core.exceptions.FieldError: Related Field got invalid lookup: icontains
 [2022-12-06 14:33:47,123] - [INFO] "GET /static/fontawesomefree/css/brands.css HTTP/1.1" 304 0
 [2022-12-06 14:33:47,124] - [INFO] "GET /static/fontawesomefree/css/solid.css HTTP/1.1" 304 0
 [2022-12-06 14:33:47,250] - [INFO] "GET /static/fontawesomefree/webfonts/fa-solid-900.woff2 HTTP/1.1" 304 0
+[2022-12-06 14:33:51,789] - [INFO] "GET /marketplace/ HTTP/1.1" 200 14712
+[2022-12-06 14:34:28,023] - [INFO] "GET /marketplace/ HTTP/1.1" 200 14712
+[2022-12-06 14:34:29,253] - [INFO] "GET /marketplace/ HTTP/1.1" 200 14722
+[2022-12-06 14:36:02,755] - [INFO] "GET /marketplace/ HTTP/1.1" 200 14802
+[2022-12-06 14:36:03,516] - [INFO] "GET /marketplace/ HTTP/1.1" 200 14802
+[2022-12-06 14:36:13,594] - [INFO] "GET /marketplace/ HTTP/1.1" 200 14802
+[2022-12-06 14:36:14,393] - [INFO] "GET /marketplace/ HTTP/1.1" 200 14802
+[2022-12-06 14:36:52,883] - [INFO] "GET /marketplace/ HTTP/1.1" 200 14802
+[2022-12-06 14:36:53,476] - [INFO] "GET /marketplace/ HTTP/1.1" 200 14810
+[2022-12-06 14:36:54,063] - [INFO] "GET /marketplace/ HTTP/1.1" 200 14810
+[2022-12-06 14:37:22,465] - [INFO] "GET /marketplace/ HTTP/1.1" 200 14800
+[2022-12-06 14:37:23,144] - [INFO] "GET /marketplace/ HTTP/1.1" 200 14800
+[2022-12-06 14:37:23,540] - [INFO] "GET /marketplace/ HTTP/1.1" 200 14800
+[2022-12-06 14:37:23,868] - [INFO] "GET /marketplace/ HTTP/1.1" 200 14800
+[2022-12-06 14:37:43,962] - [INFO] "GET /marketplace/ HTTP/1.1" 200 14818
+[2022-12-06 14:37:44,895] - [INFO] "GET /marketplace/ HTTP/1.1" 200 14818
+[2022-12-06 14:37:45,524] - [INFO] "GET /marketplace/ HTTP/1.1" 200 14818
+[2022-12-06 14:37:46,194] - [INFO] "GET /marketplace/ HTTP/1.1" 200 14818
+[2022-12-06 14:37:58,136] - [INFO] "GET /marketplace/ HTTP/1.1" 200 14818
+[2022-12-06 14:38:23,866] - [INFO] "GET /marketplace/ HTTP/1.1" 200 14778
+[2022-12-06 14:38:24,748] - [INFO] "GET /marketplace/ HTTP/1.1" 200 14778
+[2022-12-06 14:38:25,359] - [INFO] "GET /marketplace/ HTTP/1.1" 200 14778
+[2022-12-06 14:38:25,836] - [INFO] "GET /marketplace/ HTTP/1.1" 200 14778
+[2022-12-06 14:40:02,824] - [INFO] "GET /marketplace/ HTTP/1.1" 200 14672
+[2022-12-06 14:40:03,469] - [INFO] "GET /marketplace/ HTTP/1.1" 200 14672
+[2022-12-06 14:40:05,567] - [INFO] "GET /marketplace/ HTTP/1.1" 200 14672
+[2022-12-06 14:40:06,541] - [INFO] "GET /marketplace/ HTTP/1.1" 200 14672
+[2022-12-06 14:40:07,099] - [INFO] "GET /marketplace/ HTTP/1.1" 200 14672
+[2022-12-06 14:40:08,162] - [INFO] "GET /marketplace/ HTTP/1.1" 200 14672
+[2022-12-06 14:40:22,251] - [INFO] "GET /marketplace/ HTTP/1.1" 200 14672
+[2022-12-06 14:40:23,026] - [INFO] "GET /marketplace/ HTTP/1.1" 200 14672
+[2022-12-06 14:40:23,653] - [INFO] "GET /marketplace/ HTTP/1.1" 200 14870
+[2022-12-06 14:40:59,492] - [INFO] "GET /marketplace/ HTTP/1.1" 200 14870
+[2022-12-06 14:41:00,371] - [INFO] "GET /marketplace/ HTTP/1.1" 200 15182
+[2022-12-06 14:41:00,975] - [INFO] "GET /marketplace/ HTTP/1.1" 200 15182
+[2022-12-06 14:41:55,767] - [INFO] "GET /marketplace/ HTTP/1.1" 200 15220
+[2022-12-06 14:41:56,639] - [INFO] "GET /marketplace/ HTTP/1.1" 200 15220
+[2022-12-06 14:42:31,911] - [INFO] "GET /marketplace/ HTTP/1.1" 200 15220
+[2022-12-06 14:42:32,695] - [INFO] "GET /marketplace/ HTTP/1.1" 200 15280
+[2022-12-06 14:42:40,576] - [INFO] "GET /marketplace/ HTTP/1.1" 200 15220
+[2022-12-06 14:42:41,303] - [INFO] "GET /marketplace/ HTTP/1.1" 200 15220
+[2022-12-06 14:43:06,098] - [INFO] "GET /marketplace/ HTTP/1.1" 200 15220
+[2022-12-06 14:43:06,842] - [INFO] "GET /posts/all/ HTTP/1.1" 200 7192
+[2022-12-06 14:43:08,007] - [INFO] "GET /marketplace/ HTTP/1.1" 200 15220
+[2022-12-06 15:04:54,104] - [INFO] C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\agri_trade\web\admin.py changed, reloading.
+[2022-12-06 15:04:55,521] - [INFO] Watching for file changes with StatReloader
+[2022-12-06 15:23:40,312] - [INFO] C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\agri_trade\web\admin.py changed, reloading.
+[2022-12-06 15:23:41,713] - [INFO] Watching for file changes with StatReloader
+[2022-12-06 15:32:23,264] - [INFO] C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\agri_trade\web\admin.py changed, reloading.
+[2022-12-06 15:32:24,656] - [INFO] Watching for file changes with StatReloader
+[2022-12-06 15:51:41,267] - [INFO] "GET /admin HTTP/1.1" 301 0
+[2022-12-06 15:51:41,501] - [INFO] "GET /admin/ HTTP/1.1" 200 3125
+[2022-12-06 15:51:41,788] - [INFO] "GET /static/admin/css/dashboard.css HTTP/1.1" 200 380
+[2022-12-06 15:51:42,866] - [WARNING] Not Found: /favicon.ico
+[2022-12-06 15:51:42,867] - [WARNING] "GET /favicon.ico HTTP/1.1" 404 3562
+[2022-12-06 15:51:45,672] - [INFO] "POST /admin/logout/ HTTP/1.1" 200 1553
+[2022-12-07 10:58:39,377] - [INFO] Watching for file changes with StatReloader
+[2022-12-07 10:58:42,247] - [INFO] "GET / HTTP/1.1" 200 5966
+[2022-12-07 10:58:42,386] - [INFO] "GET /static/fontawesomefree/css/brands.css HTTP/1.1" 304 0
+[2022-12-07 10:58:42,387] - [INFO] "GET /static/fontawesomefree/css/fontawesome.css HTTP/1.1" 304 0
+[2022-12-07 10:58:42,392] - [INFO] "GET /static/fontawesomefree/css/solid.css HTTP/1.1" 304 0
+[2022-12-07 10:58:42,420] - [INFO] "GET /static/js/scripts.js HTTP/1.1" 304 0
+[2022-12-07 10:58:42,424] - [INFO] "GET /static/img/logo.png HTTP/1.1" 304 0
+[2022-12-07 10:58:42,425] - [INFO] "GET /static/img/homepage_circle.png HTTP/1.1" 304 0
+[2022-12-07 10:58:42,714] - [INFO] "GET /static/css/style.css HTTP/1.1" 200 113
+[2022-12-07 10:58:48,070] - [INFO] "GET /accounts/login/ HTTP/1.1" 200 5381

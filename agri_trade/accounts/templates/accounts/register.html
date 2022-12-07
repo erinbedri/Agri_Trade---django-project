@@ -12,8 +12,6 @@
                 </div>
 
                 <h3>Register</h3>
-                <p style="margin-top: 20px">If you already have an account, please <a
-                        href="{% url 'accounts:login' %}">login</a> instead.</p>
 
                 <form method="post" action="{% url 'accounts:register' %}">
                     {% csrf_token %}
@@ -67,6 +65,9 @@
                     </div>
 
                 </form>
+
+                <p style="margin-top: 20px">If you already have an account, please <a
+                        href="{% url 'accounts:login' %}">login</a> instead.</p>
 
                 <p style="margin-top: 20px">
                     By continuing you agree to out

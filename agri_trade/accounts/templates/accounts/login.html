@@ -13,8 +13,6 @@
                 </div>
 
                 <h3>Login</h3>
-                <p style="margin-top: 20px">If you do not have an account, please <a
-                        href="{% url 'accounts:register' %}">register</a> instead.</p>
 
                 <form method="post" action="{% url 'accounts:login' %}">
                     {% csrf_token %}
@@ -33,11 +31,15 @@
                     <div class="col" style="margin-top: 20px">
                         <label class="mb-1">Password</label>
                         {{ form.password }}
-                        <input type="checkbox" onclick="showPassword()" style="margin-top: 10px"> Show Password
                     </div>
 
-                    <div class="col">
-                        {{ form.remember_me }} Remember Me
+                    <div class="row" style="margin-top: 20px">
+                        <div class="col-4">
+                            <input type="checkbox" onclick="showPassword()"> Show Password
+                        </div>
+                        <div class="col">
+                            {{ form.remember_me }} Remember Me
+                        </div>
                     </div>
 
                     <div class="d-grid gap-2">
@@ -49,6 +51,9 @@
                         </button>
                     </div>
                 </form>
+
+                <p style="margin-top: 20px">If you do not have an account, please <a
+                        href="{% url 'accounts:register' %}">register</a> instead.</p>
 
             </div>
         </div>
