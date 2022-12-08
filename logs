@@ -6714,3 +6714,9 @@ django.core.exceptions.FieldError: Related Field got invalid lookup: icontains
 [2022-12-07 11:29:54,651] - [INFO] "GET /marketplace/ HTTP/1.1" 200 15254
 [2022-12-07 11:30:00,472] - [INFO] "GET /marketplace/product-details/1 HTTP/1.1" 200 8734
 [2022-12-07 11:30:00,506] - [INFO] "GET /static/img/no_photo.jpg HTTP/1.1" 200 16804
+[2022-12-07 11:31:32,685] - [INFO] "GET /marketplace/product-details/1 HTTP/1.1" 200 8734
+[2022-12-07 11:31:33,396] - [INFO] "GET /marketplace/product-details/1 HTTP/1.1" 200 8741
+[2022-12-07 11:31:53,853] - [INFO] "GET /marketplace/product-details/1 HTTP/1.1" 200 8741
+[2022-12-07 11:31:54,338] - [INFO] "GET /marketplace/product-details/1 HTTP/1.1" 200 8741
+[2022-12-07 11:31:54,980] - [INFO] "GET /marketplace/product-details/1 HTTP/1.1" 200 8755
+[2022-12-07 11:36:47,683] - [INFO] "GET /data-protection/ HTTP/1.1" 200 8306
