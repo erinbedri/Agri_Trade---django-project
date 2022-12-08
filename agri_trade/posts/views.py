@@ -1,9 +1,10 @@
 from django.http import HttpResponseRedirect
-from django.shortcuts import render
+from django.shortcuts import render, get_object_or_404
 from django.urls import reverse
 
 from agri_trade.posts.forms import PostCommentForm
 from agri_trade.posts import services as post_services
+from agri_trade.posts.models import PostComment
 
 
 def show_posts(request):
@@ -51,6 +52,21 @@ def show_comments(request, pk):
         'comments': comments,
         'comments_count': comments_count,
         'form': form,
+        'is_liked': False
     }
 
     return render(request, 'posts/show_comments.html', context)
+
+
+def like_comment(request, pk1, pk2):
+    comment = get_object_or_404(PostComment, id=pk2)
+    liked = False
+
+    if comment.likes.filter(id=request.user.id).exists():
+        comment.likes.remove(request.user)
+        liked = False
+    else:
+        comment.likes.add(request.user)
+        liked = True
+
+    return HttpResponseRedirect(reverse('posts:show comments', args=[str(pk1)]))

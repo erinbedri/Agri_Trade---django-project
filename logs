@@ -6720,3 +6720,568 @@ django.core.exceptions.FieldError: Related Field got invalid lookup: icontains
 [2022-12-07 11:31:54,338] - [INFO] "GET /marketplace/product-details/1 HTTP/1.1" 200 8741
 [2022-12-07 11:31:54,980] - [INFO] "GET /marketplace/product-details/1 HTTP/1.1" 200 8755
 [2022-12-07 11:36:47,683] - [INFO] "GET /data-protection/ HTTP/1.1" 200 8306
+[2022-12-08 17:14:47,546] - [INFO] Watching for file changes with StatReloader
+[2022-12-08 17:14:56,153] - [INFO] "GET / HTTP/1.1" 200 8371
+[2022-12-08 17:14:56,452] - [WARNING] Not Found: /static/fontawesomefree/css/fontawesome.css
+[2022-12-08 17:14:56,463] - [WARNING] Not Found: /static/img/logo.png
+[2022-12-08 17:14:56,470] - [WARNING] Not Found: /static/fontawesomefree/css/solid.css
+[2022-12-08 17:14:56,476] - [WARNING] Not Found: /static/css/style.css
+[2022-12-08 17:14:56,477] - [WARNING] "GET /static/fontawesomefree/css/fontawesome.css HTTP/1.1" 404 6258
+[2022-12-08 17:14:56,483] - [WARNING] Not Found: /static/js/scripts.js
+[2022-12-08 17:14:56,484] - [WARNING] "GET /static/fontawesomefree/css/solid.css HTTP/1.1" 404 6258
+[2022-12-08 17:14:56,489] - [WARNING] Not Found: /static/fontawesomefree/css/brands.css
+[2022-12-08 17:14:56,492] - [WARNING] "GET /static/img/logo.png HTTP/1.1" 404 6258
+[2022-12-08 17:14:56,493] - [WARNING] "GET /static/css/style.css HTTP/1.1" 404 6258
+[2022-12-08 17:14:56,494] - [WARNING] "GET /static/js/scripts.js HTTP/1.1" 404 6258
+[2022-12-08 17:14:56,497] - [WARNING] "GET /static/fontawesomefree/css/brands.css HTTP/1.1" 404 6258
+[2022-12-08 17:14:56,603] - [WARNING] Not Found: /static/img/homepage_circle.png
+[2022-12-08 17:14:56,604] - [WARNING] "GET /static/img/homepage_circle.png HTTP/1.1" 404 6258
+[2022-12-08 17:14:56,766] - [WARNING] Not Found: /static/img/flaticon.png
+[2022-12-08 17:14:56,767] - [WARNING] "GET /static/img/flaticon.png HTTP/1.1" 404 6258
+[2022-12-08 17:15:01,110] - [INFO] "GET / HTTP/1.1" 200 8371
+[2022-12-08 17:15:01,236] - [WARNING] Not Found: /static/fontawesomefree/css/fontawesome.css
+[2022-12-08 17:15:01,236] - [WARNING] "GET /static/fontawesomefree/css/fontawesome.css HTTP/1.1" 404 6258
+[2022-12-08 17:15:01,268] - [WARNING] Not Found: /static/fontawesomefree/css/brands.css
+[2022-12-08 17:15:01,272] - [WARNING] Not Found: /static/css/style.css
+[2022-12-08 17:15:01,276] - [WARNING] "GET /static/fontawesomefree/css/brands.css HTTP/1.1" 404 6258
+[2022-12-08 17:15:01,276] - [WARNING] "GET /static/css/style.css HTTP/1.1" 404 6258
+[2022-12-08 17:15:01,284] - [WARNING] Not Found: /static/js/scripts.js
+[2022-12-08 17:15:01,288] - [WARNING] Not Found: /static/fontawesomefree/css/solid.css
+[2022-12-08 17:15:01,289] - [WARNING] "GET /static/js/scripts.js HTTP/1.1" 404 6258
+[2022-12-08 17:15:01,289] - [WARNING] "GET /static/fontawesomefree/css/solid.css HTTP/1.1" 404 6258
+[2022-12-08 17:15:01,300] - [WARNING] Not Found: /static/img/logo.png
+[2022-12-08 17:15:01,302] - [WARNING] "GET /static/img/logo.png HTTP/1.1" 404 6258
+[2022-12-08 17:15:01,329] - [WARNING] Not Found: /static/img/homepage_circle.png
+[2022-12-08 17:15:01,330] - [WARNING] "GET /static/img/homepage_circle.png HTTP/1.1" 404 6258
+[2022-12-08 17:15:12,754] - [INFO] "GET / HTTP/1.1" 200 8371
+[2022-12-08 17:15:12,892] - [WARNING] Not Found: /static/fontawesomefree/css/fontawesome.css
+[2022-12-08 17:15:12,895] - [WARNING] "GET /static/fontawesomefree/css/fontawesome.css HTTP/1.1" 404 6258
+[2022-12-08 17:15:12,912] - [WARNING] Not Found: /static/fontawesomefree/css/solid.css
+[2022-12-08 17:15:12,913] - [WARNING] "GET /static/fontawesomefree/css/solid.css HTTP/1.1" 404 6258
+[2022-12-08 17:15:12,936] - [WARNING] Not Found: /static/css/style.css
+[2022-12-08 17:15:12,942] - [WARNING] Not Found: /static/fontawesomefree/css/brands.css
+[2022-12-08 17:15:12,947] - [WARNING] Not Found: /static/js/scripts.js
+[2022-12-08 17:15:12,948] - [WARNING] "GET /static/css/style.css HTTP/1.1" 404 6258
+[2022-12-08 17:15:12,948] - [WARNING] "GET /static/js/scripts.js HTTP/1.1" 404 6258
+[2022-12-08 17:15:12,949] - [WARNING] "GET /static/fontawesomefree/css/brands.css HTTP/1.1" 404 6258
+[2022-12-08 17:15:12,983] - [WARNING] Not Found: /static/img/logo.png
+[2022-12-08 17:15:12,983] - [WARNING] "GET /static/img/logo.png HTTP/1.1" 404 6258
+[2022-12-08 17:15:13,013] - [WARNING] Not Found: /static/img/homepage_circle.png
+[2022-12-08 17:15:13,014] - [WARNING] "GET /static/img/homepage_circle.png HTTP/1.1" 404 6258
+[2022-12-08 17:15:13,248] - [INFO] C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\agri_trade\settings.py changed, reloading.
+[2022-12-08 17:15:14,600] - [INFO] Watching for file changes with StatReloader
+[2022-12-08 17:15:15,300] - [INFO] "GET / HTTP/1.1" 200 8371
+[2022-12-08 17:15:15,979] - [INFO] "GET /static/fontawesomefree/css/solid.css HTTP/1.1" 200 625
+[2022-12-08 17:15:15,980] - [INFO] "GET /static/css/style.css HTTP/1.1" 200 113
+[2022-12-08 17:15:15,981] - [INFO] "GET /static/js/scripts.js HTTP/1.1" 200 191
+[2022-12-08 17:15:15,983] - [INFO] "GET /static/fontawesomefree/css/brands.css HTTP/1.1" 200 23682
+[2022-12-08 17:15:15,985] - [INFO] "GET /static/fontawesomefree/css/fontawesome.css HTTP/1.1" 200 113333
+[2022-12-08 17:15:15,989] - [INFO] "GET /static/img/homepage_circle.png HTTP/1.1" 200 120984
+[2022-12-08 17:15:15,995] - [INFO] "GET /static/img/logo.png HTTP/1.1" 200 25234
+[2022-12-08 17:15:16,046] - [INFO] "GET /static/fontawesomefree/webfonts/fa-solid-900.woff2 HTTP/1.1" 304 0
+[2022-12-08 17:15:23,647] - [INFO] "GET /messages/ HTTP/1.1" 200 8051
+[2022-12-08 17:15:27,121] - [INFO] "GET /posts/all/ HTTP/1.1" 200 7177
+[2022-12-08 17:15:27,916] - [INFO] "GET /posts/post/1/ HTTP/1.1" 200 6353
+[2022-12-08 17:15:31,101] - [INFO] "GET /posts/post/1/comments/ HTTP/1.1" 200 7740
+[2022-12-08 17:20:15,822] - [INFO] C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\agri_trade\posts\urls.py changed, reloading.
+[2022-12-08 17:20:17,255] - [INFO] Watching for file changes with StatReloader
+[2022-12-08 17:21:36,470] - [INFO] "GET /posts/post/1/comments/ HTTP/1.1" 200 7870
+[2022-12-08 17:21:36,895] - [INFO] "GET /posts/post/1/comments/ HTTP/1.1" 200 7870
+[2022-12-08 17:22:33,993] - [INFO] "GET /posts/post/1/comments/ HTTP/1.1" 200 7891
+[2022-12-08 17:22:34,780] - [INFO] "GET /posts/post/1/comments/ HTTP/1.1" 200 7891
+[2022-12-08 17:22:35,369] - [INFO] "GET /posts/post/1/comments/ HTTP/1.1" 200 7891
+[2022-12-08 17:22:35,910] - [INFO] "GET /posts/post/1/comments/ HTTP/1.1" 200 7891
+[2022-12-08 17:22:36,108] - [INFO] "GET /posts/post/1/comments/ HTTP/1.1" 200 7891
+[2022-12-08 17:22:36,904] - [INFO] "GET /posts/post/1/comments/ HTTP/1.1" 200 7891
+[2022-12-08 17:22:58,698] - [INFO] "GET /posts/post/1/comments/ HTTP/1.1" 200 7891
+[2022-12-08 17:22:59,365] - [INFO] "GET /posts/post/1/comments/ HTTP/1.1" 200 7899
+[2022-12-08 17:25:14,034] - [INFO] "GET /posts/post/1/comments/ HTTP/1.1" 200 7899
+[2022-12-08 17:25:14,659] - [INFO] "GET /posts/post/1/comments/ HTTP/1.1" 200 7905
+[2022-12-08 17:25:15,105] - [INFO] "GET /posts/post/1/comments/ HTTP/1.1" 200 7905
+[2022-12-08 17:25:57,254] - [INFO] "GET /posts/post/1/comments/ HTTP/1.1" 200 7943
+[2022-12-08 17:25:58,008] - [INFO] "GET /posts/post/1/comments/ HTTP/1.1" 200 7943
+[2022-12-08 17:26:10,769] - [INFO] "GET /posts/post/1/comments/ HTTP/1.1" 200 7975
+[2022-12-08 17:26:11,759] - [INFO] "GET /posts/post/1/comments/ HTTP/1.1" 200 7975
+[2022-12-08 17:26:17,316] - [INFO] "GET /posts/post/1/comments/ HTTP/1.1" 200 7975
+[2022-12-08 17:26:17,943] - [INFO] "GET /posts/post/1/comments/ HTTP/1.1" 200 7975
+[2022-12-08 17:26:18,449] - [INFO] "GET /posts/post/1/comments/ HTTP/1.1" 200 7964
+[2022-12-08 17:26:19,159] - [INFO] "GET /posts/post/1/comments/ HTTP/1.1" 200 7964
+[2022-12-08 17:26:26,047] - [INFO] "GET /posts/post/1/comments/ HTTP/1.1" 200 7964
+[2022-12-08 17:26:26,700] - [INFO] "GET /posts/post/1/comments/ HTTP/1.1" 200 7964
+[2022-12-08 17:26:27,230] - [INFO] "GET /posts/post/1/comments/ HTTP/1.1" 200 7969
+[2022-12-08 17:26:37,621] - [INFO] "GET /posts/post/1/comments/ HTTP/1.1" 200 7970
+[2022-12-08 17:26:38,052] - [INFO] "GET /posts/post/1/comments/ HTTP/1.1" 200 7970
+[2022-12-08 17:27:00,806] - [INFO] "GET /posts/post/1/comments/ HTTP/1.1" 200 7970
+[2022-12-08 17:27:15,241] - [INFO] "GET /posts/post/1/comments/ HTTP/1.1" 200 7970
+[2022-12-08 17:27:15,952] - [INFO] "GET /posts/post/1/comments/ HTTP/1.1" 200 7969
+[2022-12-08 17:27:16,400] - [INFO] "GET /posts/post/1/comments/ HTTP/1.1" 200 7969
+[2022-12-08 17:27:27,800] - [INFO] "GET /posts/post/1/comments/ HTTP/1.1" 200 7969
+[2022-12-08 17:27:28,332] - [INFO] "GET /posts/post/1/comments/ HTTP/1.1" 200 7969
+[2022-12-08 17:27:28,764] - [INFO] "GET /posts/post/1/comments/ HTTP/1.1" 200 7967
+[2022-12-08 17:27:29,120] - [INFO] "GET /posts/post/1/comments/ HTTP/1.1" 200 7967
+[2022-12-08 17:29:34,270] - [INFO] "GET /posts/post/1/comments/ HTTP/1.1" 200 8111
+[2022-12-08 17:29:35,034] - [INFO] "GET /posts/post/1/comments/ HTTP/1.1" 200 8111
+[2022-12-08 17:30:12,502] - [INFO] "GET /posts/post/1/comments/ HTTP/1.1" 200 8197
+[2022-12-08 17:30:13,172] - [INFO] "GET /posts/post/1/comments/ HTTP/1.1" 200 8197
+[2022-12-08 17:30:25,750] - [INFO] "GET /posts/post/1/comments/ HTTP/1.1" 200 8197
+[2022-12-08 17:30:26,175] - [INFO] "GET /posts/post/1/comments/ HTTP/1.1" 200 8197
+[2022-12-08 17:30:26,684] - [INFO] "GET /posts/post/1/comments/ HTTP/1.1" 200 8218
+[2022-12-08 17:30:42,238] - [INFO] "GET /posts/post/1/comments/ HTTP/1.1" 200 8218
+[2022-12-08 17:30:42,879] - [INFO] "GET /posts/post/1/comments/ HTTP/1.1" 200 8218
+[2022-12-08 17:30:43,272] - [INFO] "GET /posts/post/1/comments/ HTTP/1.1" 200 8218
+[2022-12-08 17:31:58,697] - [INFO] "GET /posts/post/1/comments/ HTTP/1.1" 200 8218
+[2022-12-08 17:31:59,292] - [INFO] "GET /posts/post/1/comments/ HTTP/1.1" 200 8218
+[2022-12-08 17:32:00,084] - [INFO] "GET /posts/post/1/comments/ HTTP/1.1" 200 8218
+[2022-12-08 17:32:01,410] - [INFO] "GET /posts/post/1/comments/ HTTP/1.1" 200 8218
+[2022-12-08 17:32:21,908] - [INFO] "GET /posts/post/1/comments/ HTTP/1.1" 200 8218
+[2022-12-08 17:32:22,614] - [INFO] "GET /posts/post/1/comments/ HTTP/1.1" 200 8218
+[2022-12-08 17:32:23,114] - [INFO] "GET /posts/post/1/comments/ HTTP/1.1" 200 8238
+[2022-12-08 17:32:36,125] - [INFO] "GET /posts/post/1/comments/ HTTP/1.1" 200 8238
+[2022-12-08 17:32:36,695] - [INFO] "GET /posts/post/1/comments/ HTTP/1.1" 200 8257
+[2022-12-08 17:32:37,204] - [INFO] "GET /posts/post/1/comments/ HTTP/1.1" 200 8257
+[2022-12-08 17:32:44,957] - [INFO] "GET /posts/post/1/comments/ HTTP/1.1" 200 8257
+[2022-12-08 17:32:45,396] - [INFO] "GET /posts/post/1/comments/ HTTP/1.1" 200 8257
+[2022-12-08 17:32:45,803] - [INFO] "GET /posts/post/1/comments/ HTTP/1.1" 200 8257
+[2022-12-08 17:35:47,093] - [INFO] "GET /posts/post/1/comments/ HTTP/1.1" 200 8341
+[2022-12-08 17:36:36,301] - [INFO] C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\agri_trade\posts\models.py changed, reloading.
+[2022-12-08 17:36:37,626] - [INFO] Watching for file changes with StatReloader
+[2022-12-08 17:37:34,176] - [INFO] C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\agri_trade\posts\models.py changed, reloading.
+[2022-12-08 17:37:35,371] - [INFO] Watching for file changes with StatReloader
+[2022-12-08 17:38:09,780] - [INFO] C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\agri_trade\posts\models.py changed, reloading.
+[2022-12-08 17:38:10,953] - [INFO] Watching for file changes with StatReloader
+[2022-12-08 17:38:39,215] - [INFO] C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\agri_trade\posts\views.py changed, reloading.
+[2022-12-08 17:38:40,422] - [INFO] Watching for file changes with StatReloader
+[2022-12-08 17:46:21,437] - [INFO] C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\agri_trade\posts\views.py changed, reloading.
+[2022-12-08 17:46:22,650] - [INFO] Watching for file changes with StatReloader
+[2022-12-08 17:47:35,532] - [INFO] C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\agri_trade\posts\views.py changed, reloading.
+[2022-12-08 17:47:36,974] - [INFO] Watching for file changes with StatReloader
+[2022-12-08 17:48:19,508] - [INFO] Watching for file changes with StatReloader
+[2022-12-08 17:48:25,536] - [INFO] "GET /posts/post/1/comments/ HTTP/1.1" 200 8350
+[2022-12-08 17:51:32,287] - [INFO] C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\agri_trade\posts\views.py changed, reloading.
+[2022-12-08 17:51:33,630] - [INFO] Watching for file changes with StatReloader
+[2022-12-08 17:55:22,858] - [INFO] C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\agri_trade\posts\views.py changed, reloading.
+[2022-12-08 17:55:23,983] - [INFO] Watching for file changes with StatReloader
+[2022-12-08 17:55:52,660] - [INFO] "GET /posts/post/1/comments/ HTTP/1.1" 200 8761
+[2022-12-08 17:56:19,915] - [INFO] "GET /posts/post/1/comments/ HTTP/1.1" 200 8761
+[2022-12-08 17:56:37,005] - [INFO] "GET /posts/post/1/comments/ HTTP/1.1" 200 8778
+[2022-12-08 17:56:39,103] - [ERROR] Internal Server Error: /posts/post/1/comment/1/like/
+Traceback (most recent call last):
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\core\handlers\base.py", line 204, in _get_response
+    self.check_response(response, callback)
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\core\handlers\base.py", line 332, in check_response
+    raise ValueError(
+ValueError: The view agri_trade.posts.views.like_comment didn't return an HttpResponse object. It returned None instead.
+[2022-12-08 17:56:39,104] - [ERROR] "POST /posts/post/1/comment/1/like/ HTTP/1.1" 500 71077
+[2022-12-08 17:56:39,427] - [WARNING] Not Found: /favicon.ico
+[2022-12-08 17:56:39,427] - [WARNING] "GET /favicon.ico HTTP/1.1" 404 3562
+[2022-12-08 17:58:17,025] - [INFO] "GET /posts/post/1/comments/ HTTP/1.1" 200 8765
+[2022-12-08 17:58:17,970] - [INFO] "GET /posts/post/1/comments/ HTTP/1.1" 200 8765
+[2022-12-08 17:58:39,787] - [INFO] "GET /posts/post/1/comments/ HTTP/1.1" 200 8789
+[2022-12-08 17:58:40,544] - [INFO] "GET /posts/post/1/comments/ HTTP/1.1" 200 8789
+[2022-12-08 17:59:38,156] - [INFO] "GET /posts/post/1/comments/ HTTP/1.1" 200 8786
+[2022-12-08 17:59:38,904] - [INFO] "GET /posts/post/1/comments/ HTTP/1.1" 200 8786
+[2022-12-08 17:59:40,124] - [ERROR] Internal Server Error: /posts/post/1/comment/1/like/
+Traceback (most recent call last):
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\core\handlers\base.py", line 204, in _get_response
+    self.check_response(response, callback)
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\core\handlers\base.py", line 332, in check_response
+    raise ValueError(
+ValueError: The view agri_trade.posts.views.like_comment didn't return an HttpResponse object. It returned None instead.
+[2022-12-08 17:59:40,125] - [ERROR] "POST /posts/post/1/comment/1/like/ HTTP/1.1" 500 71077
+[2022-12-08 18:00:13,804] - [INFO] "GET /posts/post/1/comments/ HTTP/1.1" 200 8786
+[2022-12-08 18:00:14,553] - [INFO] "GET /posts/post/1/comments/ HTTP/1.1" 200 8786
+[2022-12-08 18:00:15,314] - [INFO] "GET /posts/post/1/comments/ HTTP/1.1" 200 8804
+[2022-12-08 18:00:16,501] - [INFO] "GET /posts/post/1/comments/ HTTP/1.1" 200 8804
+[2022-12-08 18:00:18,823] - [ERROR] Internal Server Error: /posts/post/1/comment/1/like/
+Traceback (most recent call last):
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\core\handlers\base.py", line 204, in _get_response
+    self.check_response(response, callback)
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\core\handlers\base.py", line 332, in check_response
+    raise ValueError(
+ValueError: The view agri_trade.posts.views.like_comment didn't return an HttpResponse object. It returned None instead.
+[2022-12-08 18:00:18,824] - [ERROR] "POST /posts/post/1/comment/1/like/ HTTP/1.1" 500 71077
+[2022-12-08 18:00:31,897] - [INFO] "GET /posts/post/1/comments/ HTTP/1.1" 200 8804
+[2022-12-08 18:00:32,752] - [INFO] "GET /posts/post/1/comments/ HTTP/1.1" 200 8805
+[2022-12-08 18:00:33,635] - [INFO] "GET /posts/post/1/comments/ HTTP/1.1" 200 8805
+[2022-12-08 18:01:04,279] - [INFO] "GET /posts/post/1/comments/ HTTP/1.1" 200 8805
+[2022-12-08 18:01:04,933] - [INFO] "GET /posts/post/1/comments/ HTTP/1.1" 200 8798
+[2022-12-08 18:01:06,333] - [INFO] "GET /posts/post/1/comments/ HTTP/1.1" 200 8798
+[2022-12-08 18:01:37,453] - [INFO] "GET /posts/post/1/comments/ HTTP/1.1" 200 8798
+[2022-12-08 18:01:38,150] - [INFO] "GET /posts/post/1/comments/ HTTP/1.1" 200 8798
+[2022-12-08 18:02:24,584] - [INFO] Watching for file changes with StatReloader
+[2022-12-08 18:02:50,509] - [INFO] Watching for file changes with StatReloader
+[2022-12-08 18:04:14,624] - [INFO] C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\agri_trade\posts\models.py changed, reloading.
+[2022-12-08 18:04:16,194] - [INFO] Watching for file changes with StatReloader
+[2022-12-08 18:04:29,428] - [INFO] C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\agri_trade\posts\views.py changed, reloading.
+[2022-12-08 18:04:30,540] - [INFO] Watching for file changes with StatReloader
+[2022-12-08 18:05:08,817] - [INFO] C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\agri_trade\posts\models.py changed, reloading.
+[2022-12-08 18:05:09,956] - [INFO] Watching for file changes with StatReloader
+[2022-12-08 18:05:31,538] - [INFO] C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\agri_trade\posts\models.py changed, reloading.
+[2022-12-08 18:05:32,661] - [INFO] Watching for file changes with StatReloader
+[2022-12-08 18:09:12,634] - [INFO] C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\agri_trade\posts\views.py changed, reloading.
+[2022-12-08 18:09:14,049] - [INFO] Watching for file changes with StatReloader
+[2022-12-08 18:09:17,839] - [INFO] "GET /posts/all/ HTTP/1.1" 200 7186
+[2022-12-08 18:09:18,693] - [INFO] "GET /posts/post/1/ HTTP/1.1" 200 6362
+[2022-12-08 18:09:19,737] - [INFO] "GET /posts/post/1/comments/ HTTP/1.1" 200 8798
+[2022-12-08 18:09:21,230] - [ERROR] Internal Server Error: /posts/post/1/comment/1/like/
+Traceback (most recent call last):
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\agri_trade\posts\views.py", line 71, in like_comment
+    return HttpResponseRedirect(reverse('posts:show comments'), args=[str(pk1)])
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\urls\base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\urls\resolvers.py", line 828, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'show comments' with no arguments not found. 1 pattern(s) tried: ['posts/post/(?P<pk>[0-9]+)/comments/\\Z']
+[2022-12-08 18:09:21,233] - [ERROR] "POST /posts/post/1/comment/1/like/ HTTP/1.1" 500 82355
+[2022-12-08 18:10:41,745] - [INFO] C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\agri_trade\posts\views.py changed, reloading.
+[2022-12-08 18:10:43,373] - [INFO] Watching for file changes with StatReloader
+[2022-12-08 18:10:46,754] - [INFO] "GET /posts/post/1/comments/ HTTP/1.1" 200 8798
+[2022-12-08 18:10:48,121] - [INFO] "POST /posts/post/1/comment/1/like/ HTTP/1.1" 302 0
+[2022-12-08 18:10:48,207] - [INFO] "GET /posts/post/1/comments/ HTTP/1.1" 200 8798
+[2022-12-08 18:10:51,479] - [INFO] "POST /posts/post/1/comment/1/like/ HTTP/1.1" 302 0
+[2022-12-08 18:10:51,557] - [INFO] "GET /posts/post/1/comments/ HTTP/1.1" 200 8798
+[2022-12-08 18:10:52,368] - [INFO] "POST /posts/post/1/comment/1/like/ HTTP/1.1" 302 0
+[2022-12-08 18:10:52,450] - [INFO] "GET /posts/post/1/comments/ HTTP/1.1" 200 8798
+[2022-12-08 18:10:53,110] - [INFO] "POST /posts/post/1/comment/1/like/ HTTP/1.1" 302 0
+[2022-12-08 18:10:53,190] - [INFO] "GET /posts/post/1/comments/ HTTP/1.1" 200 8798
+[2022-12-08 18:10:53,745] - [INFO] "POST /posts/post/1/comment/1/like/ HTTP/1.1" 302 0
+[2022-12-08 18:10:53,830] - [INFO] "GET /posts/post/1/comments/ HTTP/1.1" 200 8798
+[2022-12-08 18:10:54,445] - [INFO] "POST /posts/post/1/comment/1/like/ HTTP/1.1" 302 0
+[2022-12-08 18:10:54,623] - [INFO] "GET /posts/post/1/comments/ HTTP/1.1" 200 8798
+[2022-12-08 18:10:55,405] - [INFO] "POST /posts/post/1/comment/1/like/ HTTP/1.1" 302 0
+[2022-12-08 18:10:55,489] - [INFO] "GET /posts/post/1/comments/ HTTP/1.1" 200 8798
+[2022-12-08 18:10:56,115] - [INFO] "POST /posts/post/1/comment/1/like/ HTTP/1.1" 302 0
+[2022-12-08 18:10:56,193] - [INFO] "GET /posts/post/1/comments/ HTTP/1.1" 200 8798
+[2022-12-08 18:12:08,645] - [INFO] "GET /posts/post/1/comments/ HTTP/1.1" 200 8798
+[2022-12-08 18:12:09,721] - [INFO] "GET /posts/post/1/comments/ HTTP/1.1" 200 8812
+[2022-12-08 18:12:10,962] - [INFO] "GET /posts/post/1/comments/ HTTP/1.1" 200 8812
+[2022-12-08 18:12:51,833] - [INFO] "GET /posts/post/1/comments/ HTTP/1.1" 200 8812
+[2022-12-08 18:12:52,678] - [INFO] "GET /posts/post/1/comments/ HTTP/1.1" 200 8812
+[2022-12-08 18:13:55,159] - [INFO] "POST /posts/post/1/comment/1/like/ HTTP/1.1" 302 0
+[2022-12-08 18:13:55,253] - [INFO] "GET /posts/post/1/comments/ HTTP/1.1" 200 8812
+[2022-12-08 18:13:57,590] - [INFO] "GET /posts/all/ HTTP/1.1" 200 7186
+[2022-12-08 18:13:58,677] - [INFO] "GET /posts/post/1/ HTTP/1.1" 200 6362
+[2022-12-08 18:13:59,546] - [INFO] "GET /posts/post/1/comments/ HTTP/1.1" 200 8812
+[2022-12-08 18:16:49,852] - [INFO] C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\agri_trade\posts\models.py changed, reloading.
+[2022-12-08 18:16:51,185] - [INFO] Watching for file changes with StatReloader
+[2022-12-08 18:17:19,264] - [INFO] C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\agri_trade\posts\models.py changed, reloading.
+[2022-12-08 18:17:20,393] - [INFO] Watching for file changes with StatReloader
+[2022-12-08 18:17:20,865] - [INFO] "GET /posts/post/1/comments/ HTTP/1.1" 200 8812
+[2022-12-08 18:17:23,213] - [INFO] "GET /posts/post/1/comments/ HTTP/1.1" 200 8812
+[2022-12-08 18:17:25,451] - [INFO] "GET /posts/post/1/comments/ HTTP/1.1" 200 8812
+[2022-12-08 18:17:26,615] - [INFO] "GET /posts/post/1/comments/ HTTP/1.1" 200 8812
+[2022-12-08 18:17:29,450] - [INFO] "POST /posts/post/1/comments/ HTTP/1.1" 302 0
+[2022-12-08 18:17:29,531] - [INFO] "GET /posts/post/1/comments/ HTTP/1.1" 200 10695
+[2022-12-08 18:18:49,832] - [INFO] "GET /posts/post/1/comments/ HTTP/1.1" 200 10666
+[2022-12-08 18:18:51,129] - [INFO] "GET /posts/post/1/comments/ HTTP/1.1" 200 10666
+[2022-12-08 18:18:51,932] - [INFO] "GET /posts/post/1/comments/ HTTP/1.1" 200 10666
+[2022-12-08 18:19:10,025] - [INFO] "GET /posts/post/1/comments/ HTTP/1.1" 200 10666
+[2022-12-08 18:19:11,955] - [INFO] "GET /posts/post/1/comments/ HTTP/1.1" 200 10694
+[2022-12-08 18:19:12,867] - [INFO] "GET /posts/post/1/comments/ HTTP/1.1" 200 10694
+[2022-12-08 18:19:48,218] - [INFO] "GET /posts/post/1/comments/ HTTP/1.1" 200 10695
+[2022-12-08 18:19:49,586] - [INFO] "GET /posts/post/1/comments/ HTTP/1.1" 200 10695
+[2022-12-08 18:19:50,587] - [INFO] "GET /posts/post/1/comments/ HTTP/1.1" 200 10695
+[2022-12-08 18:19:51,281] - [INFO] "GET /posts/post/1/comments/ HTTP/1.1" 200 10695
+[2022-12-08 18:19:51,746] - [INFO] "GET /posts/post/1/comments/ HTTP/1.1" 200 10695
+[2022-12-08 18:19:59,713] - [INFO] "GET /posts/post/1/comments/ HTTP/1.1" 200 10695
+[2022-12-08 18:20:00,509] - [INFO] C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\agri_trade\posts\models.py changed, reloading.
+[2022-12-08 18:20:01,678] - [INFO] Watching for file changes with StatReloader
+[2022-12-08 18:20:02,378] - [INFO] "GET /posts/post/1/comments/ HTTP/1.1" 200 10669
+[2022-12-08 18:20:03,749] - [INFO] "GET /posts/post/1/comments/ HTTP/1.1" 200 10669
+[2022-12-08 18:20:12,471] - [INFO] "GET /posts/post/1/comments/ HTTP/1.1" 200 10669
+[2022-12-08 18:20:15,239] - [INFO] "POST /posts/post/1/comment/1/like/ HTTP/1.1" 302 0
+[2022-12-08 18:20:15,330] - [INFO] "GET /posts/post/1/comments/ HTTP/1.1" 200 10669
+[2022-12-08 18:20:16,881] - [INFO] "POST /posts/post/1/comment/1/like/ HTTP/1.1" 302 0
+[2022-12-08 18:20:16,970] - [INFO] "GET /posts/post/1/comments/ HTTP/1.1" 200 10669
+[2022-12-08 18:20:17,935] - [INFO] "POST /posts/post/1/comment/1/like/ HTTP/1.1" 302 0
+[2022-12-08 18:20:18,018] - [INFO] "GET /posts/post/1/comments/ HTTP/1.1" 200 10669
+[2022-12-08 18:20:18,681] - [INFO] "POST /posts/post/1/comment/1/like/ HTTP/1.1" 302 0
+[2022-12-08 18:20:18,767] - [INFO] "GET /posts/post/1/comments/ HTTP/1.1" 200 10669
+[2022-12-08 18:20:19,847] - [INFO] "POST /posts/post/1/comment/2/like/ HTTP/1.1" 302 0
+[2022-12-08 18:20:19,935] - [INFO] "GET /posts/post/1/comments/ HTTP/1.1" 200 10669
+[2022-12-08 18:20:20,596] - [INFO] "POST /posts/post/1/comment/2/like/ HTTP/1.1" 302 0
+[2022-12-08 18:20:20,684] - [INFO] "GET /posts/post/1/comments/ HTTP/1.1" 200 10669
+[2022-12-08 18:21:07,413] - [INFO] "GET /posts/post/1/comments/ HTTP/1.1" 200 10669
+[2022-12-08 18:21:08,613] - [INFO] "GET /posts/post/1/comments/ HTTP/1.1" 200 11001
+[2022-12-08 18:21:10,884] - [INFO] "POST /posts/post/1/comment/2/like/ HTTP/1.1" 302 0
+[2022-12-08 18:21:10,980] - [INFO] "GET /posts/post/1/comments/ HTTP/1.1" 200 11001
+[2022-12-08 18:21:12,610] - [INFO] "POST /posts/post/1/comment/2/like/ HTTP/1.1" 302 0
+[2022-12-08 18:21:12,693] - [INFO] "GET /posts/post/1/comments/ HTTP/1.1" 200 11001
+[2022-12-08 18:21:13,821] - [INFO] "POST /posts/post/1/comment/2/like/ HTTP/1.1" 302 0
+[2022-12-08 18:21:14,022] - [INFO] "GET /posts/post/1/comments/ HTTP/1.1" 200 11001
+[2022-12-08 18:21:15,350] - [INFO] "POST /posts/post/1/comment/2/like/ HTTP/1.1" 302 0
+[2022-12-08 18:21:15,539] - [INFO] "GET /posts/post/1/comments/ HTTP/1.1" 200 11001
+[2022-12-08 18:21:16,215] - [INFO] "POST /posts/post/1/comment/2/like/ HTTP/1.1" 302 0
+[2022-12-08 18:21:16,299] - [INFO] "GET /posts/post/1/comments/ HTTP/1.1" 200 11001
+[2022-12-08 18:21:16,945] - [INFO] "POST /posts/post/1/comment/2/like/ HTTP/1.1" 302 0
+[2022-12-08 18:21:17,030] - [INFO] "GET /posts/post/1/comments/ HTTP/1.1" 200 11001
+[2022-12-08 18:21:17,639] - [INFO] "POST /posts/post/1/comment/2/like/ HTTP/1.1" 302 0
+[2022-12-08 18:21:17,824] - [INFO] "GET /posts/post/1/comments/ HTTP/1.1" 200 11001
+[2022-12-08 18:21:24,082] - [INFO] "GET /posts/post/1/comments/ HTTP/1.1" 200 11001
+[2022-12-08 18:21:25,401] - [INFO] "GET /posts/post/1/comments/ HTTP/1.1" 200 10669
+[2022-12-08 18:21:27,215] - [INFO] "POST /posts/post/1/comment/2/like/ HTTP/1.1" 302 0
+[2022-12-08 18:21:27,307] - [INFO] "GET /posts/post/1/comments/ HTTP/1.1" 200 10669
+[2022-12-08 18:21:28,353] - [INFO] "POST /posts/post/1/comment/2/like/ HTTP/1.1" 302 0
+[2022-12-08 18:21:28,446] - [INFO] "GET /posts/post/1/comments/ HTTP/1.1" 200 10669
+[2022-12-08 18:21:34,100] - [INFO] "POST /posts/post/1/comments/ HTTP/1.1" 302 0
+[2022-12-08 18:21:34,194] - [INFO] "GET /posts/post/1/comments/ HTTP/1.1" 200 12540
+[2022-12-08 18:21:37,432] - [INFO] "POST /posts/post/1/comment/1/like/ HTTP/1.1" 302 0
+[2022-12-08 18:21:37,533] - [INFO] "GET /posts/post/1/comments/ HTTP/1.1" 200 12540
+[2022-12-08 18:21:38,509] - [INFO] "POST /posts/post/1/comment/2/like/ HTTP/1.1" 302 0
+[2022-12-08 18:21:38,609] - [INFO] "GET /posts/post/1/comments/ HTTP/1.1" 200 12540
+[2022-12-08 18:21:39,868] - [INFO] "POST /posts/post/1/comment/2/like/ HTTP/1.1" 302 0
+[2022-12-08 18:21:39,955] - [INFO] "GET /posts/post/1/comments/ HTTP/1.1" 200 12540
+[2022-12-08 18:24:09,861] - [INFO] "GET /posts/post/1/comments/ HTTP/1.1" 200 12540
+[2022-12-08 18:24:10,708] - [INFO] C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\agri_trade\posts\models.py changed, reloading.
+[2022-12-08 18:24:11,858] - [INFO] Watching for file changes with StatReloader
+[2022-12-08 18:24:12,353] - [INFO] "GET /posts/post/1/comments/ HTTP/1.1" 200 12540
+[2022-12-08 18:24:15,886] - [INFO] "POST /posts/post/1/comment/1/like/ HTTP/1.1" 302 0
+[2022-12-08 18:24:15,978] - [INFO] "GET /posts/post/1/comments/ HTTP/1.1" 200 12540
+[2022-12-08 18:24:16,734] - [INFO] "POST /posts/post/1/comment/1/like/ HTTP/1.1" 302 0
+[2022-12-08 18:24:16,828] - [INFO] "GET /posts/post/1/comments/ HTTP/1.1" 200 12540
+[2022-12-08 18:24:17,658] - [INFO] "POST /posts/post/1/comment/1/like/ HTTP/1.1" 302 0
+[2022-12-08 18:24:17,772] - [INFO] "GET /posts/post/1/comments/ HTTP/1.1" 200 12540
+[2022-12-08 18:24:18,423] - [INFO] "POST /posts/post/1/comment/1/like/ HTTP/1.1" 302 0
+[2022-12-08 18:24:18,519] - [INFO] "GET /posts/post/1/comments/ HTTP/1.1" 200 12540
+[2022-12-08 18:25:22,132] - [INFO] C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\agri_trade\posts\models.py changed, reloading.
+[2022-12-08 18:25:23,314] - [INFO] Watching for file changes with StatReloader
+[2022-12-08 18:26:35,575] - [INFO] C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\agri_trade\posts\views.py changed, reloading.
+[2022-12-08 18:26:36,751] - [INFO] Watching for file changes with StatReloader
+[2022-12-08 18:26:38,606] - [INFO] "GET /posts/post/1/comments/ HTTP/1.1" 200 12540
+[2022-12-08 18:26:39,973] - [INFO] "GET /posts/post/1/comments/ HTTP/1.1" 200 12540
+[2022-12-08 18:26:41,577] - [INFO] "POST /posts/post/1/comment/1/like/ HTTP/1.1" 302 0
+[2022-12-08 18:26:41,669] - [INFO] "GET /posts/post/1/comments/ HTTP/1.1" 200 12540
+[2022-12-08 18:26:42,252] - [INFO] "POST /posts/post/1/comment/1/like/ HTTP/1.1" 302 0
+[2022-12-08 18:26:42,340] - [INFO] "GET /posts/post/1/comments/ HTTP/1.1" 200 12540
+[2022-12-08 18:27:04,344] - [INFO] "GET /posts/post/1/comments/ HTTP/1.1" 200 12540
+[2022-12-08 18:27:05,907] - [INFO] "GET /posts/post/1/comments/ HTTP/1.1" 200 12540
+[2022-12-08 18:27:43,230] - [INFO] "GET /posts/post/1/comments/ HTTP/1.1" 200 12541
+[2022-12-08 18:27:44,428] - [INFO] "POST /posts/post/1/comment/3/like/ HTTP/1.1" 302 0
+[2022-12-08 18:27:44,523] - [INFO] "GET /posts/post/1/comments/ HTTP/1.1" 200 12541
+[2022-12-08 18:27:45,416] - [INFO] "POST /posts/post/1/comment/3/like/ HTTP/1.1" 302 0
+[2022-12-08 18:27:45,506] - [INFO] "GET /posts/post/1/comments/ HTTP/1.1" 200 12541
+[2022-12-08 18:28:34,328] - [INFO] "GET /posts/post/1/comments/ HTTP/1.1" 200 12541
+[2022-12-08 18:28:35,504] - [ERROR] Internal Server Error: /posts/post/1/comments/
+Traceback (most recent call last):
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\template\base.py", line 505, in parse
+    compile_func = self.tags[command]
+KeyError: 'endfor'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\agri_trade\posts\views.py", line 58, in show_comments
+    return render(request, 'posts/show_comments.html', context)
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\template\loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\template\backends\django.py", line 34, in get_template
+    return Template(self.engine.get_template(template_name), self)
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\template\engine.py", line 175, in get_template
+    template, origin = self.find_template(template_name)
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\template\engine.py", line 157, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\template\loaders\cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\template\loaders\base.py", line 28, in get_template
+    return Template(
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\template\base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\template\base.py", line 200, in compile_nodelist
+    return parser.parse()
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\template\base.py", line 513, in parse
+    raise self.error(token, e)
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\template\base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\template\loader_tags.py", line 293, in do_extends
+    nodelist = parser.parse()
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\template\base.py", line 513, in parse
+    raise self.error(token, e)
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\template\base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\template\loader_tags.py", line 232, in do_block
+    nodelist = parser.parse(("endblock",))
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\template\base.py", line 513, in parse
+    raise self.error(token, e)
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\template\base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\template\defaulttags.py", line 854, in do_for
+    nodelist_loop = parser.parse(
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\template\base.py", line 513, in parse
+    raise self.error(token, e)
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\template\base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\template\defaulttags.py", line 954, in do_if
+    nodelist = parser.parse(("elif", "else", "endif"))
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\template\base.py", line 507, in parse
+    self.invalid_block_tag(token, command, parse_until)
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\template\base.py", line 558, in invalid_block_tag
+    raise self.error(
+django.template.exceptions.TemplateSyntaxError: Invalid block tag on line 41: 'endfor', expected 'elif', 'else' or 'endif'. Did you forget to register or load this tag?
+[2022-12-08 18:28:35,512] - [ERROR] "GET /posts/post/1/comments/ HTTP/1.1" 500 232891
+[2022-12-08 18:28:36,098] - [ERROR] Internal Server Error: /posts/post/1/comments/
+Traceback (most recent call last):
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\template\base.py", line 505, in parse
+    compile_func = self.tags[command]
+KeyError: 'endfor'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\agri_trade\posts\views.py", line 58, in show_comments
+    return render(request, 'posts/show_comments.html', context)
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\template\loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\template\backends\django.py", line 34, in get_template
+    return Template(self.engine.get_template(template_name), self)
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\template\engine.py", line 175, in get_template
+    template, origin = self.find_template(template_name)
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\template\engine.py", line 157, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\template\loaders\cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\template\loaders\base.py", line 28, in get_template
+    return Template(
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\template\base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\template\base.py", line 200, in compile_nodelist
+    return parser.parse()
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\template\base.py", line 513, in parse
+    raise self.error(token, e)
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\template\base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\template\loader_tags.py", line 293, in do_extends
+    nodelist = parser.parse()
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\template\base.py", line 513, in parse
+    raise self.error(token, e)
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\template\base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\template\loader_tags.py", line 232, in do_block
+    nodelist = parser.parse(("endblock",))
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\template\base.py", line 513, in parse
+    raise self.error(token, e)
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\template\base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\template\defaulttags.py", line 854, in do_for
+    nodelist_loop = parser.parse(
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\template\base.py", line 513, in parse
+    raise self.error(token, e)
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\template\base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\template\defaulttags.py", line 954, in do_if
+    nodelist = parser.parse(("elif", "else", "endif"))
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\template\base.py", line 507, in parse
+    self.invalid_block_tag(token, command, parse_until)
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\template\base.py", line 558, in invalid_block_tag
+    raise self.error(
+django.template.exceptions.TemplateSyntaxError: Invalid block tag on line 41: 'endfor', expected 'elif', 'else' or 'endif'. Did you forget to register or load this tag?
+[2022-12-08 18:28:36,106] - [ERROR] "GET /posts/post/1/comments/ HTTP/1.1" 500 232891
+[2022-12-08 18:28:50,358] - [INFO] "GET /posts/post/1/comments/ HTTP/1.1" 200 12238
+[2022-12-08 18:28:52,252] - [INFO] "POST /posts/post/1/comment/1/like/ HTTP/1.1" 302 0
+[2022-12-08 18:28:52,345] - [INFO] "GET /posts/post/1/comments/ HTTP/1.1" 200 12238
+[2022-12-08 18:28:52,946] - [INFO] "POST /posts/post/1/comment/1/like/ HTTP/1.1" 302 0
+[2022-12-08 18:28:53,033] - [INFO] "GET /posts/post/1/comments/ HTTP/1.1" 200 12238
+[2022-12-08 18:28:53,802] - [INFO] "POST /posts/post/1/comment/1/like/ HTTP/1.1" 302 0
+[2022-12-08 18:28:53,998] - [INFO] "GET /posts/post/1/comments/ HTTP/1.1" 200 12238
+[2022-12-08 18:28:54,332] - [INFO] "POST /posts/post/1/comment/1/like/ HTTP/1.1" 302 0
+[2022-12-08 18:28:54,421] - [INFO] "GET /posts/post/1/comments/ HTTP/1.1" 200 12238
+[2022-12-08 18:28:55,028] - [INFO] "POST /posts/post/1/comment/1/like/ HTTP/1.1" 302 0
+[2022-12-08 18:28:55,118] - [INFO] "GET /posts/post/1/comments/ HTTP/1.1" 200 12238
+[2022-12-08 18:28:56,213] - [INFO] "POST /posts/post/1/comment/1/like/ HTTP/1.1" 302 0
+[2022-12-08 18:28:56,308] - [INFO] "GET /posts/post/1/comments/ HTTP/1.1" 200 12238
+[2022-12-08 18:29:06,377] - [INFO] "GET /posts/post/1/comments/ HTTP/1.1" 200 12238
+[2022-12-08 18:29:07,491] - [INFO] "GET /posts/post/1/comments/ HTTP/1.1" 200 12241
+[2022-12-08 18:29:08,954] - [INFO] "GET /posts/post/1/comments/ HTTP/1.1" 200 12241
+[2022-12-08 18:29:11,481] - [INFO] "POST /posts/post/1/comment/3/like/ HTTP/1.1" 302 0
+[2022-12-08 18:29:11,573] - [INFO] "GET /posts/post/1/comments/ HTTP/1.1" 200 12241
+[2022-12-08 18:29:12,632] - [INFO] "POST /posts/post/1/comment/3/like/ HTTP/1.1" 302 0
+[2022-12-08 18:29:12,727] - [INFO] "GET /posts/post/1/comments/ HTTP/1.1" 200 12241
+[2022-12-08 18:29:27,512] - [INFO] "GET /posts/post/1/comments/ HTTP/1.1" 200 12241
+[2022-12-08 18:29:28,450] - [INFO] "GET /posts/post/1/comments/ HTTP/1.1" 200 12280
+[2022-12-08 18:29:28,863] - [INFO] "GET /posts/post/1/comments/ HTTP/1.1" 200 12280
+[2022-12-08 18:29:29,445] - [INFO] "GET /posts/post/1/comments/ HTTP/1.1" 200 12280
+[2022-12-08 18:29:30,097] - [INFO] "GET /posts/post/1/comments/ HTTP/1.1" 200 12280
+[2022-12-08 18:29:30,643] - [INFO] "GET /posts/post/1/comments/ HTTP/1.1" 200 12280
+[2022-12-08 18:29:45,133] - [INFO] "GET /posts/post/1/comments/ HTTP/1.1" 200 12280
+[2022-12-08 18:29:45,808] - [INFO] "GET /posts/post/1/comments/ HTTP/1.1" 200 12280
+[2022-12-08 18:29:46,942] - [INFO] "GET /posts/post/1/comments/ HTTP/1.1" 200 12280
+[2022-12-08 18:29:50,294] - [INFO] "POST /posts/post/1/comment/1/like/ HTTP/1.1" 302 0
+[2022-12-08 18:29:50,385] - [INFO] "GET /posts/post/1/comments/ HTTP/1.1" 200 12280
+[2022-12-08 18:29:50,841] - [INFO] "POST /posts/post/1/comment/1/like/ HTTP/1.1" 302 0
+[2022-12-08 18:29:50,932] - [INFO] "GET /posts/post/1/comments/ HTTP/1.1" 200 12280
+[2022-12-08 18:29:51,621] - [INFO] "POST /posts/post/1/comment/1/like/ HTTP/1.1" 302 0
+[2022-12-08 18:29:51,716] - [INFO] "GET /posts/post/1/comments/ HTTP/1.1" 200 12280
+[2022-12-08 18:29:52,243] - [INFO] "POST /posts/post/1/comment/1/like/ HTTP/1.1" 302 0
+[2022-12-08 18:29:52,443] - [INFO] "GET /posts/post/1/comments/ HTTP/1.1" 200 12280
+[2022-12-08 18:30:03,158] - [INFO] "GET /posts/post/1/comments/ HTTP/1.1" 200 12280
+[2022-12-08 18:30:04,350] - [INFO] "GET /posts/post/1/comments/ HTTP/1.1" 200 11587
+[2022-12-08 18:30:05,041] - [INFO] "GET /posts/post/1/comments/ HTTP/1.1" 200 11587
+[2022-12-08 18:30:13,868] - [INFO] "GET /posts/post/1/comments/ HTTP/1.1" 200 11587
+[2022-12-08 18:30:14,665] - [INFO] "GET /posts/post/1/comments/ HTTP/1.1" 200 11590
+[2022-12-08 18:30:16,446] - [INFO] "GET /posts/post/1/comments/ HTTP/1.1" 200 11590
+[2022-12-08 18:30:19,281] - [INFO] "POST /posts/post/1/comment/3/like/ HTTP/1.1" 302 0
+[2022-12-08 18:30:19,374] - [INFO] "GET /posts/post/1/comments/ HTTP/1.1" 200 11590
+[2022-12-08 18:30:20,072] - [INFO] "POST /posts/post/1/comment/3/like/ HTTP/1.1" 302 0
+[2022-12-08 18:30:20,160] - [INFO] "GET /posts/post/1/comments/ HTTP/1.1" 200 11590
+[2022-12-08 18:30:20,948] - [INFO] "POST /posts/post/1/comment/3/like/ HTTP/1.1" 302 0
+[2022-12-08 18:30:21,039] - [INFO] "GET /posts/post/1/comments/ HTTP/1.1" 200 11590
+[2022-12-08 18:30:21,860] - [INFO] "POST /posts/post/1/comment/3/like/ HTTP/1.1" 302 0
+[2022-12-08 18:30:21,949] - [INFO] "GET /posts/post/1/comments/ HTTP/1.1" 200 11590
+[2022-12-08 18:30:22,477] - [INFO] "POST /posts/post/1/comment/3/like/ HTTP/1.1" 302 0
+[2022-12-08 18:30:22,564] - [INFO] "GET /posts/post/1/comments/ HTTP/1.1" 200 11590
+[2022-12-08 18:30:34,394] - [INFO] "GET /posts/post/1/comments/ HTTP/1.1" 200 11590
+[2022-12-08 18:30:35,332] - [INFO] "GET /posts/post/1/comments/ HTTP/1.1" 200 11629
+[2022-12-08 18:30:36,051] - [INFO] "GET /posts/post/1/comments/ HTTP/1.1" 200 11629
+[2022-12-08 18:30:36,665] - [INFO] "GET /posts/post/1/comments/ HTTP/1.1" 200 11629
+[2022-12-08 18:30:37,301] - [INFO] "GET /posts/post/1/comments/ HTTP/1.1" 200 11629
+[2022-12-08 18:30:38,949] - [INFO] "POST /posts/post/1/comment/2/like/ HTTP/1.1" 302 0
+[2022-12-08 18:30:39,037] - [INFO] "GET /posts/post/1/comments/ HTTP/1.1" 200 11629
+[2022-12-08 18:30:39,725] - [INFO] "POST /posts/post/1/comment/2/like/ HTTP/1.1" 302 0
+[2022-12-08 18:30:39,821] - [INFO] "GET /posts/post/1/comments/ HTTP/1.1" 200 11629
+[2022-12-08 18:30:50,676] - [INFO] "GET /posts/post/1/comments/ HTTP/1.1" 200 11629
+[2022-12-08 18:30:51,593] - [INFO] "GET /posts/post/1/comments/ HTTP/1.1" 200 11590
+[2022-12-08 18:30:52,140] - [INFO] "GET /posts/post/1/comments/ HTTP/1.1" 200 11590
+[2022-12-08 18:30:53,504] - [INFO] "POST /posts/post/1/comment/3/like/ HTTP/1.1" 302 0
+[2022-12-08 18:30:53,593] - [INFO] "GET /posts/post/1/comments/ HTTP/1.1" 200 11590
+[2022-12-08 18:30:54,487] - [INFO] "POST /posts/post/1/comment/3/like/ HTTP/1.1" 302 0
+[2022-12-08 18:30:54,581] - [INFO] "GET /posts/post/1/comments/ HTTP/1.1" 200 11590
+[2022-12-08 18:31:01,470] - [INFO] "POST /posts/post/1/comment/1/like/ HTTP/1.1" 302 0
+[2022-12-08 18:31:01,562] - [INFO] "GET /posts/post/1/comments/ HTTP/1.1" 200 11590
+[2022-12-08 18:31:02,480] - [INFO] "POST /posts/post/1/comment/1/like/ HTTP/1.1" 302 0
+[2022-12-08 18:31:02,569] - [INFO] "GET /posts/post/1/comments/ HTTP/1.1" 200 11590
+[2022-12-08 18:31:23,693] - [INFO] "GET /posts/post/1/comments/ HTTP/1.1" 200 11590
+[2022-12-08 18:31:24,109] - [INFO] "GET /posts/post/1/comments/ HTTP/1.1" 200 11586
+[2022-12-08 18:31:24,464] - [INFO] "GET /posts/post/1/comments/ HTTP/1.1" 200 11586
+[2022-12-08 18:31:26,252] - [INFO] "POST /posts/post/1/comment/2/like/ HTTP/1.1" 302 0
+[2022-12-08 18:31:26,342] - [INFO] "GET /posts/post/1/comments/ HTTP/1.1" 200 11586
+[2022-12-08 18:31:32,791] - [INFO] "GET /marketplace/ HTTP/1.1" 200 15254
+[2022-12-08 18:31:34,193] - [INFO] "GET /posts/all/ HTTP/1.1" 200 7186
+[2022-12-08 18:31:34,915] - [INFO] "GET /posts/post/1/ HTTP/1.1" 200 6362
+[2022-12-08 18:31:36,050] - [INFO] "GET /posts/post/1/comments/ HTTP/1.1" 200 11587
+[2022-12-08 18:31:38,123] - [INFO] "POST /posts/post/1/comment/2/like/ HTTP/1.1" 302 0
+[2022-12-08 18:31:38,215] - [INFO] "GET /posts/post/1/comments/ HTTP/1.1" 200 11587

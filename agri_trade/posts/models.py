@@ -79,6 +79,14 @@ class PostComment(models.Model):
         auto_now_add=True
     )
 
+    likes = models.ManyToManyField(
+        UserModel,
+        related_name='comment_likes'
+    )
+
+    def like_count(self):
+        return self.likes.count()
+
     def __str__(self):
         return f'Comment by {self.author}.'
 

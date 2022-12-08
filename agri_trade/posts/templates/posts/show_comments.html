@@ -5,7 +5,7 @@
         <div class="row justify-content-md-center">
             <div class="col-md-10">
                 <h3>{{ post.title }}</h3>
-                <h5>{{ post.subtitle }}</h5>
+                <h5>{% if post.subtitle %}{{ post.subtitle }}{% endif %}</h5>
 
                 <div style="margin-top: 30px">
                     <h4>Comments ({{ comments_count }})</h4>
@@ -19,6 +19,15 @@
                                 <div class="col">
                                     <span class="badge rounded-pill bg-primary">{{ forloop.counter }}</span>
                                     <b>{{ comment.author }}</b> said {{ comment.created_on|timesince }} ago
+                                </div>
+                                <div class="col">
+                                    {% if request.user.is_authenticated %}
+                                        <form method="post" action="{% url 'posts:like comment' post.id comment.id %}">
+                                            {% csrf_token %}
+                                                <button class="btn btn-link" style="float: right; padding: 0"><i class="fa-solid fa-heart"
+                                                                              style="color: red"><span> {{ comment.like_count }}</span></i></button>
+                                        </form>
+                                    {% endif %}
                                 </div>
                             </div>
                         </div>
