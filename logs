@@ -7285,3 +7285,55 @@ django.template.exceptions.TemplateSyntaxError: Invalid block tag on line 41: 'e
 [2022-12-08 18:31:36,050] - [INFO] "GET /posts/post/1/comments/ HTTP/1.1" 200 11587
 [2022-12-08 18:31:38,123] - [INFO] "POST /posts/post/1/comment/2/like/ HTTP/1.1" 302 0
 [2022-12-08 18:31:38,215] - [INFO] "GET /posts/post/1/comments/ HTTP/1.1" 200 11587
+[2022-12-09 09:58:43,529] - [INFO] Watching for file changes with StatReloader
+[2022-12-09 10:00:04,922] - [INFO] Watching for file changes with StatReloader
+[2022-12-09 10:00:10,606] - [INFO] "GET / HTTP/1.1" 200 8371
+[2022-12-09 10:00:10,663] - [INFO] "GET /static/fontawesomefree/css/fontawesome.css HTTP/1.1" 304 0
+[2022-12-09 10:00:10,664] - [INFO] "GET /static/fontawesomefree/css/brands.css HTTP/1.1" 304 0
+[2022-12-09 10:00:10,665] - [INFO] "GET /static/css/style.css HTTP/1.1" 304 0
+[2022-12-09 10:00:10,665] - [INFO] "GET /static/fontawesomefree/css/solid.css HTTP/1.1" 304 0
+[2022-12-09 10:00:10,782] - [INFO] "GET /static/fontawesomefree/webfonts/fa-solid-900.woff2 HTTP/1.1" 304 0
+[2022-12-09 10:00:11,149] - [INFO] "GET /static/img/flaticon.png HTTP/1.1" 200 11490
+[2022-12-09 10:00:15,025] - [INFO] "GET /marketplace/ HTTP/1.1" 200 15254
+[2022-12-09 10:00:16,622] - [INFO] "GET /marketplace/product-add/ HTTP/1.1" 200 33878
+[2022-12-09 10:00:16,760] - [WARNING] "GET /static/flags/__.gif HTTP/1.1" 404 1795
+[2022-12-09 10:00:17,942] - [INFO] "GET / HTTP/1.1" 200 8371
+[2022-12-09 10:03:45,172] - [INFO] Watching for file changes with StatReloader
+[2022-12-09 10:03:46,915] - [INFO] "GET / HTTP/1.1" 200 8371
+[2022-12-09 10:03:50,162] - [INFO] "GET /posts/all/ HTTP/1.1" 200 7188
+[2022-12-09 10:03:51,349] - [INFO] "GET /posts/post/1/ HTTP/1.1" 200 6364
+[2022-12-09 10:03:52,495] - [INFO] "GET /posts/post/1/comments/ HTTP/1.1" 200 11610
+[2022-12-09 10:03:53,776] - [INFO] "POST /posts/post/1/comment/1/like/ HTTP/1.1" 302 0
+[2022-12-09 10:03:53,863] - [INFO] "GET /posts/post/1/comments/ HTTP/1.1" 200 11610
+[2022-12-09 10:03:54,673] - [INFO] "POST /posts/post/1/comment/1/like/ HTTP/1.1" 302 0
+[2022-12-09 10:03:54,765] - [INFO] "GET /posts/post/1/comments/ HTTP/1.1" 200 11610
+[2022-12-09 10:03:58,448] - [INFO] "POST /posts/post/1/comments/ HTTP/1.1" 302 0
+[2022-12-09 10:03:58,545] - [INFO] "GET /posts/post/1/comments/ HTTP/1.1" 200 13164
+[2022-12-09 10:04:29,623] - [INFO] "GET /marketplace/product-add/ HTTP/1.1" 200 33878
+[2022-12-09 10:04:29,666] - [WARNING] "GET /static/flags/__.gif HTTP/1.1" 404 1795
+[2022-12-09 10:04:34,268] - [WARNING] "GET /static/flags/at.gif HTTP/1.1" 404 1795
+[2022-12-09 10:04:35,380] - [INFO] "GET /marketplace/ HTTP/1.1" 200 15254
+[2022-12-09 10:04:41,787] - [INFO] "GET /marketplace/?q=ghfgj HTTP/1.1" 200 13473
+[2022-12-09 10:04:44,648] - [INFO] "GET /marketplace/ HTTP/1.1" 200 15254
+[2022-12-09 10:05:36,885] - [INFO] "GET /marketplace/ HTTP/1.1" 200 15254
+[2022-12-09 10:05:37,266] - [INFO] C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\agri_trade\settings.py changed, reloading.
+[2022-12-09 10:05:38,479] - [INFO] Watching for file changes with StatReloader
+[2022-12-09 10:05:39,110] - [INFO] "GET /posts/all/ HTTP/1.1" 200 7188
+[2022-12-09 10:05:41,895] - [INFO] "GET /posts/post/1/ HTTP/1.1" 200 6364
+[2022-12-09 10:05:42,885] - [INFO] "GET /posts/post/1/comments/ HTTP/1.1" 200 13163
+[2022-12-09 10:05:46,182] - [INFO] "POST /posts/post/1/comments/ HTTP/1.1" 302 0
+[2022-12-09 10:05:46,282] - [INFO] "GET /posts/post/1/comments/ HTTP/1.1" 200 14717
+[2022-12-09 10:05:50,059] - [INFO] "POST /posts/post/1/comment/5/like/ HTTP/1.1" 302 0
+[2022-12-09 10:05:50,153] - [INFO] "GET /posts/post/1/comments/ HTTP/1.1" 200 14717
+[2022-12-09 10:05:52,237] - [INFO] "POST /posts/post/1/comment/5/like/ HTTP/1.1" 302 0
+[2022-12-09 10:05:52,344] - [INFO] - Broken pipe from ('127.0.0.1', 62579)
+[2022-12-09 10:05:52,347] - [INFO] "POST /posts/post/1/comment/5/like/ HTTP/1.1" 302 0
+[2022-12-09 10:05:52,546] - [INFO] "GET /posts/post/1/comments/ HTTP/1.1" 200 14717
+[2022-12-09 10:05:58,868] - [INFO] "GET /marketplace/product-add/ HTTP/1.1" 200 33878
+[2022-12-09 10:05:58,909] - [WARNING] "GET /static/flags/__.gif HTTP/1.1" 404 1795
+[2022-12-09 10:06:14,825] - [WARNING] "GET /static/flags/bd.gif HTTP/1.1" 404 1795
+[2022-12-09 10:06:16,369] - [WARNING] "GET /static/flags/gi.gif HTTP/1.1" 404 1795
+[2022-12-09 10:06:17,531] - [INFO] "POST /marketplace/product-add/ HTTP/1.1" 302 0
+[2022-12-09 10:06:17,644] - [INFO] "GET /marketplace/ HTTP/1.1" 200 17676
+[2022-12-09 10:07:23,766] - [INFO] C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\agri_trade\settings.py changed, reloading.
+[2022-12-09 10:07:24,944] - [INFO] Watching for file changes with StatReloader
