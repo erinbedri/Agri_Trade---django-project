@@ -7337,3 +7337,60 @@ django.template.exceptions.TemplateSyntaxError: Invalid block tag on line 41: 'e
 [2022-12-09 10:06:17,644] - [INFO] "GET /marketplace/ HTTP/1.1" 200 17676
 [2022-12-09 10:07:23,766] - [INFO] C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\agri_trade\settings.py changed, reloading.
 [2022-12-09 10:07:24,944] - [INFO] Watching for file changes with StatReloader
+[2022-12-09 10:40:11,575] - [INFO] "GET /marketplace/?q=erinbedri HTTP/1.1" 200 16558
+[2022-12-09 10:40:12,733] - [INFO] "GET /marketplace/ HTTP/1.1" 200 17355
+[2022-12-09 10:40:36,644] - [INFO] "GET /marketplace/?q=Bangladesh HTTP/1.1" 200 15462
+[2022-12-09 10:43:21,654] - [INFO] "GET /marketplace/product-details/3 HTTP/1.1" 200 8656
+[2022-12-09 10:43:21,900] - [INFO] "GET /static/img/no_photo.jpg HTTP/1.1" 200 16804
+[2022-12-09 10:43:57,083] - [INFO] "GET /marketplace/ HTTP/1.1" 200 17355
+[2022-12-09 10:43:58,955] - [INFO] "GET /accounts/logout/ HTTP/1.1" 302 0
+[2022-12-09 10:43:58,966] - [INFO] "GET / HTTP/1.1" 200 6286
+[2022-12-09 10:44:03,702] - [INFO] "GET /accounts/register/ HTTP/1.1" 200 6837
+[2022-12-09 10:44:19,192] - [INFO] "GET /accounts/login/ HTTP/1.1" 200 5538
+[2022-12-09 10:44:26,647] - [INFO] "POST /accounts/login/ HTTP/1.1" 302 0
+[2022-12-09 10:44:26,748] - [INFO] "GET /marketplace/ HTTP/1.1" 200 17656
+[2022-12-09 10:44:47,316] - [INFO] "GET /marketplace/?q=Bahamas HTTP/1.1" 200 15224
+[2022-12-09 10:44:49,361] - [INFO] "GET /marketplace/ HTTP/1.1" 200 17355
+[2022-12-09 10:44:53,090] - [INFO] "GET /marketplace/?q=In%20Conversion HTTP/1.1" 200 15465
+[2022-12-09 10:44:59,479] - [INFO] "GET /marketplace/?q=Cereals HTTP/1.1" 200 15511
+[2022-12-09 10:45:04,215] - [INFO] "GET /marketplace/?q=erinbedri HTTP/1.1" 200 16558
+[2022-12-09 10:45:05,159] - [INFO] "GET /marketplace/ HTTP/1.1" 200 17355
+[2022-12-09 10:45:07,878] - [INFO] "GET /marketplace/favourites/ HTTP/1.1" 200 11349
+[2022-12-09 11:03:03,928] - [INFO] "GET /marketplace/favourites/ HTTP/1.1" 200 11349
+[2022-12-09 11:03:05,441] - [INFO] "GET /marketplace/ HTTP/1.1" 200 17355
+[2022-12-09 13:00:19,111] - [INFO] Watching for file changes with StatReloader
+[2022-12-09 13:04:34,550] - [INFO] Watching for file changes with StatReloader
+[2022-12-09 13:05:36,981] - [INFO] Watching for file changes with StatReloader
+[2022-12-09 13:06:22,546] - [INFO] Watching for file changes with StatReloader
+[2022-12-09 13:09:49,813] - [INFO] Watching for file changes with StatReloader
+[2022-12-09 13:10:29,785] - [INFO] Watching for file changes with StatReloader
+[2022-12-09 13:11:11,293] - [INFO] Watching for file changes with StatReloader
+[2022-12-09 13:11:36,537] - [INFO] Watching for file changes with StatReloader
+[2022-12-09 13:14:10,030] - [INFO] C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\agri_trade\settings.py changed, reloading.
+[2022-12-09 13:14:11,180] - [INFO] Watching for file changes with StatReloader
+[2022-12-09 13:15:09,847] - [INFO] C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\agri_trade\settings.py changed, reloading.
+[2022-12-09 13:15:11,040] - [INFO] Watching for file changes with StatReloader
+[2022-12-09 13:17:37,287] - [INFO] C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\agri_trade\settings.py changed, reloading.
+[2022-12-09 13:17:38,424] - [INFO] Watching for file changes with StatReloader
+[2022-12-09 13:17:59,452] - [INFO] Watching for file changes with StatReloader
+[2022-12-09 13:19:39,103] - [INFO] Watching for file changes with StatReloader
+[2022-12-09 13:20:06,793] - [INFO] Watching for file changes with StatReloader
+[2022-12-09 13:20:11,529] - [INFO] "GET / HTTP/1.1" 200 8371
+[2022-12-09 13:20:17,364] - [INFO] "GET /marketplace/ HTTP/1.1" 200 17355
+[2022-12-09 13:20:18,400] - [INFO] "GET /marketplace/product-add/ HTTP/1.1" 200 33878
+[2022-12-09 13:20:18,524] - [WARNING] "GET /static/flags/__.gif HTTP/1.1" 404 1795
+[2022-12-09 13:20:52,311] - [INFO] Watching for file changes with StatReloader
+[2022-12-09 13:21:12,327] - [INFO] Watching for file changes with StatReloader
+[2022-12-09 13:25:33,354] - [INFO] Watching for file changes with StatReloader
+[2022-12-09 13:27:27,061] - [INFO] Watching for file changes with StatReloader
+[2022-12-09 13:29:21,714] - [INFO] C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\agri_trade\settings.py changed, reloading.
+[2022-12-09 13:45:19,065] - [INFO] Watching for file changes with StatReloader
+[2022-12-09 13:46:15,378] - [INFO] C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\agri_trade\settings.py changed, reloading.
+[2022-12-09 14:19:53,669] - [INFO] Watching for file changes with StatReloader
+[2022-12-09 14:19:57,693] - [INFO] "GET / HTTP/1.1" 200 8371
+[2022-12-09 14:19:58,756] - [INFO] "GET /marketplace/ HTTP/1.1" 200 17355
+[2022-12-09 14:19:59,388] - [INFO] "GET /marketplace/product-add/ HTTP/1.1" 200 33878
+[2022-12-09 14:19:59,431] - [WARNING] "GET /static/flags/__.gif HTTP/1.1" 404 1795
+[2022-12-09 14:20:00,432] - [INFO] "GET / HTTP/1.1" 200 8371
+[2022-12-09 14:20:25,071] - [INFO] C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\agri_trade\settings.py changed, reloading.
+[2022-12-09 14:20:26,241] - [INFO] Watching for file changes with StatReloader
