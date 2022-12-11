@@ -7475,3 +7475,8 @@ django.template.exceptions.TemplateSyntaxError: Invalid block tag on line 41: 'e
 [2022-12-11 11:46:50,125] - [WARNING] "GET /posts/post/14/ HTTP/1.1" 404 3874
 [2022-12-11 11:46:52,238] - [WARNING] Not Found: /posts/post/14/
 [2022-12-11 11:46:52,238] - [WARNING] "GET /posts/post/14/ HTTP/1.1" 404 3874
+[2022-12-11 11:51:48,263] - [INFO] Watching for file changes with StatReloader
+[2022-12-11 11:52:04,530] - [INFO] Watching for file changes with StatReloader
+[2022-12-11 11:52:12,425] - [INFO] C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\agri_trade\settings.py changed, reloading.
+[2022-12-11 11:52:13,470] - [INFO] Watching for file changes with StatReloader
+[2022-12-11 11:55:38,095] - [INFO] Watching for file changes with StatReloader
