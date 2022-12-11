@@ -7461,3 +7461,17 @@ django.template.exceptions.TemplateSyntaxError: Invalid block tag on line 41: 'e
 [2022-12-11 11:35:50,145] - [INFO] "GET /posts/all/ HTTP/1.1" 200 7233
 [2022-12-11 11:36:23,206] - [INFO] C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\agri_trade\posts\views.py changed, reloading.
 [2022-12-11 11:36:24,445] - [INFO] Watching for file changes with StatReloader
+[2022-12-11 11:43:39,547] - [INFO] "GET /posts/post/1/ HTTP/1.1" 200 6409
+[2022-12-11 11:43:43,091] - [WARNING] Not Found: /posts/post/15/
+[2022-12-11 11:43:43,092] - [WARNING] "GET /posts/post/15/ HTTP/1.1" 404 3874
+[2022-12-11 11:43:43,349] - [WARNING] Not Found: /favicon.ico
+[2022-12-11 11:43:43,349] - [WARNING] "GET /favicon.ico HTTP/1.1" 404 3562
+[2022-12-11 11:43:52,215] - [INFO] "GET /posts/all/ HTTP/1.1" 200 7233
+[2022-12-11 11:46:43,510] - [INFO] C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\agri_trade\settings.py changed, reloading.
+[2022-12-11 11:46:44,825] - [INFO] Watching for file changes with StatReloader
+[2022-12-11 11:46:45,402] - [INFO] "GET /posts/all/ HTTP/1.1" 200 7233
+[2022-12-11 11:46:46,780] - [INFO] "GET /posts/post/1/ HTTP/1.1" 200 6409
+[2022-12-11 11:46:50,125] - [WARNING] Not Found: /posts/post/14/
+[2022-12-11 11:46:50,125] - [WARNING] "GET /posts/post/14/ HTTP/1.1" 404 3874
+[2022-12-11 11:46:52,238] - [WARNING] Not Found: /posts/post/14/
+[2022-12-11 11:46:52,238] - [WARNING] "GET /posts/post/14/ HTTP/1.1" 404 3874
