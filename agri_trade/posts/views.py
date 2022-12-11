@@ -1,20 +1,27 @@
 from django.http import HttpResponseRedirect
 from django.shortcuts import render, get_object_or_404
 from django.urls import reverse
+from django.views.generic import ListView
 
 from agri_trade.posts.forms import PostCommentForm
 from agri_trade.posts import services as post_services
-from agri_trade.posts.models import PostComment
+from agri_trade.posts.models import PostComment, Post
 
 
-def show_posts(request):
-    posts = post_services.get_all_posts()
+# def show_posts(request):
+#     posts = post_services.get_all_posts()
+#
+#     context = {
+#         'posts': posts,
+#     }
+#
+#     return render(request, 'posts/show_posts.html', context)
 
-    context = {
-        'posts': posts,
-    }
 
-    return render(request, 'posts/show_posts.html', context)
+class PostsListView(ListView):
+    model = Post
+    context_object_name = 'posts'
+    template_name = 'posts/show_posts.html'
 
 
 def show_post(request, pk):

@@ -7394,3 +7394,70 @@ django.template.exceptions.TemplateSyntaxError: Invalid block tag on line 41: 'e
 [2022-12-09 14:20:00,432] - [INFO] "GET / HTTP/1.1" 200 8371
 [2022-12-09 14:20:25,071] - [INFO] C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\agri_trade\settings.py changed, reloading.
 [2022-12-09 14:20:26,241] - [INFO] Watching for file changes with StatReloader
+[2022-12-09 14:39:14,189] - [INFO] "GET / HTTP/1.1" 200 8371
+[2022-12-09 14:39:15,670] - [INFO] "GET /posts/all/ HTTP/1.1" 200 7188
+[2022-12-09 14:39:17,066] - [INFO] "GET / HTTP/1.1" 200 8371
+[2022-12-09 14:40:16,892] - [INFO] "GET / HTTP/1.1" 200 8371
+[2022-12-09 14:40:17,928] - [INFO] "GET / HTTP/1.1" 200 8416
+[2022-12-09 14:40:26,152] - [INFO] "GET / HTTP/1.1" 200 8425
+[2022-12-09 14:40:27,180] - [INFO] "GET / HTTP/1.1" 200 8425
+[2022-12-09 14:40:33,225] - [INFO] "GET / HTTP/1.1" 200 8425
+[2022-12-09 14:40:34,439] - [INFO] "GET / HTTP/1.1" 200 8425
+[2022-12-09 14:40:34,876] - [INFO] "GET /posts/all/ HTTP/1.1" 200 7242
+[2022-12-09 14:43:15,944] - [INFO] "GET /posts/all/ HTTP/1.1" 200 7233
+[2022-12-09 14:43:16,652] - [INFO] "GET /posts/all/ HTTP/1.1" 200 7233
+[2022-12-09 14:43:33,335] - [INFO] "GET /posts/all/ HTTP/1.1" 200 7233
+[2022-12-09 14:43:33,998] - [INFO] "GET /posts/all/ HTTP/1.1" 200 7230
+[2022-12-09 14:43:43,960] - [INFO] "GET /posts/all/ HTTP/1.1" 200 7230
+[2022-12-09 14:43:44,415] - [INFO] "GET /posts/all/ HTTP/1.1" 200 7230
+[2022-12-09 14:43:44,879] - [INFO] "GET /posts/all/ HTTP/1.1" 200 7233
+[2022-12-09 14:43:45,530] - [INFO] "GET /posts/all/ HTTP/1.1" 200 7233
+[2022-12-09 14:44:07,373] - [INFO] "GET /posts/all/ HTTP/1.1" 200 7233
+[2022-12-09 14:44:09,630] - [INFO] "GET /posts/all/ HTTP/1.1" 200 7233
+[2022-12-09 14:44:09,880] - [INFO] "GET /posts/all/ HTTP/1.1" 200 7233
+[2022-12-09 14:44:10,576] - [INFO] "GET /posts/post/1/ HTTP/1.1" 200 6409
+[2022-12-09 14:44:13,738] - [INFO] "GET /posts/post/1/comments/ HTTP/1.1" 200 14784
+[2022-12-09 14:44:15,900] - [INFO] "POST /posts/post/1/comment/4/like/ HTTP/1.1" 302 0
+[2022-12-09 14:44:15,991] - [INFO] "GET /posts/post/1/comments/ HTTP/1.1" 200 14784
+[2022-12-09 14:44:17,752] - [INFO] "POST /posts/post/1/comment/1/like/ HTTP/1.1" 302 0
+[2022-12-09 14:44:17,847] - [INFO] "GET /posts/post/1/comments/ HTTP/1.1" 200 14784
+[2022-12-09 14:44:18,655] - [INFO] "POST /posts/post/1/comment/1/like/ HTTP/1.1" 302 0
+[2022-12-09 14:44:18,750] - [INFO] "GET /posts/post/1/comments/ HTTP/1.1" 200 14784
+[2022-12-11 11:26:24,926] - [INFO] Watching for file changes with StatReloader
+[2022-12-11 11:26:45,115] - [INFO] "GET / HTTP/1.1" 200 8416
+[2022-12-11 11:26:45,148] - [INFO] "GET /static/fontawesomefree/css/fontawesome.css HTTP/1.1" 304 0
+[2022-12-11 11:26:45,163] - [INFO] "GET /static/fontawesomefree/css/brands.css HTTP/1.1" 304 0
+[2022-12-11 11:26:45,164] - [INFO] "GET /static/fontawesomefree/css/solid.css HTTP/1.1" 304 0
+[2022-12-11 11:26:45,170] - [INFO] "GET /static/js/scripts.js HTTP/1.1" 304 0
+[2022-12-11 11:26:45,171] - [INFO] "GET /static/img/logo.png HTTP/1.1" 304 0
+[2022-12-11 11:26:45,171] - [INFO] "GET /static/css/style.css HTTP/1.1" 304 0
+[2022-12-11 11:26:45,172] - [INFO] "GET /static/img/homepage_circle.png HTTP/1.1" 304 0
+[2022-12-11 11:26:45,259] - [INFO] "GET /static/fontawesomefree/webfonts/fa-solid-900.woff2 HTTP/1.1" 304 0
+[2022-12-11 11:26:46,635] - [INFO] "GET /posts/all/ HTTP/1.1" 200 7233
+[2022-12-11 11:28:35,441] - [INFO] "GET /posts/all/ HTTP/1.1" 200 7233
+[2022-12-11 11:28:36,359] - [INFO] C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\agri_trade\posts\views.py changed, reloading.
+[2022-12-11 11:28:37,556] - [INFO] Watching for file changes with StatReloader
+[2022-12-11 11:28:38,213] - [INFO] "GET /posts/post/1/ HTTP/1.1" 200 6409
+[2022-12-11 11:28:39,488] - [INFO] "GET /posts/all/ HTTP/1.1" 200 7233
+[2022-12-11 11:28:40,839] - [INFO] "GET / HTTP/1.1" 200 8416
+[2022-12-11 11:28:41,399] - [INFO] "GET /posts/all/ HTTP/1.1" 200 7233
+[2022-12-11 11:34:18,633] - [INFO] C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\agri_trade\posts\urls.py changed, reloading.
+[2022-12-11 11:34:19,849] - [INFO] Watching for file changes with StatReloader
+[2022-12-11 11:34:56,425] - [INFO] C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\agri_trade\posts\views.py changed, reloading.
+[2022-12-11 11:34:57,886] - [INFO] Watching for file changes with StatReloader
+[2022-12-11 11:35:36,602] - [INFO] C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\agri_trade\posts\views.py changed, reloading.
+[2022-12-11 11:35:38,016] - [INFO] Watching for file changes with StatReloader
+[2022-12-11 11:35:38,593] - [INFO] "GET /posts/all/ HTTP/1.1" 200 7233
+[2022-12-11 11:35:38,676] - [INFO] "GET /static/img/flaticon.png HTTP/1.1" 304 0
+[2022-12-11 11:35:39,471] - [INFO] "GET /posts/all/ HTTP/1.1" 200 7233
+[2022-12-11 11:35:40,649] - [INFO] "GET / HTTP/1.1" 200 8416
+[2022-12-11 11:35:41,550] - [INFO] "GET /posts/all/ HTTP/1.1" 200 7233
+[2022-12-11 11:35:42,303] - [INFO] "GET /posts/post/1/ HTTP/1.1" 200 6409
+[2022-12-11 11:35:43,484] - [INFO] "GET / HTTP/1.1" 200 8416
+[2022-12-11 11:35:44,479] - [INFO] "GET / HTTP/1.1" 200 8416
+[2022-12-11 11:35:45,723] - [INFO] "GET /posts/all/ HTTP/1.1" 200 7233
+[2022-12-11 11:35:46,635] - [INFO] "GET /posts/post/1/ HTTP/1.1" 200 6409
+[2022-12-11 11:35:48,651] - [INFO] "GET /posts/post/1/comments/ HTTP/1.1" 200 14756
+[2022-12-11 11:35:50,145] - [INFO] "GET /posts/all/ HTTP/1.1" 200 7233
+[2022-12-11 11:36:23,206] - [INFO] C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\agri_trade\posts\views.py changed, reloading.
+[2022-12-11 11:36:24,445] - [INFO] Watching for file changes with StatReloader
