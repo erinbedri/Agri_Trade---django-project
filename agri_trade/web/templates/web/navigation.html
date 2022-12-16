@@ -1,4 +1,5 @@
 {% load static %}
+
 <nav class="navbar navbar-expand-lg navbar-light" style="background-color: #e3f2fd;">
     <div class="container-fluid">
         <a class="navbar-brand" href="{% url 'web:homepage' %}">
@@ -9,28 +10,35 @@
             <span class="navbar-toggler-icon"></span>
         </button>
         <ul class="navbar-nav">
-            <li class="nav-item">
-                <a class="btn btn-outline-primary" href="{% url 'posts:show posts' %}"><i class="fa-solid fa-book-open-reader"></i> INSIGHTS</a>
+            <li class="nav-item px-2">
+                <a class="btn btn-outline-primary" href="{% url 'posts:show posts' %}">
+                    <i class="fa-solid fa-book-open-reader"></i> INSIGHTS
+                </a>
             </li>
         </ul>
 
         <div class="collapse navbar-collapse" id="navbarNavDropdown">
             <ul class="navbar-nav ms-auto">
                 {% if request.user.is_authenticated %}
-                    <li class="nav-item" style="margin-right: 25px">
-                        <b><a class="nav-link" href="{% url 'accounts:account' %}"
-                              style="color: #2fa1fd">Welcome, {{ request.user.username }}!</a></b>
+                    <li class="nav-item px-2">
+                        <b>
+                            <a class="nav-link"
+                               href="{% url 'accounts:account' %}"
+                               style="color: #2fa1fd">Welcome, {{ request.user.username }}!
+                            </a>
+                        </b>
                     </li>
-                    <li class="nav-item" style="padding-right: 20px">
+                    <li class="nav-item px-2">
                         <a class="btn btn-outline-primary" href="{% url 'marketplace:marketplace' %}"><i
                                 class="fa-solid fa-store"></i> Marketplace</a>
                     </li>
-                    <li class="nav-item" style="padding-right: 20px">
+                    <li class="nav-item px-2">
                         <a class="btn btn-outline-primary" href="{% url 'marketplace:add product' %}"><i
                                 class="fa-solid fa-plus"></i> Add Produce</a>
                     </li>
-                    <li class="nav-item" style="padding-right: 20px">
-                        <button type="button" class="btn btn-outline-primary position-relative"
+                    <li class="nav-item px-2">
+                        <button type="button"
+                                class="btn btn-outline-primary position-relative"
                                 onclick="location.href = '{% url 'user_messages:messages' %}';"><i
                                 class="fa-solid fa-envelope"></i> Messages
                             {% if request.unread_messages_count > 0 %}
@@ -42,9 +50,12 @@
                         </button>
                     </li>
 
-                    <div class="dropdown">
-                        <button class="btn btn-outline-primary dropdown-toggle" type="button" id="dropdownMenuButton1"
-                                data-bs-toggle="dropdown" aria-expanded="false"><i class="fa-solid fa-user"></i> Account
+                    <div class="dropdown px-2">
+                        <button class="btn btn-outline-primary dropdown-toggle"
+                                type="button" id="dropdownMenuButton1"
+                                data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                            <i class="fa-solid fa-user"></i> Account
                         </button>
                         <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
                             <li>
@@ -66,15 +77,14 @@
                     </div>
 
                 {% else %}
-                    <li class="nav-item" style="padding-right: 20px">
+                    <li class="nav-item px-2">
                         <a class="btn btn-outline-primary" href="{% url 'accounts:login' %}">Login</a>
                     </li>
-                    <li class="nav-item" style="padding-right: 20px">
+                    <li class="nav-item px-2">
                         <a class="btn btn-outline-primary" aria-current="page" href="{% url 'accounts:register' %}">Register</a>
                     </li>
                 {% endif %}
             </ul>
         </div>
-
     </div>
 </nav>
