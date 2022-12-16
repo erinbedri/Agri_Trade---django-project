@@ -1,17 +1,17 @@
 {% extends 'web/base.html' %}
 
 {% block content %}
-    <div class="container" style="margin-top: 30px; margin-bottom: 50px">
+    <div class="container mt-4 mb-5">
         <div class="row justify-content-md-center">
             <h3>Agri Trade Insights</h3>
             <h5>Get access to extensive insights from the food and agricultural markets for free!</h5>
-            <div class="container" style="margin-top: 30px">
+            <div class="container mt-4">
                 <div class="row">
                     {% if not posts %}
                         <h3>There are no posts published yet! Come again later.</h3>
                     {% else %}
                         {% for post in posts %}
-                            <div class="col-sm-6" style="margin-bottom: 30px">
+                            <div class="col-sm-6 mb-4">
                                 <div class="card text-center">
                                     <div class="card-header" style="background-color: #e3f2fd;">{{ post.topic }}</div>
                                     <div class="card-body">
