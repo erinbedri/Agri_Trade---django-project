@@ -8305,3 +8305,64 @@ NameError: name 'pk' is not defined
 [2022-12-16 14:00:37,946] - [INFO] "GET /posts/post/1/comments/ HTTP/1.1" 200 14719
 [2022-12-16 14:00:38,267] - [INFO] "GET /posts/post/1/comments/ HTTP/1.1" 200 14719
 [2022-12-16 14:00:40,626] - [INFO] "GET /posts/post/1/comments/ HTTP/1.1" 200 14719
+[2022-12-16 14:01:23,763] - [INFO] "POST /posts/post/1/comments/ HTTP/1.1" 302 0
+[2022-12-16 14:01:23,858] - [INFO] "GET /posts/post/1/comments/ HTTP/1.1" 200 16245
+[2022-12-16 14:01:26,011] - [INFO] "POST /posts/post/1/comment/1/like/ HTTP/1.1" 302 0
+[2022-12-16 14:01:26,106] - [INFO] "GET /posts/post/1/comments/ HTTP/1.1" 200 16245
+[2022-12-16 14:01:26,642] - [INFO] "POST /posts/post/1/comment/1/like/ HTTP/1.1" 302 0
+[2022-12-16 14:01:26,744] - [INFO] "GET /posts/post/1/comments/ HTTP/1.1" 200 16245
+[2022-12-16 14:01:28,415] - [INFO] "POST /posts/post/1/comment/6/like/ HTTP/1.1" 302 0
+[2022-12-16 14:01:28,509] - [INFO] "GET /posts/post/1/comments/ HTTP/1.1" 200 16245
+[2022-12-16 14:01:31,873] - [INFO] "GET /posts/all/ HTTP/1.1" 200 7366
+[2022-12-16 14:01:38,346] - [INFO] "GET /marketplace/ HTTP/1.1" 200 17568
+[2022-12-16 14:10:49,106] - [INFO] "GET /marketplace/product-add/ HTTP/1.1" 200 34137
+[2022-12-16 14:10:49,146] - [INFO] "GET /static/css/style.css HTTP/1.1" 304 0
+[2022-12-16 14:10:49,166] - [WARNING] "GET /static/flags/__.gif HTTP/1.1" 404 1795
+[2022-12-16 14:10:50,532] - [INFO] "GET /marketplace/ HTTP/1.1" 200 17568
+[2022-12-16 14:10:51,509] - [INFO] "GET /marketplace/product-add/ HTTP/1.1" 200 34137
+[2022-12-16 14:10:51,546] - [WARNING] "GET /static/flags/__.gif HTTP/1.1" 404 1795
+[2022-12-16 17:19:35,103] - [INFO] "GET /posts/all/ HTTP/1.1" 200 7366
+[2022-12-16 17:19:35,138] - [INFO] "GET /static/css/style.css HTTP/1.1" 304 0
+[2022-12-16 17:19:35,995] - [INFO] "GET /posts/post/1/ HTTP/1.1" 200 6611
+[2022-12-16 17:19:37,285] - [INFO] "GET /posts/post/1/comments/ HTTP/1.1" 200 16256
+[2022-12-16 17:21:37,291] - [INFO] C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\agri_trade\posts\admin.py changed, reloading.
+[2022-12-16 17:21:39,160] - [INFO] Watching for file changes with StatReloader
+[2022-12-16 17:21:57,778] - [INFO] Watching for file changes with StatReloader
+[2022-12-16 17:22:17,089] - [INFO] Watching for file changes with StatReloader
+[2022-12-16 17:22:31,198] - [INFO] C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\agri_trade\posts\admin.py changed, reloading.
+[2022-12-16 17:22:32,441] - [INFO] Watching for file changes with StatReloader
+[2022-12-16 17:22:33,185] - [INFO] "GET /admin/ HTTP/1.1" 200 3568
+[2022-12-16 17:22:33,906] - [INFO] "GET /static/admin/css/dashboard.css HTTP/1.1" 200 380
+[2022-12-16 17:22:33,916] - [INFO] "GET /static/admin/css/dark_mode.css HTTP/1.1" 200 796
+[2022-12-16 17:22:33,916] - [INFO] "GET /static/admin/css/nav_sidebar.css HTTP/1.1" 200 2619
+[2022-12-16 17:22:33,917] - [INFO] "GET /static/admin/css/base.css HTTP/1.1" 200 20344
+[2022-12-16 17:22:33,919] - [INFO] "GET /static/admin/css/responsive.css HTTP/1.1" 200 18854
+[2022-12-16 17:22:33,921] - [INFO] "GET /static/admin/js/nav_sidebar.js HTTP/1.1" 200 3763
+[2022-12-16 17:22:33,932] - [INFO] "GET /static/admin/css/fonts.css HTTP/1.1" 200 423
+[2022-12-16 17:22:33,961] - [INFO] "GET /static/admin/img/icon-changelink.svg HTTP/1.1" 200 380
+[2022-12-16 17:22:33,961] - [INFO] "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 200 331
+[2022-12-16 17:22:34,013] - [INFO] "GET /static/admin/fonts/Roboto-Light-webfont.woff HTTP/1.1" 200 85692
+[2022-12-16 17:22:34,019] - [INFO] "GET /static/admin/fonts/Roboto-Regular-webfont.woff HTTP/1.1" 200 85876
+[2022-12-16 17:22:34,021] - [INFO] "GET /static/admin/fonts/Roboto-Bold-webfont.woff HTTP/1.1" 200 86184
+[2022-12-16 17:23:59,837] - [INFO] "POST /admin/logout/ HTTP/1.1" 200 1553
+[2022-12-16 17:24:01,061] - [INFO] "GET /admin/ HTTP/1.1" 302 0
+[2022-12-16 17:24:01,154] - [INFO] "GET /admin/login/?next=/admin/ HTTP/1.1" 200 2222
+[2022-12-16 17:24:01,199] - [INFO] "GET /static/admin/css/login.css HTTP/1.1" 200 958
+[2022-12-16 17:24:05,268] - [INFO] "POST /admin/login/?next=/admin/ HTTP/1.1" 200 2383
+[2022-12-16 17:24:09,453] - [INFO] "POST /admin/login/?next=/admin/ HTTP/1.1" 200 2383
+[2022-12-16 17:24:16,330] - [INFO] "POST /admin/login/?next=/admin/ HTTP/1.1" 200 2383
+[2022-12-16 17:25:09,105] - [INFO] Watching for file changes with StatReloader
+[2022-12-16 17:25:34,939] - [INFO] C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\agri_trade\settings.py changed, reloading.
+[2022-12-16 17:25:36,103] - [INFO] Watching for file changes with StatReloader
+[2022-12-16 17:25:54,609] - [INFO] C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\agri_trade\settings.py changed, reloading.
+[2022-12-16 17:25:55,813] - [INFO] Watching for file changes with StatReloader
+[2022-12-16 17:26:21,717] - [INFO] Watching for file changes with StatReloader
+[2022-12-16 17:27:13,167] - [INFO] C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\agri_trade\settings.py changed, reloading.
+[2022-12-16 17:27:14,401] - [INFO] Watching for file changes with StatReloader
+[2022-12-16 17:27:38,134] - [INFO] "GET / HTTP/1.1" 200 5808
+[2022-12-16 17:27:41,681] - [INFO] "GET /accounts/register/ HTTP/1.1" 200 6896
+[2022-12-16 17:27:53,684] - [INFO] "POST /accounts/register/ HTTP/1.1" 200 7453
+[2022-12-16 17:28:09,092] - [INFO] "POST /accounts/register/ HTTP/1.1" 302 0
+[2022-12-16 17:28:09,115] - [INFO] "GET /accounts/login/ HTTP/1.1" 200 5911
+[2022-12-16 17:28:12,870] - [INFO] "POST /accounts/login/ HTTP/1.1" 302 0
+[2022-12-16 17:28:12,979] - [INFO] "GET /marketplace/ HTTP/1.1" 200 17869
