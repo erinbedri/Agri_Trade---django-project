@@ -15,7 +15,7 @@ class AddProductForm(forms.ModelForm):
     location = CountryField().formfield(
         widget=CountrySelectWidget(
            attrs={"class": "form-control"}
-        )
+        ),
     )
 
     class Meta:
