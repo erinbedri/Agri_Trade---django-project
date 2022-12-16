@@ -25,9 +25,13 @@
 
 {% include 'web/messages.html' %}
 
-{% include 'web/navigation.html' %}
+<header>
+    {% include 'web/navigation.html' %}
+</header>
 
-{% block content %}{% endblock %}
+<main>
+    {% block content %}{% endblock %}
+</main>
 
 {% include 'web/footer.html' %}
 

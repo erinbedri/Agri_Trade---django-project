@@ -7534,3 +7534,40 @@ NameError: name 'pk' is not defined
 [2022-12-11 12:07:11,277] - [INFO] Watching for file changes with StatReloader
 [2022-12-11 12:08:52,608] - [INFO] C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\agri_trade\posts\views.py changed, reloading.
 [2022-12-11 12:08:53,745] - [INFO] Watching for file changes with StatReloader
+[2022-12-11 12:11:13,510] - [INFO] "GET /posts/all/ HTTP/1.1" 200 7233
+[2022-12-11 12:11:14,311] - [INFO] "GET /posts/post/1/ HTTP/1.1" 200 6409
+[2022-12-11 12:11:17,636] - [INFO] "GET /marketplace/ HTTP/1.1" 200 17400
+[2022-12-11 12:17:33,435] - [INFO] "GET / HTTP/1.1" 200 8416
+[2022-12-11 12:17:34,940] - [INFO] "GET / HTTP/1.1" 200 8416
+[2022-12-16 12:15:24,459] - [INFO] Watching for file changes with StatReloader
+[2022-12-16 12:15:28,036] - [INFO] "GET / HTTP/1.1" 200 6011
+[2022-12-16 12:15:28,087] - [INFO] "GET /static/fontawesomefree/css/fontawesome.css HTTP/1.1" 304 0
+[2022-12-16 12:15:28,088] - [INFO] "GET /static/fontawesomefree/css/brands.css HTTP/1.1" 304 0
+[2022-12-16 12:15:28,094] - [INFO] "GET /static/css/style.css HTTP/1.1" 304 0
+[2022-12-16 12:15:28,095] - [INFO] "GET /static/fontawesomefree/css/solid.css HTTP/1.1" 304 0
+[2022-12-16 12:15:28,942] - [INFO] "GET /static/img/logo.png HTTP/1.1" 200 25234
+[2022-12-16 12:15:29,135] - [INFO] "GET /static/fontawesomefree/webfonts/fa-solid-900.woff2 HTTP/1.1" 200 150516
+[2022-12-16 12:15:29,211] - [INFO] "GET /static/img/homepage_circle.png HTTP/1.1" 200 120984
+[2022-12-16 12:15:29,213] - [INFO] "GET /static/js/scripts.js HTTP/1.1" 200 191
+[2022-12-16 12:15:36,111] - [INFO] "GET / HTTP/1.1" 200 6011
+[2022-12-16 12:15:36,897] - [INFO] "GET / HTTP/1.1" 200 6011
+[2022-12-16 12:16:39,327] - [INFO] "GET /posts/all/ HTTP/1.1" 200 4849
+[2022-12-16 12:16:40,327] - [INFO] "GET / HTTP/1.1" 200 6035
+[2022-12-16 12:16:41,293] - [INFO] "GET /accounts/login/ HTTP/1.1" 200 5607
+[2022-12-16 12:16:43,082] - [INFO] "POST /accounts/login/ HTTP/1.1" 302 0
+[2022-12-16 12:16:43,201] - [INFO] "GET /marketplace/ HTTP/1.1" 200 17725
+[2022-12-16 12:16:50,000] - [INFO] "GET / HTTP/1.1" 200 8440
+[2022-12-16 12:16:50,987] - [INFO] "GET / HTTP/1.1" 200 8440
+[2022-12-16 12:16:51,532] - [INFO] "GET /posts/all/ HTTP/1.1" 200 7255
+[2022-12-16 12:16:53,476] - [INFO] "GET /marketplace/ HTTP/1.1" 200 17424
+[2022-12-16 12:17:19,321] - [INFO] "GET /posts/all/ HTTP/1.1" 200 7273
+[2022-12-16 12:17:21,250] - [INFO] "GET /marketplace/ HTTP/1.1" 200 17442
+[2022-12-16 12:17:22,014] - [INFO] "GET /marketplace/product-details/1 HTTP/1.1" 200 8842
+[2022-12-16 12:17:22,057] - [INFO] "GET /static/img/no_photo.jpg HTTP/1.1" 200 16804
+[2022-12-16 12:17:24,795] - [INFO] "GET / HTTP/1.1" 200 8458
+[2022-12-16 12:17:26,413] - [INFO] "GET /marketplace/ HTTP/1.1" 200 17442
+[2022-12-16 12:17:27,582] - [INFO] "GET /marketplace/product-details/2 HTTP/1.1" 200 9902
+[2022-12-16 12:17:30,247] - [INFO] "GET /marketplace/ HTTP/1.1" 200 17442
+[2022-12-16 12:18:25,993] - [INFO] "GET / HTTP/1.1" 200 8458
+[2022-12-16 12:18:26,781] - [INFO] "GET /posts/all/ HTTP/1.1" 200 7273
+[2022-12-16 12:18:28,275] - [INFO] "GET /marketplace/ HTTP/1.1" 200 17442
