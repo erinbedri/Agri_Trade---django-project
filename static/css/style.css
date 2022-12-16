@@ -3,5 +3,5 @@ body {
 }
 
 .country-select-flag {
-    display: none;
+    display: none; !important;
 }
