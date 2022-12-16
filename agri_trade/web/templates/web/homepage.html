@@ -2,7 +2,7 @@
 {% load static %}
 
 {% block content %}
-    <div class="container" style="margin-top: 30px;">
+    <div class="container mt-4">
         <div class="row justify-content-md-center">
             <div class="col-md-12">
                 <div class="jumbotron">
@@ -14,15 +14,12 @@
                             <div>
                                 <h3>Our Solution</h3>
                                 <p>Agri Trade is a digital B2B marketplace that brings together Sellers and Buyers of
-                                    agricultural
-                                    products.</p>
+                                    agricultural products.</p>
                                 <p>Agri Trade is not a broker - we do not buy or sell agricultural products, we merely
-                                    offer
-                                    Sellers
-                                    to market their products easily on the market.</p>
+                                    offer Sellers to market their products easily on the market.</p>
                             </div>
 
-                            <div style="margin-top: 30px">
+                            <div class="mt-4">
                                 <h3>How It Works</h3>
                                 <ol>
                                     <li>Register to the Platform</li>
@@ -37,12 +34,12 @@
                             </div>
 
                             {% if not request.user.is_authenticated %}
-                                <p class="lead" style="margin-top: 30px">
+                                <p class="lead mt-4">
                                     <a class="btn btn-primary"
                                        href="{% url 'accounts:register' %}" role="button">Register Now ></a>
                                 </p>
                             {% else %}
-                                <p class="lead" style="margin-top: 30px">
+                                <p class="lead mt-4">
                                     <a class="btn btn-primary"
                                        href="{% url 'marketplace:marketplace' %}" role="button">Go to Marketplace ></a>
                                 </p>
@@ -58,7 +55,7 @@
         </div>
     </div>
 
-    <div style="margin-top: 30px; margin-bottom: 50px; background-color: #e3f2fd;">
+    <div class="mt-4 mb-5">
         <div class="container">
             {% comment %}
                 extend when needed
