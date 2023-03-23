@@ -8366,3 +8366,525 @@ NameError: name 'pk' is not defined
 [2022-12-16 17:28:09,115] - [INFO] "GET /accounts/login/ HTTP/1.1" 200 5911
 [2022-12-16 17:28:12,870] - [INFO] "POST /accounts/login/ HTTP/1.1" 302 0
 [2022-12-16 17:28:12,979] - [INFO] "GET /marketplace/ HTTP/1.1" 200 17869
+[2022-12-16 17:37:48,263] - [INFO] "GET /posts/all/ HTTP/1.1" 200 7366
+[2022-12-16 17:37:49,665] - [INFO] "GET /posts/post/1/ HTTP/1.1" 200 6611
+[2022-12-16 17:37:50,460] - [INFO] "GET / HTTP/1.1" 200 8413
+[2022-12-16 17:37:51,843] - [INFO] "GET /marketplace/ HTTP/1.1" 200 17568
+[2022-12-16 17:37:52,623] - [INFO] "GET /marketplace/product-add/ HTTP/1.1" 200 34137
+[2022-12-16 17:37:52,766] - [WARNING] "GET /static/flags/__.gif HTTP/1.1" 404 1795
+[2022-12-16 17:37:55,265] - [INFO] "GET / HTTP/1.1" 200 8413
+[2022-12-18 09:15:26,896] - [INFO] Watching for file changes with StatReloader
+[2022-12-18 09:15:43,989] - [INFO] "GET / HTTP/1.1" 200 8413
+[2022-12-18 09:15:44,058] - [INFO] "GET /static/css/style.css HTTP/1.1" 304 0
+[2022-12-18 09:15:44,929] - [INFO] "GET /static/js/scripts.js HTTP/1.1" 200 191
+[2022-12-18 09:15:44,933] - [INFO] "GET /static/fontawesomefree/css/fontawesome.css HTTP/1.1" 200 113333
+[2022-12-18 09:15:44,998] - [INFO] "GET /static/fontawesomefree/css/brands.css HTTP/1.1" 200 23682
+[2022-12-18 09:15:45,011] - [INFO] "GET /static/img/logo.png HTTP/1.1" 200 25234
+[2022-12-18 09:15:45,021] - [INFO] "GET /static/fontawesomefree/css/solid.css HTTP/1.1" 200 625
+[2022-12-18 09:15:45,131] - [INFO] "GET /static/fontawesomefree/webfonts/fa-solid-900.woff2 HTTP/1.1" 200 150516
+[2022-12-18 09:26:20,297] - [INFO] "GET /accounts/account/ HTTP/1.1" 200 11536
+[2022-12-18 09:26:24,322] - [INFO] "GET /marketplace/ HTTP/1.1" 200 17568
+[2022-12-18 09:37:28,711] - [INFO] C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\agri_trade\settings.py changed, reloading.
+[2022-12-18 09:37:29,908] - [INFO] Watching for file changes with StatReloader
+[2022-12-18 09:38:41,537] - [INFO] C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\agri_trade\posts\views.py changed, reloading.
+[2022-12-18 09:38:42,717] - [INFO] Watching for file changes with StatReloader
+[2022-12-18 09:51:26,104] - [INFO] "GET /marketplace/ HTTP/1.1" 200 17568
+[2022-12-18 10:19:11,535] - [INFO] "GET /marketplace/product-details/3 HTTP/1.1" 200 8915
+[2022-12-18 10:19:11,751] - [INFO] "GET /static/img/no_photo.jpg HTTP/1.1" 200 16804
+[2022-12-18 10:19:12,917] - [INFO] "GET /marketplace/product-edit/3 HTTP/1.1" 200 33808
+[2022-12-18 10:19:13,095] - [WARNING] "GET /static/flags/bd.gif HTTP/1.1" 404 1795
+[2022-12-18 10:19:13,095] - [WARNING] "GET /static/flags/gi.gif HTTP/1.1" 404 1795
+[2022-12-18 10:19:15,210] - [INFO] "POST /marketplace/product-edit/3 HTTP/1.1" 302 0
+[2022-12-18 10:19:15,320] - [INFO] "GET /marketplace/ HTTP/1.1" 200 17882
+[2022-12-18 10:19:18,725] - [INFO] "GET /marketplace/product-details/1 HTTP/1.1" 200 9014
+[2022-12-18 10:19:19,662] - [INFO] "GET /marketplace/product-edit/1 HTTP/1.1" 200 33871
+[2022-12-18 10:19:19,709] - [WARNING] "GET /static/flags/am.gif HTTP/1.1" 404 1795
+[2022-12-18 10:19:19,711] - [WARNING] "GET /static/flags/az.gif HTTP/1.1" 404 1795
+[2022-12-18 10:19:21,808] - [INFO] "POST /marketplace/product-edit/1 HTTP/1.1" 302 0
+[2022-12-18 10:19:21,913] - [INFO] "GET /marketplace/ HTTP/1.1" 200 17883
+[2023-03-23 10:27:41,632] - [INFO] Watching for file changes with StatReloader
+[2023-03-23 10:27:44,511] - [INFO] "GET / HTTP/1.1" 200 5808
+[2023-03-23 10:27:45,769] - [INFO] "GET /static/css/style.css HTTP/1.1" 200 113
+[2023-03-23 10:27:45,774] - [INFO] "GET /static/fontawesomefree/css/brands.css HTTP/1.1" 200 23682
+[2023-03-23 10:27:45,777] - [INFO] "GET /static/img/homepage_circle.png HTTP/1.1" 200 120984
+[2023-03-23 10:27:45,794] - [INFO] "GET /static/js/scripts.js HTTP/1.1" 200 191
+[2023-03-23 10:27:45,811] - [INFO] "GET /static/fontawesomefree/css/fontawesome.css HTTP/1.1" 200 113333
+[2023-03-23 10:27:45,812] - [INFO] "GET /static/img/logo.png HTTP/1.1" 200 25234
+[2023-03-23 10:27:45,818] - [INFO] "GET /static/fontawesomefree/css/solid.css HTTP/1.1" 200 625
+[2023-03-23 10:27:45,890] - [INFO] "GET /static/fontawesomefree/webfonts/fa-solid-900.woff2 HTTP/1.1" 200 150516
+[2023-03-23 10:27:45,927] - [INFO] "GET /static/img/flaticon.png HTTP/1.1" 200 11490
+[2023-03-23 10:27:48,818] - [INFO] "GET /accounts/login/ HTTP/1.1" 200 5597
+[2023-03-23 10:27:50,613] - [INFO] "POST /accounts/login/ HTTP/1.1" 200 6160
+[2023-03-23 10:27:52,535] - [INFO] "GET /accounts/register/ HTTP/1.1" 200 6896
+[2023-03-23 10:28:00,627] - [INFO] "POST /accounts/register/ HTTP/1.1" 200 7692
+[2023-03-23 10:28:16,487] - [INFO] "POST /accounts/register/ HTTP/1.1" 200 7677
+[2023-03-23 10:28:25,669] - [INFO] "POST /accounts/register/ HTTP/1.1" 200 7441
+[2023-03-23 10:28:40,664] - [INFO] "POST /accounts/register/ HTTP/1.1" 200 7454
+[2023-03-23 10:28:45,927] - [INFO] "GET /accounts/login/ HTTP/1.1" 200 5597
+[2023-03-23 10:28:53,287] - [INFO] "POST /accounts/login/ HTTP/1.1" 302 0
+[2023-03-23 10:28:53,440] - [INFO] "GET /marketplace/ HTTP/1.1" 200 17871
+[2023-03-23 10:28:59,261] - [INFO] "GET /marketplace/product-add/ HTTP/1.1" 200 34137
+[2023-03-23 10:28:59,442] - [WARNING] "GET /static/flags/__.gif HTTP/1.1" 404 1795
+[2023-03-23 10:29:10,063] - [WARNING] "GET /static/flags/bs.gif HTTP/1.1" 404 1795
+[2023-03-23 10:29:11,227] - [WARNING] "GET /static/flags/gg.gif HTTP/1.1" 404 1795
+[2023-03-23 10:29:31,595] - [INFO] "POST /marketplace/product-add/ HTTP/1.1" 302 0
+[2023-03-23 10:29:31,807] - [INFO] "GET /marketplace/ HTTP/1.1" 200 19519
+[2023-03-23 10:29:33,046] - [INFO] "GET /marketplace/product-details/4 HTTP/1.1" 200 9030
+[2023-03-23 10:29:34,381] - [INFO] "GET /marketplace/product-delete/4 HTTP/1.1" 200 7124
+[2023-03-23 10:29:35,420] - [INFO] "GET /marketplace/ HTTP/1.1" 200 19198
+[2023-03-23 10:29:36,816] - [INFO] "GET /marketplace/product-details/4 HTTP/1.1" 200 9030
+[2023-03-23 10:29:38,044] - [INFO] "GET /marketplace/product-edit/4 HTTP/1.1" 200 33879
+[2023-03-23 10:29:38,081] - [WARNING] "GET /static/flags/gg.gif HTTP/1.1" 404 1795
+[2023-03-23 10:29:38,081] - [WARNING] "GET /static/flags/bs.gif HTTP/1.1" 404 1795
+[2023-03-23 10:29:50,448] - [ERROR] Internal Server Error: /marketplace/product-edit/4
+Traceback (most recent call last):
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\contrib\auth\decorators.py", line 23, in _wrapped_view
+    return view_func(request, *args, **kwargs)
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\agri_trade\marketplace\views.py", line 104, in edit_product
+    if form.is_valid():
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\forms\forms.py", line 205, in is_valid
+    return self.is_bound and not self.errors
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\forms\forms.py", line 200, in errors
+    self.full_clean()
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\forms\forms.py", line 439, in full_clean
+    self._post_clean()
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\forms\models.py", line 492, in _post_clean
+    self.instance.full_clean(exclude=exclude, validate_unique=False)
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\db\models\base.py", line 1445, in full_clean
+    self.clean_fields(exclude=exclude)
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\db\models\base.py", line 1497, in clean_fields
+    setattr(self, f.attname, f.clean(raw_value, self))
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\db\models\fields\__init__.py", line 756, in clean
+    self.run_validators(value)
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\db\models\fields\__init__.py", line 708, in run_validators
+    v(value)
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\agri_trade\marketplace\validators.py", line 10, in file_size
+    if value.size > limit:
+AttributeError: 'CloudinaryResource' object has no attribute 'size'
+[2023-03-23 10:29:50,452] - [ERROR] "POST /marketplace/product-edit/4 HTTP/1.1" 500 114207
+[2023-03-23 10:29:50,864] - [WARNING] Not Found: /favicon.ico
+[2023-03-23 10:29:50,865] - [WARNING] "GET /favicon.ico HTTP/1.1" 404 3562
+[2023-03-23 10:30:36,950] - [INFO] C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\agri_trade\marketplace\validators.py changed, reloading.
+[2023-03-23 10:30:38,644] - [INFO] Watching for file changes with StatReloader
+[2023-03-23 10:30:39,433] - [ERROR] Internal Server Error: /marketplace/product-edit/4
+Traceback (most recent call last):
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\contrib\auth\decorators.py", line 23, in _wrapped_view
+    return view_func(request, *args, **kwargs)
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\agri_trade\marketplace\views.py", line 104, in edit_product
+    if form.is_valid():
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\forms\forms.py", line 205, in is_valid
+    return self.is_bound and not self.errors
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\forms\forms.py", line 200, in errors
+    self.full_clean()
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\forms\forms.py", line 439, in full_clean
+    self._post_clean()
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\forms\models.py", line 492, in _post_clean
+    self.instance.full_clean(exclude=exclude, validate_unique=False)
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\db\models\base.py", line 1445, in full_clean
+    self.clean_fields(exclude=exclude)
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\db\models\base.py", line 1497, in clean_fields
+    setattr(self, f.attname, f.clean(raw_value, self))
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\db\models\fields\__init__.py", line 756, in clean
+    self.run_validators(value)
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\db\models\fields\__init__.py", line 708, in run_validators
+    v(value)
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\agri_trade\marketplace\validators.py", line 10, in file_size
+    if value > limit:
+TypeError: '>' not supported between instances of 'CloudinaryResource' and 'int'
+[2023-03-23 10:30:39,437] - [ERROR] "POST /marketplace/product-edit/4 HTTP/1.1" 500 114291
+[2023-03-23 10:30:41,597] - [INFO] "GET /marketplace/product-edit/4 HTTP/1.1" 200 33879
+[2023-03-23 10:30:42,349] - [INFO] "GET /static/fontawesomefree/css/brands.css HTTP/1.1" 200 23682
+[2023-03-23 10:30:42,351] - [INFO] "GET /static/css/style.css HTTP/1.1" 200 113
+[2023-03-23 10:30:42,352] - [INFO] "GET /static/fontawesomefree/css/solid.css HTTP/1.1" 200 625
+[2023-03-23 10:30:42,354] - [INFO] "GET /static/fontawesomefree/css/fontawesome.css HTTP/1.1" 200 113333
+[2023-03-23 10:30:42,371] - [WARNING] "GET /static/flags/bs.gif HTTP/1.1" 404 1795
+[2023-03-23 10:30:42,372] - [WARNING] "GET /static/flags/gg.gif HTTP/1.1" 404 1795
+[2023-03-23 10:30:42,383] - [INFO] "GET /static/js/scripts.js HTTP/1.1" 200 191
+[2023-03-23 10:30:42,384] - [INFO] "GET /static/img/logo.png HTTP/1.1" 200 25234
+[2023-03-23 10:30:42,392] - [INFO] "GET /static/fontawesomefree/webfonts/fa-solid-900.woff2 HTTP/1.1" 200 150516
+[2023-03-23 10:30:45,464] - [ERROR] Internal Server Error: /marketplace/product-edit/4
+Traceback (most recent call last):
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\contrib\auth\decorators.py", line 23, in _wrapped_view
+    return view_func(request, *args, **kwargs)
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\agri_trade\marketplace\views.py", line 104, in edit_product
+    if form.is_valid():
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\forms\forms.py", line 205, in is_valid
+    return self.is_bound and not self.errors
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\forms\forms.py", line 200, in errors
+    self.full_clean()
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\forms\forms.py", line 439, in full_clean
+    self._post_clean()
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\forms\models.py", line 492, in _post_clean
+    self.instance.full_clean(exclude=exclude, validate_unique=False)
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\db\models\base.py", line 1445, in full_clean
+    self.clean_fields(exclude=exclude)
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\db\models\base.py", line 1497, in clean_fields
+    setattr(self, f.attname, f.clean(raw_value, self))
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\db\models\fields\__init__.py", line 756, in clean
+    self.run_validators(value)
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\db\models\fields\__init__.py", line 708, in run_validators
+    v(value)
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\agri_trade\marketplace\validators.py", line 10, in file_size
+    if value > limit:
+TypeError: '>' not supported between instances of 'CloudinaryResource' and 'int'
+[2023-03-23 10:30:45,465] - [ERROR] "POST /marketplace/product-edit/4 HTTP/1.1" 500 114291
+[2023-03-23 10:30:57,642] - [INFO] C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\agri_trade\marketplace\validators.py changed, reloading.
+[2023-03-23 10:30:58,928] - [INFO] Watching for file changes with StatReloader
+[2023-03-23 10:31:11,142] - [INFO] C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\agri_trade\marketplace\validators.py changed, reloading.
+[2023-03-23 10:31:12,593] - [INFO] Watching for file changes with StatReloader
+[2023-03-23 10:31:16,621] - [INFO] "GET /marketplace/product-edit/4 HTTP/1.1" 200 33879
+[2023-03-23 10:31:17,597] - [INFO] "GET /static/fontawesomefree/css/solid.css HTTP/1.1" 200 625
+[2023-03-23 10:31:17,601] - [INFO] "GET /static/fontawesomefree/css/brands.css HTTP/1.1" 200 23682
+[2023-03-23 10:31:17,603] - [INFO] "GET /static/fontawesomefree/css/fontawesome.css HTTP/1.1" 200 113333
+[2023-03-23 10:31:17,622] - [WARNING] "GET /static/flags/bs.gif HTTP/1.1" 404 1795
+[2023-03-23 10:31:17,625] - [INFO] "GET /static/css/style.css HTTP/1.1" 200 113
+[2023-03-23 10:31:17,625] - [WARNING] "GET /static/flags/gg.gif HTTP/1.1" 404 1795
+[2023-03-23 10:31:17,630] - [INFO] "GET /static/js/scripts.js HTTP/1.1" 200 191
+[2023-03-23 10:31:17,634] - [INFO] "GET /static/img/logo.png HTTP/1.1" 200 25234
+[2023-03-23 10:31:17,643] - [INFO] "GET /static/fontawesomefree/webfonts/fa-solid-900.woff2 HTTP/1.1" 200 150516
+[2023-03-23 10:31:19,973] - [ERROR] Internal Server Error: /marketplace/product-edit/4
+Traceback (most recent call last):
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\contrib\auth\decorators.py", line 23, in _wrapped_view
+    return view_func(request, *args, **kwargs)
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\agri_trade\marketplace\views.py", line 104, in edit_product
+    if form.is_valid():
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\forms\forms.py", line 205, in is_valid
+    return self.is_bound and not self.errors
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\forms\forms.py", line 200, in errors
+    self.full_clean()
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\forms\forms.py", line 439, in full_clean
+    self._post_clean()
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\forms\models.py", line 492, in _post_clean
+    self.instance.full_clean(exclude=exclude, validate_unique=False)
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\db\models\base.py", line 1445, in full_clean
+    self.clean_fields(exclude=exclude)
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\db\models\base.py", line 1497, in clean_fields
+    setattr(self, f.attname, f.clean(raw_value, self))
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\db\models\fields\__init__.py", line 756, in clean
+    self.run_validators(value)
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\db\models\fields\__init__.py", line 708, in run_validators
+    v(value)
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\agri_trade\marketplace\validators.py", line 11, in file_size
+    if value.size > limit:
+AttributeError: 'CloudinaryResource' object has no attribute 'size'
+[2023-03-23 10:31:19,977] - [ERROR] "POST /marketplace/product-edit/4 HTTP/1.1" 500 114223
+[2023-03-23 10:31:41,452] - [INFO] "GET /marketplace/product-edit/4 HTTP/1.1" 200 33879
+[2023-03-23 10:31:41,490] - [INFO] "GET /static/fontawesomefree/css/solid.css HTTP/1.1" 200 625
+[2023-03-23 10:31:41,490] - [INFO] "GET /static/fontawesomefree/css/brands.css HTTP/1.1" 200 23682
+[2023-03-23 10:31:41,490] - [INFO] "GET /static/css/style.css HTTP/1.1" 200 113
+[2023-03-23 10:31:41,492] - [INFO] "GET /static/fontawesomefree/css/fontawesome.css HTTP/1.1" 200 113333
+[2023-03-23 10:31:41,543] - [INFO] "GET /static/js/scripts.js HTTP/1.1" 200 191
+[2023-03-23 10:31:41,557] - [INFO] "GET /static/img/logo.png HTTP/1.1" 200 25234
+[2023-03-23 10:31:41,559] - [WARNING] "GET /static/flags/bs.gif HTTP/1.1" 404 1795
+[2023-03-23 10:31:41,562] - [WARNING] "GET /static/flags/gg.gif HTTP/1.1" 404 1795
+[2023-03-23 10:31:41,614] - [INFO] "GET /static/fontawesomefree/webfonts/fa-solid-900.woff2 HTTP/1.1" 200 150516
+[2023-03-23 10:31:54,508] - [INFO] "POST /marketplace/product-edit/4 HTTP/1.1" 302 0
+[2023-03-23 10:31:54,622] - [INFO] "GET /marketplace/ HTTP/1.1" 200 19510
+[2023-03-23 10:31:54,651] - [INFO] "GET /static/fontawesomefree/css/fontawesome.css HTTP/1.1" 200 113333
+[2023-03-23 10:31:54,661] - [INFO] "GET /static/fontawesomefree/css/solid.css HTTP/1.1" 200 625
+[2023-03-23 10:31:54,662] - [INFO] "GET /static/fontawesomefree/css/brands.css HTTP/1.1" 200 23682
+[2023-03-23 10:31:54,664] - [INFO] "GET /static/css/style.css HTTP/1.1" 200 113
+[2023-03-23 10:31:54,718] - [INFO] "GET /static/js/scripts.js HTTP/1.1" 200 191
+[2023-03-23 10:31:54,726] - [INFO] "GET /static/img/logo.png HTTP/1.1" 200 25234
+[2023-03-23 10:31:54,798] - [INFO] "GET /static/fontawesomefree/webfonts/fa-solid-900.woff2 HTTP/1.1" 200 150516
+[2023-03-23 10:31:56,420] - [INFO] "GET /marketplace/product-details/4 HTTP/1.1" 200 9032
+[2023-03-23 10:31:56,468] - [INFO] "GET /static/css/style.css HTTP/1.1" 200 113
+[2023-03-23 10:31:56,468] - [INFO] "GET /static/fontawesomefree/css/solid.css HTTP/1.1" 200 625
+[2023-03-23 10:31:56,469] - [INFO] "GET /static/fontawesomefree/css/brands.css HTTP/1.1" 200 23682
+[2023-03-23 10:31:56,470] - [INFO] "GET /static/fontawesomefree/css/fontawesome.css HTTP/1.1" 200 113333
+[2023-03-23 10:31:56,509] - [INFO] "GET /static/js/scripts.js HTTP/1.1" 200 191
+[2023-03-23 10:31:56,515] - [INFO] "GET /static/img/logo.png HTTP/1.1" 200 25234
+[2023-03-23 10:31:56,576] - [INFO] "GET /static/fontawesomefree/webfonts/fa-solid-900.woff2 HTTP/1.1" 200 150516
+[2023-03-23 10:31:58,669] - [INFO] "GET /marketplace/product-edit/4 HTTP/1.1" 200 33883
+[2023-03-23 10:31:58,700] - [INFO] "GET /static/fontawesomefree/css/solid.css HTTP/1.1" 200 625
+[2023-03-23 10:31:58,703] - [INFO] "GET /static/css/style.css HTTP/1.1" 200 113
+[2023-03-23 10:31:58,704] - [INFO] "GET /static/fontawesomefree/css/brands.css HTTP/1.1" 200 23682
+[2023-03-23 10:31:58,705] - [INFO] "GET /static/fontawesomefree/css/fontawesome.css HTTP/1.1" 200 113333
+[2023-03-23 10:31:58,762] - [INFO] "GET /static/js/scripts.js HTTP/1.1" 200 191
+[2023-03-23 10:31:58,774] - [INFO] "GET /static/img/logo.png HTTP/1.1" 200 25234
+[2023-03-23 10:31:58,777] - [WARNING] "GET /static/flags/gg.gif HTTP/1.1" 404 1795
+[2023-03-23 10:31:58,778] - [WARNING] "GET /static/flags/bs.gif HTTP/1.1" 404 1795
+[2023-03-23 10:31:58,835] - [INFO] "GET /static/fontawesomefree/webfonts/fa-solid-900.woff2 HTTP/1.1" 200 150516
+[2023-03-23 10:32:03,337] - [ERROR] Internal Server Error: /marketplace/product-edit/4
+Traceback (most recent call last):
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\contrib\auth\decorators.py", line 23, in _wrapped_view
+    return view_func(request, *args, **kwargs)
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\agri_trade\marketplace\views.py", line 104, in edit_product
+    if form.is_valid():
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\forms\forms.py", line 205, in is_valid
+    return self.is_bound and not self.errors
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\forms\forms.py", line 200, in errors
+    self.full_clean()
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\forms\forms.py", line 439, in full_clean
+    self._post_clean()
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\forms\models.py", line 492, in _post_clean
+    self.instance.full_clean(exclude=exclude, validate_unique=False)
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\db\models\base.py", line 1445, in full_clean
+    self.clean_fields(exclude=exclude)
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\db\models\base.py", line 1497, in clean_fields
+    setattr(self, f.attname, f.clean(raw_value, self))
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\db\models\fields\__init__.py", line 756, in clean
+    self.run_validators(value)
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\db\models\fields\__init__.py", line 708, in run_validators
+    v(value)
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\agri_trade\marketplace\validators.py", line 11, in file_size
+    if value.size > limit:
+AttributeError: 'CloudinaryResource' object has no attribute 'size'
+[2023-03-23 10:32:03,340] - [ERROR] "POST /marketplace/product-edit/4 HTTP/1.1" 500 114228
+[2023-03-23 10:36:32,328] - [INFO] C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\agri_trade\marketplace\validators.py changed, reloading.
+[2023-03-23 10:36:33,698] - [INFO] Watching for file changes with StatReloader
+[2023-03-23 10:36:34,389] - [INFO] "GET /marketplace/product-edit/4 HTTP/1.1" 200 33883
+[2023-03-23 10:36:35,126] - [INFO] "GET /static/fontawesomefree/css/solid.css HTTP/1.1" 200 625
+[2023-03-23 10:36:35,126] - [INFO] "GET /static/css/style.css HTTP/1.1" 200 113
+[2023-03-23 10:36:35,144] - [INFO] "GET /static/fontawesomefree/css/fontawesome.css HTTP/1.1" 200 113333
+[2023-03-23 10:36:35,150] - [INFO] "GET /static/fontawesomefree/css/brands.css HTTP/1.1" 200 23682
+[2023-03-23 10:36:35,160] - [WARNING] "GET /static/flags/gg.gif HTTP/1.1" 404 1795
+[2023-03-23 10:36:35,163] - [WARNING] "GET /static/flags/bs.gif HTTP/1.1" 404 1795
+[2023-03-23 10:36:35,169] - [INFO] "GET /static/fontawesomefree/webfonts/fa-solid-900.woff2 HTTP/1.1" 200 150516
+[2023-03-23 10:36:35,178] - [INFO] "GET /static/img/logo.png HTTP/1.1" 200 25234
+[2023-03-23 10:36:35,182] - [INFO] "GET /static/js/scripts.js HTTP/1.1" 200 191
+[2023-03-23 10:36:36,677] - [ERROR] Internal Server Error: /marketplace/product-edit/4
+Traceback (most recent call last):
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\contrib\auth\decorators.py", line 23, in _wrapped_view
+    return view_func(request, *args, **kwargs)
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\agri_trade\marketplace\views.py", line 104, in edit_product
+    if form.is_valid():
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\forms\forms.py", line 205, in is_valid
+    return self.is_bound and not self.errors
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\forms\forms.py", line 200, in errors
+    self.full_clean()
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\forms\forms.py", line 439, in full_clean
+    self._post_clean()
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\forms\models.py", line 492, in _post_clean
+    self.instance.full_clean(exclude=exclude, validate_unique=False)
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\db\models\base.py", line 1445, in full_clean
+    self.clean_fields(exclude=exclude)
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\db\models\base.py", line 1497, in clean_fields
+    setattr(self, f.attname, f.clean(raw_value, self))
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\db\models\fields\__init__.py", line 756, in clean
+    self.run_validators(value)
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\db\models\fields\__init__.py", line 708, in run_validators
+    v(value)
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\agri_trade\marketplace\validators.py", line 11, in file_size
+    if value.size > limit:
+AttributeError: 'CloudinaryResource' object has no attribute 'size'
+[2023-03-23 10:36:36,681] - [ERROR] "POST /marketplace/product-edit/4 HTTP/1.1" 500 114234
+[2023-03-23 10:37:23,365] - [INFO] "GET /marketplace/product-edit/4 HTTP/1.1" 200 33883
+[2023-03-23 10:37:23,393] - [INFO] "GET /static/fontawesomefree/css/fontawesome.css HTTP/1.1" 200 113333
+[2023-03-23 10:37:23,400] - [INFO] "GET /static/css/style.css HTTP/1.1" 200 113
+[2023-03-23 10:37:23,400] - [INFO] "GET /static/fontawesomefree/css/solid.css HTTP/1.1" 200 625
+[2023-03-23 10:37:23,402] - [INFO] "GET /static/fontawesomefree/css/brands.css HTTP/1.1" 200 23682
+[2023-03-23 10:37:23,465] - [INFO] C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\agri_trade\marketplace\validators.py changed, reloading.
+[2023-03-23 10:37:24,961] - [INFO] Watching for file changes with StatReloader
+[2023-03-23 10:37:25,626] - [INFO] "GET /static/fontawesomefree/webfonts/fa-solid-900.ttf HTTP/1.1" 200 397420
+[2023-03-23 10:37:25,736] - [INFO] "GET /static/img/logo.png HTTP/1.1" 200 25234
+[2023-03-23 10:37:25,742] - [WARNING] "GET /static/flags/gg.gif HTTP/1.1" 404 1795
+[2023-03-23 10:37:25,744] - [WARNING] "GET /static/flags/bs.gif HTTP/1.1" 404 1795
+[2023-03-23 10:37:25,937] - [ERROR] Internal Server Error: /marketplace/product-edit/4
+Traceback (most recent call last):
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\contrib\auth\decorators.py", line 23, in _wrapped_view
+    return view_func(request, *args, **kwargs)
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\agri_trade\marketplace\views.py", line 104, in edit_product
+    if form.is_valid():
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\forms\forms.py", line 205, in is_valid
+    return self.is_bound and not self.errors
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\forms\forms.py", line 200, in errors
+    self.full_clean()
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\forms\forms.py", line 439, in full_clean
+    self._post_clean()
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\forms\models.py", line 492, in _post_clean
+    self.instance.full_clean(exclude=exclude, validate_unique=False)
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\db\models\base.py", line 1445, in full_clean
+    self.clean_fields(exclude=exclude)
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\db\models\base.py", line 1497, in clean_fields
+    setattr(self, f.attname, f.clean(raw_value, self))
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\db\models\fields\__init__.py", line 756, in clean
+    self.run_validators(value)
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\db\models\fields\__init__.py", line 708, in run_validators
+    v(value)
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\agri_trade\marketplace\validators.py", line 15, in file_size
+    if value.size > limit:
+AttributeError: 'CloudinaryResource' object has no attribute 'size'
+[2023-03-23 10:37:25,943] - [ERROR] "POST /marketplace/product-edit/4 HTTP/1.1" 500 114188
+[2023-03-23 10:37:43,484] - [INFO] C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\agri_trade\marketplace\validators.py changed, reloading.
+[2023-03-23 10:37:45,146] - [INFO] Watching for file changes with StatReloader
+[2023-03-23 10:37:45,987] - [INFO] "GET /marketplace/product-edit/4 HTTP/1.1" 200 33883
+[2023-03-23 10:37:46,730] - [INFO] "GET /static/css/style.css HTTP/1.1" 200 113
+[2023-03-23 10:37:46,730] - [INFO] "GET /static/fontawesomefree/css/solid.css HTTP/1.1" 200 625
+[2023-03-23 10:37:46,732] - [INFO] "GET /static/fontawesomefree/css/brands.css HTTP/1.1" 200 23682
+[2023-03-23 10:37:46,737] - [INFO] "GET /static/fontawesomefree/css/fontawesome.css HTTP/1.1" 200 113333
+[2023-03-23 10:37:46,766] - [WARNING] "GET /static/flags/bs.gif HTTP/1.1" 404 1795
+[2023-03-23 10:37:46,769] - [WARNING] "GET /static/flags/gg.gif HTTP/1.1" 404 1795
+[2023-03-23 10:37:46,780] - [INFO] "GET /static/img/logo.png HTTP/1.1" 200 25234
+[2023-03-23 10:37:46,785] - [INFO] "GET /static/js/scripts.js HTTP/1.1" 200 191
+[2023-03-23 10:37:46,786] - [INFO] "GET /static/fontawesomefree/webfonts/fa-solid-900.woff2 HTTP/1.1" 200 150516
+[2023-03-23 10:37:48,204] - [ERROR] Internal Server Error: /marketplace/product-edit/4
+Traceback (most recent call last):
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\contrib\auth\decorators.py", line 23, in _wrapped_view
+    return view_func(request, *args, **kwargs)
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\agri_trade\marketplace\views.py", line 104, in edit_product
+    if form.is_valid():
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\forms\forms.py", line 205, in is_valid
+    return self.is_bound and not self.errors
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\forms\forms.py", line 200, in errors
+    self.full_clean()
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\forms\forms.py", line 439, in full_clean
+    self._post_clean()
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\forms\models.py", line 492, in _post_clean
+    self.instance.full_clean(exclude=exclude, validate_unique=False)
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\db\models\base.py", line 1445, in full_clean
+    self.clean_fields(exclude=exclude)
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\db\models\base.py", line 1497, in clean_fields
+    setattr(self, f.attname, f.clean(raw_value, self))
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\db\models\fields\__init__.py", line 756, in clean
+    self.run_validators(value)
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\db\models\fields\__init__.py", line 708, in run_validators
+    v(value)
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\agri_trade\marketplace\validators.py", line 15, in file_size
+    if value.size > limit:
+AttributeError: 'CloudinaryResource' object has no attribute 'size'
+[2023-03-23 10:37:48,208] - [ERROR] "POST /marketplace/product-edit/4 HTTP/1.1" 500 114169
+[2023-03-23 10:38:37,362] - [INFO] C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\agri_trade\marketplace\validators.py changed, reloading.
+[2023-03-23 10:38:38,676] - [INFO] Watching for file changes with StatReloader
+[2023-03-23 10:38:41,286] - [INFO] "GET /marketplace/product-edit/4 HTTP/1.1" 200 33883
+[2023-03-23 10:38:42,151] - [INFO] "GET /static/fontawesomefree/css/solid.css HTTP/1.1" 200 625
+[2023-03-23 10:38:42,154] - [INFO] "GET /static/fontawesomefree/css/brands.css HTTP/1.1" 200 23682
+[2023-03-23 10:38:42,157] - [INFO] "GET /static/css/style.css HTTP/1.1" 200 113
+[2023-03-23 10:38:42,158] - [INFO] "GET /static/fontawesomefree/css/fontawesome.css HTTP/1.1" 200 113333
+[2023-03-23 10:38:42,181] - [WARNING] "GET /static/flags/bs.gif HTTP/1.1" 404 1795
+[2023-03-23 10:38:42,184] - [WARNING] "GET /static/flags/gg.gif HTTP/1.1" 404 1795
+[2023-03-23 10:38:42,187] - [INFO] "GET /static/fontawesomefree/webfonts/fa-solid-900.woff2 HTTP/1.1" 200 150516
+[2023-03-23 10:38:42,194] - [INFO] "GET /static/js/scripts.js HTTP/1.1" 200 191
+[2023-03-23 10:38:42,196] - [INFO] "GET /static/img/logo.png HTTP/1.1" 200 25234
+[2023-03-23 10:38:43,662] - [ERROR] Internal Server Error: /marketplace/product-edit/4
+Traceback (most recent call last):
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\contrib\auth\decorators.py", line 23, in _wrapped_view
+    return view_func(request, *args, **kwargs)
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\agri_trade\marketplace\views.py", line 104, in edit_product
+    if form.is_valid():
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\forms\forms.py", line 205, in is_valid
+    return self.is_bound and not self.errors
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\forms\forms.py", line 200, in errors
+    self.full_clean()
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\forms\forms.py", line 439, in full_clean
+    self._post_clean()
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\forms\models.py", line 492, in _post_clean
+    self.instance.full_clean(exclude=exclude, validate_unique=False)
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\db\models\base.py", line 1445, in full_clean
+    self.clean_fields(exclude=exclude)
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\db\models\base.py", line 1497, in clean_fields
+    setattr(self, f.attname, f.clean(raw_value, self))
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\db\models\fields\__init__.py", line 756, in clean
+    self.run_validators(value)
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\db\models\fields\__init__.py", line 708, in run_validators
+    v(value)
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\agri_trade\marketplace\validators.py", line 15, in file_size
+    if value.size > limit:
+AttributeError: 'CloudinaryResource' object has no attribute 'size'
+[2023-03-23 10:38:43,667] - [ERROR] "POST /marketplace/product-edit/4 HTTP/1.1" 500 114182
+[2023-03-23 10:38:55,775] - [INFO] "GET /marketplace/product-edit/4 HTTP/1.1" 200 33883
+[2023-03-23 10:38:55,813] - [INFO] "GET /static/fontawesomefree/css/brands.css HTTP/1.1" 200 23682
+[2023-03-23 10:38:55,814] - [INFO] "GET /static/fontawesomefree/css/solid.css HTTP/1.1" 200 625
+[2023-03-23 10:38:55,815] - [INFO] "GET /static/fontawesomefree/css/fontawesome.css HTTP/1.1" 200 113333
+[2023-03-23 10:38:55,820] - [INFO] "GET /static/css/style.css HTTP/1.1" 200 113
+[2023-03-23 10:38:55,876] - [INFO] "GET /static/js/scripts.js HTTP/1.1" 200 191
+[2023-03-23 10:38:55,895] - [INFO] "GET /static/img/logo.png HTTP/1.1" 200 25234
+[2023-03-23 10:38:55,898] - [WARNING] "GET /static/flags/bs.gif HTTP/1.1" 404 1795
+[2023-03-23 10:38:55,899] - [WARNING] "GET /static/flags/gg.gif HTTP/1.1" 404 1795
+[2023-03-23 10:38:55,959] - [INFO] "GET /static/fontawesomefree/webfonts/fa-solid-900.woff2 HTTP/1.1" 200 150516
+[2023-03-23 10:39:41,653] - [INFO] C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\agri_trade\marketplace\validators.py changed, reloading.
+[2023-03-23 10:39:42,954] - [INFO] Watching for file changes with StatReloader
+[2023-03-23 10:42:26,538] - [INFO] C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\agri_trade\marketplace\validators.py changed, reloading.
+[2023-03-23 10:42:27,758] - [INFO] Watching for file changes with StatReloader
+[2023-03-23 10:42:33,105] - [INFO] "POST /marketplace/product-edit/4 HTTP/1.1" 302 0
+[2023-03-23 10:42:33,240] - [INFO] "GET /marketplace/ HTTP/1.1" 200 19511
+[2023-03-23 10:42:34,082] - [INFO] "GET /static/css/style.css HTTP/1.1" 200 113
+[2023-03-23 10:42:34,084] - [INFO] "GET /static/fontawesomefree/css/solid.css HTTP/1.1" 200 625
+[2023-03-23 10:42:34,086] - [INFO] "GET /static/fontawesomefree/css/brands.css HTTP/1.1" 200 23682
+[2023-03-23 10:42:34,088] - [INFO] "GET /static/fontawesomefree/css/fontawesome.css HTTP/1.1" 200 113333
+[2023-03-23 10:42:34,094] - [INFO] "GET /static/img/logo.png HTTP/1.1" 200 25234
+[2023-03-23 10:42:34,096] - [INFO] "GET /static/js/scripts.js HTTP/1.1" 200 191
+[2023-03-23 10:42:34,157] - [INFO] "GET /static/fontawesomefree/webfonts/fa-solid-900.woff2 HTTP/1.1" 200 150516
+[2023-03-23 10:42:37,274] - [INFO] "GET /marketplace/product-details/4 HTTP/1.1" 200 9035
+[2023-03-23 10:42:37,318] - [INFO] "GET /static/css/style.css HTTP/1.1" 200 113
+[2023-03-23 10:42:37,319] - [INFO] "GET /static/fontawesomefree/css/brands.css HTTP/1.1" 200 23682
+[2023-03-23 10:42:37,320] - [INFO] "GET /static/fontawesomefree/css/solid.css HTTP/1.1" 200 625
+[2023-03-23 10:42:37,322] - [INFO] "GET /static/fontawesomefree/css/fontawesome.css HTTP/1.1" 200 113333
+[2023-03-23 10:42:37,362] - [INFO] "GET /static/js/scripts.js HTTP/1.1" 200 191
+[2023-03-23 10:42:37,367] - [INFO] "GET /static/img/logo.png HTTP/1.1" 200 25234
+[2023-03-23 10:42:37,408] - [INFO] "GET /static/fontawesomefree/webfonts/fa-solid-900.woff2 HTTP/1.1" 200 150516
+[2023-03-23 10:42:38,557] - [INFO] "GET /marketplace/product-delete/4 HTTP/1.1" 200 7124
+[2023-03-23 10:42:38,580] - [INFO] "GET /static/fontawesomefree/css/fontawesome.css HTTP/1.1" 200 113333
+[2023-03-23 10:42:38,588] - [INFO] "GET /static/css/style.css HTTP/1.1" 200 113
+[2023-03-23 10:42:38,590] - [INFO] "GET /static/fontawesomefree/css/brands.css HTTP/1.1" 200 23682
+[2023-03-23 10:42:38,590] - [INFO] "GET /static/fontawesomefree/css/solid.css HTTP/1.1" 200 625
+[2023-03-23 10:42:38,645] - [INFO] "GET /static/js/scripts.js HTTP/1.1" 200 191
+[2023-03-23 10:42:38,647] - [INFO] "GET /static/img/logo.png HTTP/1.1" 200 25234
+[2023-03-23 10:42:38,666] - [INFO] "GET /static/fontawesomefree/webfonts/fa-solid-900.woff2 HTTP/1.1" 200 150516
+[2023-03-23 10:42:39,726] - [ERROR] Internal Server Error: /marketplace/product-delete/4
+Traceback (most recent call last):
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\venv\lib\site-packages\django\contrib\auth\decorators.py", line 23, in _wrapped_view
+    return view_func(request, *args, **kwargs)
+  File "C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\agri_trade\marketplace\views.py", line 133, in delete_product
+    image.delete()
+AttributeError: 'CloudinaryResource' object has no attribute 'delete'
+[2023-03-23 10:42:39,728] - [ERROR] "POST /marketplace/product-delete/4 HTTP/1.1" 500 76599
+[2023-03-23 10:43:43,063] - [INFO] "GET /marketplace/product-delete/4 HTTP/1.1" 200 7124
+[2023-03-23 10:43:43,097] - [INFO] "GET /static/css/style.css HTTP/1.1" 200 113
+[2023-03-23 10:43:43,100] - [INFO] "GET /static/fontawesomefree/css/solid.css HTTP/1.1" 200 625
+[2023-03-23 10:43:43,101] - [INFO] "GET /static/fontawesomefree/css/brands.css HTTP/1.1" 200 23682
+[2023-03-23 10:43:43,103] - [INFO] "GET /static/fontawesomefree/css/fontawesome.css HTTP/1.1" 200 113333
+[2023-03-23 10:43:43,165] - [INFO] "GET /static/js/scripts.js HTTP/1.1" 200 191
+[2023-03-23 10:43:43,172] - [INFO] "GET /static/img/logo.png HTTP/1.1" 200 25234
+[2023-03-23 10:43:43,219] - [INFO] "GET /static/fontawesomefree/webfonts/fa-solid-900.woff2 HTTP/1.1" 200 150516
+[2023-03-23 10:43:43,298] - [INFO] C:\Users\erinb\OneDrive\Dokumente\GitHub\Agri_Trade---django-project\agri_trade\marketplace\views.py changed, reloading.
+[2023-03-23 10:43:44,765] - [INFO] Watching for file changes with StatReloader
+[2023-03-23 10:43:45,366] - [INFO] "POST /marketplace/product-delete/4 HTTP/1.1" 302 0
+[2023-03-23 10:43:45,500] - [INFO] "GET /marketplace/ HTTP/1.1" 200 17874
+[2023-03-23 10:43:46,266] - [INFO] "GET /static/fontawesomefree/css/solid.css HTTP/1.1" 200 625
+[2023-03-23 10:43:46,267] - [INFO] "GET /static/css/style.css HTTP/1.1" 200 113
+[2023-03-23 10:43:46,269] - [INFO] "GET /static/fontawesomefree/css/brands.css HTTP/1.1" 200 23682
+[2023-03-23 10:43:46,278] - [INFO] "GET /static/img/logo.png HTTP/1.1" 200 25234
+[2023-03-23 10:43:46,279] - [INFO] "GET /static/fontawesomefree/css/fontawesome.css HTTP/1.1" 200 113333
+[2023-03-23 10:43:46,285] - [INFO] "GET /static/js/scripts.js HTTP/1.1" 200 191
+[2023-03-23 10:43:46,299] - [INFO] "GET /static/fontawesomefree/webfonts/fa-solid-900.woff2 HTTP/1.1" 200 150516

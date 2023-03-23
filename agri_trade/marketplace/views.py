@@ -128,9 +128,9 @@ def delete_product(request, pk):
     if request.method == 'POST':
         form = DeleteProductForm(request.POST, request.FILES, instance=product)
         if form.is_valid():
-            if product.image:
-                image = product.image
-                image.delete()
+            #if product.image:
+                #image = product.image
+                #image.delete()
             product.delete()
             messages.success(request, DELETE_PRODUCT_SUCCESS_MESSAGE)
             return redirect('marketplace:marketplace')
